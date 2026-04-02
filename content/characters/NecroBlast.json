@@ -1,0 +1,41 @@
+{
+  "name": "NecroBlast",
+  "league": "Affliction",
+  "class": "Witch",
+  "ascendancy": "Necromancer",
+  "level": 87,
+  "experience": 901234567,
+  "fetchedAt": "2026-04-02T10:00:00Z",
+  "items": {
+    "weapon": {
+      "name": "Midnight Bargain",
+      "typeLine": "Midnight Bargain",
+      "rarity": "Unique",
+      "icon": "",
+      "explicitMods": [
+        "+1 to Level of All Minion Skill Gems",
+        "Minions deal 40% increased Damage"
+      ]
+    },
+    "bodyArmour": {
+      "name": "",
+      "typeLine": "Tabula Rasa Simple Robe",
+      "rarity": "Unique",
+      "icon": ""
+    },
+    "helmet": {
+      "name": "",
+      "typeLine": "Bone Helmet",
+      "rarity": "Rare",
+      "icon": "",
+      "explicitMods": [
+        "+2 to Level of Socketed Minion Gems",
+        "+45 to maximum Life"
+      ]
+    }
+  },
+  "passives": {
+    "hashes": [],
+    "skillPoints": 112
+  }
+}

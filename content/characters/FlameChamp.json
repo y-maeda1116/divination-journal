@@ -1,0 +1,25 @@
+{
+  "name": "FlameChamp",
+  "league": "Affliction",
+  "class": "Marauder",
+  "ascendancy": "Berserker",
+  "level": 72,
+  "experience": 321234567,
+  "fetchedAt": "2026-04-02T10:00:00Z",
+  "items": {
+    "weapon": {
+      "name": "Hezmin's Bloom",
+      "typeLine": "Vaal Axe",
+      "rarity": "Rare",
+      "icon": "",
+      "explicitMods": [
+        "200% increased Physical Damage",
+        "+25 to Strength"
+      ]
+    }
+  },
+  "passives": {
+    "hashes": [],
+    "skillPoints": 92
+  }
+}

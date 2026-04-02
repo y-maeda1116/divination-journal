@@ -1,0 +1,18 @@
+{
+  "id": "Affliction",
+  "realm": "pc",
+  "url": "https://www.pathofexile.com/league/affliction",
+  "startAt": "2026-04-01T20:00:00Z",
+  "endAt": null,
+  "characters": ["NecroBlast", "FlameChamp"],
+  "description": "Affliction League - 新しいカオスメカニクスでWraeclastを探索",
+  "goals": [
+    { "label": "Act 10 クリア", "achieved": true },
+    { "label": "白地図コンプリート", "achieved": true },
+    { "label": "黄地図コンプリート", "achieved": false },
+    { "label": "赤地図コンプリート", "achieved": false },
+    { "label": "Elder Guardian 撃破", "achieved": false },
+    { "label": "Shaper 撃破", "achieved": false },
+    { "label": "Lv90 達成", "achieved": false }
+  ]
+}

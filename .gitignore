@@ -1,12 +1,19 @@
-# Node.js
-node_modules/
+# Logs
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules
 
 # Build output
-dist/
+dist
+dist-ssr
+*.local
 
 # Environment
 .env
@@ -14,17 +21,22 @@ dist/
 .env.*.local
 !.env.example
 
-# OS specific
+# OS
 .DS_Store
 Thumbs.db
-desktop.ini
 
 # IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
 # Coverage
 coverage/
+
+# Go build output
+scripts/fetch-poe-data/fetch-poe-data

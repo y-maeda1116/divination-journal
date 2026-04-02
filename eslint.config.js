@@ -1,26 +1,23 @@
-import js from '@eslint/js';
-import tseslint from 'typescript-eslint';
-import security from 'eslint-plugin-security';
+import js from '@eslint/js'
+import globals from 'globals'
+import reactHooks from 'eslint-plugin-react-hooks'
+import reactRefresh from 'eslint-plugin-react-refresh'
+import tseslint from 'typescript-eslint'
+import { defineConfig, globalIgnores } from 'eslint/config'
 
-export default [
-  js.configs.recommended,
-  ...tseslint.configs.recommended,
-  security.configs.recommended,
+export default defineConfig([
+  globalIgnores(['dist']),
   {
-    ignores: ['dist/', 'node_modules/'],
-  },
-  {
-    rules: {
-      'security/detect-object-injection': 'warn',
-      'security/detect-non-literal-fs-filename': 'warn',
-      'security/detect-unsafe-regex': 'error',
-      'security/detect-buffer-noassert': 'error',
-      'security/detect-child-process': 'warn',
-      'security/detect-disable-mustache-escape': 'error',
-      'security/detect-eval-with-expression': 'error',
-      'security/detect-non-literal-regexp': 'error',
-      'security/detect-possible-timing-attacks': 'warn',
-      'security/detect-pseudoRandomBytes': 'error',
+    files: ['**/*.{ts,tsx}'],
+    extends: [
+      js.configs.recommended,
+      tseslint.configs.recommended,
+      reactHooks.configs.flat.recommended,
+      reactRefresh.configs.vite,
+    ],
+    languageOptions: {
+      ecmaVersion: 2020,
+      globals: globals.browser,
     },
   },
-];
+])

@@ -21,15 +21,16 @@ jobs:
           go-version: '1.23'
 
       - name: Fetch character data
+        working-directory: scripts/fetch-poe-data
         env:
           POE_ACCOUNT: ${{ secrets.POE_ACCOUNT_NAME }}
           POE_LEAGUE: ${{ inputs.league }}
         run: |
-          ARGS="--account=$POE_ACCOUNT --output-dir=./content"
+          ARGS="--account=$POE_ACCOUNT --output-dir=../../content"
           if [ -n "$POE_LEAGUE" ]; then
             ARGS="$ARGS --league=$POE_LEAGUE"
           fi
-          go run ./scripts/fetch-poe-data $ARGS
+          go run . $ARGS
 
       - name: Commit updated data
         uses: stefanzweifel/git-auto-commit-action@v5

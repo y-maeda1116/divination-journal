@@ -78,7 +78,7 @@ export default function CharacterDetail({ name, onBack }: CharacterDetailProps) 
           <h3 className="mb-3 text-lg font-semibold text-text-bright">Equipment</h3>
           <div className="grid gap-3 md:grid-cols-2">
             {Object.entries(character.items)
-              .filter(([_slot, item]) => item != null)
+              .filter(([, item]) => item != null)
               .map(([slot, item]) => {
                 const typedItem = item as { name: string; typeLine: string; rarity: string; explicitMods?: string[] }
                 return (

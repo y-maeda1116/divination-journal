@@ -21,7 +21,7 @@ const diaryModules = import.meta.glob<string>('/content/diary/**/*.md', {
 })
 
 export function loadCharacters(): Character[] {
-  return Object.entries(characterModules).map(([_path, data]) => data)
+  return Object.entries(characterModules).map(([, data]) => data)
 }
 
 export function loadCharacterByName(name: string): Character | undefined {
@@ -29,7 +29,7 @@ export function loadCharacterByName(name: string): Character | undefined {
 }
 
 export function loadLeagues(): League[] {
-  return Object.entries(leagueModules).map(([_path, data]) => data)
+  return Object.entries(leagueModules).map(([, data]) => data)
 }
 
 export function loadLeagueById(id: string): League | undefined {

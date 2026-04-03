@@ -24,9 +24,10 @@ jobs:
         working-directory: scripts/fetch-poe-data
         env:
           POE_ACCOUNT: ${{ secrets.POE_ACCOUNT_NAME }}
+          POESESSID: ${{ secrets.POESESSID }}
           POE_LEAGUE: ${{ inputs.league }}
         run: |
-          ARGS="--account=$POE_ACCOUNT --output-dir=../../content"
+          ARGS="--account=$POE_ACCOUNT --poesessid=$POESESSID --output-dir=../../content"
           if [ -n "$POE_LEAGUE" ]; then
             ARGS="$ARGS --league=$POE_LEAGUE"
           fi

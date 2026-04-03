@@ -15,16 +15,17 @@ import (
 
 func main() {
 	account := flag.String("account", "", "PoE account name (required)")
+	poesessid := flag.String("poesessid", "", "PoE session ID (required)")
 	league := flag.String("league", "", "League name filter (optional)")
 	outputDir := flag.String("output-dir", "../../content", "Output directory for JSON files")
 	flag.Parse()
 
-	if *account == "" {
-		fmt.Fprintln(os.Stderr, "Usage: fetch-poe-data --account=<name> [--league=<league>] [--output-dir=<dir>]")
+	if *account == "" || *poesessid == "" {
+		fmt.Fprintln(os.Stderr, "Usage: fetch-poe-data --account=<name> --poesessid=<id> [--league=<league>] [--output-dir=<dir>]")
 		os.Exit(1)
 	}
 
-	client := api.NewClient(*account)
+	client := api.NewClient(*account, *poesessid)
 
 	// Fetch characters
 	fmt.Printf("Fetching characters for account: %s\n", *account)

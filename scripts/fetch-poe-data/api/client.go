@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"net/http"
+	"net/http/cookiejar"
+	"net/url"
 	"time"
 
 	"github.com/poe-diary/fetch-poe-data/models"
@@ -17,10 +19,20 @@ type Client struct {
 	account    string
 }
 
-func NewClient(account string) *Client {
+func NewClient(account string, poesessid string) *Client {
+	jar, _ := cookiejar.New(nil)
+	parsedURL, _ := url.Parse(baseURL)
+
+	if poesessid != "" {
+		jar.SetCookies(parsedURL, []*http.Cookie{
+			{Name: "POESESSID", Value: poesessid},
+		})
+	}
+
 	return &Client{
 		httpClient: &http.Client{
 			Timeout: 30 * time.Second,
+			Jar:     jar,
 		},
 		account: account,
 	}

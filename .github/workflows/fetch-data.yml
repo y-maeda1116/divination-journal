@@ -7,6 +7,13 @@ on:
         description: 'League Name (optional, empty = all leagues)'
         required: false
         default: ''
+  schedule:
+    # JST 05:17 毎日 (UTC 20:17)。:00 を避けて cron 遅延のキュー軽減。
+    - cron: '17 20 * * *'
+
+concurrency:
+  group: fetch-poe-data
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -14,11 +21,11 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-go@v5
+      - uses: actions/setup-go@v7
         with:
-          go-version: '1.23'
+          go-version-file: scripts/fetch-poe-data/go.mod
 
       - name: Fetch character data
         working-directory: scripts/fetch-poe-data
@@ -34,7 +41,25 @@ jobs:
           go run . $ARGS
 
       - name: Commit updated data
-        uses: stefanzweifel/git-auto-commit-action@v5
+        if: success()
+        uses: stefanzweifel/git-auto-commit-action@v7
         with:
           commit_message: "chore: update PoE data"
           file_pattern: "content/**/*.json"
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        run: |
+          {
+            echo "## PoE data fetch failed"
+            echo ""
+            echo "Most likely causes:"
+            echo "1. POESESSID expired or not set -> update the POESESSID secret"
+            echo "2. POE_ACCOUNT_NAME not set -> set the secret"
+            echo "3. GGG IP block / rate limit (403) -> retry later"
+            echo ""
+            echo "Run log: $RUN_URL"
+          } >> "$GITHUB_STEP_SUMMARY"
+          exit 0

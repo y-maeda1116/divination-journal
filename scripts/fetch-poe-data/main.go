@@ -21,7 +21,9 @@ func main() {
 	flag.Parse()
 
 	if *account == "" || *poesessid == "" {
+		fmt.Fprintln(os.Stderr, "Error: --account and --poesessid are required.")
 		fmt.Fprintln(os.Stderr, "Usage: fetch-poe-data --account=<name> --poesessid=<id> [--league=<league>] [--output-dir=<dir>]")
+		fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, ensure the POE_ACCOUNT_NAME and POESESSID secrets are set.")
 		os.Exit(1)
 	}
 

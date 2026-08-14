@@ -3,7 +3,9 @@ package api
 import (
 	"errors"
 	"net/http"
+	"net/http/httptest"
 	"net/url"
+	"strings"
 	"testing"
 )
 
@@ -45,5 +47,36 @@ func TestClassifyAPIError(t *testing.T) {
 				t.Errorf("did not expect ErrAuthentication, got %v", err)
 			}
 		})
+	}
+}
+
+// TestHeaderTransportSetsBrowserHeaders は headerTransport が全リクエストに
+// ブラウザ風ヘッダーを注入することを検証する。Cloudflare はデフォルトの Go UA
+// (Go-http-client/1.1) を bot と判定してブロックするため、UA 偽装が必須。
+func TestHeaderTransportSetsBrowserHeaders(t *testing.T) {
+	var gotUA, gotAccept, gotAcceptLang string
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		gotUA = r.Header.Get("User-Agent")
+		gotAccept = r.Header.Get("Accept")
+		gotAcceptLang = r.Header.Get("Accept-Language")
+		w.WriteHeader(http.StatusOK)
+	}))
+	defer srv.Close()
+
+	client := &http.Client{Transport: &headerTransport{base: http.DefaultTransport}}
+	resp, err := client.Get(srv.URL)
+	if err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+	defer resp.Body.Close()
+
+	if !strings.HasPrefix(gotUA, "Mozilla/5.0") {
+		t.Errorf("expected browser User-Agent starting with Mozilla/5.0, got %q", gotUA)
+	}
+	if gotAccept == "" {
+		t.Errorf("expected Accept header to be set, got empty")
+	}
+	if gotAcceptLang == "" {
+		t.Errorf("expected Accept-Language header to be set, got empty")
 	}
 }

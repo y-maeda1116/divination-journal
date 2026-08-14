@@ -40,3 +40,6 @@ coverage/
 
 # Go build output
 scripts/fetch-poe-data/fetch-poe-data
+
+# Local tool configs (serena MCP)
+.serena/

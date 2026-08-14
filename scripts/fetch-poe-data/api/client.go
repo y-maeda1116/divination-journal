@@ -21,6 +21,30 @@ const baseURL = "https://www.pathofexile.com"
 // このエラーを検知したら POESESSID の更新を促す必要がある。
 var ErrAuthentication = errors.New("authentication failed: POESESSID may be expired or unset")
 
+// poeHeaders は Cloudflare の bot 判定を回避するためのブラウザ風ヘッダー。
+// PoE 公式サイトは Cloudflare で保護されており、Go http.Client のデフォルト UA
+// (Go-http-client/1.1) は bot と判定されて「Sorry, you have been blocked」で弾かれる。
+// ブラウザ風 UA に偽装することで通過する(PoB 等のサードパーティツールも同手法)。
+var poeHeaders = map[string]string{
+	"User-Agent":      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+	"Accept":          "application/json, text/plain, */*",
+	"Accept-Language": "en-US,en;q=0.9",
+}
+
+// headerTransport は全リクエストに poeHeaders を注入する RoundTripper。
+// GetCharacters 等の各メソッドを変更せず、NewClient で Transport に設定するだけで
+// ヘッダー付与を一元管理できる。
+type headerTransport struct {
+	base http.RoundTripper
+}
+
+func (t *headerTransport) RoundTrip(req *http.Request) (*http.Response, error) {
+	for key, val := range poeHeaders {
+		req.Header.Set(key, val)
+	}
+	return t.base.RoundTrip(req)
+}
+
 type Client struct {
 	httpClient *http.Client
 	account    string
@@ -38,8 +62,9 @@ func NewClient(account string, poesessid string) *Client {
 
 	return &Client{
 		httpClient: &http.Client{
-			Timeout: 30 * time.Second,
-			Jar:     jar,
+			Timeout:   30 * time.Second,
+			Jar:       jar,
+			Transport: &headerTransport{base: http.DefaultTransport},
 		},
 		account: account,
 	}

@@ -128,7 +128,15 @@ func RunLocalAuth(clientID string, port int) (*TokenResponse, error) {
 		resultCh <- callbackResult{code: code}
 	})
 
-	server := &http.Server{Addr: fmt.Sprintf("127.0.0.1:%d", port), Handler: mux}
+	// ローカルループバック限定だが、接続を開きっぱなしにされるリソース枯渇
+	// (slowloris 系) を防ぐためタイムアウトを設定する。
+	server := &http.Server{
+		Addr:         fmt.Sprintf("127.0.0.1:%d", port),
+		Handler:      mux,
+		ReadTimeout:  10 * time.Second,
+		WriteTimeout: 10 * time.Second,
+		IdleTimeout:  30 * time.Second,
+	}
 	go func() {
 		if err := server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			resultCh <- callbackResult{err: fmt.Errorf("local callback server: %w", err)}

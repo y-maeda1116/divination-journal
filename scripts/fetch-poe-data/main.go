@@ -13,24 +13,71 @@ import (
 	"github.com/poe-diary/fetch-poe-data/output"
 )
 
-func main() {
-	account := flag.String("account", "", "PoE account name (required)")
-	poesessid := flag.String("poesessid", "", "PoE session ID (required)")
-	league := flag.String("league", "", "League name filter (optional)")
-	outputDir := flag.String("output-dir", "../../content", "Output directory for JSON files")
-	flag.Parse()
+const usage = `Usage:
+  fetch-poe-data auth  --client-id=<id> [--port=<port>]
+  fetch-poe-data fetch [--account=<name> --poesessid=<id>] [--client-id=<id> --refresh-token=<token>] [--league=<league>] [--output-dir=<dir>]
 
-	if *account == "" || *poesessid == "" {
-		fmt.Fprintln(os.Stderr, "Error: --account and --poesessid are required.")
-		fmt.Fprintln(os.Stderr, "Usage: fetch-poe-data --account=<name> --poesessid=<id> [--league=<league>] [--output-dir=<dir>]")
-		fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, ensure the POE_ACCOUNT_NAME and POESESSID secrets are set.")
+auth:   Run the OAuth2 authorization flow (Authorization Code + PKCE) locally and
+        print the refresh token. Set it as the POE_REFRESH_TOKEN GitHub secret.
+fetch:  Fetch character and league data and write JSON files to the output
+        directory. The POESESSID method (--account/--poesessid) is tried first;
+        if it fails, the OAuth2 method (--client-id/--refresh-token) is used.
+
+Environment fallbacks: POE_ACCOUNT_NAME, POESESSID, POE_CLIENT_ID, POE_REFRESH_TOKEN.
+The OAuth2 refresh token expires after 7 days at most; re-run auth and update the secret then.`
+
+func main() {
+	if len(os.Args) < 2 {
+		fmt.Fprintln(os.Stderr, usage)
 		os.Exit(1)
 	}
 
-	client := api.NewClient(*account, *poesessid)
+	switch os.Args[1] {
+	case "auth":
+		runAuth(os.Args[2:])
+	case "fetch":
+		runFetch(os.Args[2:])
+	default:
+		fmt.Fprintln(os.Stderr, usage)
+		os.Exit(1)
+	}
+}
+
+func runAuth(args []string) {
+	clientID := flag.String("client-id", "", "OAuth2 client_id of your registered project (required)")
+	port := flag.Int("port", 14500, "Local port for the OAuth2 callback server")
+	flag.CommandLine.Parse(args)
+
+	if *clientID == "" {
+		fmt.Fprintln(os.Stderr, "Error: --client-id is required.")
+		fmt.Fprintln(os.Stderr, usage)
+		os.Exit(1)
+	}
+
+	token, err := api.RunLocalAuth(*clientID, *port)
+	if err != nil {
+		log.Fatalf("Authorization failed: %v", err)
+	}
+
+	fmt.Println("Authorization succeeded!")
+	fmt.Println()
+	fmt.Println("Refresh token (set as the POE_REFRESH_TOKEN GitHub secret):")
+	fmt.Printf("  %s\n", token.RefreshToken)
+}
+
+func runFetch(args []string) {
+	account := flag.String("account", os.Getenv("POE_ACCOUNT_NAME"), "PoE account name (primary method; env: POE_ACCOUNT_NAME)")
+	poesessid := flag.String("poesessid", os.Getenv("POESESSID"), "PoE session ID (primary method; env: POESESSID)")
+	clientID := flag.String("client-id", os.Getenv("POE_CLIENT_ID"), "OAuth2 client_id (fallback method; env: POE_CLIENT_ID)")
+	refreshToken := flag.String("refresh-token", os.Getenv("POE_REFRESH_TOKEN"), "OAuth2 refresh token (fallback method; env: POE_REFRESH_TOKEN)")
+	league := flag.String("league", "", "League name filter (optional)")
+	outputDir := flag.String("output-dir", "../../content", "Output directory for JSON files")
+	flag.CommandLine.Parse(args)
+
+	client := newFetcher(*account, *poesessid, *clientID, *refreshToken)
 
 	// Fetch characters
-	fmt.Printf("Fetching characters for account: %s\n", *account)
+	fmt.Println("Fetching characters...")
 	apiChars, err := client.GetCharacters()
 	if err != nil {
 		log.Fatalf("Failed to fetch characters: %v", err)
@@ -57,15 +104,15 @@ func main() {
 			FetchedAt:  models.NowUTC(),
 		}
 
-		// Fetch items (optional - may fail for private profiles)
+		// Fetch items (optional - may fail for some realms)
 		items, err := client.GetCharacterItems(ac.Name)
 		if err != nil {
 			fmt.Printf("  Warning: could not fetch items for %s: %v\n", ac.Name, err)
 		} else {
 			char.Items = mapAPIItems(items)
 			char.Passives = &models.Passives{
-				Hashes:      items.Passives.Hashes,
-				SkillPoints: items.Passives.SkillPoints,
+				Hashes:       items.Character.Passives.Hashes,
+				BanditChoice: items.Character.Passives.BanditChoice,
 			}
 		}
 
@@ -88,12 +135,12 @@ func main() {
 			}
 
 			lg := &models.League{
-				ID:          al.ID,
-				Realm:       al.Realm,
-				URL:         al.URL,
-				StartAt:     al.StartAt,
-				EndAt:       al.EndAt,
-				Characters:  leagueCharMap[al.ID],
+				ID:         al.ID,
+				Realm:      al.Realm,
+				URL:        al.URL,
+				StartAt:    al.StartAt,
+				EndAt:      al.EndAt,
+				Characters: leagueCharMap[al.ID],
 			}
 
 			// Try to load existing league file to preserve goals
@@ -112,6 +159,41 @@ func main() {
 	fmt.Println("Done!")
 }
 
+// newFetcher は資格情報に応じて取得経路を選ぶ。
+// POESESSID (旧 character-window API) を主とし、失敗・未設定の場合は OAuth2 へ
+// フォールバックする。新アカウントシステムでは旧 API が拒否されるため、
+// 実際には OAuth2 で動くことを想定した保険構成。
+func newFetcher(account, poesessid, clientID, refreshToken string) api.Fetcher {
+	if account != "" && poesessid != "" {
+		session := api.NewSessionClient(account, poesessid)
+		// 経路の有効性を確認するプローブ。本取得でもう一度呼ぶため二重リクエストになるが、
+		// 1日1回のバッチ用途では許容コスト。
+		if _, err := session.GetCharacters(); err == nil {
+			fmt.Println("Using POESESSID (character-window API)")
+			return session
+		} else {
+			fmt.Printf("POESESSID method failed (%v); falling back to OAuth2\n", err)
+		}
+	}
+
+	if clientID != "" && refreshToken != "" {
+		fmt.Println("Exchanging refresh token for an access token...")
+		token, err := api.RefreshAccessToken(clientID, refreshToken)
+		if err != nil {
+			log.Fatalf("Token refresh failed (the refresh token may be expired; re-run auth): %v", err)
+		}
+		fmt.Println("  Access token obtained")
+		return api.NewClient(token.AccessToken)
+	}
+
+	fmt.Fprintln(os.Stderr, "Error: no usable credentials.")
+	fmt.Fprintln(os.Stderr, "Provide either --account and --poesessid (POESESSID method), or --client-id and --refresh-token (OAuth2 method).")
+	fmt.Fprintln(os.Stderr, usage)
+	fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, set the POE_ACCOUNT_NAME/POESESSID and/or POE_CLIENT_ID/POE_REFRESH_TOKEN secrets.")
+	os.Exit(1)
+	return nil
+}
+
 func mapAPIItems(apiItems *models.APICharacterItems) *models.Items {
 	if apiItems == nil {
 		return nil
@@ -122,6 +204,7 @@ func mapAPIItems(apiItems *models.APICharacterItems) *models.Items {
 		"Weapon":     &items.Weapon,
 		"Offhand":    &items.Offhand,
 		"Helm":       &items.Helmet,
+		"Helmet":     &items.Helmet,
 		"BodyArmour": &items.BodyArmour,
 		"Gloves":     &items.Gloves,
 		"Boots":      &items.Boots,
@@ -131,26 +214,39 @@ func mapAPIItems(apiItems *models.APICharacterItems) *models.Items {
 		"Amulet":     &items.Amulet,
 	}
 
-	rarityMap := map[int]string{
-		0: "Normal", 1: "Magic", 2: "Rare", 3: "Unique", 4: "Currency",
+	modDescriptions := func(mods []models.APIItemMod) []string {
+		if len(mods) == 0 {
+			return nil
+		}
+		descs := make([]string, 0, len(mods))
+		for _, m := range mods {
+			if m.Description != "" {
+				descs = append(descs, m.Description)
+			}
+		}
+		return descs
 	}
 
-	for _, apiItem := range apiItems.Items {
+	for _, apiItem := range apiItems.Character.Equipment {
 		mapped := &models.Item{
 			Name:         apiItem.Name,
 			TypeLine:     apiItem.TypeLine,
-			Rarity:       rarityMap[apiItem.Rarity],
+			Rarity:       apiItem.Rarity,
 			Icon:         apiItem.Icon,
 			ItemLevel:    apiItem.ItemLevel,
-			ExplicitMods: apiItem.ExplicitMods,
-			ImplicitMods: apiItem.ImplicitMods,
+			ExplicitMods: modDescriptions(apiItem.ExplicitMods),
+			ImplicitMods: modDescriptions(apiItem.ImplicitMods),
 		}
 
+		// 旧 API は "Helm"、OAuth2 API は "Helmet" の可能性があるため両方を受け付ける。
+		// なお Weapon2/Offhand2(武器持ち替え)は意図的に出力しない。
 		slotKey := apiItem.InventoryID
+		if strings.HasPrefix(slotKey, "Flask") {
+			items.Flasks = append(items.Flasks, *mapped)
+			continue
+		}
 		if ptr, ok := slotMap[slotKey]; ok {
 			*ptr = mapped
-		} else if strings.HasPrefix(slotKey, "Flask") {
-			items.Flasks = append(items.Flasks, *mapped)
 		}
 	}
 

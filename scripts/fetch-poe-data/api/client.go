@@ -6,7 +6,6 @@ import (
 	"fmt"
 	"io"
 	"net/http"
-	"net/http/cookiejar"
 	"net/url"
 	"strings"
 	"time"
@@ -14,12 +13,17 @@ import (
 	"github.com/poe-diary/fetch-poe-data/models"
 )
 
-const baseURL = "https://www.pathofexile.com"
+// テストで httptest サーバーに差し替えられるようパッケージ変数としている。
+var (
+	// baseURL は OAuth2 API。旧 character-window API とは異なり Bearer トークン認証。
+	baseURL = "https://api.pathofexile.com"
+	// webBaseURL は無認証の公開リーグ API(旧来からのエンドポイント)。
+	webBaseURL = "https://www.pathofexile.com"
+)
 
-// ErrAuthentication は POESESSID の期限切れ・未設定、または GGG によるIPブロックに
-// よる認証失敗を表す。PoE API は無効セッションで /login へリダイレクトするため、
-// このエラーを検知したら POESESSID の更新を促す必要がある。
-var ErrAuthentication = errors.New("authentication failed: POESESSID may be expired or unset")
+// ErrAuthentication はアクセストークンの期限切れ・失効、またはスコープ不足に
+// よる認証失敗を表す。このエラーを検知したら再認証(auth サブコマンド)を促す。
+var ErrAuthentication = errors.New("authentication failed: access token may be expired or revoked")
 
 // poeHeaders は Cloudflare の bot 判定を回避するためのブラウザ風ヘッダー。
 // PoE 公式サイトは Cloudflare で保護されており、Go http.Client のデフォルト UA
@@ -31,9 +35,9 @@ var poeHeaders = map[string]string{
 	"Accept-Language": "en-US,en;q=0.9",
 }
 
-// headerTransport は全リクエストに poeHeaders を注入する RoundTripper。
-// GetCharacters 等の各メソッドを変更せず、NewClient で Transport に設定するだけで
-// ヘッダー付与を一元管理できる。
+// headerTransport は全リクエストに poeHeaders と Bearer トークンを注入する
+// RoundTripper。GetCharacters 等の各メソッドを変更せず、NewClient で Transport に
+// 設定するだけでヘッダー付与を一元管理できる。
 type headerTransport struct {
 	base http.RoundTripper
 }
@@ -45,35 +49,40 @@ func (t *headerTransport) RoundTrip(req *http.Request) (*http.Response, error) {
 	return t.base.RoundTrip(req)
 }
 
-type Client struct {
-	httpClient *http.Client
-	account    string
+// bearerTransport は Authorization ヘッダーを注入する RoundTripper。
+type bearerTransport struct {
+	token string
+	base  http.RoundTripper
 }
 
-func NewClient(account string, poesessid string) *Client {
-	jar, _ := cookiejar.New(nil)
-	parsedURL, _ := url.Parse(baseURL)
+func (t *bearerTransport) RoundTrip(req *http.Request) (*http.Response, error) {
+	req.Header.Set("Authorization", "Bearer "+t.token)
+	return t.base.RoundTrip(req)
+}
 
-	if poesessid != "" {
-		jar.SetCookies(parsedURL, []*http.Cookie{
-			{Name: "POESESSID", Value: poesessid},
-		})
-	}
+type Client struct {
+	httpClient *http.Client
+	// publicClient は無認証の公開エンドポイント(リーグ等)用。アクセストークンを
+	// 別ホストへ送らないため、Bearer ヘッダーなしのクライアントを使う。
+	publicClient *http.Client
+}
 
+// NewClient はアクセストークンで認証される OAuth2 API クライアントを生成する。
+func NewClient(accessToken string) *Client {
 	return &Client{
 		httpClient: &http.Client{
 			Timeout:   30 * time.Second,
-			Jar:       jar,
+			Transport: &bearerTransport{token: accessToken, base: &headerTransport{base: http.DefaultTransport}},
+		},
+		publicClient: &http.Client{
+			Timeout:   30 * time.Second,
 			Transport: &headerTransport{base: http.DefaultTransport},
 		},
-		account: account,
 	}
 }
 
 // classifyAPIError は API レスポンスを認証エラーと汎用APIエラーに分類する。
-// PoE API は無効セッションで /login へ 302 リダイレクトし、Go の http.Client が
-// デフォルトでリダイレクトを追従して最終的に 200 OK + ログインページ HTML を返す。
-// そのためステータスコードだけではセッション切れを検出できず、最終到達URLの検査が必要。
+// OAuth2 API はトークン無効で 401、スコープ不足で 403 を返す。
 func classifyAPIError(resp *http.Response, body []byte) error {
 	if resp.Request != nil && resp.Request.URL != nil &&
 		strings.Contains(resp.Request.URL.Path, "/login") {
@@ -88,8 +97,10 @@ func classifyAPIError(resp *http.Response, body []byte) error {
 	return nil
 }
 
+// GetCharacters は GET /character でキャラクター一覧を取得する。
+// スコープ: account:characters
 func (c *Client) GetCharacters() ([]models.APICharacter, error) {
-	url := fmt.Sprintf("%s/character-window/get-characters?accountName=%s", baseURL, c.account)
+	url := baseURL + "/character"
 
 	resp, err := c.httpClient.Get(url)
 	if err != nil {
@@ -102,17 +113,18 @@ func (c *Client) GetCharacters() ([]models.APICharacter, error) {
 		return nil, err
 	}
 
-	var characters []models.APICharacter
-	if err := json.Unmarshal(body, &characters); err != nil {
+	var wrapper models.APICharacters
+	if err := json.Unmarshal(body, &wrapper); err != nil {
 		return nil, fmt.Errorf("decoding characters: %w", err)
 	}
 
-	return characters, nil
+	return wrapper.Characters, nil
 }
 
+// GetCharacterItems は GET /character/{name} で装備・パッシブ情報を取得する。
+// スコープ: account:characters
 func (c *Client) GetCharacterItems(characterName string) (*models.APICharacterItems, error) {
-	url := fmt.Sprintf("%s/character-window/get-items?accountName=%s&character=%s",
-		baseURL, c.account, characterName)
+	url := fmt.Sprintf("%s/character/%s", baseURL, url.PathEscape(characterName))
 
 	resp, err := c.httpClient.Get(url)
 	if err != nil {
@@ -125,18 +137,24 @@ func (c *Client) GetCharacterItems(characterName string) (*models.APICharacterIt
 		return nil, err
 	}
 
-	var items models.APICharacterItems
-	if err := json.Unmarshal(body, &items); err != nil {
+	var detail models.APICharacterItems
+	if err := json.Unmarshal(body, &detail); err != nil {
 		return nil, fmt.Errorf("decoding character items: %w", err)
 	}
 
-	return &items, nil
+	return &detail, nil
 }
 
+// GetLeagues は公開リーグ API(無認証)でリーグ一覧を取得する。
 func (c *Client) GetLeagues() ([]models.APILeague, error) {
-	url := fmt.Sprintf("%s/api/leagues?type=main&compact=1", baseURL)
+	return getLeagues(c.publicClient)
+}
 
-	resp, err := c.httpClient.Get(url)
+// getLeagues は無認証の公開リーグ API への共通取得処理。
+func getLeagues(httpClient *http.Client) ([]models.APILeague, error) {
+	url := webBaseURL + "/api/leagues?type=main&compact=1"
+
+	resp, err := httpClient.Get(url)
 	if err != nil {
 		return nil, fmt.Errorf("fetching leagues: %w", err)
 	}

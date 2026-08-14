@@ -15,15 +15,16 @@ import (
 
 const usage = `Usage:
   fetch-poe-data auth  --client-id=<id> [--port=<port>]
-  fetch-poe-data fetch --client-id=<id> --refresh-token=<token> [--league=<league>] [--output-dir=<dir>]
+  fetch-poe-data fetch [--account=<name> --poesessid=<id>] [--client-id=<id> --refresh-token=<token>] [--league=<league>] [--output-dir=<dir>]
 
 auth:   Run the OAuth2 authorization flow (Authorization Code + PKCE) locally and
         print the refresh token. Set it as the POE_REFRESH_TOKEN GitHub secret.
-fetch:  Exchange the refresh token for an access token, fetch character and
-        league data, and write JSON files to the output directory.
+fetch:  Fetch character and league data and write JSON files to the output
+        directory. The POESESSID method (--account/--poesessid) is tried first;
+        if it fails, the OAuth2 method (--client-id/--refresh-token) is used.
 
-Hint: in GitHub Actions, ensure the POE_CLIENT_ID and POE_REFRESH_TOKEN secrets are set.
-The refresh token expires after 7 days at most; re-run auth and update the secret then.`
+Environment fallbacks: POE_ACCOUNT_NAME, POESESSID, POE_CLIENT_ID, POE_REFRESH_TOKEN.
+The OAuth2 refresh token expires after 7 days at most; re-run auth and update the secret then.`
 
 func main() {
 	if len(os.Args) < 2 {
@@ -65,27 +66,15 @@ func runAuth(args []string) {
 }
 
 func runFetch(args []string) {
-	clientID := flag.String("client-id", os.Getenv("POE_CLIENT_ID"), "OAuth2 client_id of your registered project (required; env: POE_CLIENT_ID)")
-	refreshToken := flag.String("refresh-token", os.Getenv("POE_REFRESH_TOKEN"), "OAuth2 refresh token obtained by the auth subcommand (required; env: POE_REFRESH_TOKEN)")
+	account := flag.String("account", os.Getenv("POE_ACCOUNT_NAME"), "PoE account name (primary method; env: POE_ACCOUNT_NAME)")
+	poesessid := flag.String("poesessid", os.Getenv("POESESSID"), "PoE session ID (primary method; env: POESESSID)")
+	clientID := flag.String("client-id", os.Getenv("POE_CLIENT_ID"), "OAuth2 client_id (fallback method; env: POE_CLIENT_ID)")
+	refreshToken := flag.String("refresh-token", os.Getenv("POE_REFRESH_TOKEN"), "OAuth2 refresh token (fallback method; env: POE_REFRESH_TOKEN)")
 	league := flag.String("league", "", "League name filter (optional)")
 	outputDir := flag.String("output-dir", "../../content", "Output directory for JSON files")
 	flag.CommandLine.Parse(args)
 
-	if *clientID == "" || *refreshToken == "" {
-		fmt.Fprintln(os.Stderr, "Error: --client-id and --refresh-token are required.")
-		fmt.Fprintln(os.Stderr, usage)
-		fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, ensure the POE_CLIENT_ID and POE_REFRESH_TOKEN secrets are set.")
-		os.Exit(1)
-	}
-
-	fmt.Println("Exchanging refresh token for an access token...")
-	token, err := api.RefreshAccessToken(*clientID, *refreshToken)
-	if err != nil {
-		log.Fatalf("Token refresh failed (the refresh token may be expired; re-run auth): %v", err)
-	}
-	fmt.Println("  Access token obtained")
-
-	client := api.NewClient(token.AccessToken)
+	client := newFetcher(*account, *poesessid, *clientID, *refreshToken)
 
 	// Fetch characters
 	fmt.Println("Fetching characters...")
@@ -109,6 +98,7 @@ func runFetch(args []string) {
 			Name:       ac.Name,
 			League:     ac.League,
 			Class:      ac.Class,
+			Ascendancy: ac.Ascendancy,
 			Level:      ac.Level,
 			Experience: ac.Experience,
 			FetchedAt:  models.NowUTC(),
@@ -167,6 +157,41 @@ func runFetch(args []string) {
 	}
 
 	fmt.Println("Done!")
+}
+
+// newFetcher は資格情報に応じて取得経路を選ぶ。
+// POESESSID (旧 character-window API) を主とし、失敗・未設定の場合は OAuth2 へ
+// フォールバックする。新アカウントシステムでは旧 API が拒否されるため、
+// 実際には OAuth2 で動くことを想定した保険構成。
+func newFetcher(account, poesessid, clientID, refreshToken string) api.Fetcher {
+	if account != "" && poesessid != "" {
+		session := api.NewSessionClient(account, poesessid)
+		// 経路の有効性を確認するプローブ。本取得でもう一度呼ぶため二重リクエストになるが、
+		// 1日1回のバッチ用途では許容コスト。
+		if _, err := session.GetCharacters(); err == nil {
+			fmt.Println("Using POESESSID (character-window API)")
+			return session
+		} else {
+			fmt.Printf("POESESSID method failed (%v); falling back to OAuth2\n", err)
+		}
+	}
+
+	if clientID != "" && refreshToken != "" {
+		fmt.Println("Exchanging refresh token for an access token...")
+		token, err := api.RefreshAccessToken(clientID, refreshToken)
+		if err != nil {
+			log.Fatalf("Token refresh failed (the refresh token may be expired; re-run auth): %v", err)
+		}
+		fmt.Println("  Access token obtained")
+		return api.NewClient(token.AccessToken)
+	}
+
+	fmt.Fprintln(os.Stderr, "Error: no usable credentials.")
+	fmt.Fprintln(os.Stderr, "Provide either --account and --poesessid (POESESSID method), or --client-id and --refresh-token (OAuth2 method).")
+	fmt.Fprintln(os.Stderr, usage)
+	fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, set the POE_ACCOUNT_NAME/POESESSID and/or POE_CLIENT_ID/POE_REFRESH_TOKEN secrets.")
+	os.Exit(1)
+	return nil
 }
 
 func mapAPIItems(apiItems *models.APICharacterItems) *models.Items {

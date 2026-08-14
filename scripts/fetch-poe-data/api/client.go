@@ -147,9 +147,14 @@ func (c *Client) GetCharacterItems(characterName string) (*models.APICharacterIt
 
 // GetLeagues は公開リーグ API(無認証)でリーグ一覧を取得する。
 func (c *Client) GetLeagues() ([]models.APILeague, error) {
+	return getLeagues(c.publicClient)
+}
+
+// getLeagues は無認証の公開リーグ API への共通取得処理。
+func getLeagues(httpClient *http.Client) ([]models.APILeague, error) {
 	url := webBaseURL + "/api/leagues?type=main&compact=1"
 
-	resp, err := c.publicClient.Get(url)
+	resp, err := httpClient.Get(url)
 	if err != nil {
 		return nil, fmt.Errorf("fetching leagues: %w", err)
 	}

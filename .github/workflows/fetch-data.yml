@@ -31,16 +31,21 @@ jobs:
       - name: Fetch character data
         working-directory: scripts/fetch-poe-data
         env:
+          # 主経路: POESESSID (旧 character-window API)
+          POE_ACCOUNT_NAME: ${{ secrets.POE_ACCOUNT_NAME }}
+          POESESSID: ${{ secrets.POESESSID }}
+          # フォールバック経路: OAuth2。どちらの Secret が設定されていても
+          # POESESSID が失敗した場合のみ OAuth2 が使われる。
           POE_CLIENT_ID: ${{ secrets.POE_CLIENT_ID }}
           POE_REFRESH_TOKEN: ${{ secrets.POE_REFRESH_TOKEN }}
           POE_LEAGUE: ${{ inputs.league }}
         run: |
-          ARGS="fetch --client-id=$POE_CLIENT_ID --output-dir=../../content"
+          ARGS="fetch --output-dir=../../content"
           if [ -n "$POE_LEAGUE" ]; then
             ARGS="$ARGS --league=$POE_LEAGUE"
           fi
+          # 資格情報はすべて環境変数から読まれる(argv に出さない)
           go run . $ARGS
-          # POE_REFRESH_TOKEN は環境変数から読まれる(argv に出さない)
 
       - name: Commit updated data
         if: success()
@@ -57,8 +62,8 @@ jobs:
           {
             echo "## PoE data fetch failed"
             echo ""
-            echo "Most likely causes:"
-            echo "1. Refresh token expired or not set -> run 'go run . auth --client-id=<id>' locally and update the POE_REFRESH_TOKEN secret (tokens expire after 7 days at most)"
+            echo "Both the POESESSID method and the OAuth2 fallback failed. Most likely causes:"
+            echo "1. POESESSID rejected (common on the new account system) and OAuth2 refresh token expired or not set -> run 'go run . auth --client-id=<id>' locally and update the POE_REFRESH_TOKEN secret (tokens expire after 7 days at most)"
             echo "2. POE_CLIENT_ID not set -> set the secret"
             echo "3. GGG rate limit -> retry later"
             echo ""

@@ -46,15 +46,17 @@ type Passives struct {
 }
 
 // APICharacter は OAuth2 API (GET /character) のキャラクターオブジェクト。
-// 旧 character-window API と異なり ascendancy は含まれない。
+// 旧 character-window API と異なり OAuth2 では ascendancy が返らないため、
+// POESESSID 経路でのみ設定される(omitempty)。
 type APICharacter struct {
-	ID         string `json:"id"`
+	ID         string `json:"id,omitempty"`
 	Name       string `json:"name"`
-	Realm      string `json:"realm"`
+	Realm      string `json:"realm,omitempty"`
 	Class      string `json:"class"`
 	League     string `json:"league"`
 	Level      int    `json:"level"`
 	Experience int64  `json:"experience"`
+	Ascendancy string `json:"ascendancy,omitempty"`
 }
 
 // APICharacters は GET /character のラッパーオブジェクト。

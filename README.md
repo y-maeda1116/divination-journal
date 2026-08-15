@@ -56,24 +56,24 @@ Go製CLIツールでPoE公式APIからキャラクター・リーグデータを
 >
 > | 項目 | 状態 |
 > |------|------|
-> | POESESSID 経路（主） | ❌ **機能していない** — 本アカウントは新アカウントシステム（表示名 `名前#数字`）で、旧 character-window API がブラウザ・有効セッションでも Permission Denied を返すことを確認済み |
-> | OAuth2 経路（フォールバック） | ⏳ **実装済み・client_id 未取得** — GGG への developer project 申請（承認制）が必要 |
-> | 自動取得（毎日 JST 05:17） | ⛔ **両経路とも使えないため現在は毎回失敗する**（ジョブサマリーに原因が出るだけ。サイト表示への影響なし） |
->
-> **次のアクション**: GGG への申請 → client_id 取得 → 下記「OAuth2 の準備」〜「GitHub Secrets の設定」を実施すれば自動取得が開始される。POESESSID が GGG 側で再有効化された場合は設定なしで主経路が復活する。
+> | POESESSID 経路（主） | ✅ **動作確認済み** — accountName を表示名の `名前#数字` 形式（例: `taityon#0728`）で指定すると取得できる。URL 用スラッグ形式（例: `taityon-0728`）では Permission Denied になる（詳細は下記） |
+> | OAuth2 経路（フォールバック） | ⏳ **実装済み・client_id 未取得** — GGG への developer project 申請（承認制）が必要。POESESSID で取得できている間は不要 |
+> | 自動取得（毎日 JST 05:17） | ✅ `POE_ACCOUNT_NAME` を `名前#数字` 形式に設定すれば POESESSID 経路で動作する |
 
 取得は2経路のハイブリッド構成です:
 
 1. **主経路: POESESSID**（旧 character-window API・申請不要）
 2. **フォールバック経路: OAuth2 API**（`api.pathofexile.com`・申請必要）
 
-POESESSID は新しいアカウントシステム（表示名が `名前#数字` の形式）では API が拒否されるため、その場合は自動的に OAuth2 へフォールバックします。OAuth2 の申請が通るまでは取得に失敗します（下記の「失敗時の通知」を参照）。
+新しいアカウントシステムでは、accountName に URL スラッグ形式（`名前-数字`）を指定すると POESESSID 経路が拒否されるため、**表示名（`名前#数字`）を指定する**必要があります。それでも失敗する場合（POESESSID 失効・GGG 側の仕様変更など）は自動的に OAuth2 へフォールバックします。
 
 ### POESESSID の取得手順（主経路）
 
 1. ブラウザで https://www.pathofexile.com にログインする
 2. 開発者ツール（F12）を開き、**Application**（Chrome）または **Storage**（Firefox）→ **Cookies** → `https://www.pathofexile.com` を選ぶ
 3. `POESESSID` の値をコピーする
+
+> **重要: アカウント名は「表示名（`#` 形式）」を使う**。新アカウントシステムのアカウントは、URL 用のスラッグ形式（例: `taityon-0728`）を `accountName` に指定すると API が **Permission Denied** を返す。サイト右上に表示される表示名（例: `taityon#0728`）をそのまま指定すると取得できる（2026-08 に動作確認済み）。
 
 > **注意**: ログアウトすると POESESSID は無効化されます。ブラウザのタブを閉じるだけにしてください。また GGG 側で定期的にローテーションされるため、期限切れになったら再取得が必要です。
 
@@ -99,7 +99,7 @@ go run . auth --client-id=YourClientID
 
 | Secret 名 | 値 | 経路 |
 |-----------|-----|------|
-| `POE_ACCOUNT_NAME` | PoE のアカウント名 | 主（POESESSID） |
+| `POE_ACCOUNT_NAME` | PoE のアカウント名（**表示名の `名前#数字` 形式**。例: `taityon#0728`） | 主（POESESSID） |
 | `POESESSID` | 上記で取得した POESESSID | 主（POESESSID） |
 | `POE_CLIENT_ID` | 登録した OAuth2 アプリの client_id | フォールバック（OAuth2） |
 | `POE_REFRESH_TOKEN` | `auth` サブコマンドで取得した refresh token | フォールバック（OAuth2） |
@@ -130,7 +130,7 @@ go run . fetch --client-id=YourClientID --refresh-token=YourRefreshToken --outpu
 
 | 症状 | 対処 |
 |------|------|
-| `POESESSID method failed; falling back to OAuth2` | 新アカウントシステムでは正常な挙動。OAuth2 の Secrets があればそのまま取得される |
+| `POESESSID method failed` で Permission Denied | `POE_ACCOUNT_NAME` が URL スラッグ形式（`名前-数字`）の可能性。表示名の `名前#数字` 形式に変更する |
 | `oauth token request failed` / `Token refresh failed` | refresh token が期限切れ。`go run . auth` を再実行して Secret を更新 |
 | `authentication failed: access token may be expired` | アクセストークン拒否。上記と同様に再認証 |
 | `status 403` | スコープ不足またはレート制限の可能性。時間をおいて再実行 |

@@ -2,15 +2,16 @@ import type { Character } from '../types/character'
 import type { League } from '../types/league'
 import type { DiaryEntry, DiaryMeta } from '../types/diary'
 
+// 注意: JSON の取り込みに query: '?url' を付けると URL 文字列が返ってしまい
+// 実データが埋め込まれない(全フィールドが undefined になる)。データとして
+// バンドルに含めるため、query なしで import: 'default' のみ指定する。
 const characterModules = import.meta.glob<Character>('/content/characters/*.json', {
   eager: true,
-  query: '?url',
   import: 'default',
 })
 
 const leagueModules = import.meta.glob<League>('/content/leagues/*.json', {
   eager: true,
-  query: '?url',
   import: 'default',
 })
 

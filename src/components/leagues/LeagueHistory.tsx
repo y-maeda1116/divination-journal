@@ -8,9 +8,10 @@ interface LeagueHistoryProps {
 }
 
 export default function LeagueHistory({ selectedLeague }: LeagueHistoryProps) {
-  const leagueViews = buildLeagueViews(loadLeagues(), loadCharacters())
-    .filter((l) => selectedLeague === 'all' || l.id === selectedLeague)
   const characters = loadCharacters()
+  const leagueViews = buildLeagueViews(loadLeagues(), characters).filter(
+    (l) => selectedLeague === 'all' || l.id === selectedLeague,
+  )
   const permanent = leagueViews.filter((l) => l.isPermanent)
   const challenge = leagueViews.filter((l) => !l.isPermanent)
 

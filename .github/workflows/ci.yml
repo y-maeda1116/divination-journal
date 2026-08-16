@@ -24,6 +24,10 @@ jobs:
         run: npm run build
       - name: Lint
         run: npm run lint
+      - name: Test
+        # 3 OS でテストを回すのは冗長なため ubuntu のみで実行する
+        if: matrix.os == 'ubuntu-latest'
+        run: npm test
 
   go-test:
     runs-on: ubuntu-latest

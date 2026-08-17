@@ -5,5 +5,34 @@
   "ascendancy": "",
   "level": 95,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:51Z"
+  "fetchedAt": "2026-08-17T00:38:17Z",
+  "items": {
+    "weapon": {
+      "name": "",
+      "typeLine": "Boot Knife",
+      "rarity": "Normal",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0RhZ2dlcjUiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/3431875aaf/Dagger5.png",
+      "itemLevel": 21,
+      "implicitMods": [
+        "30% increased Global Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "",
+      "typeLine": "Ram's Corrugated Buckler",
+      "rarity": "Magic",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZERleDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/60c6c83831/ShieldDex4.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+43 to Evasion Rating",
+        "+33 to maximum Life"
+      ],
+      "implicitMods": [
+        "3% increased Movement Speed"
+      ]
+    }
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,223 @@
   "ascendancy": "",
   "level": 78,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:51Z"
+  "fetchedAt": "2026-08-17T00:38:17Z",
+  "items": {
+    "weapon": {
+      "name": "The Dark Seer",
+      "typeLine": "Shadow Sceptre",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9Wb2lkR2F6ZSIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e24a55cd27/VoidGaze.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+2 to Level of all Spell Skill Gems",
+        "10% Global chance to Blind Enemies on hit",
+        "Enemies Blinded by you have Malediction",
+        "+2 Maximum Life per Level",
+        "+1 Maximum Mana per Level",
+        "Unaffected by Blind"
+      ],
+      "implicitMods": [
+        "22% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Prism Guardian",
+      "typeLine": "Archon Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1RoZUNvcnVuZHVtIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/f9ca50a663/TheCorundum.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+2 to Level of Socketed Aura Gems",
+        "Socketed Gems Cost and Reserve Life instead of Mana",
+        "Socketed Gems have 30% increased Reservation Efficiency",
+        "+26 to Dexterity",
+        "+25% to all Elemental Resistances"
+      ],
+      "implicitMods": [
+        "+12% to all Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "Rage Brow",
+      "typeLine": "Fluted Bascinet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckRleDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/cc388acb00/HelmetStrDex8.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 18 Burning Damage",
+        "Socketed Gems are Supported by Level 16 Concentrated Effect",
+        "6% Chance to Block Spell Damage",
+        "+46 to Intelligence",
+        "10% increased Rarity of Items found",
+        "30% increased Burning Damage",
+        "18% increased Area Damage",
+        "+69 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Cloak of Flame",
+      "typeLine": "Scholar's Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5SW50MUF1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/41c15c6511/BodyInt1Aunique.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "+63% to Fire Resistance",
+        "49% increased Ignite Duration on Enemies",
+        "Reflects 100 Fire Damage to Melee Attackers",
+        "40% of Physical Damage taken as Fire Damage"
+      ]
+    },
+    "gloves": {
+      "name": "Honour Mitts",
+      "typeLine": "Assassin's Mitts",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/e18b986979/GlovesDexInt2.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+43 to Dexterity",
+        "Adds 2 to 23 Lightning Damage to Attacks",
+        "+72 to maximum Life",
+        "+39% to Fire Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Sorrow Spur",
+      "typeLine": "Chimerascale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/f17113ca1a/BootsStrDex2.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+42 to Evasion Rating",
+        "+27 to maximum Life",
+        "Regenerate 50 Life per second",
+        "+29% to Chaos Resistance",
+        "35% increased Movement Speed",
+        "+43% to Fire Resistance"
+      ]
+    },
+    "belt": {
+      "name": "Immortal Flesh",
+      "typeLine": "Leather Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSW1tb3J0YWxGbGVzaCIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/fceb1b8f8c/ImmortalFlesh.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+89 to maximum Life",
+        "Regenerate 277.4 Life per second",
+        "Regenerate 9.6 Mana per second",
+        "-15% to all Elemental Resistances",
+        "-48 Physical Damage taken from Attack Hits",
+        "40% increased Armour while not Ignited, Frozen or Shocked"
+      ],
+      "implicitMods": [
+        "+33 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Valyrium",
+      "typeLine": "Moonstone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmFseXJpdW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd9261042f/Valyrium.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+30 to maximum Energy Shield",
+        "+38% to Fire Resistance",
+        "-40% to Cold Resistance",
+        "Stun Threshold is based on Energy Shield instead of Life"
+      ],
+      "implicitMods": [
+        "+18 to maximum Energy Shield"
+      ]
+    },
+    "ring2": {
+      "name": "The Hateful Accuser",
+      "typeLine": "Nameless Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUml0dWFsUGhhbnRhc21SaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/cba7f7e493/RitualPhantasmRing.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "Grants level 20 Penance Mark",
+        "8% increased Cast Speed",
+        "+44 to maximum Life",
+        "+15% to Chaos Resistance"
+      ],
+      "implicitMods": [
+        "50% increased Elemental Ailment Duration on you",
+        "50% reduced Effect of Curses on you"
+      ]
+    },
+    "amulet": {
+      "name": "Sol Collar",
+      "typeLine": "Gold Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ2IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/9c1412b6dd/Amulet6.png",
+      "itemLevel": 57,
+      "explicitMods": [
+        "Adds 7 to 15 Physical Damage to Attacks",
+        "Adds 1 to 2 Cold Damage to Attacks",
+        "+103 to maximum Life",
+        "+6% to all Elemental Resistances",
+        "+28% to Fire Resistance",
+        "+22 to Dexterity and Intelligence"
+      ],
+      "implicitMods": [
+        "12% increased Rarity of Items found"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Gypsum Divine Life Flask of the Necromancer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 82,
+        "explicitMods": [
+          "20% increased Charges per use",
+          "Grants 195% of Life Recovery to Minions",
+          "49% increased Amount Recovered"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9
+      },
+      {
+        "name": "",
+        "typeLine": "Ample Ruby Flask of Imposing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "+33 to Maximum Charges",
+          "25% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Dolomite Divine Life Flask of Entropy",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "23% increased Charges per use",
+          "27% increased Amount Recovered",
+          "Grants Immunity to Chill for 13 seconds if used while Chilled\nGrants Immunity to Freeze for 13 seconds if used while Frozen"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 3
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

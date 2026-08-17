@@ -5,5 +5,226 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:14Z",
+  "items": {
+    "weapon": {
+      "name": "The Poet's Pen",
+      "typeLine": "Somatic Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9Qb2V0c1BlbiIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/f6f0645739/PoetsPen.png",
+      "itemLevel": 17,
+      "explicitMods": [
+        "+1 to Level of Socketed Skill Gems per 25 Player Levels",
+        "Trigger a Socketed Spell when you Attack with this Weapon, with a 0.25 second Cooldown",
+        "Adds 3 to 5 Physical Damage to Attacks with this Weapon per 3 Player Levels",
+        "9% increased Attack Speed"
+      ],
+      "implicitMods": [
+        "Cannot roll Caster Modifiers"
+      ]
+    },
+    "offhand": {
+      "name": "Chimeric Duty",
+      "typeLine": "Chiming Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4bf20f79d1/ShieldInt5.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "32% reduced Attribute Requirements",
+        "+11 to maximum Energy Shield",
+        "+59 to maximum Life",
+        "+1 to Level of all Physical Spell Skill Gems",
+        "+16% to Fire and Cold Resistances"
+      ],
+      "implicitMods": [
+        "10% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Cataclysm Horn",
+      "typeLine": "Soldier Helmet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckludDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/8e5221f23d/HelmetStrInt2.png",
+      "itemLevel": 47,
+      "explicitMods": [
+        "+60 to Armour",
+        "+24 to maximum Energy Shield",
+        "+21% to Fire Resistance",
+        "+28% to Cold Resistance",
+        "+13% to Lightning Resistance",
+        "+46 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Ghoul Skin",
+      "typeLine": "Saint's Hauberk",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/5a1804c81b/BodyStrInt2C.png",
+      "itemLevel": 68,
+      "explicitMods": [
+        "+24 to maximum Energy Shield",
+        "+120 to maximum Life",
+        "Regenerate 47.8 Life per second",
+        "+71 to maximum Mana",
+        "+13% to Cold and Lightning Resistances"
+      ]
+    },
+    "gloves": {
+      "name": "Haemophilia",
+      "typeLine": "Serpentscale Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvYmxlZWRnbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/005045bec7/bleedgloves.png",
+      "itemLevel": 60,
+      "explicitMods": [
+        "+22 to Strength",
+        "25% increased Damage over Time",
+        "Attacks have 25% chance to cause Bleeding",
+        "28% increased Attack Damage against Bleeding Enemies",
+        "Bleeding Enemies you Kill Explode, dealing 5% of\ntheir Maximum Life as Physical Damage",
+        "25% reduced Bleeding Duration"
+      ]
+    },
+    "boots": {
+      "name": "Pain Urge",
+      "typeLine": "Goliath Greaves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0cjQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/82bedfd1e0/BootsStr4.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+114 to Armour",
+        "+38% to Fire Resistance",
+        "+12% to Cold Resistance",
+        "30% increased Movement Speed",
+        "+14% to Cold and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Plague Tether",
+      "typeLine": "Leather Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDMiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/93af17affd/Belt3.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+55 to Strength",
+        "12% reduced Enemy Stun Threshold",
+        "+143 to maximum Life",
+        "+17% to Chaos Resistance",
+        "39% increased Flask Life Recovery rate",
+        "+161 to Armour",
+        "+17 to maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "+27 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Mark of Submission",
+      "typeLine": "Unset Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmVkQnJhbmRSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8f15300177/RedBrandRing.png",
+      "itemLevel": 49,
+      "explicitMods": [
+        "Curse Enemies with Socketed Hex Curse Gem on Hit"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "ring2": {
+      "name": "Demon Spiral",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+55 to Dexterity",
+        "Adds 9 to 17 Cold Damage to Attacks",
+        "+70 to maximum Mana",
+        "+15% to all Elemental Resistances",
+        "+53 to maximum Life"
+      ],
+      "implicitMods": [
+        "+19% to Chaos Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Dread Scarab",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ3IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/58942b1ab3/Amulet7.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+63 to maximum Mana",
+        "+48% to Lightning Resistance",
+        "1.13% of Physical Attack Damage Leeched as Life",
+        "+1 to Level of all Physical Skill Gems",
+        "+17 to Dexterity"
+      ],
+      "implicitMods": [
+        "+12 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "15% reduced Charges per use",
+          "47% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Divine Life Flask of Allaying",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "Grants Immunity to Bleeding for 14 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 14 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Simmering Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "54% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Doled Granite Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "37% increased Charge Recovery",
+          "25% reduced effect",
+          "43% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Bottomless Silver Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "32% increased Charge Recovery"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

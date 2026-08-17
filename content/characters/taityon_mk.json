@@ -5,5 +5,227 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:51Z"
+  "fetchedAt": "2026-08-17T00:38:17Z",
+  "items": {
+    "weapon": {
+      "name": "Demon Bite",
+      "typeLine": "Reaver Sword",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kU3dvcmRzL1R3b0hhbmRTd29yZDMiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/28f44a7a0c/TwoHandSword3.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 10 Endurance Charge on Melee Stun",
+        "Socketed Skills deal 20% more Attack Damage",
+        "Socketed Movement Skills Cost no Mana",
+        "45% increased Physical Damage",
+        "Skills fire an additional Projectile",
+        "20% increased Attack Speed"
+      ],
+      "implicitMods": [
+        "60% increased Global Accuracy Rating"
+      ]
+    },
+    "helmet": {
+      "name": "Crown of Eyes",
+      "typeLine": "Hubris Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Nyb3dub2ZFeWVzIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/778182e367/CrownofEyes.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "+324 to Accuracy Rating",
+        "130% increased Energy Shield",
+        "-30% to Fire Resistance",
+        "0.59% of Attack Damage Leeched as Life",
+        "0.27% of Attack Damage Leeched as Mana",
+        "Attacks have 150% Arcane Might"
+      ]
+    },
+    "bodyArmour": {
+      "name": "The Iron Fortress",
+      "typeLine": "Crusader Plate",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Jcm9uSGVhcnQgRmluYWwiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/113c4e83b6/IronHeart%20Final.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+1% Chance to Block Attack Damage per 50 Strength",
+        "Chance to Block Spell Damage is Unlucky",
+        "+119 to Strength",
+        "85% increased Armour",
+        "10% reduced Movement Speed",
+        "Strength's Damage Bonus instead grants 3% increased Melee\nPhysical Damage per 10 Strength"
+      ]
+    },
+    "gloves": {
+      "name": "Oblivion Fist",
+      "typeLine": "Steel Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyNCIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/15563e0a53/GlovesStr4.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+52 to Strength",
+        "Adds 10 to 20 Fire Damage to Attacks",
+        "16% increased Attack Speed",
+        "67% increased Armour",
+        "+26 to maximum Life",
+        "+15% to Cold and Chaos Resistances"
+      ],
+      "implicitMods": [
+        "3% increased Damage per 100 Strength",
+        "Non-Vaal Strike Skills target 1 additional nearby Enemy"
+      ]
+    },
+    "boots": {
+      "name": "Replica Alberon's Warpath",
+      "typeLine": "Soldier Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BbGJlcm9uc3dhcnBhdGgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/be7b089ef3/Alberonswarpath.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "18% increased Strength",
+        "+203 to Armour",
+        "+16% to Chaos Resistance",
+        "25% increased Movement Speed",
+        "Cannot deal non-Chaos Damage",
+        "Adds 1 to 80 Chaos Damage to Attacks per 80 Strength"
+      ]
+    },
+    "belt": {
+      "name": "Mageblood",
+      "typeLine": "Heavy Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSW5qZWN0b3JCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/21ec0269de/InjectorBelt.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+46 to Dexterity",
+        "+24% to Fire Resistance",
+        "+25% to Cold Resistance",
+        "Magic Utility Flasks cannot be Used",
+        "Leftmost 4 Magic Utility Flasks constantly apply their Flask Effects to you",
+        "Magic Utility Flask Effects cannot be removed"
+      ],
+      "implicitMods": [
+        "+42 to Strength"
+      ]
+    },
+    "ring1": {
+      "name": "Nimis",
+      "typeLine": "Topaz Ring",
+      "rarity": "",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVWJlckVhdGVyb2ZXb3JsZHMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwicmVsaWMiOjEwfV0/1cb9b66fd0/UberEaterofWorlds.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+52 to Dexterity",
+        "35% increased Projectile Damage",
+        "Projectiles Return to you",
+        "Projectiles are fired in random directions"
+      ],
+      "implicitMods": [
+        "+30% to Lightning Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Foe Gyre",
+      "typeLine": "Synthesised Diamond Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGlhbW9uZFJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwic3ludGhlc2lzZWQiOnRydWV9XQ/3a20b692fe/DiamondRing.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "+14 to all Attributes",
+        "+64 to Strength",
+        "+18 to Intelligence",
+        "+43 to Evasion Rating",
+        "+60 to maximum Life",
+        "Regenerate 5.3 Mana per second",
+        "Non-Channelling Skills have -7 to Total Mana Cost"
+      ],
+      "implicitMods": [
+        "Grants Level 10 Hatred Skill",
+        "7% increased Strength"
+      ]
+    },
+    "amulet": {
+      "name": "Vengeance Braid",
+      "typeLine": "Amber Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/abb6811fa1/Amulet3.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "10% increased Attributes",
+        "14% increased Strength",
+        "+57 to maximum Life",
+        "Regenerate 5.3 Mana per second",
+        "+11% to all Elemental Resistances",
+        "19% increased Projectile Speed",
+        "15% increased Projectile Damage"
+      ],
+      "implicitMods": [
+        "+36 to Strength"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Dabbler's Quicksilver Flask of the Prism",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmcyI6dHJ1ZX1d/e0bf74a30f/sprint.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "31% reduced Duration",
+          "25% increased effect",
+          "28% additional Elemental Resistances during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Abecedarian's Granite Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZnMiOnRydWV9XQ/425d5f6b4c/granite.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "33% reduced Duration",
+          "25% increased effect",
+          "44% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "Progenesis",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVWJlck1hdmVuRmxhc2siLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/1883213ee8/UberMavenFlask.png",
+        "itemLevel": 87,
+        "explicitMods": [
+          "16% reduced Charges per use",
+          "17% increased Duration",
+          "When Hit during effect, 25% of Life loss from Damage taken occurs over 4 seconds instead"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Dabbler's Ruby Flask of the Kakapo",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZnMiOnRydWV9XQ/e6ecc91189/ruby.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "31% reduced Duration",
+          "25% increased effect",
+          "53% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Dabbler's Silver Flask of the Goldfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmcyI6dHJ1ZX1d/4a736a5685/silver.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "29% reduced Duration",
+          "25% increased effect",
+          "38% chance to Avoid being Ignited during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

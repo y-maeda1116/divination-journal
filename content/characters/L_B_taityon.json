@@ -5,5 +5,245 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:49Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Ephemeral Edge",
+      "typeLine": "Dusk Blade",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL09uZUhhbmRTd29yZDhVbmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/d2fdb4e56e/OneHandSword8Unique.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+10 to Intelligence",
+        "Adds 1 to 75 Lightning Damage",
+        "50% increased Global Critical Strike Chance",
+        "40% increased maximum Energy Shield",
+        "25% reduced maximum Life",
+        "Attacks with this Weapon have Added Maximum Lightning Damage equal to 20% of Player's Maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "40% increased Global Accuracy Rating"
+      ]
+    },
+    "offhand": {
+      "name": "Oblivion Song",
+      "typeLine": "Vaal Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/2fcc8b522c/ShieldInt4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+35 to Strength and Dexterity",
+        "10% increased Spell Critical Strike Chance",
+        "+56 to maximum Energy Shield",
+        "102% increased Energy Shield",
+        "+21% to Cold Resistance",
+        "8% increased Stun and Block Recovery"
+      ],
+      "implicitMods": [
+        "6% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Soul Salvation",
+      "typeLine": "Hubris Circlet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDExIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/4588b92597/HelmetInt11.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "32% reduced Attribute Requirements",
+        "+54 to Intelligence",
+        "+61 to maximum Energy Shield",
+        "110% increased Energy Shield",
+        "18% increased Rarity of Items found",
+        "9% increased Stun and Block Recovery"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Sol Shell",
+      "typeLine": "Loricated Ringmail",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MUIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/b0a50c5137/BodyStrInt1B.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+165 to Armour",
+        "57% increased Armour and Energy Shield",
+        "+68 to maximum Energy Shield",
+        "+29 to maximum Life",
+        "+26% to Cold Resistance",
+        "+9% to Lightning Resistance",
+        "25% increased Stun and Block Recovery"
+      ],
+      "implicitMods": [
+        "10% of Physical Damage from Hits taken as Cold Damage",
+        "+1% to all maximum Resistances"
+      ]
+    },
+    "gloves": {
+      "name": "Glyph Clutches",
+      "typeLine": "Sage Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJmcmFjdHVyZWQiOnRydWV9XQ/decfb5c717/GlovesInt3.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+33 to maximum Energy Shield",
+        "+5 to maximum Life",
+        "+44% to Cold Resistance",
+        "+32% to Fire Resistance",
+        "74% increased Energy Shield"
+      ]
+    },
+    "boots": {
+      "name": "Domination Spark",
+      "typeLine": "Warlock Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5589419509/BootsInt4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+24 to Intelligence",
+        "+24 to maximum Energy Shield",
+        "36% increased Energy Shield",
+        "30% increased Movement Speed",
+        "26% increased Stun and Block Recovery",
+        "+18% to Cold and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Plague Snare",
+      "typeLine": "Crystal Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQ3J5c3RhbEJlbHQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/1e9174ec8f/CrystalBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+43 to Strength",
+        "+410 to Armour",
+        "+48 to maximum Energy Shield",
+        "+47% to Lightning Resistance",
+        "11% reduced Flask Charges used",
+        "Flasks applied to you have 8% increased Effect"
+      ],
+      "implicitMods": [
+        "+66 to maximum Energy Shield"
+      ]
+    },
+    "ring1": {
+      "name": "Shavronne's Revelation",
+      "typeLine": "Moonstone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTW9vbnN0b25lUmluZ1VuaXF1ZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/d8c1823da5/MoonstoneRingUnique.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+69 to Intelligence",
+        "Right ring slot: You cannot Regenerate Mana",
+        "Right ring slot: Regenerate 6% of Energy Shield per second",
+        "Right ring slot: +250 to maximum Mana",
+        "Left ring slot: You cannot Recharge or Regenerate Energy Shield",
+        "Left ring slot: Regenerate 40 Mana per Second",
+        "Left ring slot: +250 to maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "+24 to maximum Energy Shield"
+      ]
+    },
+    "ring2": {
+      "name": "Mind Grip",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Adds 11 to 27 Fire Damage to Attacks",
+        "+38 to maximum Mana",
+        "+46% to Fire Resistance",
+        "+37% to Lightning Resistance",
+        "+14% to Fire and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "+29% to Cold Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Chimeric Scarab",
+      "typeLine": "Citrine Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9DaXRyaW5lQW11bGV0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/95804f838b/CitrineAmulet.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+189 to Accuracy Rating",
+        "12% increased Cast Speed",
+        "+127 to maximum Life",
+        "Gain 3 Life per Enemy Hit with Attacks",
+        "19% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+23 to Strength and Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Alchemist's Jade Flask of the Kakapo",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "25% reduced Duration",
+          "25% increased effect",
+          "52% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Endless Silver Flask of the Hedgehog",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 54,
+        "explicitMods": [
+          "30% increased Charge Recovery",
+          "43% less Duration",
+          "Immunity to Poison during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of Foisting",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "19% increased Charge Recovery",
+          "20% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Allaying",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 14 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 14 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Concentrated Prismatic Tincture of Elimination",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL1ByaXNtYXRpY1NhcCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/81563db8c1/PrismaticSap.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "35% increased effect",
+          "60% increased Mana Burn rate",
+          "71% increased Melee Weapon Damage against Enemies that are on Low Life"
+        ],
+        "implicitMods": [
+          "133% increased Elemental Damage with Melee Weapons"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

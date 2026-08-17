@@ -5,5 +5,172 @@
   "ascendancy": "",
   "level": 80,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:49Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Foulborn Hand of Thought and Motion",
+      "typeLine": "Imperial Claw",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9DbGF3cy9UaG91Z2h0TW90aW9uMSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJtdXRhdGVkIjp0cnVlfV0/8bc9acabb1/ThoughtMotion1.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "12% increased Dexterity",
+        "9% increased Intelligence",
+        "Recover 1% of Life on Kill",
+        "Adds 1 to 12 Lightning Damage to Attacks with this Weapon per 10 Dexterity",
+        "5% increased Accuracy Rating per 25 Intelligence"
+      ],
+      "implicitMods": [
+        "Adds 5 to 59 Lightning Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Foulborn Hand of Thought and Motion",
+      "typeLine": "Imperial Claw",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9DbGF3cy9UaG91Z2h0TW90aW9uMSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJtdXRhdGVkIjp0cnVlfV0/8bc9acabb1/ThoughtMotion1.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "12% increased Dexterity",
+        "9% increased Intelligence",
+        "Recover 1% of Life on Kill",
+        "Adds 1 to 12 Lightning Damage to Attacks with this Weapon per 10 Dexterity",
+        "5% increased Accuracy Rating per 25 Intelligence"
+      ],
+      "implicitMods": [
+        "Adds 5 to 61 Lightning Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Blight Horn",
+      "typeLine": "Moonlit Circlet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDYiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/bdc6029059/HelmetInt6.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+49 to Intelligence",
+        "131% increased Energy Shield",
+        "+42% to Cold Resistance",
+        "43% increased Stun and Block Recovery",
+        "+48 to maximum Energy Shield"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Chimeric Veil",
+      "typeLine": "Devout Chainmail",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50M0MiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/900b4f2c03/BodyStrInt3C.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+54 to Intelligence",
+        "+33 to Armour",
+        "43% increased Armour and Energy Shield",
+        "+28 to maximum Life",
+        "+36 to maximum Mana",
+        "+23% to Fire Resistance",
+        "+28% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Torment Stride",
+      "typeLine": "Stormrider Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9SaXR1YWxEZXhCb290cyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/7172feff67/RitualDexBoots.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+47 to Dexterity",
+        "+102 to maximum Life",
+        "Regenerate 14.5 Life per second",
+        "+37% to Cold Resistance",
+        "25% increased Movement Speed"
+      ],
+      "implicitMods": [
+        "1 to 6 Added Attack Lightning Damage per 200 Accuracy Rating",
+        "25% less Accuracy Rating"
+      ]
+    },
+    "belt": {
+      "name": "Cyclopean Coil",
+      "typeLine": "Leather Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRWxkZXJCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/f565e25e57/ElderBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "18% increased Attributes",
+        "+60 to maximum Life",
+        "Cannot be Frozen if Dexterity is higher than Intelligence",
+        "Cannot be Ignited if Strength is higher than Dexterity",
+        "Cannot be Shocked if Intelligence is higher than Strength",
+        "1% increased Damage per 5 of your lowest Attribute"
+      ],
+      "implicitMods": [
+        "Determination has 19% increased Aura Effect"
+      ]
+    },
+    "ring1": {
+      "name": "Sorrow Coil",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+51 to Intelligence",
+        "+62 to maximum Mana",
+        "+11% to all Elemental Resistances",
+        "+45% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+14% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Phoenix Turn",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+50 to Intelligence",
+        "+57 to maximum Mana",
+        "+38% to Fire Resistance",
+        "+45% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+20% to Cold Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Astramentis",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+91 to all Attributes",
+        "-4 Physical Damage taken from Attack Hits"
+      ],
+      "implicitMods": [
+        "+16 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 70
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

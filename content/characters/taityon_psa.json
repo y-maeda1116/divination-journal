@@ -5,5 +5,213 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:51Z"
+  "fetchedAt": "2026-08-17T00:38:17Z",
+  "items": {
+    "weapon": {
+      "name": "Piscator's Vigil",
+      "typeLine": "Imbued Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9QaXNjYXRvcnNWaWdpbCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/332f80f7ac/PiscatorsVigil.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "No Physical Damage",
+        "14% increased Attack Speed",
+        "24% increased Critical Strike Chance",
+        "+392 to Accuracy Rating",
+        "Attacks with this Weapon have 101% increased Elemental Damage",
+        "Damage with Weapons Penetrates 5% Elemental Resistances"
+      ],
+      "implicitMods": [
+        "37% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Mind Wish",
+      "typeLine": "Jingling Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4bf20f79d1/ShieldInt5.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "109% increased Energy Shield",
+        "+53 to maximum Mana",
+        "+16% to all Elemental Resistances",
+        "+45% to Fire Resistance",
+        "+45% to Lightning Resistance",
+        "+1 to maximum number of Summoned Totems"
+      ],
+      "implicitMods": [
+        "15% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Wilma's Requital",
+      "typeLine": "Solaris Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1dpbG1hc1JlcXVpdGFsIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/32cf26ca5b/WilmasRequital.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+499 to Accuracy Rating",
+        "225% increased Energy Shield",
+        "25% increased Elemental Damage with Attack Skills",
+        "Increases and Reductions to Cast Speed apply to Attack Speed",
+        "Ancestral Bond"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Cloak of Defiance",
+      "typeLine": "Lacquered Garb",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9DbG9ha09mRGVmaWFuY2UiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/87997e3b8a/CloakOfDefiance.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "358% increased Evasion and Energy Shield",
+        "+125 to maximum Mana",
+        "Regenerate 1% of Mana per second",
+        "Mind Over Matter"
+      ]
+    },
+    "gloves": {
+      "name": "Breathstealer",
+      "typeLine": "Hydrascale Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvU3VwcG9ydGVyMWdsb3ZlQSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/0cbf141437/Supporter1gloveA.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "146% increased Armour and Evasion",
+        "+49 to maximum Mana",
+        "+16% to all Elemental Resistances",
+        "7% increased Attack and Cast Speed",
+        "Create a Blighted Spore when your Skills or Minions Kill a Rare Monster"
+      ]
+    },
+    "boots": {
+      "name": "Phoenix Hoof",
+      "typeLine": "Riveted Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/0519faf993/BootsStrInt1.png",
+      "itemLevel": 62,
+      "explicitMods": [
+        "60% increased Armour and Energy Shield",
+        "+98 to maximum Life",
+        "Regenerate 7.6 Life per second",
+        "30% increased Movement Speed",
+        "25% increased Stun and Block Recovery",
+        "+15% to Cold and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Golem Lash",
+      "typeLine": "Heavy Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/a513a7e6b4/Belt5.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+29 to maximum Energy Shield",
+        "+95 to maximum Life",
+        "+27% to Chaos Resistance",
+        "26% increased Flask Mana Recovery rate",
+        "+16% to Fire and Cold Resistances"
+      ],
+      "implicitMods": [
+        "+34 to Strength"
+      ]
+    },
+    "ring1": {
+      "name": "Demon Turn",
+      "typeLine": "Topaz Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6f90cd3c4b/Ring5.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Adds 10 to 15 Fire Damage to Attacks",
+        "28% increased Rarity of Items found",
+        "+16% to all Elemental Resistances",
+        "+46% to Fire Resistance",
+        "+34% to Cold Resistance",
+        "+44 to maximum Mana"
+      ],
+      "implicitMods": [
+        "+30% to Lightning Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Atziri's Foible",
+      "typeLine": "Paua Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9RdWlkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/00c2b3a588/Quid.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+100 to maximum Mana",
+        "18% increased maximum Mana",
+        "98% increased Mana Regeneration Rate",
+        "Items and Gems have 25% reduced Attribute Requirements"
+      ],
+      "implicitMods": [
+        "24% increased Mana Regeneration Rate"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Foreboding Eternal Mana Flask of the Antitoxin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "66% increased Amount Recovered",
+          "Mana Recovery occurs instantly at the end of Effect",
+          "Grants Immunity to Poison for 6 seconds if used while Poisoned"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9,
+        "explicitMods": [
+          "18% increased Charge Recovery",
+          "8% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quartz Flask of the Urchin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 35,
+        "explicitMods": [
+          "15% reduced Charges per use",
+          "46% less Duration",
+          "Immunity to Ignite during Effect\nRemoves Burning on use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Endless Diamond Flask of the Carp",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "28% increased Charge Recovery",
+          "41% chance to Avoid being Ignited during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

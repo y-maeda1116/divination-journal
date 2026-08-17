@@ -5,5 +5,205 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:52Z"
+  "fetchedAt": "2026-08-17T00:38:18Z",
+  "items": {
+    "offhand": {
+      "name": "Vengeance Guard",
+      "typeLine": "Fossilised Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f0b78ea97c/ShieldInt3.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+17 to maximum Energy Shield",
+        "+142 to maximum Life",
+        "Regenerate 13.8 Life per second",
+        "+56 to maximum Mana",
+        "+15% to Fire Resistance",
+        "+20% to Cold and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "17% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Mindspiral",
+      "typeLine": "Aventail Helmet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01pbmRzcGlyYWwiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e4b2c14ad7/Mindspiral.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "11% increased Cold Damage",
+        "10% increased Lightning Damage",
+        "+101 to maximum Mana",
+        "Gain 10% of Maximum Mana as Extra Maximum Energy Shield",
+        "Enemies Cannot Leech Mana From you",
+        "5% of Damage taken Recouped as Mana",
+        "Cannot Leech Mana"
+      ]
+    },
+    "gloves": {
+      "name": "Voidbringer",
+      "typeLine": "Conjurer Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvSGVsbGJyaW5nZXIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d82eb1cc3f/Hellbringer.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+1 to Level of Socketed Elemental Gems",
+        "135% increased Spell Critical Strike Chance",
+        "194% increased Energy Shield",
+        "50% increased Mana Cost of Skills",
+        "Gain 20 Energy Shield per Enemy Killed"
+      ]
+    },
+    "boots": {
+      "name": "Plague Pace",
+      "typeLine": "Assassin's Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleEludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/0c80b843d0/BootsDexInt3.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+88 to maximum Life",
+        "+10% to Cold Resistance",
+        "+18% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+19% to Fire and Cold Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Invasion Clasp",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+17 to Armour",
+        "+81 to maximum Life",
+        "+42 to maximum Mana",
+        "+56% to Fire Resistance",
+        "+45% to Lightning Resistance",
+        "+24% to Fire and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Essence Worm",
+      "typeLine": "Unset Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRXNzZW5jZVdvcm0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4455cc009b/EssenceWorm.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+2 to Level of Socketed Aura Gems",
+        "Socketed Gems have no Reservation\nYour Blessing Skills are Disabled",
+        "80% reduced Reservation Efficiency of Skills"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "ring2": {
+      "name": "Dream Fragments",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzZVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0c74ddd77c/Ring6Unique.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "20% increased maximum Mana",
+        "50% increased Mana Regeneration Rate",
+        "+36% to Cold Resistance",
+        "Cannot be Chilled",
+        "Cannot be Frozen"
+      ],
+      "implicitMods": [
+        "+30% to Cold Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Atziri's Foible",
+      "typeLine": "Paua Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9RdWlkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/00c2b3a588/Quid.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "+100 to maximum Mana",
+        "22% increased maximum Mana",
+        "95% increased Mana Regeneration Rate",
+        "Items and Gems have 25% reduced Attribute Requirements"
+      ],
+      "implicitMods": [
+        "30% increased Mana Regeneration Rate"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 23,
+        "explicitMods": [
+          "24% reduced Charges per use",
+          "26% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "Cinderswallow Urn",
+        "typeLine": "Silver Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVmlhbG9mVW5saWZlIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/9911226887/VialofUnlife.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Recharges 1 Charge when you Consume an Ignited corpse",
+          "Enemies Ignited by you during Effect take 10% increased Damage",
+          "Recover 1% of Life when you Kill an Enemy during Effect",
+          "Recover 1% of Mana when you Kill an Enemy during Effect",
+          "Recover 2% of Energy Shield when you Kill an Enemy during Effect",
+          "10% increased Movement Speed during Effect",
+          "50% Chance to Avoid being Stunned during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Simmering Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "50% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Warding",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 67,
+        "explicitMods": [
+          "30% reduced Amount Recovered",
+          "30% reduced Duration",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Removes Curses on use"
+        ]
+      },
+      {
+        "name": "Atziri's Promise",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQXR6aXJpc1Byb21pc2UiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8a5f4f13b4/AtzirisPromise.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Gain 10% of Elemental Damage as Extra Chaos Damage during effect",
+          "2% of Chaos Damage Leeched as Life during Effect",
+          "Gain 17% of Physical Damage as Extra Chaos Damage during effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

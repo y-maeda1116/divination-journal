@@ -5,5 +5,232 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:52Z"
+  "fetchedAt": "2026-08-17T00:38:18Z",
+  "items": {
+    "weapon": {
+      "name": "Gale Guide",
+      "typeLine": "Thicket Bow",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0JvdzIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/97d13fc53e/Bow2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+1 to Level of Socketed Gems",
+        "+2 to Level of Socketed Bow Gems",
+        "Can have up to 3 Crafted Modifiers",
+        "11% increased Damage over Time",
+        "+19% to Fire Damage over Time Multiplier",
+        "+24% to Damage over Time Multiplier"
+      ]
+    },
+    "offhand": {
+      "name": "Skirmish",
+      "typeLine": "Two-Point Arrow Quiver",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9UaGVTa2lybWlzaCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/9fe8813a15/TheSkirmish.png",
+      "itemLevel": 57,
+      "explicitMods": [
+        "+25 to Intelligence",
+        "+41 to maximum Mana",
+        "21% increased Mana Regeneration Rate",
+        "0.2% of Physical Attack Damage Leeched as Mana",
+        "Attack Skills have +1 to maximum number of Summoned Totems"
+      ],
+      "implicitMods": [
+        "29% increased Global Accuracy Rating"
+      ]
+    },
+    "helmet": {
+      "name": "Eye of Malice",
+      "typeLine": "Callous Mask",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0V5ZU9mRGVzaXJlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/4218c3cc66/EyeOfDesire.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "474% increased Evasion and Energy Shield",
+        "+26% to Fire Resistance",
+        "+39% to Cold Resistance",
+        "25% chance to inflict Cold Exposure on Hit",
+        "25% chance to inflict Fire Exposure on Hit",
+        "Nearby Enemies have 50% increased Fire and Cold Resistances"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Hyrri's Ire",
+      "typeLine": "Zodiac Leather",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4M0NVbmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/fb532d6c21/BodyDex3CUnique.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+30% chance to Suppress Spell Damage",
+        "+44 to Dexterity",
+        "162% increased Evasion Rating",
+        "25% increased Chill Duration on Enemies",
+        "116 to 187 Added Cold Damage with Bow Attacks"
+      ]
+    },
+    "gloves": {
+      "name": "Death Talons",
+      "typeLine": "Wyrmscale Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/2932c6be17/GlovesStrDex3.png",
+      "itemLevel": 66,
+      "explicitMods": [
+        "+8% chance to Suppress Spell Damage",
+        "+30 to Strength",
+        "Adds 3 to 8 Cold Damage to Attacks",
+        "+72 to maximum Life",
+        "17% increased Rarity of Items found",
+        "+34% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "35% increased Evasion Rating from Equipped Helmet and Boots",
+        "Ignites you inflict spread to other Enemies within 1.2 metres"
+      ]
+    },
+    "boots": {
+      "name": "Cataclysm Slippers",
+      "typeLine": "Hydrascale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d5b5430d4c/BootsStrDex2.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "+12% chance to Suppress Spell Damage",
+        "+45 to Dexterity",
+        "30% increased Movement Speed",
+        "21% increased Stun and Block Recovery",
+        "+70 to maximum Life"
+      ]
+    },
+    "belt": {
+      "name": "Dyadian Dawn",
+      "typeLine": "Heavy Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvTW90aGVyRHlhZHVzIiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/ca299e5015/MotherDyadus.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+74 to maximum Life",
+        "+27% to Fire Resistance",
+        "+40% to Cold Resistance",
+        "1% of Attack Damage Leeched as Life against Chilled Enemies",
+        "Ignites you inflict with Attacks deal Damage 42% faster",
+        "Deal no Physical Damage"
+      ],
+      "implicitMods": [
+        "+34 to Strength"
+      ]
+    },
+    "ring1": {
+      "name": "The Taming",
+      "typeLine": "Prismatic Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGhlVGFtaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/17c5d3d74b/TheTaming.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+24% to all Elemental Resistances",
+        "30% increased Elemental Damage",
+        "10% chance to Freeze, Shock and Ignite",
+        "20% increased Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy",
+        "30% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+10% to all Elemental Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "The Taming",
+      "typeLine": "Prismatic Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGhlVGFtaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/17c5d3d74b/TheTaming.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+24% to all Elemental Resistances",
+        "30% increased Elemental Damage",
+        "10% chance to Freeze, Shock and Ignite",
+        "20% increased Elemental Damage with Hits and Ailments for\neach type of Elemental Ailment on Enemy",
+        "30% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+10% to all Elemental Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Bloodsoaked Medallion",
+      "typeLine": "Amber Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9CbG9vZFNvYWtlZF9NZWRhbGxpb24iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2160ca2460/BloodSoaked_Medallion.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "46% increased Global Critical Strike Chance",
+        "+56 to maximum Life",
+        "+29% to Chaos Resistance",
+        "Every 10 seconds:\nGain 2% of Life per Enemy Hit with Attacks for 5 seconds\nGain 5% of Life per Enemy Killed for 5 seconds"
+      ],
+      "implicitMods": [
+        "+24 to Strength"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Endless Granite Flask of the Conger",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "29% increased Charge Recovery",
+          "45% less Duration",
+          "Immunity to Shock during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Quicksilver Flask of Foisting",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "+18 to Maximum Charges",
+          "19% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Jade Flask of the Gazelle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "41% increased Evasion Rating during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Warding",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Removes Curses on use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Effusive Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "46% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

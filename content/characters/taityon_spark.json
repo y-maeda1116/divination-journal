@@ -5,5 +5,198 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:52Z"
+  "fetchedAt": "2026-08-17T00:38:18Z",
+  "items": {
+    "weapon": {
+      "name": "Bramble Star",
+      "typeLine": "Opal Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyNCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/c986bafb78/scepter4.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+26 to Strength",
+        "24% increased Cast Speed",
+        "+1 to Level of all Lightning Spell Skill Gems",
+        "10% chance to Ignite",
+        "Adds 7 to 109 Lightning Damage to Spells"
+      ],
+      "implicitMods": [
+        "40% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Dire Knell",
+      "typeLine": "Sambar Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyOSIsInciOjIsImgiOjMsInNjYWxlIjoxLCJmcmFjdHVyZWQiOnRydWV9XQ/af8d42d81a/scepter9.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+14% to Fire Damage over Time Multiplier",
+        "27% increased Cast Speed",
+        "+1 to Level of all Lightning Spell Skill Gems",
+        "Adds 9 to 106 Lightning Damage to Spells",
+        "Adds 34 to 68 Cold Damage"
+      ],
+      "implicitMods": [
+        "Damage Penetrates 6% Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "The Devouring Diadem",
+      "typeLine": "Necromancer Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RoZURldm91cmluZ0RpYWRlbSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/8bc93d2104/TheDevouringDiadem.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+1 to Level of Socketed Gems",
+        "Socketed Gems have 25% increased Reservation Efficiency",
+        "Trigger Level 15 Feast of Flesh every 5 seconds",
+        "207% increased Energy Shield",
+        "10% chance for Energy Shield Recharge to start when you use a Skill",
+        "+19% to Fire and Chaos Resistances",
+        "Eldritch Battery"
+      ]
+    },
+    "gloves": {
+      "name": "Rage Grasp",
+      "typeLine": "Goliath Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyNCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/468f466568/GlovesStr4.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+107 to Armour",
+        "+38% to Cold Resistance",
+        "+35% to Chaos Resistance",
+        "Gain 10 Life per Enemy Killed",
+        "+70 to maximum Life"
+      ]
+    },
+    "boots": {
+      "name": "Behemoth Span",
+      "typeLine": "Ancient Greaves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0cjMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/b610ebe96e/BootsStr3.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "+40% to Fire Resistance",
+        "+17% to Cold Resistance",
+        "+45% to Lightning Resistance",
+        "+67 to maximum Life",
+        "30% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "The Magnate",
+      "typeLine": "Studded Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQnVja2xlZEJlbHRVbmlxdWUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/10d87b7baf/BuckledBeltUnique.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+50 to Strength",
+        "+21% to all Elemental Resistances",
+        "50% increased Flask Charges gained",
+        "10% chance to deal Double Damage while you have at least 200 Strength",
+        "5% chance to deal Triple Damage while you have at least 400 Strength"
+      ],
+      "implicitMods": [
+        "28% increased Stun Duration on Enemies"
+      ]
+    },
+    "ring1": {
+      "name": "Gale Band",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 50,
+      "explicitMods": [
+        "+20 to Strength",
+        "+25 to maximum Energy Shield",
+        "+57 to maximum Life",
+        "+27% to Lightning Resistance",
+        "+14% to Fire and Chaos Resistances"
+      ],
+      "implicitMods": [
+        "+20% to Chaos Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Miracle Gyre",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+129 to Evasion Rating",
+        "18% increased Mana Regeneration Rate",
+        "25% increased Rarity of Items found",
+        "+46% to Cold Resistance",
+        "+22% to Chaos Resistance",
+        "+49 to maximum Life"
+      ],
+      "implicitMods": [
+        "+22% to Chaos Resistance"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Transgressor's Quicksilver Flask of Tooth Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 53,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "45% chance to Avoid being Shocked during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Analyst's Granite Flask of the Mockingbird",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "24% increased Duration",
+          "42% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Bottomless Quartz Flask of the Pangolin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/2900491949/phaseflask01.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "36% increased Charge Recovery",
+          "55% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Transgressor's Silver Flask of the Hummingbird",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/c532e1d515/silver.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "12% increased Cast Speed during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

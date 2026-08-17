@@ -5,5 +5,233 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:52Z"
+  "fetchedAt": "2026-08-17T00:38:18Z",
+  "items": {
+    "weapon": {
+      "name": "Apocalypse Song",
+      "typeLine": "Imbued Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kMyIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/6322bd53f5/Wand3.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+38 to maximum Mana",
+        "31% increased Mana Regeneration Rate",
+        "15% chance to Shock",
+        "Adds 1 to 5 Lightning Damage to Attacks with this Weapon per 10 Intelligence",
+        "1% increased Spell Damage per 16 Intelligence",
+        "+16 to Dexterity and Intelligence",
+        "9% increased Attack Speed"
+      ],
+      "implicitMods": [
+        "35% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Atziri's Reflection",
+      "typeLine": "Golden Buckler",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZERleDVVbmlxdWUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/78fb81c375/ShieldDex5Unique.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+43 to Intelligence",
+        "186% increased Evasion Rating",
+        "+190 to maximum Energy Shield",
+        "+29% to all Elemental Resistances",
+        "Hex Reflection",
+        "Unaffected by Curses",
+        "15% increased Effect of your Curses"
+      ],
+      "implicitMods": [
+        "6% increased Movement Speed"
+      ]
+    },
+    "helmet": {
+      "name": "Crown of Eyes",
+      "typeLine": "Hubris Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Nyb3dub2ZFeWVzIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/778182e367/CrownofEyes.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+311 to Accuracy Rating",
+        "124% increased Energy Shield",
+        "-30% to Fire Resistance",
+        "0.68% of Attack Damage Leeched as Life",
+        "0.35% of Attack Damage Leeched as Mana",
+        "Attacks have 150% Arcane Might"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skull Wrap",
+      "typeLine": "Vaal Regalia",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyRGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/e6eb42b23a/BodyStrDexInt1C.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+46 to Intelligence",
+        "11% increased Intelligence",
+        "+66 to maximum Energy Shield",
+        "+29 to maximum Mana",
+        "You have Consecrated Ground around you while stationary",
+        "6% increased Attributes"
+      ]
+    },
+    "gloves": {
+      "name": "Phoenix Touch",
+      "typeLine": "Conjurer Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50NCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/484e9bd879/GlovesInt4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 16 Faster Attacks",
+        "Socketed Gems are supported by Level 16 Faster Projectiles",
+        "Socketed Attacks have +50% to Critical Strike Multiplier",
+        "7% increased Attack Speed",
+        "+37% to Fire Resistance",
+        "20% increased Projectile Speed",
+        "+1 to Level of Socketed Projectile Gems",
+        "Projectiles Pierce an additional Target"
+      ]
+    },
+    "boots": {
+      "name": "Blight Goad",
+      "typeLine": "Two-Toned Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Ud29Ub25lZEJvb3RzIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/93a61b5672/TwoTonedBoots.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+40 to Evasion Rating",
+        "88% increased Evasion and Energy Shield",
+        "+28 to maximum Life",
+        "Regenerate 83.2 Life per second",
+        "+45% to Fire Resistance",
+        "+40% to Lightning Resistance",
+        "30% increased Movement Speed"
+      ],
+      "implicitMods": [
+        "+12% to Cold and Lightning Resistances"
+      ]
+    },
+    "ring1": {
+      "name": "Armageddon Grasp",
+      "typeLine": "Synthesised Moonstone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTW9vbnN0b25lUmluZyIsInciOjEsImgiOjEsInNjYWxlIjoxLCJzeW50aGVzaXNlZCI6dHJ1ZX1d/c3f40461b3/MoonstoneRing.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+9 to all Attributes",
+        "+36 to Strength",
+        "+57 to Intelligence",
+        "Adds 11 to 19 Cold Damage to Attacks",
+        "+37 to maximum Energy Shield",
+        "Non-Channelling Skills have -7 to Total Mana Cost"
+      ],
+      "implicitMods": [
+        "Curse Enemies with Conductivity on Hit"
+      ]
+    },
+    "ring2": {
+      "name": "Corpse Band",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+55 to Intelligence",
+        "Adds 3 to 5 Physical Damage to Attacks",
+        "+94 to Evasion Rating",
+        "+26 to maximum Mana"
+      ],
+      "implicitMods": [
+        "5% increased Strength",
+        "5% increased Intelligence",
+        "8% increased Cast Speed"
+      ]
+    },
+    "amulet": {
+      "name": "Horror Gorget",
+      "typeLine": "Lapis Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ1IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/998c42287b/Amulet5.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+14 to Intelligence",
+        "10% increased Attributes",
+        "13% increased Intelligence",
+        "9% increased Armour",
+        "+37 to maximum Life",
+        "15% increased maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "+34 to Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Atziri's Promise",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQXR6aXJpc1Byb21pc2UiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/de92f31ada/AtzirisPromise.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Gain 8% of Elemental Damage as Extra Chaos Damage during effect",
+          "2% of Chaos Damage Leeched as Life during Effect",
+          "Gain 8% of Physical Damage as Extra Chaos Damage during effect"
+        ]
+      },
+      {
+        "name": "Bottled Faith",
+        "typeLine": "Sulphur Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQm90dGxlZFB1cml0eSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/b2ef237bf3/BottledPurity.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "19% reduced Duration",
+          "Consecrated Ground created by this Flask has Tripled Radius",
+          "Consecrated Ground created during Effect applies 9% increased Damage taken to Enemies",
+          "130% increased Critical Strike Chance against Enemies on Consecrated Ground during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Quicksilver Flask of the Albatross",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 17,
+        "explicitMods": [
+          "+16 to Maximum Charges",
+          "10% increased Cast Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Plentiful Diamond Flask of Rupturing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/a764b9bc68/diamond.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "+21 to Maximum Charges",
+          "39% increased Critical Strike Chance during Effect"
+        ]
+      },
+      {
+        "name": "Dying Sun",
+        "typeLine": "Ruby Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvU2hhcGVyc0ZsYXNrIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/c6e2f8118d/ShapersFlask.png",
+        "itemLevel": 86,
+        "explicitMods": [
+          "148% increased Charges per use",
+          "44% less Duration",
+          "16% increased Area of Effect during Effect",
+          "Skills fire 2 additional Projectiles during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

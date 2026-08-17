@@ -5,5 +5,165 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:50Z"
+  "fetchedAt": "2026-08-17T00:38:16Z",
+  "items": {
+    "weapon": {
+      "name": "The Screaming Eagle",
+      "typeLine": "Jade Hatchet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kQXhlcy9TY3JlYW1pbmdlYWdsZSIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/1fd02e9312/Screamingeagle.png",
+      "itemLevel": 33,
+      "explicitMods": [
+        "Socketed Gems are supported by Level 2 Chance to Flee",
+        "Adds 10 to 25 Physical Damage",
+        "+10 to maximum Life",
+        "Gain 7 Life per Enemy Killed",
+        "10% increased Movement Speed"
+      ]
+    },
+    "gloves": {
+      "name": "Dragon Knuckle",
+      "typeLine": "Slink Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4NCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/05a8c03e95/GlovesDex4.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "Adds 4 to 9 Physical Damage to Attacks",
+        "40% increased Evasion Rating",
+        "+80 to maximum Life",
+        "+15% to Fire Resistance",
+        "+9% to Cold Resistance",
+        "+33% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Dread Pace",
+      "typeLine": "Stealth Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f2e9a30d4a/BootsDex3.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+88 to maximum Life",
+        "+18% to Fire Resistance",
+        "+25% to Cold Resistance",
+        "30% increased Movement Speed",
+        "23% increased Stun and Block Recovery",
+        "61% increased Evasion Rating"
+      ]
+    },
+    "belt": {
+      "name": "Miracle Thread",
+      "typeLine": "Leather Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDMiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/93af17affd/Belt3.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+21 to Strength",
+        "+73 to Armour",
+        "+98 to maximum Life",
+        "+42% to Cold Resistance",
+        "+42% to Lightning Resistance",
+        "11% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+36 to maximum Life"
+      ]
+    },
+    "ring2": {
+      "name": "Victory Turn",
+      "typeLine": "Topaz Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6f90cd3c4b/Ring5.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "+46 to Intelligence",
+        "+73 to maximum Life",
+        "+66 to maximum Mana",
+        "+16% to all Elemental Resistances",
+        "+43% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+23% to Lightning Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Astramentis",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
+      "itemLevel": 51,
+      "explicitMods": [
+        "+95 to all Attributes",
+        "-4 Physical Damage taken from Attack Hits"
+      ],
+      "implicitMods": [
+        "+12 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Substantial Eternal Life Flask of Gluttony",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTFvbGQiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/7821c81a51/lifeflask11old.png",
+        "itemLevel": 74,
+        "explicitMods": [
+          "50% increased Amount Recovered",
+          "33% reduced Recovery rate",
+          "0.4% of Physical Attack Damage Leeched as Life during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 7,
+        "explicitMods": [
+          "+20 to Maximum Charges",
+          "22% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Stibnite Flask of the Gazelle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RpYm5pdGUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/35fbc2f198/stibnite.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "23% increased Charge Recovery",
+          "81% increased Evasion Rating during Effect"
+        ],
+        "implicitMods": [
+          "Creates a Smoke Cloud on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Silver Flask of Heat",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "24% increased Charge Recovery",
+          "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTBvbGQiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/63c7ee3e41/lifeflask10old.png",
+        "itemLevel": 58,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

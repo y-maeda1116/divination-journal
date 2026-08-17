@@ -5,5 +5,234 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:51Z"
+  "fetchedAt": "2026-08-17T00:38:17Z",
+  "items": {
+    "weapon": {
+      "name": "Piscator's Vigil",
+      "typeLine": "Kinetic Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9QaXNjYXRvcnNWaWdpbCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/332f80f7ac/PiscatorsVigil.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "No Physical Damage",
+        "17% increased Attack Speed",
+        "27% increased Critical Strike Chance",
+        "+383 to Accuracy Rating",
+        "Attacks with this Weapon have 113% increased Elemental Damage",
+        "Damage with Weapons Penetrates 5% Elemental Resistances"
+      ],
+      "implicitMods": [
+        "Cannot roll Caster Modifiers"
+      ]
+    },
+    "offhand": {
+      "name": "Malachai's Loop",
+      "typeLine": "Harmonic Spirit Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL01hbGFjaGFpTG9vcCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/8c38fb6a4e/MalachaiLoop.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "216% increased Energy Shield",
+        "+2 to Maximum Power Charges",
+        "20% chance to gain a Power Charge on Hit",
+        "16% increased Spell Damage per Power Charge",
+        "Lose all Power Charges on reaching Maximum Power Charges",
+        "Shocks you when you reach Maximum Power Charges"
+      ],
+      "implicitMods": [
+        "12% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Mind of the Council",
+      "typeLine": "Harlequin Mask",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RodW5kZXJpbmdXaGlzcGVycyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/dd96346bfc/ThunderingWhispers.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "236% increased Evasion and Energy Shield",
+        "+19 to maximum Energy Shield",
+        "27% increased maximum Mana",
+        "10% chance to Shock",
+        "+20% chance to be Shocked",
+        "30% of Lightning Damage is taken from Mana before Life",
+        "Attack Skills have Added Lightning Damage equal to 6% of maximum Mana",
+        "Lose 3% of Mana when you use an Attack Skill"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Ghoul Shroud",
+      "typeLine": "Sanguine Raiment",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/95329b265f/BodyDexInt1C.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "91% increased Evasion and Energy Shield",
+        "+158 to maximum Life",
+        "+62 to maximum Mana",
+        "Regenerate 120 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+      ]
+    },
+    "gloves": {
+      "name": "Sorrow Caress",
+      "typeLine": "Velvet Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/cb34a7c551/GlovesInt2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "18% reduced Attribute Requirements",
+        "+54 to maximum Life",
+        "+52 to maximum Mana",
+        "+34% to Chaos Resistance",
+        "21% of Physical Damage Converted to Lightning Damage"
+      ]
+    },
+    "boots": {
+      "name": "Gale Stride",
+      "typeLine": "Conjurer Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5589419509/BootsInt4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+35 to maximum Energy Shield",
+        "92% increased Energy Shield",
+        "+48% to Cold Resistance",
+        "30% increased Movement Speed",
+        "100% chance to Avoid being Chilled",
+        "+29 to Dexterity"
+      ]
+    },
+    "belt": {
+      "name": "Vengeance Snare",
+      "typeLine": "Rustic Sash",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDEiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/6b67d971e8/Belt1.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+117 to maximum Life",
+        "+42% to Fire Resistance",
+        "+29% to Cold Resistance",
+        "+47% to Lightning Resistance",
+        "Flasks applied to you have 8% increased Effect",
+        "Regenerate 20 Life per second",
+        "+34 to maximum Mana"
+      ],
+      "implicitMods": [
+        "24% increased Global Physical Damage"
+      ]
+    },
+    "ring1": {
+      "name": "Viper Finger",
+      "typeLine": "Topaz Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6f90cd3c4b/Ring5.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "+66 to Dexterity",
+        "+113 to Evasion Rating",
+        "+30 to maximum Energy Shield",
+        "22% increased Rarity of Items found",
+        "+41% to Cold Resistance",
+        "+40% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+30% to Lightning Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Miracle Knuckle",
+      "typeLine": "Ruby Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0e04df86a3/Ring7.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+112 to maximum Life",
+        "+16% to all Elemental Resistances",
+        "+47% to Fire Resistance",
+        "+42 to maximum Mana"
+      ],
+      "implicitMods": [
+        "+28% to Fire Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Atziri's Foible",
+      "typeLine": "Paua Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9RdWlkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/00c2b3a588/Quid.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+100 to maximum Mana",
+        "19% increased maximum Mana",
+        "89% increased Mana Regeneration Rate",
+        "Items and Gems have 25% reduced Attribute Requirements"
+      ],
+      "implicitMods": [
+        "27% increased Mana Regeneration Rate"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Doctor's Jade Flask of the Sanderling",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/f31735f3f1/evasionflask01.png",
+        "itemLevel": 82,
+        "explicitMods": [
+          "21% chance to gain a Flask Charge when you deal a Critical Strike",
+          "59% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Masochist's Diamond Flask of the Urchin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/a764b9bc68/diamond.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 2 Charges when you are Hit by an Enemy",
+          "49% less Duration",
+          "Immunity to Ignite during Effect\nRemoves Burning on use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Startled Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 79,
+        "explicitMods": [
+          "29% reduced Amount Recovered",
+          "Instant Recovery when on Low Life",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Plentiful Quicksilver Flask of the Plover",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 53,
+        "explicitMods": [
+          "+22 to Maximum Charges",
+          "39% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "Atziri's Promise",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQXR6aXJpc1Byb21pc2UiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/de92f31ada/AtzirisPromise.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Gain 6% of Elemental Damage as Extra Chaos Damage during effect",
+          "2% of Chaos Damage Leeched as Life during Effect",
+          "Gain 7% of Physical Damage as Extra Chaos Damage during effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

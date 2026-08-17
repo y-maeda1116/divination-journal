@@ -5,5 +5,236 @@
   "ascendancy": "",
   "level": 98,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:49Z"
+  "fetchedAt": "2026-08-17T00:38:16Z",
+  "items": {
+    "weapon": {
+      "name": "Blood Grinder",
+      "typeLine": "Opal Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyNCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/c986bafb78/scepter4.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+25% to Damage over Time Multiplier",
+        "+33% to Fire Damage over Time Multiplier",
+        "Adds 100 to 152 Fire Damage",
+        "+1 to Level of all Fire Spell Skill Gems",
+        "31% increased Stun Duration on Enemies",
+        "57% increased Fire Damage",
+        "19% chance to Ignite"
+      ],
+      "implicitMods": [
+        "40% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "386% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "12% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "helmet": {
+      "name": "Tempest Visor",
+      "typeLine": "Siege Helmet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0cjciLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/2844841911/HelmetStr7.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 20 Burning Damage",
+        "Socketed Gems deal 30% more Elemental Damage",
+        "10% increased Global Accuracy Rating",
+        "12% increased Armour",
+        "32% increased Burning Damage",
+        "7% increased Stun and Block Recovery",
+        "5% increased Light Radius",
+        "+1 to Level of Socketed AoE Gems",
+        "10% increased Area of Effect"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skin of the Lords",
+      "typeLine": "Simple Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9NeXJpYWRHcmFzcEdyYW5kIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/a4525f8d94/MyriadGraspGrand.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "Sockets cannot be modified",
+        "+2 to Level of Socketed Gems",
+        "100% increased Global Defences",
+        "You can only Socket Corrupted Gems in this item",
+        "Divine Shield"
+      ]
+    },
+    "gloves": {
+      "name": "Dire Mitts",
+      "typeLine": "Apothecary's Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQ2hlbWlzdEdsb3ZlcyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/22ce3a2180/ChemistGloves.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "+56 to Dexterity",
+        "11% increased Attack Speed",
+        "+89 to maximum Life",
+        "+59 to maximum Mana",
+        "+1 to Level of Socketed AoE Gems",
+        "10% increased Area of Effect"
+      ],
+      "implicitMods": [
+        "15% chance to Poison on Hit",
+        "+7% to Fire Damage over Time Multiplier"
+      ]
+    },
+    "boots": {
+      "name": "Legacy of Fury",
+      "typeLine": "Wyrmscale Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9TY29yY2hlZEVhcnRoIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/fda63f7588/ScorchedEarth.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "201% increased Armour and Evasion",
+        "30% increased Movement Speed",
+        "Nearby Enemies are Scorched",
+        "48% increased Effect of Scorch",
+        "36% chance when you Kill a Scorched Enemy to Burn Each surrounding\nEnemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"
+      ]
+    },
+    "belt": {
+      "name": "Tempest Bind",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+24 to maximum Energy Shield",
+        "+103 to maximum Life",
+        "Regenerate 46.9 Life per second",
+        "+65 to maximum Mana",
+        "+43% to Cold Resistance",
+        "+13% to Chaos Resistance"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Vengeance Spiral",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+69 to Evasion Rating",
+        "+15% to all Elemental Resistances",
+        "+37% to Fire Resistance",
+        "+44% to Lightning Resistance",
+        "+52 to maximum Life"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Dread Loop",
+      "typeLine": "Unset Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRW1wdHktU29ja2V0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/82146b3aa4/Empty-Socket.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Adds 1 to 2 Physical Damage to Attacks",
+        "+45 to maximum Energy Shield",
+        "+79 to maximum Life",
+        "29% increased Mana Regeneration Rate",
+        "+48% to Fire Resistance",
+        "+44% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "amulet": {
+      "name": "Ashes of the Stars",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NYXN0ZXJPZkdlbXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f6497cbdfe/MasterOfGems.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "8% increased Experience Gain of Gems",
+        "20% increased Reservation Efficiency of Skills",
+        "+1 to Level of all Skill Gems",
+        "+24% to Quality of all Skill Gems"
+      ],
+      "implicitMods": [
+        "+19 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Forbidden Taste",
+        "typeLine": "Quartz Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvUGhhbnRvbUJsb29kIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/d04fc2ce16/PhantomBlood.png",
+        "itemLevel": 71,
+        "explicitMods": [
+          "Recover 92% of Life on use",
+          "25% of Maximum Life taken as Chaos Damage per second"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Masochist's Ruby Flask of Counterpoise",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 71,
+        "explicitMods": [
+          "Gain 6 Charges when you are Hit by an Enemy",
+          "69% increased Block and Stun Recovery during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Masochist's Granite Flask of the Petrel",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "Gain 6 Charges when you are Hit by an Enemy",
+          "36% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Transgressor's Quicksilver Flask of the Eagle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "Gain 4 Charges when you are Hit by an Enemy",
+          "12% increased Attack Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Delinquent's Amethyst Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/78787470b8/Amethyst.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "46% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

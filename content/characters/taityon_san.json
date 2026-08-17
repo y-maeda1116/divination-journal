@@ -5,5 +5,227 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:52Z"
+  "fetchedAt": "2026-08-17T00:38:18Z",
+  "items": {
+    "weapon": {
+      "name": "Foe Spell",
+      "typeLine": "Void Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyOCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/6644b94336/scepter8.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+22% to Fire Damage over Time Multiplier",
+        "30% increased Critical Strike Chance",
+        "+33 to maximum Mana",
+        "+1 to Level of all Cold Spell Skill Gems",
+        "+12% to Fire Resistance",
+        "56% increased Fire Damage",
+        "20% chance to Ignite"
+      ],
+      "implicitMods": [
+        "40% increased Elemental Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Maw of Mischief",
+      "typeLine": "Bone Helmet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01hd09mTWlzY2hpZWYiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/1e970a0f36/MawOfMischief.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "Grants Level 20 Death Wish Skill",
+        "+50 to maximum Life",
+        "29% reduced Mana Cost of Minion Skills",
+        "Minions are Aggressive"
+      ],
+      "implicitMods": [
+        "Minions deal 15% increased Damage"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skin of the Loyal",
+      "typeLine": "Simple Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9NeXJpYWRHcmFzcCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/03d7746f71/MyriadGrasp.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Sockets cannot be modified",
+        "+1 to Level of Socketed Gems",
+        "100% increased Global Defences"
+      ],
+      "implicitMods": [
+        "+2 to Level of Socketed Minion Gems"
+      ]
+    },
+    "gloves": {
+      "name": "Storm Paw",
+      "typeLine": "Ambush Mitts",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/e18b986979/GlovesDexInt2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+60 to Dexterity",
+        "+59 to Evasion Rating",
+        "+28 to maximum Energy Shield",
+        "+55 to maximum Mana",
+        "Gain 13 Life per Enemy Killed",
+        "38% increased Damage during any Flask Effect",
+        "+26% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Demon Hoof",
+      "typeLine": "Reinforced Greaves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0cjQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/6403894a41/BootsStr4.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "70% increased Armour",
+        "+68 to maximum Life",
+        "+42% to Fire Resistance",
+        "+24% to Cold Resistance",
+        "+26% to Chaos Resistance",
+        "30% increased Movement Speed"
+      ],
+      "implicitMods": [
+        "While a Unique Enemy is in your Presence, Gain 7% of Physical Damage as Extra Cold Damage",
+        "+13% to Cold Resistance"
+      ]
+    },
+    "belt": {
+      "name": "Spirit Shackle",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 89,
+      "explicitMods": [
+        "+67 to maximum Life",
+        "+20% to Lightning Resistance",
+        "+24% to Chaos Resistance",
+        "13% increased Flask Life Recovery rate",
+        "Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Berek's Respite",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmVyZWtzUmVzcGl0ZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/82b228798a/BereksRespite.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "Adds 20 to 46 Fire Damage to Spells and Attacks",
+        "25% increased Lightning Damage",
+        "+39 to maximum Mana",
+        "When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy",
+        "When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy"
+      ],
+      "implicitMods": [
+        "+12% to Fire and Lightning Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Honour Grasp",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+23 to Strength",
+        "Adds 4 to 7 Fire Damage to Attacks",
+        "+32% to Chaos Resistance",
+        "+18% to Fire and Chaos Resistances",
+        "+49 to maximum Life"
+      ],
+      "implicitMods": [
+        "+29% to Cold Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Hypnotic Heart",
+      "typeLine": "Turquoise Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9UdXJxdW9pc2VBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/605b4da0e1/TurquoiseAmulet.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+26% to Damage over Time Multiplier",
+        "20% increased maximum Energy Shield",
+        "12% increased Rarity of Items found",
+        "+19% to Cold Resistance",
+        "+44 to maximum Life",
+        "Regenerate 4 Mana per second"
+      ],
+      "implicitMods": [
+        "+23 to Dexterity and Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Flagellant's Quicksilver Flask of the Gazelle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "41% increased Evasion Rating during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Sulphur Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ29sZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/63fbfd35d3/gold.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "7% increased Movement Speed during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Masochist's Silver Flask of the Penguin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/c532e1d515/silver.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 2 Charges when you are Hit by an Enemy",
+          "37% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Granite Flask of the Owl",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "61% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Effusive Eternal Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/7be2c09015/lifeflask12.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "45% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

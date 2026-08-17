@@ -5,5 +5,195 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Hate Nock",
+      "typeLine": "Thicket Bow",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0JvdzIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/0fcc51afcd/Bow2.png",
+      "itemLevel": 69,
+      "explicitMods": [
+        "Adds 16 to 32 Cold Damage",
+        "+17% to Chaos Resistance",
+        "0.37% of Physical Attack Damage Leeched as Mana",
+        "Grants 5 Life per Enemy Hit",
+        "Adds 3 to 5 Cold Damage to Attacks with this Weapon per 10 Dexterity",
+        "20% increased Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "Hyrri's Demise",
+      "typeLine": "Sharktooth Arrow Quiver",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9Icnl5aXNCaXRlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/91937737c4/HryyisBite.png",
+      "itemLevel": 17,
+      "explicitMods": [
+        "+16 to all Attributes",
+        "10% increased Attack Speed",
+        "Gain 3 Life per Enemy Hit with Attacks",
+        "10% increased Area of Effect",
+        "Adds 1 to 2 Cold Damage to Attacks per 10 Dexterity",
+        "Adds 1 to 2 Fire Damage to Attacks per 10 Strength",
+        "Adds 0 to 3 Lightning Damage to Attacks per 10 Intelligence"
+      ],
+      "implicitMods": [
+        "Gain 4 Life per Enemy Hit with Attacks"
+      ]
+    },
+    "helmet": {
+      "name": "Starkonja's Head",
+      "typeLine": "Silken Hood",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0Z1cnJ5aGVhZG9mc3RhcmtvbmphIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/ba13fa5202/Furryheadofstarkonja.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "+68 to Dexterity",
+        "50% reduced Damage when on Low Life",
+        "10% increased Attack Speed",
+        "25% increased Global Critical Strike Chance",
+        "116% increased Evasion Rating",
+        "+85 to maximum Life",
+        "150% increased Global Evasion Rating when on Low Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Dialla's Malefaction",
+      "typeLine": "Sage's Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9EaWFsbGFzTWFsZWZhY3Rpb24iLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/842ace4d64/DiallasMalefaction.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "Gems Socketed in Red Sockets have +1 to Level",
+        "Gems Socketed in Green Sockets have +10% to Quality",
+        "Gems Socketed in Blue Sockets gain 25% increased Experience",
+        "Gems Socketed always have the Quality bonus from Socket Colour",
+        "Has no Attribute Requirements"
+      ]
+    },
+    "boots": {
+      "name": "Skull Stride",
+      "typeLine": "Hydrascale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d5b5430d4c/BootsStrDex2.png",
+      "itemLevel": 67,
+      "explicitMods": [
+        "+87 to maximum Life",
+        "+24% to Fire Resistance",
+        "+21% to Cold Resistance",
+        "30% increased Movement Speed",
+        "+26 to Dexterity"
+      ]
+    },
+    "ring1": {
+      "name": "Rune Twirl",
+      "typeLine": "Opal Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvT3BhbFJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8c87f65b28/OpalRing.png",
+      "itemLevel": 100,
+      "explicitMods": [
+        "+43 to Dexterity",
+        "Adds 4 to 60 Lightning Damage to Attacks",
+        "Regenerate 18.4 Life per second",
+        "+10% to Fire Resistance",
+        "Adds 11 to 17 Cold Damage to Attacks"
+      ],
+      "implicitMods": [
+        "22% increased Elemental Damage"
+      ]
+    },
+    "ring2": {
+      "name": "Sol Hold",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+36 to maximum Energy Shield",
+        "+34% to Fire Resistance",
+        "+36% to Cold Resistance",
+        "+47% to Lightning Resistance",
+        "+16 to maximum Life"
+      ],
+      "implicitMods": [
+        "+14% to Fire and Lightning Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Astramentis",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+89 to all Attributes",
+        "-4 Physical Damage taken from Attack Hits"
+      ],
+      "implicitMods": [
+        "+16 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 7,
+        "explicitMods": [
+          "39% increased Charge Recovery",
+          "21% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Diamond Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "20% reduced Charges per use",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Silver Flask of Curing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "+13 to Maximum Charges",
+          "Grants Immunity to Poison for 4 seconds if used while Poisoned"
+        ]
+      },
+      {
+        "name": "Atziri's Promise",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQXR6aXJpc1Byb21pc2UiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8a5f4f13b4/AtzirisPromise.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Gain 15% of Elemental Damage as Extra Chaos Damage during effect",
+          "2% of Chaos Damage Leeched as Life during Effect",
+          "Gain 16% of Physical Damage as Extra Chaos Damage during effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTBvbGQiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/63c7ee3e41/lifeflask10old.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

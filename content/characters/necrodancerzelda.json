@@ -5,5 +5,233 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:49Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Mon'tregul's Grasp",
+      "typeLine": "Void Sceptre",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9Nb250cmVndWxzR3Jhc3AiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/c94034110b/MontregulsGrasp.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "50% reduced maximum number of Raised Zombies",
+        "Raised Zombies have +5000 to maximum Life",
+        "Raised Zombies have +27% to all Resistances",
+        "25% increased Raised Zombie Size",
+        "Enemies Killed by Zombies' Hits Explode, dealing 20% of their Life as Fire Damage",
+        "Raised Zombies deal 87% more Physical Damage"
+      ],
+      "implicitMods": [
+        "40% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Loath Sanctuary",
+      "typeLine": "Fossilised Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f0b78ea97c/ShieldInt3.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "16% increased Fire Damage",
+        "+45% to Fire Resistance",
+        "+31% to Cold Resistance",
+        "+40% to Lightning Resistance",
+        "+57 to maximum Life"
+      ],
+      "implicitMods": [
+        "17% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Horror Guardian",
+      "typeLine": "Magistrate Crown",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckludDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/cf727943d2/HelmetStrInt8.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "+2 to Level of Socketed Minion Gems",
+        "+32 to Armour",
+        "+20 to maximum Energy Shield",
+        "+67 to maximum Mana",
+        "12% increased Rarity of Items found",
+        "+12% to Lightning and Chaos Resistances"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Cloak of Flame",
+      "typeLine": "Scholar's Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5SW50MUF1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/41c15c6511/BodyInt1Aunique.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "+36% to Fire Resistance",
+        "41% increased Ignite Duration on Enemies",
+        "10% chance to Ignite",
+        "Reflects 15 Fire Damage to Melee Attackers",
+        "20% of Physical Damage from Hits taken as Fire Damage"
+      ]
+    },
+    "gloves": {
+      "name": "Wyrmsign",
+      "typeLine": "Wyrmscale Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvV3lybXNpZ25HbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/fe7ef54102/WyrmsignGloves.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 5 Concentrated Effect",
+        "134% increased Armour and Evasion",
+        "+67 to maximum Life",
+        "4% reduced Mana Cost per Endurance Charge",
+        "Gain Rampage while at Maximum Endurance Charges",
+        "Lose all Endurance Charges when Rampage ends"
+      ]
+    },
+    "boots": {
+      "name": "Doom Tread",
+      "typeLine": "Clasped Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleEludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/0c80b843d0/BootsDexInt3.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "79% increased Evasion and Energy Shield",
+        "+30% to Fire Resistance",
+        "+43% to Cold Resistance",
+        "+35% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+68 to maximum Life"
+      ]
+    },
+    "belt": {
+      "name": "Skull Leash",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+41 to Strength",
+        "8% reduced Enemy Stun Threshold",
+        "+93 to maximum Life",
+        "+36% to Fire Resistance",
+        "20% increased Flask Mana Recovery rate"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Hate Loop",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+55 to maximum Life",
+        "+44 to maximum Mana",
+        "+28% to Fire Resistance",
+        "+35% to Lightning Resistance",
+        "+12% to Lightning and Chaos Resistances"
+      ],
+      "implicitMods": [
+        "+24% to Cold Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Dusk Hold",
+      "typeLine": "Unset Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRW1wdHktU29ja2V0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/82146b3aa4/Empty-Socket.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "Adds 1 to 2 Physical Damage to Attacks",
+        "+44 to maximum Mana",
+        "+10% to all Elemental Resistances",
+        "+40% to Cold Resistance",
+        "+11% to Lightning Resistance",
+        "+54 to maximum Life"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "amulet": {
+      "name": "The Jinxed Juju",
+      "typeLine": "Citrine Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9KdWp1c1NvdWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6d30276e6f/JujusSoul.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+39 to Intelligence",
+        "+31% to Chaos Resistance",
+        "13% increased Effect of your Curses",
+        "10% increased effect of Non-Curse Auras from your Skills",
+        "10% of Damage from Hits is taken from your Raised Spectres' Life before you"
+      ],
+      "implicitMods": [
+        "+18 to Strength and Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Constant Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "35% increased Charge Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Investigator's Basalt Flask of Heat",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RvbmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/00261d09db/stone.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "32% increased Duration",
+          "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Divine Mana Flask of Curing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/9313e55ff4/manaflask11.png",
+        "itemLevel": 63,
+        "explicitMods": [
+          "25% reduced Duration",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Poison for 4 seconds if used while Poisoned"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Avenger's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 24,
+        "explicitMods": [
+          "Recharges 5 Charges when you take a Critical Strike",
+          "22% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Simmering Divine Life Flask of Fending",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "50% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Adds Knockback to Melee Attacks during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,229 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:49Z"
+  "fetchedAt": "2026-08-17T00:38:16Z",
+  "items": {
+    "weapon": {
+      "name": "Rapture Song",
+      "typeLine": "Omen Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kNiIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/30763e0fe7/Wand6.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+34 to Intelligence",
+        "Adds 25 to 41 Physical Damage",
+        "Adds 21 to 341 Lightning Damage",
+        "Adds 5 to 115 Lightning Damage to Spells",
+        "40% increased Projectile Speed",
+        "40% chance to Ignite"
+      ],
+      "implicitMods": [
+        "29% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Glyph Weaver",
+      "typeLine": "Chiming Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4bf20f79d1/ShieldInt5.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "67% increased Chance to Block",
+        "+16 to Intelligence",
+        "+30% to Fire Resistance",
+        "+1 to maximum number of Summoned Totems",
+        "+34 to maximum Life"
+      ],
+      "implicitMods": [
+        "15% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Wilma's Requital",
+      "typeLine": "Solaris Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1dpbG1hc1JlcXVpdGFsIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/32cf26ca5b/WilmasRequital.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+303 to Accuracy Rating",
+        "229% increased Energy Shield",
+        "24% increased Elemental Damage with Attack Skills",
+        "Increases and Reductions to Cast Speed apply to Attack Speed",
+        "Ancestral Bond"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Rapture Shell",
+      "typeLine": "Conquest Chainmail",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/c408d68e2b/BodyStrInt2B.png",
+      "itemLevel": 61,
+      "explicitMods": [
+        "+79 to maximum Life",
+        "Regenerate 22.1 Life per second",
+        "+34% to Cold Resistance",
+        "+27% to Lightning Resistance",
+        "+44 to Armour",
+        "+26 to maximum Life"
+      ]
+    },
+    "gloves": {
+      "name": "Doedre's Tenure",
+      "typeLine": "Velvet Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvRG9lZHJlc1RlbnVyZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/052a57aabd/DoedresTenure.png",
+      "itemLevel": 40,
+      "explicitMods": [
+        "+36 to Intelligence",
+        "100% increased Spell Damage",
+        "22% reduced Cast Speed"
+      ]
+    },
+    "boots": {
+      "name": "Behemoth Trail",
+      "typeLine": "Steelscale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bae77b3a2c/BootsStrDex1.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "62% increased Armour and Evasion",
+        "+39% to Fire Resistance",
+        "+31% to Cold Resistance",
+        "+32% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+45 to maximum Life"
+      ]
+    },
+    "belt": {
+      "name": "Blood Trap",
+      "typeLine": "Leather Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDMiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/93af17affd/Belt3.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "+50 to Strength",
+        "+395 to Armour",
+        "+29 to maximum Energy Shield",
+        "+63 to maximum Mana",
+        "+24% to Chaos Resistance",
+        "+13% to Lightning and Chaos Resistances"
+      ],
+      "implicitMods": [
+        "+40 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Skull Knuckle",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Adds 9 to 13 Cold Damage to Attacks",
+        "11% increased Rarity of Items found",
+        "+6% to Cold Resistance",
+        "+43% to Lightning Resistance",
+        "+34% to Chaos Resistance",
+        "+55 to maximum Life"
+      ],
+      "implicitMods": [
+        "+23% to Chaos Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Fate Grasp",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+28 to Strength",
+        "+35 to Dexterity",
+        "+27% to Chaos Resistance",
+        "25% increased Elemental Damage with Attack Skills",
+        "+54 to maximum Life"
+      ],
+      "implicitMods": [
+        "+19% to Chaos Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Warped Timepiece",
+      "typeLine": "Turquoise Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9XYXJwZWRUaW1lcGllY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/abee67f17d/WarpedTimepiece.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "25% increased Attack Speed",
+        "23% increased Cast Speed",
+        "10% increased Movement Speed",
+        "18% reduced Skill Effect Duration",
+        "Debuffs on you expire 100% faster"
+      ],
+      "implicitMods": [
+        "+18 to Dexterity and Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of the Plover",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9,
+        "explicitMods": [
+          "15% chance to gain a Flask Charge when you deal a Critical Strike",
+          "36% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Physician's Jade Flask of Foisting",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "17% chance to gain a Flask Charge when you deal a Critical Strike",
+          "22% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Analyst's Diamond Flask of the Plover",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 46,
+        "explicitMods": [
+          "22% increased Duration",
+          "40% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Analyst's Quartz Flask of Composure",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 49,
+        "explicitMods": [
+          "24% increased Duration",
+          "31% Chance to Avoid being Stunned during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,232 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Obliteration",
+      "typeLine": "Demon's Horn",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9NYWxlZGljdCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ddc131782/Maledict.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "Adds 46 to 112 Physical Damage",
+        "32% increased Critical Strike Chance",
+        "Gain 15% of Physical Damage as Extra Chaos Damage",
+        "Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ],
+      "implicitMods": [
+        "35% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Obliteration",
+      "typeLine": "Demon's Horn",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9NYWxlZGljdCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ddc131782/Maledict.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "Adds 40 to 113 Physical Damage",
+        "31% increased Critical Strike Chance",
+        "Gain 13% of Physical Damage as Extra Chaos Damage",
+        "Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ],
+      "implicitMods": [
+        "34% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Doom Brow",
+      "typeLine": "Necromancer Circlet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4bb6b31cbe/HelmetInt8.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+14 to maximum Energy Shield",
+        "+113 to maximum Life",
+        "+42% to Fire Resistance",
+        "+42% to Cold Resistance",
+        "Reflects 3 Physical Damage to Melee Attackers",
+        "+33% to Lightning Resistance"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Carcass Jack",
+      "typeLine": "Varnished Coat",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9DYXJjYXNzSmFjayIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e496ea8e6e/CarcassJack.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "141% increased Evasion and Energy Shield",
+        "+62 to maximum Life",
+        "+9% to all Elemental Resistances",
+        "50% increased Area of Effect",
+        "45% increased Area Damage",
+        "Extra gore"
+      ]
+    },
+    "gloves": {
+      "name": "Wyrmsign",
+      "typeLine": "Wyrmscale Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvV3lybXNpZ25HbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/fe7ef54102/WyrmsignGloves.png",
+      "itemLevel": 66,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 5 Concentrated Effect",
+        "140% increased Armour and Evasion",
+        "+67 to maximum Life",
+        "4% reduced Mana Cost per Endurance Charge",
+        "Gain Rampage while at Maximum Endurance Charges",
+        "Lose all Endurance Charges when Rampage ends"
+      ]
+    },
+    "boots": {
+      "name": "Atziri's Step",
+      "typeLine": "Slink Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BdHppcmlzU3RlcCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/ec85575514/AtzirisStep.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+22% chance to Suppress Spell Damage",
+        "180% increased Evasion Rating",
+        "+57 to maximum Life",
+        "30% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Sorrow Strap",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "+17 to Armour",
+        "+81 to maximum Life",
+        "+45% to Fire Resistance",
+        "+30% to Cold Resistance",
+        "+33% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Golem Twirl",
+      "typeLine": "Paua Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4f08d18365/Ring3.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+14% to all Elemental Resistances",
+        "+48% to Lightning Resistance",
+        "Gain 11 Life per Enemy Hit with Spells",
+        "6% chance to Freeze",
+        "Adds 12 to 27 Cold Damage against Chilled or Frozen Enemies",
+        "Gain 2 Mana per Enemy Hit with Spells",
+        "+16% to Fire and Cold Resistances"
+      ],
+      "implicitMods": [
+        "+30 to maximum Mana"
+      ]
+    },
+    "ring2": {
+      "name": "Eagle Spiral",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 69,
+      "explicitMods": [
+        "Adds 1 to 34 Lightning Damage to Attacks",
+        "+93 to Evasion Rating",
+        "+76 to maximum Life",
+        "+15% to all Elemental Resistances",
+        "+21% to Cold Resistance",
+        "+14% to Fire and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Impresence",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9FbGRlckNoYW9zIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/fae9c0f072/ElderChaos.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "35% increased Damage over Time",
+        "Adds 19 to 23 Chaos Damage",
+        "+61 to maximum Life",
+        "+21% to Chaos Resistance",
+        "Despair has no Reservation if Cast as an Aura",
+        "Gain Maddening Presence for 10 seconds when you Kill a Rare or Unique Enemy"
+      ],
+      "implicitMods": [
+        "+16 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Forbidden Taste",
+        "typeLine": "Quartz Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvUGhhbnRvbUJsb29kIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/d04fc2ce16/PhantomBlood.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Recover 81% of Life on use",
+          "8% of Maximum Life taken as Chaos Damage per second"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Hallowed Hybrid Flask of Curing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvaHlicmlkZmxhc2s0IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/541bb93a64/hybridflask4.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "30% reduced Amount Recovered",
+          "30% reduced Duration",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Poison for 4 seconds if used while Poisoned"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "20% chance to gain a Flask Charge when you deal a Critical Strike",
+          "26% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Jade Flask of Fending",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 48,
+        "explicitMods": [
+          "33% increased Charge Recovery",
+          "Adds Knockback to Melee Attacks during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

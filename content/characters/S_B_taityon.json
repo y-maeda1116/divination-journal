@@ -5,5 +5,234 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:50Z"
+  "fetchedAt": "2026-08-17T00:38:16Z",
+  "items": {
+    "weapon": {
+      "name": "Vortex Twine",
+      "typeLine": "Imperial Bow",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0JvdzciLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/1e6a3da9aa/Bow7.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+48 to Dexterity",
+        "Adds 44 to 82 Physical Damage",
+        "Adds 70 to 127 Cold Damage",
+        "Adds 38 to 619 Lightning Damage",
+        "16% increased Attack Speed",
+        "Bow Attacks fire an additional Arrow"
+      ],
+      "implicitMods": [
+        "22% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "offhand": {
+      "name": "Corpse Impaler",
+      "typeLine": "Broadhead Arrow Quiver",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9RdWl2ZXJCcm9hZGhlYWQiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/5265402022/QuiverBroadhead.png",
+      "itemLevel": 61,
+      "explicitMods": [
+        "Adds 6 to 13 Physical Damage to Attacks",
+        "+98 to Accuracy Rating",
+        "31% increased Critical Strike Chance with Bows",
+        "+49 to maximum Life",
+        "Gain 1 Mana per Enemy Killed"
+      ],
+      "implicitMods": [
+        "8% increased Attack Speed"
+      ]
+    },
+    "helmet": {
+      "name": "Demon Guardian",
+      "typeLine": "Deicide Mask",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDExIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/ff51fc2e8c/HelmetDexInt11.png",
+      "itemLevel": 67,
+      "explicitMods": [
+        "+41 to maximum Mana",
+        "+7% to Fire Resistance",
+        "+37% to Cold Resistance",
+        "+10% to Chaos Resistance",
+        "+55 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Sol Salvation",
+      "typeLine": "Crypt Armour",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/99efce2041/BodyDexInt4C.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "+29 to Dexterity",
+        "+178 to Evasion Rating",
+        "79% increased Evasion and Energy Shield",
+        "+57 to maximum Energy Shield",
+        "Regenerate 82.4 Life per second",
+        "+8% to Cold Resistance",
+        "Reflects 26 Physical Damage to Melee Attackers"
+      ]
+    },
+    "gloves": {
+      "name": "Rune Mitts",
+      "typeLine": "Murder Mitts",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/060b6ea395/GlovesDexInt3.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "8% increased Evasion and Energy Shield",
+        "+52 to maximum Life",
+        "+42% to Fire Resistance",
+        "+25% to Cold Resistance",
+        "7% increased Stun and Block Recovery",
+        "+24% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Golem Road",
+      "typeLine": "Hydrascale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d5b5430d4c/BootsStrDex2.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+14% chance to Suppress Spell Damage",
+        "+23 to Strength",
+        "24% increased Armour and Evasion",
+        "+59 to maximum Life",
+        "+40% to Cold Resistance",
+        "35% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Hate Twine",
+      "typeLine": "Heavy Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/a513a7e6b4/Belt5.png",
+      "itemLevel": 41,
+      "explicitMods": [
+        "+16 to maximum Energy Shield",
+        "+11 to maximum Life",
+        "+36 to maximum Mana",
+        "+20% to Fire Resistance",
+        "+27% to Cold Resistance",
+        "+14% to Lightning and Chaos Resistances"
+      ],
+      "implicitMods": [
+        "+35 to Strength"
+      ]
+    },
+    "ring1": {
+      "name": "Le Heup of All",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6ea73cc7e4/Leheupofall.png",
+      "itemLevel": 35,
+      "explicitMods": [
+        "+17 to all Attributes",
+        "26% increased Damage",
+        "24% increased Rarity of Items found",
+        "+27% to all Elemental Resistances"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Vortex Knot",
+      "typeLine": "Topaz Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6f90cd3c4b/Ring5.png",
+      "itemLevel": 45,
+      "explicitMods": [
+        "Adds 1 to 2 Physical Damage to Attacks",
+        "+105 to Accuracy Rating",
+        "+44 to Evasion Rating",
+        "+9 to maximum Energy Shield",
+        "+11% to all Elemental Resistances",
+        "+10% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+27% to Lightning Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Corpse Heart",
+      "typeLine": "Citrine Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9DaXRyaW5lQW11bGV0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/95804f838b/CitrineAmulet.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "+39 to Dexterity",
+        "Adds 9 to 15 Physical Damage to Attacks",
+        "16% increased maximum Energy Shield",
+        "Regenerate 21.8 Life per second",
+        "+38 to maximum Mana",
+        "+21% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+24 to Strength and Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Transgressor's Granite Flask of the Sandpiper",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "42% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Quashing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 71,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Ignite for 11 seconds if used while Ignited\nRemoves all Burning when used"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Plentiful Quicksilver Flask of the Orca",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "+20 to Maximum Charges",
+          "34% chance to Avoid being Chilled during Effect",
+          "33% chance to Avoid being Frozen during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Practitioner's Quartz Flask of the Catfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "21% reduced Charges per use",
+          "50% chance to Avoid being Ignited during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,43 @@
   "ascendancy": "",
   "level": 2,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:14Z",
+  "items": {
+    "weapon": {
+      "name": "",
+      "typeLine": "Driftwood Wand",
+      "rarity": "Normal",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kMSIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/899dabeaf1/Wand1.png",
+      "itemLevel": 1,
+      "implicitMods": [
+        "8% increased Spell Damage"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Small Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
+        "itemLevel": 1
+      },
+      {
+        "name": "",
+        "typeLine": "Small Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
+        "itemLevel": 1
+      },
+      {
+        "name": "",
+        "typeLine": "Small Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/b764885739/manaflask1.png",
+        "itemLevel": 1
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

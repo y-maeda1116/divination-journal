@@ -5,5 +5,247 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Paradoxica",
+      "typeLine": "Vaal Rapier",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9SYXBpZXJzL0Fzc2Fzc2luYXRpb25VbmlxdWUyIiwidyI6MSwiaCI6NCwic2NhbGUiOjF9XQ/b84147fcbd/AssassinationUnique2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Trigger a Socketed Spell on Using a Skill, with a 4 second Cooldown\nSpells Triggered this way have 150% more Cost",
+        "124% increased Physical Damage",
+        "Attacks with this Weapon deal Double Damage",
+        "25% chance to Poison on Hit"
+      ],
+      "implicitMods": [
+        "+25% to Global Critical Strike Multiplier"
+      ]
+    },
+    "offhand": {
+      "name": "Redblade Banner",
+      "typeLine": "Painted Tower Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1JlZGJsYWRlQmFubmVyIiwidyI6MiwiaCI6NCwic2NhbGUiOjF9XQ/33221fb3e1/RedbladeBanner.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "84% increased Armour",
+        "+59 to maximum Life",
+        "20% increased Taunt Duration",
+        "+5% Chance to Block",
+        "50% increased Warcry Cooldown Recovery Rate",
+        "Warcries have infinite Power"
+      ],
+      "implicitMods": [
+        "6% of Physical Damage from Hits taken as Chaos Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Abyssus",
+      "typeLine": "Ezomyte Burgonet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0FieXNzdXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/a12f5424c8/Abyssus.png",
+      "itemLevel": 63,
+      "explicitMods": [
+        "+23 to all Attributes",
+        "Adds 40 to 60 Physical Damage to Attacks",
+        "+119% to Melee Critical Strike Multiplier",
+        "115% increased Armour",
+        "45% increased Physical Damage taken"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Torment Shell",
+      "typeLine": "Astral Plate",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyMUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/94a3d5d98e/BodyStr1C.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "+50 to Strength",
+        "+58 to Armour",
+        "+97 to maximum Life",
+        "+45% to Cold Resistance",
+        "Reflects 47 Physical Damage to Melee Attackers",
+        "6% additional Physical Damage Reduction"
+      ],
+      "implicitMods": [
+        "+12% to all Elemental Resistances"
+      ]
+    },
+    "gloves": {
+      "name": "Asenath's Gentle Touch",
+      "typeLine": "Silk Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQXNlbmF0aHNHZW50bGVUb3VjaCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/ea6e822bbe/AsenathsGentleTouch.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+28 to Intelligence",
+        "+60 to maximum Life",
+        "+76 to maximum Mana",
+        "Curse Enemies with Temporal Chains on Hit",
+        "Non-Aura Curses you inflict are not removed from Dying Enemies",
+        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+      ]
+    },
+    "boots": {
+      "name": "Damnation Tread",
+      "typeLine": "Wyrmscale Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/56b077d61b/BootsStrDex3.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "+42 to Armour",
+        "+43 to Evasion Rating",
+        "+43% to Fire Resistance",
+        "+6% to Cold Resistance",
+        "+25% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+47 to maximum Life"
+      ],
+      "implicitMods": [
+        "34% chance to Avoid Bleeding",
+        "While a Pinnacle Atlas Boss is in your Presence, 13% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Ryslatha's Coil",
+      "typeLine": "Studded Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUnl1c2xhdGhhc0NsdXRjaGVzIiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/5b990decd3/RyuslathasClutches.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+35 to Strength",
+        "38% more Maximum Physical Attack Damage",
+        "31% less Minimum Physical Attack Damage",
+        "Adds 1 to 18 Physical Damage to Attacks",
+        "+91 to maximum Life",
+        "Gain 50 Life when you Stun an Enemy"
+      ],
+      "implicitMods": [
+        "30% increased Stun Duration on Enemies"
+      ]
+    },
+    "ring1": {
+      "name": "Demon Spiral",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 49,
+      "explicitMods": [
+        "+21 to Intelligence",
+        "+21 to maximum Energy Shield",
+        "+54 to maximum Life",
+        "+34% to Lightning Resistance",
+        "5% increased Elemental Damage with Attack Skills",
+        "+21% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+15% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Blood Grasp",
+      "typeLine": "Sapphire Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
+      "itemLevel": 60,
+      "explicitMods": [
+        "Adds 6 to 12 Cold Damage to Attacks",
+        "+46 to maximum Life",
+        "Regenerate 12.4 Life per second",
+        "+12% to all Elemental Resistances",
+        "+26% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+21% to Cold Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Hyrri's Truth",
+      "typeLine": "Jade Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9TeW50aGVzaXNBY2N1cmFjeUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/6062fd361e/SynthesisAccuracyAmulet.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "Grants Level 22 Precision Skill",
+        "+30 to Dexterity",
+        "Adds 15 to 27 Physical Damage to Attacks",
+        "Adds 13 to 28 Cold Damage to Attacks",
+        "+25% to Global Critical Strike Multiplier",
+        "0.85% of Physical Attack Damage Leeched as Life",
+        "Precision has 100% increased Mana Reservation Efficiency"
+      ],
+      "implicitMods": [
+        "+28 to Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Specialist's Diamond Flask of Stinging",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "30% chance to gain a Flask Charge when you deal a Critical Strike",
+          "28% increased Critical Strike Chance during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 63,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Endless Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 53,
+        "explicitMods": [
+          "30% increased Charge Recovery",
+          "48% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "Lion's Roar",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MveUZsYXNrNSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/69fe070e32/yFlask5.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Knocks Back Enemies in an Area when you use a Flask",
+          "75% chance to cause Enemies to Flee on use",
+          "Adds Knockback to Melee Attacks during Effect",
+          "8% more Melee Physical Damage during effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Doctor's Basalt Flask of the Tortoise",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RvbmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/00261d09db/stone.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "22% chance to gain a Flask Charge when you deal a Critical Strike",
+          "48% increased Armour during Effect"
+        ],
+        "implicitMods": [
+          "Taunts nearby Enemies on use"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

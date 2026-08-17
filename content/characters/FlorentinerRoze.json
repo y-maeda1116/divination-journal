@@ -5,5 +5,233 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-08-16T20:37:48Z"
+  "fetchedAt": "2026-08-17T00:38:15Z",
+  "items": {
+    "weapon": {
+      "name": "Cold Iron Point",
+      "typeLine": "Ezomyte Dagger",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0NvbGRJcm9uUG9pbnQiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/1a4002957b/ColdIronPoint.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+3 to Level of all Physical Spell Skill Gems",
+        "Deal no Elemental Damage"
+      ],
+      "implicitMods": [
+        "30% increased Global Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "Cold Iron Point",
+      "typeLine": "Ezomyte Dagger",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0NvbGRJcm9uUG9pbnQiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/1a4002957b/ColdIronPoint.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+3 to Level of all Physical Spell Skill Gems",
+        "Deal no Elemental Damage"
+      ],
+      "implicitMods": [
+        "30% increased Global Critical Strike Chance"
+      ]
+    },
+    "helmet": {
+      "name": "Glyph Halo",
+      "typeLine": "Bone Helmet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0JvbmVIZWxtIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/81dc21096f/BoneHelm.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+3 to Level of Socketed Minion Gems",
+        "+82 to maximum Life",
+        "Regenerate 11 Life per second",
+        "+47% to Fire Resistance",
+        "+13% to Lightning Resistance",
+        "20% increased Armour, Evasion and Energy Shield",
+        "+14 to maximum Life"
+      ],
+      "implicitMods": [
+        "Minions deal 20% increased Damage"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skull Sanctuary",
+      "typeLine": "Saint's Hauberk",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/5a1804c81b/BodyStrInt2C.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+1 to Level of Socketed Support Gems",
+        "+15 to Strength",
+        "+24 to Intelligence",
+        "+75 to maximum Life",
+        "+38% to Cold Resistance",
+        "7% increased maximum Life",
+        "6% increased maximum Mana"
+      ]
+    },
+    "gloves": {
+      "name": "Morbid Hand",
+      "typeLine": "Hydrascale Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/0bb5dd1e50/GlovesStrDex2.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "+46 to Strength",
+        "+15 to Evasion Rating",
+        "+99 to maximum Life",
+        "Gain 2 Life per Enemy Hit with Attacks",
+        "Gain 13 Life per Enemy Killed",
+        "Minions deal 23% increased Damage"
+      ]
+    },
+    "boots": {
+      "name": "Demon Goad",
+      "typeLine": "Two-Toned Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Ud29Ub25lZEJvb3RzIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/93a61b5672/TwoTonedBoots.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+42 to Intelligence",
+        "+39 to Evasion Rating",
+        "+84 to maximum Life",
+        "30% increased Movement Speed",
+        "+16% to Fire and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "+12% to Cold and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Armageddon Bind",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+54 to Strength",
+        "+95 to maximum Life",
+        "+55 to maximum Mana",
+        "+33% to Cold Resistance",
+        "+40% to Lightning Resistance",
+        "18% increased Flask Mana Recovery rate"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Essence Worm",
+      "typeLine": "Unset Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRXNzZW5jZVdvcm0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4455cc009b/EssenceWorm.png",
+      "itemLevel": 55,
+      "explicitMods": [
+        "+2 to Level of Socketed Aura Gems",
+        "Socketed Gems have no Reservation\nYour Blessing Skills are Disabled",
+        "80% reduced Reservation Efficiency of Skills"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "ring2": {
+      "name": "Doom Finger",
+      "typeLine": "Vermillion Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmVybWlsbGlvblJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/b0570b8efc/VermillionRing.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+71 to maximum Life",
+        "+55 to maximum Mana",
+        "+28% to Cold Resistance",
+        "Gain 1 Mana per Enemy Killed",
+        "+16% to Fire and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "6% increased maximum Life"
+      ]
+    },
+    "amulet": {
+      "name": "The Primordial Chain",
+      "typeLine": "Coral Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9UaGVQcmltb3JkaWFsQ2hhaW4iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/cd566defdb/ThePrimordialChain.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+3 to maximum number of Summoned Golems",
+        "You cannot have non-Golem Minions",
+        "25% reduced Golem Size",
+        "Golems Deal 39% less Damage",
+        "Golems have 38% less Life",
+        "Golems have 94% increased Movement Speed",
+        "Primordial"
+      ],
+      "implicitMods": [
+        "Regenerate 3.9 Life per second"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Constant Quartz Flask of Heat",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 54,
+        "explicitMods": [
+          "36% increased Charge Recovery",
+          "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Fending",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "30% reduced Amount Recovered",
+          "30% reduced Duration",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Adds Knockback to Melee Attacks during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "21% reduced Charges per use",
+          "29% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/3bc27f19d5/BlockFlask.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "+17% Chance to Block Attack Damage during Effect",
+          "+8% Chance to Block Spell Damage during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Basalt Flask of Warding",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RvbmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/00261d09db/stone.png",
+        "itemLevel": 58,
+        "explicitMods": [
+          "+18 to Maximum Charges",
+          "Removes Curses on use"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -81,6 +81,43 @@ func TestSessionClientGetItemsConvertsLegacy(t *testing.T) {
 	}
 }
 
+// TestSessionClientGetItemsObjectMods は旧 get-items の mods が
+// オブジェクト配列({"text"|"description": "..."})で返ってくる形式変更に
+// 対応できることを検証する(2026-08 本番で発生した形式)。
+func TestSessionClientGetItemsObjectMods(t *testing.T) {
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		w.Header().Set("Content-Type", "application/json")
+		w.Write([]byte(`{"characterName":"MyChar","items":[{"name":"Axe","typeLine":"Vaal Axe","frameType":2,"icon":"https://example.com/i.png","explicitMods":[{"text":"200% increased Physical Damage"},{"description":"+25 to Strength"}],"implicitMods":[{"text":"Culling Strike"}],"inventoryId":"Weapon"}],"passives":{"hashes":[],"skillPoints":0}}`))
+	}))
+	defer srv.Close()
+
+	orig := webBaseURL
+	webBaseURL = srv.URL
+	defer func() { webBaseURL = orig }()
+
+	client := NewSessionClient("MyAccount", "sid-123")
+	detail, err := client.GetCharacterItems("MyChar")
+	if err != nil {
+		t.Fatalf("unexpected error: %v", err)
+	}
+	if len(detail.Character.Equipment) != 1 {
+		t.Fatalf("expected 1 item, got %d", len(detail.Character.Equipment))
+	}
+	eq := detail.Character.Equipment[0]
+	if len(eq.ExplicitMods) != 2 {
+		t.Fatalf("expected 2 explicit mods, got %d", len(eq.ExplicitMods))
+	}
+	if eq.ExplicitMods[0].Description != "200% increased Physical Damage" {
+		t.Errorf("unexpected mod 0: %+v", eq.ExplicitMods[0])
+	}
+	if eq.ExplicitMods[1].Description != "+25 to Strength" {
+		t.Errorf("unexpected mod 1: %+v", eq.ExplicitMods[1])
+	}
+	if len(eq.ImplicitMods) != 1 || eq.ImplicitMods[0].Description != "Culling Strike" {
+		t.Errorf("unexpected implicit mods: %+v", eq.ImplicitMods)
+	}
+}
+
 // TestSessionClientAuthError は旧 API の 403 が ErrAuthentication として分類される
 // ことを検証する(フォールバック判定の前提)。
 func TestSessionClientAuthError(t *testing.T) {

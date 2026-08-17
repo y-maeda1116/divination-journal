@@ -5,5 +5,242 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:48:11Z"
+  "fetchedAt": "2026-08-17T04:50:39Z",
+  "items": {
+    "weapon": {
+      "name": "Corruption Smasher",
+      "typeLine": "Oscillating Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9IZWlzdFNjZXB0cmVFbGVtZW50YWwiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/34e5d78ab3/HeistSceptreElemental.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "18% reduced Attribute Requirements",
+        "38% increased Spell Damage",
+        "Adds 24 to 43 Fire Damage to Spells",
+        "+1 to Level of all Lightning Spell Skill Gems",
+        "11% increased Cast Speed",
+        "10% chance to gain Arcane Surge when you Kill an Enemy"
+      ],
+      "implicitMods": [
+        "Elemental Overload"
+      ]
+    },
+    "offhand": {
+      "name": "Dawnbreaker",
+      "typeLine": "Colossal Tower Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1N1cGVyaGVhdGVkU2hpZWxkIiwidyI6MiwiaCI6NCwic2NhbGUiOjF9XQ/59e3552a9b/SuperheatedShield.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "220% increased Armour",
+        "+20% Chance to Block",
+        "-1% Chance to Block Attack Damage for every 200 Fire Damage taken from Hits Recently",
+        "19% of Cold Damage taken as Fire Damage",
+        "18% of Lightning Damage taken as Fire Damage",
+        "17% of Physical Damage taken as Fire Damage",
+        "Scorch Enemies in Close Range when you Block"
+      ],
+      "implicitMods": [
+        "+10 to maximum Life"
+      ]
+    },
+    "helmet": {
+      "name": "Rapture Halo",
+      "typeLine": "Lich's Circlet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/a101e25e20/HelmetInt8.png",
+      "itemLevel": 88,
+      "explicitMods": [
+        "+56 to maximum Energy Shield",
+        "87% increased Energy Shield",
+        "+33% to Cold Resistance",
+        "+19% to Fire and Lightning Resistances",
+        "+22 to maximum Energy Shield",
+        "+33 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skull Pelt",
+      "typeLine": "Necrotic Armour",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/aa9c69066e/BodyDexInt4C.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+23 to Intelligence",
+        "+370 to Evasion Rating",
+        "126% increased Evasion and Energy Shield",
+        "+79 to maximum Energy Shield",
+        "37% faster start of Energy Shield Recharge",
+        "37% increased Stun and Block Recovery"
+      ],
+      "implicitMods": [
+        "10% of Physical Damage from Hits taken as Lightning Damage",
+        "9% increased effect of Non-Curse Auras from your Skills"
+      ]
+    },
+    "gloves": {
+      "name": "Asenath's Gentle Touch",
+      "typeLine": "Silk Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQXNlbmF0aHNHZW50bGVUb3VjaCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/ea6e822bbe/AsenathsGentleTouch.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "+26 to Intelligence",
+        "+74 to maximum Life",
+        "+80 to maximum Mana",
+        "Curse Enemies with Temporal Chains on Hit",
+        "Non-Aura Curses you inflict are not removed from Dying Enemies",
+        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+      ]
+    },
+    "boots": {
+      "name": "Viper Span",
+      "typeLine": "Sage Slippers",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/036cf97e61/BootsInt3.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+33 to maximum Energy Shield",
+        "42% increased Energy Shield",
+        "+47% to Cold Resistance",
+        "+45% to Lightning Resistance",
+        "35% increased Movement Speed",
+        "17% increased Stun and Block Recovery",
+        "+19% to Fire and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Ghoul Girdle",
+      "typeLine": "Heavy Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/a513a7e6b4/Belt5.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+55 to Armour",
+        "+36% to Fire Resistance",
+        "+45% to Cold Resistance",
+        "+48% to Lightning Resistance",
+        "14% increased Flask Mana Recovery rate",
+        "+194 to Evasion Rating",
+        "+16 to maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "+34 to Strength"
+      ]
+    },
+    "ring1": {
+      "name": "Foulborn Le Heup of All",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibXV0YXRlZCI6dHJ1ZX1d/a3014dad89/Leheupofall.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+12 to all Attributes",
+        "14% increased Rarity of Items found",
+        "+17% to all Elemental Resistances",
+        "29% increased Global Defences"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Betrayal's Sting",
+      "typeLine": "Steel Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmV0cmF5YWxzU3RpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/36f2f0b6dd/BetrayalsSting.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+35 to Dexterity",
+        "-20% to all Elemental Resistances",
+        "+20% to Chaos Resistance",
+        "5% increased Movement Speed",
+        "30% chance to inflict an additional Poison on the same Target when you inflict Poison"
+      ],
+      "implicitMods": [
+        "Adds 4 to 12 Physical Damage to Attacks"
+      ]
+    },
+    "amulet": {
+      "name": "Whispers of Infinity",
+      "typeLine": "Seaglass Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9XaGlzcGVyc29mSW5maW5pdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4fc9361433/WhispersofInfinity.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "6 to 21 Added Attack Chaos Damage per 100 Maximum Mana",
+        "+70 to maximum Energy Shield",
+        "40% reduced maximum Mana",
+        "Skills Cost Energy Shield instead of Mana or Life"
+      ],
+      "implicitMods": [
+        "12% faster start of Energy Shield Recharge"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Doctor's Ruby Flask of Plume Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/0d582b3f83/ruby.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "21% chance to gain a Flask Charge when you deal a Critical Strike",
+          "50% chance to Avoid being Shocked during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Ample Silver Flask of Imposing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "+33 to Maximum Charges",
+          "23% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Sulphur Flask of Piercing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ29sZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/74568fc9b9/gold.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "14% reduced Charges per use",
+          "35% increased Critical Strike Chance during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Doled Quicksilver Flask of Foisting",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "37% increased Charge Recovery",
+          "25% reduced effect",
+          "21% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

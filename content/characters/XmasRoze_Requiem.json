@@ -5,5 +5,211 @@
   "ascendancy": "",
   "level": 76,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:50:16Z"
+  "fetchedAt": "2026-08-17T04:50:49Z",
+  "items": {
+    "weapon": {
+      "name": "Bino's Kitchen Knife",
+      "typeLine": "Slaughter Knife",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0Jpbm9zS2l0Y2hlbktuaWZlIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/499d39d615/BinosKitchenKnife.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Adds 142 to 223 Physical Damage",
+        "50% increased Critical Strike Chance",
+        "+20% to Global Critical Strike Multiplier",
+        "+26% to Chaos Resistance",
+        "On Killing a Poisoned Enemy, Enemies within 3 metres are Poisoned, and you and\nAllies Regenerate 400 Life per second for the Poison's duration if within 3 metres"
+      ],
+      "implicitMods": [
+        "30% increased Global Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "322% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "16% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+2 to Level of Socketed AoE Gems"
+      ]
+    },
+    "helmet": {
+      "name": "Viridi's Veil",
+      "typeLine": "Praetor Crown",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0NvbnN0cmljdGluZ0Nyb3duIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/04ee655ca5/ConstrictingCrown.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "+2 to Level of Socketed Gems",
+        "141% increased Armour and Energy Shield",
+        "+16% to all Elemental Resistances",
+        "Damage of Enemies Hitting you is Unlucky while you have a Magic Ring Equipped",
+        "You are Hexproof if you have a Magic Ring in right slot",
+        "Take no Extra Damage from Critical Strikes if you have a Magic Ring in left slot"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Sorrow Jack",
+      "typeLine": "Varnished Coat",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50MkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/360c5ce7d4/BodyDexInt2B.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+17% chance to Suppress Spell Damage",
+        "+336 to Evasion Rating",
+        "+76 to maximum Energy Shield",
+        "+134 to maximum Life",
+        "Regenerate 25.8 Life per second",
+        "+27% to Cold Resistance",
+        "57% increased Evasion and Energy Shield"
+      ]
+    },
+    "gloves": {
+      "name": "Soul Mitts",
+      "typeLine": "Mesh Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RySW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/7adc65bac6/GlovesStrInt3.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "95% increased Armour and Energy Shield",
+        "+14% to Fire Resistance",
+        "+13% to Cold Resistance",
+        "+45% to Lightning Resistance",
+        "6% increased Stun and Block Recovery",
+        "+62 to maximum Life"
+      ]
+    },
+    "boots": {
+      "name": "Apocalypse March",
+      "typeLine": "Crusader Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e75ade3184/BootsStrInt3.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "15% increased Rarity of Items found",
+        "+7% to Fire Resistance",
+        "+22% to Cold Resistance",
+        "+27% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+61 to maximum Life"
+      ]
+    },
+    "belt": {
+      "name": "Nemesis Clasp",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+68 to maximum Mana",
+        "+30% to Cold Resistance",
+        "+33% to Chaos Resistance",
+        "24% increased Flask Charges gained",
+        "+54 to maximum Life"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "",
+      "typeLine": "Crusader's Two-Stone Ring of Craft",
+      "rarity": "Magic",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "12% increased maximum Energy Shield",
+        "13% increased Global Physical Damage",
+        "13% increased Chaos Damage"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Gale Knot",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "-20 to Strength",
+        "-86 to maximum Mana",
+        "+78% to Fire Resistance",
+        "+76% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+15% to Fire and Cold Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Whispers of Infinity",
+      "typeLine": "Seaglass Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9XaGlzcGVyc29mSW5maW5pdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4fc9361433/WhispersofInfinity.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "9 to 24 Added Attack Chaos Damage per 100 Maximum Mana",
+        "+68 to maximum Energy Shield",
+        "59% reduced maximum Mana",
+        "Skills Cost Energy Shield instead of Mana or Life"
+      ],
+      "implicitMods": [
+        "11% faster start of Energy Shield Recharge"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 84
+      },
+      {
+        "name": "",
+        "typeLine": "Specialist's Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "30% chance to gain a Flask Charge when you deal a Critical Strike",
+          "Grants Immunity to Bleeding for 8 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 8 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Hallowed Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 49
+      },
+      {
+        "name": "",
+        "typeLine": "Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

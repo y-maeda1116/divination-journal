@@ -5,5 +5,163 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:54:25Z"
+  "fetchedAt": "2026-08-17T04:51:10Z",
+  "items": {
+    "weapon": {
+      "name": "Pandemonium Saw",
+      "typeLine": "Spiraled Foil",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9SYXBpZXJzL1JhcGllcjUiLCJ3IjoxLCJoIjo0LCJzY2FsZSI6MX1d/ccce0178cc/Rapier5.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+39 to Strength",
+        "Adds 50 to 98 Fire Damage",
+        "Adds 72 to 118 Cold Damage",
+        "Adds 14 to 256 Lightning Damage",
+        "26% increased Attack Speed",
+        "+13% to Chaos Resistance"
+      ],
+      "implicitMods": [
+        "+25% to Global Critical Strike Multiplier"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Armageddon Coat",
+      "typeLine": "Crypt Armour",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwidGFuZ2xlZCI6dHJ1ZX1d/4a78bfd2da/BodyDexInt4C.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+34 to Intelligence",
+        "+111 to Evasion Rating",
+        "35% increased Evasion and Energy Shield",
+        "+41 to maximum Energy Shield",
+        "+135 to maximum Life",
+        "+10% to Fire Resistance",
+        "+19% to Chaos Resistance",
+        "15% increased Stun and Block Recovery"
+      ],
+      "implicitMods": [
+        "5% Chance to Block Spell Damage"
+      ]
+    },
+    "boots": {
+      "name": "Horror Goad",
+      "typeLine": "Eelskin Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/37d9d4d590/BootsDex2.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+6% chance to Suppress Spell Damage",
+        "+98 to Armour",
+        "42% increased Evasion Rating",
+        "+37% to Cold Resistance",
+        "+42% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "16% increased Stun and Block Recovery"
+      ]
+    },
+    "ring1": {
+      "name": "Doom Grasp",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "3% increased Cold Damage",
+        "+114 to maximum Life",
+        "+43% to Lightning Resistance",
+        "+16% to Chaos Resistance",
+        "18% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+15% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Agony Knuckle",
+      "typeLine": "Gold Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/2164e44179/Ring4.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "-69 to Dexterity",
+        "+43 to maximum Mana",
+        "-16% to Cold Resistance",
+        "+81% to Chaos Resistance"
+      ],
+      "implicitMods": [
+        "9% increased Rarity of Items found"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Perpetual Granite Flask of the Owl",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "50% increased Charge Recovery",
+          "60% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4,
+        "explicitMods": [
+          "+17 to Maximum Charges",
+          "47% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Divine Life Flask of Allaying",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "16% reduced Charges per use",
+          "Grants Immunity to Bleeding for 14 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 14 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Concentrated Rosethorn Tincture of Battering",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL0N1bGxpbmdTdHJpa2VTYXAiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MX1d/a0158b364e/CullingStrikeSap.png",
+        "itemLevel": 77,
+        "explicitMods": [
+          "Melee Weapon Hits have 43% chance to ignore Enemy Physical Damage Reduction",
+          "35% increased effect",
+          "59% increased Mana Burn rate"
+        ],
+        "implicitMods": [
+          "189% increased Critical Strike Chance with Melee Weapons"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enriched Prismatic Tincture of Success",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL1ByaXNtYXRpY1NhcCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/81563db8c1/PrismaticSap.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "35% increased effect",
+          "55% increased Mana Burn rate",
+          "Gain 20 Life per Enemy Killed with Melee Weapons"
+        ],
+        "implicitMods": [
+          "132% increased Elemental Damage with Melee Weapons"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

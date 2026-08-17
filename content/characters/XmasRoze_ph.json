@@ -5,5 +5,231 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:47:09Z"
+  "fetchedAt": "2026-08-17T04:50:34Z",
+  "items": {
+    "weapon": {
+      "name": "Soulwrest",
+      "typeLine": "Ezomyte Staff",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9TdGF2ZXMvVG9wRG93blN0YXZlSWNvbiIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/f62cfea775/TopDownStaveIcon.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "Trigger Level 25 Summon Phantasm Skill when you Consume a corpse",
+        "125% increased Spell Damage",
+        "27% increased Cast Speed",
+        "86% increased Mana Regeneration Rate",
+        "Minions deal 97 to 156 additional Physical Damage",
+        "If you Consumed a corpse Recently, you and nearby Allies Regenerate 5% of Life per second"
+      ],
+      "implicitMods": [
+        "+25% Chance to Block Attack Damage"
+      ]
+    },
+    "helmet": {
+      "name": "The Dark Monarch",
+      "typeLine": "Lich's Circlet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RoZURhcmtNb25hcmNoIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/c059a34da1/TheDarkMonarch.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+72 to maximum Energy Shield",
+        "+1 to Level of all Minion Skill Gems",
+        "+27% to Chaos Resistance",
+        "50% reduced Light Radius",
+        "Maximum number of Summoned Phantasms is Doubled\nCannot have Minions other than Summoned Phantasms"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Corruption Keep",
+      "typeLine": "Twilight Regalia",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyRGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/0374235011/BodyStrDexInt1C.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+53 to Intelligence",
+        "+91 to maximum Energy Shield",
+        "123% increased Energy Shield",
+        "Regenerate 98.7 Life per second",
+        "17% increased Stun and Block Recovery",
+        "6% increased Attributes"
+      ],
+      "implicitMods": [
+        "10% of Physical Damage from Hits taken as Chaos Damage",
+        "11% increased effect of Non-Curse Auras from your Skills"
+      ]
+    },
+    "gloves": {
+      "name": "Rapture Clutches",
+      "typeLine": "Sorcerer Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50NCIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/60b36099fe/GlovesInt4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+50 to Dexterity",
+        "+42 to Intelligence",
+        "Adds 15 to 27 Fire Damage to Attacks",
+        "78% increased Energy Shield",
+        "+66 to maximum Mana",
+        "+44% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "10% of Physical Damage Converted to Cold Damage",
+        "8% increased Attack Speed"
+      ]
+    },
+    "boots": {
+      "name": "Behemoth Stride",
+      "typeLine": "Paladin Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/c253827d20/BootsStrInt3.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+53 to Strength",
+        "38% increased Armour and Energy Shield",
+        "+15% to Fire Resistance",
+        "+24% to Cold Resistance",
+        "30% increased Movement Speed",
+        "15% increased Stun and Block Recovery",
+        "59% increased Armour and Energy Shield"
+      ],
+      "implicitMods": [
+        "35% increased Armour from Equipped Helmet and Gloves",
+        "6% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Morbid Locket",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "11% reduced Enemy Stun Threshold",
+        "+59 to maximum Life",
+        "Regenerate 56.8 Life per second",
+        "+45 to maximum Mana",
+        "+48% to Fire Resistance",
+        "+284 to Armour",
+        "+22 to maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Ming's Heart",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTWluZ3NIZWFydCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7395d98bba/MingsHeart.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "25% reduced maximum Energy Shield",
+        "25% reduced maximum Life",
+        "+44% to Chaos Resistance",
+        "Gain 58% of Physical Damage as Extra Chaos Damage"
+      ],
+      "implicitMods": [
+        "Gain 5 Mana per Enemy Hit with Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Ming's Heart",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTWluZ3NIZWFydCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7395d98bba/MingsHeart.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "25% reduced maximum Energy Shield",
+        "25% reduced maximum Life",
+        "+41% to Chaos Resistance",
+        "Gain 58% of Physical Damage as Extra Chaos Damage"
+      ],
+      "implicitMods": [
+        "Adds 13 to 30 Fire Damage to Spells and Attacks"
+      ]
+    },
+    "amulet": {
+      "name": "Bonemeld",
+      "typeLine": "Marble Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9EZWF0aHdhcmQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8ba22f2bdd/Deathward.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+16 to all Attributes",
+        "+1 to Level of all Minion Skill Gems",
+        "-2% to all Resistances per Minion from your Non-Vaal Skills",
+        "4% increased Defences per Minion from your Non-Vaal Skills",
+        "Minions gain added Resistances equal to 50% of your Resistances"
+      ],
+      "implicitMods": [
+        "Regenerate 1.23% of Life per second"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/4d59967889/BlockFlask.png",
+        "itemLevel": 80,
+        "explicitMods": [
+          "+11% Chance to Block Attack Damage during Effect",
+          "+6% Chance to Block Spell Damage during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Dabbler's Ruby Flask of Piercing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "30% reduced Duration",
+          "25% increased effect",
+          "35% increased Critical Strike Chance during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Allocated Silver Flask of Stinging",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/c532e1d515/silver.png",
+        "itemLevel": 78,
+        "explicitMods": [
+          "57% increased Charge Recovery",
+          "25% reduced effect",
+          "28% increased Critical Strike Chance during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Measured Sulphur Flask of Penetrating",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ29sZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/63fbfd35d3/gold.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "53% increased Charge Recovery",
+          "25% reduced effect",
+          "48% increased Critical Strike Chance during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Doctor's Quicksilver Flask of the Ibex",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "24% chance to gain a Flask Charge when you deal a Critical Strike",
+          "51% increased Evasion Rating during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

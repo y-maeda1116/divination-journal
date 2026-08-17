@@ -5,5 +5,237 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-17T01:03:47Z"
+  "fetchedAt": "2026-08-17T04:51:56Z",
+  "items": {
+    "weapon": {
+      "name": "Viper Wing",
+      "typeLine": "Imperial Bow",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0JvdzciLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/1e6a3da9aa/Bow7.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "Adds 180 to 293 Fire Damage",
+        "Adds 166 to 269 Cold Damage",
+        "Adds 34 to 610 Lightning Damage",
+        "+47% to Fire Resistance",
+        "+45% to Cold Resistance",
+        "Attacks have 30% chance to cause Bleeding",
+        "50% increased Damage with Bleeding"
+      ],
+      "implicitMods": [
+        "24% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "offhand": {
+      "name": "Agony Dart",
+      "typeLine": "Broadhead Arrow Quiver",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9RdWl2ZXJCcm9hZGhlYWQiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/5265402022/QuiverBroadhead.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "18% increased Critical Strike Chance with Bows",
+        "+75 to maximum Life",
+        "41% increased Projectile Speed",
+        "19% increased Stun Duration on Enemies",
+        "21% increased Damage with Bow Skills",
+        "31% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "9% increased Attack Speed"
+      ]
+    },
+    "helmet": {
+      "name": "The Gull",
+      "typeLine": "Raven Mask",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RoZUd1bGwiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/ca1678efd9/TheGull.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Trigger Level 1 Create Lesser Shrine when you Kill an Enemy",
+        "141% increased Evasion and Energy Shield",
+        "+31 to maximum Energy Shield",
+        "+61 to maximum Life",
+        "+34% to Cold Resistance",
+        "75% increased Effect of Shrine Buffs on you",
+        "50% increased Duration of Shrine Effects on you"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Queen of the Forest",
+      "typeLine": "Destiny Leather",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9RdWVlbm9mdGhlRm9yZXN0IiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/bd3ec993e7/QueenoftheForest.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "223% increased Evasion Rating",
+        "+61 to maximum Life",
+        "+10% to Fire Resistance",
+        "+29% to Cold Resistance",
+        "+17% to Lightning Resistance",
+        "25% reduced Movement Speed",
+        "1% increased Movement Speed per 600 Evasion Rating, up to 75%",
+        "-46 Physical Damage taken from Hits by Animals"
+      ]
+    },
+    "gloves": {
+      "name": "Shadows and Dust",
+      "typeLine": "Clasped Mitts",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvU2hhZG93c0FuZER1c3QiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/80cb67dfe9/ShadowsAndDust.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "23% increased Global Critical Strike Chance",
+        "+30% to Global Critical Strike Multiplier",
+        "100% increased Evasion and Energy Shield",
+        "0.2% of Attack Damage Leeched as Mana",
+        "Creates a Smoke Cloud on Rampage",
+        "Gain Unholy Might for 3 seconds on Rampage",
+        "Rampage"
+      ]
+    },
+    "boots": {
+      "name": "Replica Voidwalker",
+      "typeLine": "Murder Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Dcm9zc2luZ1RoZVZvaWQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f3747eb0f4/CrossingTheVoid.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+36 to Dexterity",
+        "140% increased Evasion and Energy Shield",
+        "30% increased Movement Speed",
+        "10% increased Damage taken while Phasing",
+        "You have Phasing if you've Killed Recently",
+        "Projectiles Chain +1 times while you have Phasing",
+        "Celestial Footprints"
+      ]
+    },
+    "belt": {
+      "name": "Headhunter",
+      "typeLine": "Leather Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSGVhZGh1bnRlciIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/e9542ec6ee/Headhunter.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+46 to Strength",
+        "+51 to Dexterity",
+        "+54 to maximum Life",
+        "28% increased Damage with Hits against Rare monsters",
+        "When you Kill a Rare monster, you gain its Modifiers for 60 seconds"
+      ],
+      "implicitMods": [
+        "+29 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Bramble Whorl",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+2 to maximum Energy Shield",
+        "+8 to maximum Life",
+        "+15% to all Elemental Resistances",
+        "+27% to Fire Resistance",
+        "+46% to Lightning Resistance",
+        "19% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+14% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Death Rush",
+      "typeLine": "Amethyst Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nVW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/1ade97e0ac/AmethystRingUnique.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "Recover 3% of Life on Kill",
+        "Gain Adrenaline for 1 second on Kill"
+      ],
+      "implicitMods": [
+        "+23% to Chaos Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Solstice Vigil",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9TaGFwZXJzUHJlc2VuY2UiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/57d45e4009/ShapersPresence.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "38% increased Damage",
+        "+60 to maximum Life",
+        "Regenerate 9.5 Mana per second",
+        "Gain Shaper's Presence for 10 seconds when you kill a Rare or Unique Enemy",
+        "Temporal Chains has no Reservation if Cast as an Aura"
+      ],
+      "implicitMods": [
+        "+10 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 79,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 8 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 8 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Transgressor's Quartz Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 80,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "41% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Physician's Silver Flask of the Walrus",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 44,
+        "explicitMods": [
+          "16% chance to gain a Flask Charge when you deal a Critical Strike",
+          "44% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Examiner's Quicksilver Flask of Foisting",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "27% increased Duration",
+          "21% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Clinician's Jade Flask of the Eagle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 76,
+        "explicitMods": [
+          "34% increased Duration",
+          "13% increased Attack Speed during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

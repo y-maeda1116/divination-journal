@@ -5,5 +5,84 @@
   "ascendancy": "",
   "level": 48,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:59:37Z"
+  "fetchedAt": "2026-08-17T04:51:36Z",
+  "items": {
+    "weapon": {
+      "name": "Reaper's Pursuit",
+      "typeLine": "Shadow Axe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kQXhlcy9Ud29IYW5kQXhlVW5pcXVlMSIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/d39a181d8d/TwoHandAxeUnique1.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "108% increased Physical Damage",
+        "35% increased Rarity of Items found",
+        "Gain 10 Life per Enemy Killed",
+        "15% increased Movement Speed when on Full Life",
+        "Culling Strike",
+        "Hits can't be Evaded"
+      ],
+      "implicitMods": [
+        "Socketed Gems are Supported by Level 10 Momentum"
+      ]
+    },
+    "amulet": {
+      "name": "Foulborn The Aylardex",
+      "typeLine": "Agate Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9YZWRyYWx5YXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibXV0YXRlZCI6dHJ1ZX1d/bde77c4af5/Xedralyas.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+62 to maximum Mana",
+        "+1 to Maximum Power Charges",
+        "10% increased Mana Regeneration Rate per Power Charge",
+        "88% increased Power Charge Duration",
+        "1% of Damage is taken from Mana before Life per Power Charge",
+        "40% reduced Critical Strike Chance per Power Charge",
+        "Eldritch Battery"
+      ],
+      "implicitMods": [
+        "+23 to Strength and Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Colossal Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 34
+      },
+      {
+        "name": "",
+        "typeLine": "Colossal Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 35
+      },
+      {
+        "name": "",
+        "typeLine": "Colossal Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/da16d2d8c3/manaflask7.png",
+        "itemLevel": 35
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

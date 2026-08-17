@@ -5,5 +5,215 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-08-17T01:02:44Z"
+  "fetchedAt": "2026-08-17T04:51:51Z",
+  "items": {
+    "weapon": {
+      "name": "Rune Weaver",
+      "typeLine": "Prophecy Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kNiIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/30763e0fe7/Wand6.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "90% increased Spell Damage",
+        "Adds 10 to 19 Fire Damage to Spells",
+        "20% increased Critical Strike Chance",
+        "32% increased Projectile Speed",
+        "8% chance to Freeze",
+        "Adds 24 to 45 Fire Damage"
+      ],
+      "implicitMods": [
+        "38% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Mind Weaver",
+      "typeLine": "Chiming Spirit Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZEludDUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4bf20f79d1/ShieldInt5.png",
+      "itemLevel": 54,
+      "explicitMods": [
+        "9% increased Cast Speed",
+        "+79 to maximum Life",
+        "+50 to maximum Mana",
+        "+9% to all Elemental Resistances",
+        "+24 to Dexterity"
+      ],
+      "implicitMods": [
+        "14% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Dread Visage",
+      "typeLine": "Regicide Mask",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/03d255fadc/HelmetDexInt8.png",
+      "itemLevel": 68,
+      "explicitMods": [
+        "32% reduced Attribute Requirements",
+        "25% increased Evasion and Energy Shield",
+        "+99 to maximum Life",
+        "+16 to maximum Mana",
+        "+9% to Cold Resistance",
+        "+28% to Lightning Resistance",
+        "11% increased Stun and Block Recovery"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Tabula Rasa",
+      "typeLine": "Simple Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9UYWJ1bGFSYXNhIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/3bdbff0756/TabulaRasa.png",
+      "itemLevel": 80
+    },
+    "gloves": {
+      "name": "Grim Touch",
+      "typeLine": "Conjurer Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50NCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/484e9bd879/GlovesInt4.png",
+      "itemLevel": 61,
+      "explicitMods": [
+        "+27 to Dexterity",
+        "+62 to maximum Life",
+        "+19% to Fire Resistance",
+        "+28% to Cold Resistance",
+        "+44 to maximum Mana"
+      ]
+    },
+    "boots": {
+      "name": "Wrath Spur",
+      "typeLine": "Two-Toned Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Ud29Ub25lZEJvb3RzM0IiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e3271c5de1/TwoTonedBoots3B.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "8% increased Rarity of Items found",
+        "+15% to Fire Resistance",
+        "30% increased Movement Speed",
+        "+51 to maximum Life"
+      ],
+      "implicitMods": [
+        "+11% to Fire and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Soul Tether",
+      "typeLine": "Cloth Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvU291bFRldGhlciIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/a2b7447a4a/SoulTether.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+23 to Intelligence",
+        "Gain 6% of Maximum Life as Extra Maximum Energy Shield",
+        "Immortal Ambition"
+      ],
+      "implicitMods": [
+        "23% increased Stun and Block Recovery"
+      ]
+    },
+    "ring1": {
+      "name": "Tempest Spiral",
+      "typeLine": "Coral Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6e12710920/Ring2.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+71 to maximum Life",
+        "+16% to all Elemental Resistances",
+        "+8% to Cold Resistance"
+      ],
+      "implicitMods": [
+        "+30 to maximum Life"
+      ]
+    },
+    "ring2": {
+      "name": "Dire Gyre",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 20,
+      "explicitMods": [
+        "+14 to Strength",
+        "12% increased Fire Damage",
+        "+103 to Accuracy Rating",
+        "+26 to maximum Mana",
+        "+20 to maximum Life"
+      ],
+      "implicitMods": [
+        "+15% to Fire and Lightning Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Dire Heart",
+      "typeLine": "Jade Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/ffc5888355/Amulet4.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+19 to all Attributes",
+        "+25 to maximum Energy Shield",
+        "+89 to maximum Life",
+        "+24 to Dexterity"
+      ],
+      "implicitMods": [
+        "+30 to Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "26% increased Charge Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of Stiffness",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 3,
+        "explicitMods": [
+          "30% increased Charge Recovery",
+          "52% increased Block and Stun Recovery during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Undiluted Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 63,
+        "explicitMods": [
+          "50% increased Recovery rate",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Superior Eternal Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 66
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Heat",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Chill for 4 seconds if used while Chilled\nGrants Immunity to Freeze for 4 seconds if used while Frozen"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

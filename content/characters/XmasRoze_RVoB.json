@@ -5,5 +5,141 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:52:21Z"
+  "fetchedAt": "2026-08-17T04:51:00Z",
+  "items": {
+    "helmet": {
+      "name": "Echoes of Creation",
+      "typeLine": "Royal Burgonet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RoZVR3aXN0aW5nU2NyZWFtIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/4815fa0fc8/TheTwistingScream.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "Socketed Warcry Skills have +1 Cooldown Use",
+        "106% increased Armour",
+        "+57 to maximum Life",
+        "When you Attack, take 19% of Life as Physical Damage for\neach Warcry Exerting the Attack",
+        "Skills deal 14% more Damage for each Warcry Exerting them"
+      ]
+    },
+    "belt": {
+      "name": "Damnation Leash",
+      "typeLine": "Leather Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDMiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/93af17affd/Belt3.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+58 to maximum Life",
+        "+22 to maximum Mana",
+        "+25% to Lightning Resistance",
+        "33% reduced Flask Charges gained",
+        "Flasks applied to you have 17% increased Effect",
+        "Warcries cannot Exert Travel Skills"
+      ],
+      "implicitMods": [
+        "+40 to maximum Life"
+      ]
+    },
+    "ring2": {
+      "name": "Eagle Finger",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "+37 to Strength",
+        "+80 to Evasion Rating",
+        "+108 to maximum Life",
+        "+33% to Lightning Resistance",
+        "Non-Channelling Skills have -7 to Total Mana Cost"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Yoke of Suffering",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Zb2tlT2ZTdWZmZXJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/80cc716213/YokeOfSuffering.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+18% to Fire Resistance",
+        "+12% to Cold Resistance",
+        "+37% to Lightning Resistance",
+        "30% reduced Duration of Ailments on Enemies",
+        "7% chance to Shock",
+        "Enemies take 6% increased Damage for each type of Ailment you have inflicted on them",
+        "Your Elemental Damage can Shock"
+      ],
+      "implicitMods": [
+        "+16 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Ample Granite Flask of the Curlew",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "+32 to Maximum Charges",
+          "50% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Concentrated Prismatic Tincture of Liquefaction",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRmxhc2tzL1ByaXNtYXRpY1NhcCIsInciOjEsImgiOjIsInNjYWxlIjoxfV0/81563db8c1/PrismaticSap.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "35% increased effect",
+          "60% increased Mana Burn rate",
+          "+29% to Damage over Time Multiplier with Melee Weapon Attacks"
+        ],
+        "implicitMods": [
+          "130% increased Elemental Damage with Melee Weapons"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Ebullient Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "48% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of Ballast",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 75,
+        "explicitMods": [
+          "12% chance to gain a Flask Charge when you deal a Critical Strike",
+          "68% increased Block and Stun Recovery during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Amethyst Flask of the Pangolin",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/0f93f9050a/Amethyst.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "16% reduced Charges per use",
+          "53% increased Armour during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

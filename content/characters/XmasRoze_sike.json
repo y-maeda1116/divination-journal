@@ -5,5 +5,246 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:57:32Z"
+  "fetchedAt": "2026-08-17T04:51:25Z",
+  "items": {
+    "weapon": {
+      "name": "Nebulis",
+      "typeLine": "Synthesised Void Sceptre",
+      "rarity": "",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9TY2VwdHJlT2ZNZW1vcmllcyIsInciOjIsImgiOjMsInNjYWxlIjoxLCJyZWxpYyI6MTEsInN5bnRoZXNpc2VkIjp0cnVlfV0/db329aa48b/SceptreOfMemories.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "72% increased Implicit Modifier magnitudes",
+        "18% increased Cast Speed",
+        "8% increased Elemental Damage per 1% Fire, Cold, or Lightning Resistance above 75%"
+      ],
+      "implicitMods": [
+        "+6% to Quality of Socketed Dexterity Gems",
+        "+25 to Dexterity",
+        "39% increased Chaos Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Prism Guardian",
+      "typeLine": "Archon Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1RoZUNvcnVuZHVtIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/f9ca50a663/TheCorundum.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+2 to Level of Socketed Aura Gems",
+        "Socketed Gems Cost and Reserve Life instead of Mana",
+        "Socketed Gems have 30% increased Reservation Efficiency",
+        "+25 to Dexterity",
+        "+25% to all Elemental Resistances"
+      ],
+      "implicitMods": [
+        "+12% to all Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "Honourhome",
+      "typeLine": "Soldier Helmet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hvbm91cmhvbWUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/11382c25e9/Honourhome.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+2 to Level of Socketed Gems",
+        "Adds 1 to 30 Lightning Damage to Spells and Attacks",
+        "118% increased Armour and Energy Shield",
+        "16% increased Rarity of Items found",
+        "41% increased Mana Cost Efficiency"
+      ],
+      "implicitMods": [
+        "+2 to Level of Socketed AoE Gems"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Cloak of Flame",
+      "typeLine": "Scholar's Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5SW50MUF1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/41c15c6511/BodyInt1Aunique.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+58% to Fire Resistance",
+        "67% increased Ignite Duration on Enemies",
+        "Reflects 100 Fire Damage to Melee Attackers",
+        "40% of Physical Damage taken as Fire Damage"
+      ],
+      "implicitMods": [
+        "4% reduced Cold Damage taken"
+      ]
+    },
+    "gloves": {
+      "name": "Horror Nails",
+      "typeLine": "Harpyskin Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/8de0f93452/GlovesDex3.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+37 to Dexterity",
+        "+16 to Evasion Rating",
+        "75% increased Evasion Rating",
+        "+19 to maximum Life",
+        "+27% to Fire Resistance",
+        "+34% to Chaos Resistance",
+        "+66 to maximum Life"
+      ],
+      "implicitMods": [
+        "0.2% of Fire Damage Leeched as Life",
+        "Ignites you inflict spread to other Enemies within 1.2 metres"
+      ]
+    },
+    "boots": {
+      "name": "Brimstone Pace",
+      "typeLine": "Legion Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/ae01cde150/BootsStrInt2.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "+23 to Intelligence",
+        "+81 to maximum Life",
+        "+14% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+19% to Fire and Chaos Resistances",
+        "19% increased Armour and Energy Shield",
+        "+12 to maximum Life"
+      ],
+      "implicitMods": [
+        "Ignites you inflict deal Damage 5% faster",
+        "+1% to maximum Fire Resistance"
+      ]
+    },
+    "belt": {
+      "name": "Hate Bind",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "14% reduced Enemy Stun Threshold",
+        "+121 to maximum Life",
+        "+20% to Fire Resistance",
+        "+34% to Chaos Resistance",
+        "32% increased Flask Mana Recovery rate",
+        "Regenerate 20 Life per second",
+        "+38 to maximum Mana"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Valyrium",
+      "typeLine": "Moonstone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmFseXJpdW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd9261042f/Valyrium.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+33 to maximum Energy Shield",
+        "+38% to Fire Resistance",
+        "-40% to Cold Resistance",
+        "Stun Threshold is based on Energy Shield instead of Life"
+      ],
+      "implicitMods": [
+        "Grace has 25% increased Mana Reservation Efficiency"
+      ]
+    },
+    "ring2": {
+      "name": "Lori's Lantern",
+      "typeLine": "Prismatic Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTG9yaXNMYW50ZXJuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7abe3ca54f/LorisLantern.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+10% to all Elemental Resistances",
+        "6% increased Movement Speed when on Low Life",
+        "31% increased Light Radius",
+        "+25% to Chaos Resistance when on Low Life",
+        "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
+      ],
+      "implicitMods": [
+        "+10% to all Elemental Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Defiance of Destiny",
+      "typeLine": "Paua Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9IaW5la29yYUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/d26f80f9c7/HinekoraAmulet.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+79 to maximum Life",
+        "+39% to Fire Resistance",
+        "+37% to Cold Resistance",
+        "+12% to Lightning Resistance",
+        "Gain 15% of Missing Unreserved Life before being Hit by an Enemy"
+      ],
+      "implicitMods": [
+        "27% increased Mana Regeneration Rate"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Flagellant's Amethyst Flask of the Fox",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/78787470b8/Amethyst.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "52% reduced Effect of Chill on you during Effect",
+          "51% reduced Freeze Duration on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Sulphur Flask of the Goldfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ29sZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/63fbfd35d3/gold.png",
+        "itemLevel": 76,
+        "explicitMods": [
+          "38% chance to Avoid being Ignited during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Quicksilver Flask of the Plover",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "39% reduced Effect of Shock on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Ruby Flask of Turf Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "40% chance to Avoid being Shocked during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Granite Flask of the Cormorant",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "48% reduced Effect of Shock on you during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

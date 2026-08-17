@@ -5,5 +5,217 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-08-17T01:01:42Z"
+  "fetchedAt": "2026-08-17T04:51:46Z",
+  "items": {
+    "weapon": {
+      "name": "Behemoth Fang",
+      "typeLine": "Lion Sword",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kU3dvcmRzL1R3b0hhbmRTd29yZDYiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/d69254d0a6/TwoHandSword6.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "Adds 186 to 319 Fire Damage",
+        "Adds 136 to 231 Cold Damage",
+        "Adds 30 to 526 Lightning Damage",
+        "19% increased Attack Speed",
+        "+35% to Chaos Resistance",
+        "27% increased Critical Strike Chance"
+      ],
+      "implicitMods": [
+        "+50 to Strength and Dexterity"
+      ]
+    },
+    "helmet": {
+      "name": "Dire Visage",
+      "typeLine": "Knight Helm",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckRleDYiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/07fb25d634/HelmetStrDex6.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "+7 to Armour",
+        "+9 to Evasion Rating",
+        "+42% to Fire Resistance",
+        "+20% to Cold Resistance",
+        "+43% to Lightning Resistance",
+        "+68 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Rune Cloak",
+      "typeLine": "Zodiac Leather",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4M0MiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/e30de2c7a6/BodyDex3C.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+32 to Dexterity",
+        "+47 to Evasion Rating",
+        "+122 to maximum Life",
+        "Regenerate 63 Life per second",
+        "+29% to Cold Resistance",
+        "Reflects 4 Physical Damage to Melee Attackers"
+      ]
+    },
+    "gloves": {
+      "name": "The Celestial Brace",
+      "typeLine": "Goliath Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvVWJlclNlYXJpbmdFeGFyY2hHbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/47d365fea7/UberSearingExarchGloves.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "124% increased Armour",
+        "1% increased Attack Speed per Fortification",
+        "+8 to maximum Fortification",
+        "Melee Hits from Strike Skills Fortify"
+      ]
+    },
+    "boots": {
+      "name": "Ralakesh's Impatience",
+      "typeLine": "Riveted Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9SYWxha2VzaHNJbXBhdGllbmNlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/54540f0f3d/RalakeshsImpatience.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+16% to Cold Resistance",
+        "+25% to Chaos Resistance",
+        "Count as having maximum number of Endurance Charges\nCount as having maximum number of Frenzy Charges\nCount as having maximum number of Power Charges"
+      ]
+    },
+    "belt": {
+      "name": "Arn's Anguish",
+      "typeLine": "Cloth Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWx0Q2hhcmdlU3RyIiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/c07eed602e/AltChargeStr.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+628 to Armour",
+        "12% increased maximum Life",
+        "+53% to Fire Resistance",
+        "+1 to Maximum Endurance Charges",
+        "Modifiers to Minimum Endurance Charges instead apply to Minimum Brutal Charges",
+        "Maximum Brutal Charges is equal to Maximum Endurance Charges",
+        "Gain Brutal Charges instead of Endurance Charges"
+      ],
+      "implicitMods": [
+        "20% increased Stun and Block Recovery"
+      ]
+    },
+    "ring1": {
+      "name": "Empyrean Spiral",
+      "typeLine": "Ruby Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0e04df86a3/Ring7.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "Regenerate 4.3 Life per second",
+        "+40 to maximum Mana",
+        "+41% to Cold Resistance",
+        "+24% to Lightning Resistance",
+        "+43 to maximum Life"
+      ],
+      "implicitMods": [
+        "+27% to Fire Resistance"
+      ]
+    },
+    "ring2": {
+      "name": "Sol Hold",
+      "typeLine": "Ruby Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0e04df86a3/Ring7.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "+26 to Intelligence",
+        "+126 to Evasion Rating",
+        "+16% to all Elemental Resistances",
+        "+20% to Fire and Chaos Resistances",
+        "+44 to maximum Life"
+      ],
+      "implicitMods": [
+        "+21% to Fire Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "Yoke of Suffering",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Zb2tlT2ZTdWZmZXJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/80cc716213/YokeOfSuffering.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+19% to Fire Resistance",
+        "+11% to Cold Resistance",
+        "+32% to Lightning Resistance",
+        "30% reduced Duration of Ailments on Enemies",
+        "5% chance to Shock",
+        "Enemies take 6% increased Damage for each type of Ailment you have inflicted on them",
+        "Your Elemental Damage can Shock"
+      ],
+      "implicitMods": [
+        "+10 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Practitioner's Silver Flask of the Skunk",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 78,
+        "explicitMods": [
+          "21% reduced Charges per use",
+          "49% less Duration",
+          "Immunity to Poison during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Practitioner's Amethyst Flask of the Lynx",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/0f93f9050a/Amethyst.png",
+        "itemLevel": 78,
+        "explicitMods": [
+          "21% reduced Charges per use",
+          "10% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Abecedarian's Gold Flask of the Mockingbird",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvR29sZEZsYXNrIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/0669496bc6/GoldFlask.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "35% reduced Duration",
+          "25% increased effect",
+          "44% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Alchemist's Diamond Flask of the Walrus",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "23% reduced Duration",
+          "40% less Duration",
+          "25% increased effect",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Kieserite Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "21% increased Charges per use",
+          "36% increased Amount Recovered",
+          "Grants Immunity to Bleeding for 8 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 8 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

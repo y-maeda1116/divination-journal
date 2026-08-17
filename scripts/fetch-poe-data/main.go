@@ -200,10 +200,12 @@ func newFetcher(account, poesessid, clientID, refreshToken string) api.Fetcher {
 }
 
 // items の取得間隔とレート制限時のバックオフ待ち時間。テストで差し替える。
+// 旧 items API は同一アカウントへの高頻度リクエストに厳しく、2秒間隔でも
+// 後半のキャラが 429 になるため 5 秒を基本間隔とする。
 var (
-	itemsRequestInterval = 2 * time.Second
+	itemsRequestInterval = 5 * time.Second
 	itemsRetryBackoff    = func(attempt int) time.Duration {
-		return time.Duration(attempt*10) * time.Second
+		return time.Duration(attempt*30) * time.Second
 	}
 )
 

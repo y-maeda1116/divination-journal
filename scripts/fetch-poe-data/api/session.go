@@ -35,19 +35,56 @@ type legacyCharacters []struct {
 type legacyItems struct {
 	CharacterName string `json:"characterName"`
 	Items         []struct {
-		Name         string   `json:"name"`
-		TypeLine     string   `json:"typeLine"`
-		FrameType    int      `json:"frameType"`
-		Icon         string   `json:"icon"`
-		ItemLevel    int      `json:"ilvl"`
-		ExplicitMods []string `json:"explicitMods,omitempty"`
-		ImplicitMods []string `json:"implicitMods,omitempty"`
-		InventoryID  string   `json:"inventoryId"`
+		Name         string         `json:"name"`
+		TypeLine     string         `json:"typeLine"`
+		FrameType    int            `json:"frameType"`
+		Icon         string         `json:"icon"`
+		ItemLevel    int            `json:"ilvl"`
+		ExplicitMods legacyModList  `json:"explicitMods,omitempty"`
+		ImplicitMods legacyModList  `json:"implicitMods,omitempty"`
+		InventoryID  string         `json:"inventoryId"`
 	} `json:"items"`
 	Passives struct {
 		Hashes      []int `json:"hashes"`
 		SkillPoints int   `json:"skillPoints"`
 	} `json:"passives"`
+}
+
+// legacyModList は旧 API の mod 配列。かつては文字列配列だったが、
+// 2026-08 時点の本番レスポンスでは {"text"|"description": "..."} 形式の
+// オブジェクト配列で返るため、両方を受け付けて文字列へ正規化する。
+type legacyModList []string
+
+func (m *legacyModList) UnmarshalJSON(data []byte) error {
+	var raw []json.RawMessage
+	if err := json.Unmarshal(data, &raw); err != nil {
+		return err
+	}
+
+	result := make([]string, 0, len(raw))
+	for _, entry := range raw {
+		var text string
+		if err := json.Unmarshal(entry, &text); err == nil {
+			result = append(result, text)
+			continue
+		}
+
+		var object struct {
+			Text        string `json:"text"`
+			Description string `json:"description"`
+		}
+		if err := json.Unmarshal(entry, &object); err != nil {
+			return fmt.Errorf("unsupported mod entry: %w", err)
+		}
+		if object.Text != "" {
+			result = append(result, object.Text)
+		} else if object.Description != "" {
+			result = append(result, object.Description)
+		}
+	}
+
+	*m = result
+	return nil
 }
 
 // legacyRarity は旧 API の frameType (int) を rarity 文字列へ変換する。

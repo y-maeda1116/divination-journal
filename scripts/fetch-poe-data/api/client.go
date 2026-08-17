@@ -21,6 +21,9 @@ var (
 	webBaseURL = "https://www.pathofexile.com"
 )
 
+// ErrRateLimit は API のレート制限(429)を表す。items 取得のリトライ判定に使う。
+var ErrRateLimit = errors.New("rate limit exceeded")
+
 // ErrAuthentication はアクセストークンの期限切れ・失効、またはスコープ不足に
 // よる認証失敗を表す。このエラーを検知したら再認証(auth サブコマンド)を促す。
 var ErrAuthentication = errors.New("authentication failed: access token may be expired or revoked")
@@ -90,6 +93,9 @@ func classifyAPIError(resp *http.Response, body []byte) error {
 	}
 	if resp.StatusCode == http.StatusUnauthorized || resp.StatusCode == http.StatusForbidden {
 		return fmt.Errorf("%w (status %d): %s", ErrAuthentication, resp.StatusCode, string(body))
+	}
+	if resp.StatusCode == http.StatusTooManyRequests {
+		return fmt.Errorf("%w (status %d): %s", ErrRateLimit, resp.StatusCode, string(body))
 	}
 	if resp.StatusCode != http.StatusOK {
 		return fmt.Errorf("API returned status %d: %s", resp.StatusCode, string(body))

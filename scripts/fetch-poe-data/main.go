@@ -2,11 +2,13 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"flag"
 	"fmt"
 	"log"
 	"os"
 	"strings"
+	"time"
 
 	"github.com/poe-diary/fetch-poe-data/api"
 	"github.com/poe-diary/fetch-poe-data/models"
@@ -105,7 +107,7 @@ func runFetch(args []string) {
 		}
 
 		// Fetch items (optional - may fail for some realms)
-		items, err := client.GetCharacterItems(ac.Name)
+		items, err := fetchItemsWithRetry(client, ac.Name)
 		if err != nil {
 			fmt.Printf("  Warning: could not fetch items for %s: %v\n", ac.Name, err)
 		} else {
@@ -119,6 +121,9 @@ func runFetch(args []string) {
 		if err := output.WriteCharacter(*outputDir, char); err != nil {
 			log.Fatalf("Failed to write character %s: %v", ac.Name, err)
 		}
+
+		// 連続リクエストによるレート制限を避けるため、キャラごとに間隔を空ける
+		time.Sleep(itemsRequestInterval)
 
 		leagueCharMap[ac.League] = append(leagueCharMap[ac.League], ac.Name)
 	}
@@ -192,6 +197,33 @@ func newFetcher(account, poesessid, clientID, refreshToken string) api.Fetcher {
 	fmt.Fprintln(os.Stderr, "Hint: in GitHub Actions, set the POE_ACCOUNT_NAME/POESESSID and/or POE_CLIENT_ID/POE_REFRESH_TOKEN secrets.")
 	os.Exit(1)
 	return nil
+}
+
+// items の取得間隔とレート制限時のバックオフ待ち時間。テストで差し替える。
+var (
+	itemsRequestInterval = 2 * time.Second
+	itemsRetryBackoff    = func(attempt int) time.Duration {
+		return time.Duration(attempt*10) * time.Second
+	}
+)
+
+const itemsMaxAttempts = 4
+
+// fetchItemsWithRetry は items 取得がレート制限(429)に達した場合、
+// バックオフ待ちのうえ再試行する。それ以外のエラーは即座に返す。
+func fetchItemsWithRetry(client api.Fetcher, name string) (*models.APICharacterItems, error) {
+	for attempt := 1; ; attempt++ {
+		items, err := client.GetCharacterItems(name)
+		if err == nil {
+			return items, nil
+		}
+		if !errors.Is(err, api.ErrRateLimit) || attempt >= itemsMaxAttempts {
+			return nil, err
+		}
+		wait := itemsRetryBackoff(attempt)
+		fmt.Printf("  Rate limited on %s, retrying in %s (attempt %d/%d)...\n", name, wait, attempt, itemsMaxAttempts)
+		time.Sleep(wait)
+	}
 }
 
 func mapAPIItems(apiItems *models.APICharacterItems) *models.Items {

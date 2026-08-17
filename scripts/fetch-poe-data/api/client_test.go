@@ -15,11 +15,13 @@ func TestClassifyAPIError(t *testing.T) {
 		status   int
 		path     string
 		wantAuth bool // ErrAuthentication に一致すべきか
+		wantRate bool // ErrRateLimit に一致すべきか
 		wantErr  bool // 何らかのエラーを期待するか(200 成功は false)
 	}{
 		{name: "200 success", status: http.StatusOK, path: "/character-window/get-characters", wantAuth: false, wantErr: false},
 		{name: "401 unauthorized", status: http.StatusUnauthorized, path: "/character-window/get-characters", wantAuth: true, wantErr: true},
 		{name: "403 forbidden", status: http.StatusForbidden, path: "/character-window/get-characters", wantAuth: true, wantErr: true},
+		{name: "429 rate limit", status: http.StatusTooManyRequests, path: "/character-window/get-items", wantRate: true, wantErr: true},
 		{name: "login redirect (200 + HTML)", status: http.StatusOK, path: "/login", wantAuth: true, wantErr: true},
 		{name: "500 server error", status: http.StatusInternalServerError, path: "/character-window/get-characters", wantAuth: false, wantErr: true},
 	}
@@ -45,6 +47,12 @@ func TestClassifyAPIError(t *testing.T) {
 			}
 			if !tt.wantAuth && tt.wantErr && errors.Is(err, ErrAuthentication) {
 				t.Errorf("did not expect ErrAuthentication, got %v", err)
+			}
+			if tt.wantRate && !errors.Is(err, ErrRateLimit) {
+				t.Errorf("expected ErrRateLimit, got %v", err)
+			}
+			if !tt.wantRate && tt.wantErr && errors.Is(err, ErrRateLimit) {
+				t.Errorf("did not expect ErrRateLimit, got %v", err)
 			}
 		})
 	}

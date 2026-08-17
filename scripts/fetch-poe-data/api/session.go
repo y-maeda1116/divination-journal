@@ -35,14 +35,14 @@ type legacyCharacters []struct {
 type legacyItems struct {
 	CharacterName string `json:"characterName"`
 	Items         []struct {
-		Name         string         `json:"name"`
-		TypeLine     string         `json:"typeLine"`
-		FrameType    int            `json:"frameType"`
-		Icon         string         `json:"icon"`
-		ItemLevel    int            `json:"ilvl"`
-		ExplicitMods legacyModList  `json:"explicitMods,omitempty"`
-		ImplicitMods legacyModList  `json:"implicitMods,omitempty"`
-		InventoryID  string         `json:"inventoryId"`
+		Name         string        `json:"name"`
+		TypeLine     string        `json:"typeLine"`
+		FrameType    int           `json:"frameType"`
+		Icon         string        `json:"icon"`
+		ItemLevel    int           `json:"ilvl"`
+		ExplicitMods legacyModList `json:"explicitMods,omitempty"`
+		ImplicitMods legacyModList `json:"implicitMods,omitempty"`
+		InventoryID  string        `json:"inventoryId"`
 	} `json:"items"`
 	Passives struct {
 		Hashes      []int `json:"hashes"`

@@ -5,5 +5,178 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:18Z"
+  "fetchedAt": "2026-08-17T00:44:43Z",
+  "items": {
+    "weapon": {
+      "name": "Phoenix Crusher",
+      "typeLine": "Opal Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyNCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/c986bafb78/scepter4.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "19% increased Lightning Damage",
+        "Adds 19 to 37 Fire Damage to Spells",
+        "+1 to Level of all Fire Spell Skill Gems",
+        "27% increased Burning Damage",
+        "+18% to Fire Damage over Time Multiplier"
+      ],
+      "implicitMods": [
+        "40% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Saffell's Frame",
+      "typeLine": "Branded Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTYiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/89281a7dc3/ShieldStrIntUnique6.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "30% Chance to Block Spell Damage",
+        "20% increased Spell Damage",
+        "+28% to all Elemental Resistances",
+        "+4% to all maximum Resistances",
+        "Cannot Block Attack Damage"
+      ],
+      "implicitMods": [
+        "+4% to all Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "Pandemonium Halo",
+      "typeLine": "Samnite Helmet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0cjgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/8bd91531d0/HelmetStr8.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 16 Burning Damage",
+        "45% increased Armour",
+        "+80 to maximum Life",
+        "+21% to Cold Resistance",
+        "20% increased Burning Damage",
+        "+1 to Level of Socketed AoE Gems",
+        "9% increased Area of Effect"
+      ]
+    },
+    "bodyArmour": {
+      "name": "The Brass Dome",
+      "typeLine": "Gladiator Plate",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Eb21lT2ZCcmFzcyIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/41f06694f2/DomeOfBrass.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "379% increased Armour",
+        "+5% to all maximum Elemental Resistances",
+        "Strength provides no bonus to Maximum Life",
+        "Take no Extra Damage from Critical Strikes"
+      ]
+    },
+    "boots": {
+      "name": "Legacy of Fury",
+      "typeLine": "Wyrmscale Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9TY29yY2hlZEVhcnRoIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/fda63f7588/ScorchedEarth.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "207% increased Armour and Evasion",
+        "30% increased Movement Speed",
+        "Nearby Enemies are Scorched",
+        "35% increased Effect of Scorch",
+        "39% chance when you Kill a Scorched Enemy to Burn Each surrounding\nEnemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"
+      ]
+    },
+    "belt": {
+      "name": "Belt of the Deceiver",
+      "typeLine": "Heavy Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdE9mVGhlRGVjaWV2ZXIiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/914fb37e8c/BeltOfTheDeciever.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "22% increased Global Physical Damage",
+        "You take 30% reduced Extra Damage from Critical Strikes",
+        "+39 to maximum Life",
+        "+15% to all Elemental Resistances",
+        "Nearby Enemies are Intimidated"
+      ],
+      "implicitMods": [
+        "+27 to Strength"
+      ]
+    },
+    "amulet": {
+      "name": "Replica Dragonfang's Flight",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NYWxhY2hhaSdzIEJyaWxsaWFuY2VBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/a1548914e0/Malachai%27s%20BrillianceAmulet.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+3 to Level of all Fire Trap Gems",
+        "+13% to all Elemental Resistances",
+        "11% increased Reservation Efficiency of Skills",
+        "Items and Gems have 14% reduced Attribute Requirements"
+      ],
+      "implicitMods": [
+        "+13 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Granite Flask of Turf Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "36% chance to Avoid being Shocked during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Quicksilver Flask of the Hedgehog",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "40% less Duration",
+          "Immunity to Poison during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Abundant Quartz Flask of the Petrel",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "+29 to Maximum Charges",
+          "37% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Continuous Amethyst Flask of the Petrel",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/0f93f9050a/Amethyst.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "24% increased Charge Recovery",
+          "38% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 8 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 8 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

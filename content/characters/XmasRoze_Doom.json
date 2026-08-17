@@ -5,5 +5,158 @@
   "ascendancy": "",
   "level": 85,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:19Z"
+  "fetchedAt": "2026-08-17T00:44:58Z",
+  "items": {
+    "bodyArmour": {
+      "name": "Woe Skin",
+      "typeLine": "Twilight Regalia",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyRGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwidGFuZ2xlZCI6dHJ1ZX1d/326a594d93/BodyStrDexInt1C.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+98 to maximum Energy Shield",
+        "136% increased Energy Shield",
+        "+37% to Lightning Resistance",
+        "42% increased Stun and Block Recovery",
+        "+24 to Strength and Dexterity"
+      ],
+      "implicitMods": [
+        "5% Chance to Block Attack Damage"
+      ]
+    },
+    "gloves": {
+      "name": "Vixen's Entrapment",
+      "typeLine": "Embroidered Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvVml4ZW5zRW50cmFwbWVudCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/e2d77223f8/VixensEntrapment.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "Trigger Socketed Curse Spell when you Cast a Curse Spell, with a 0.25 second Cooldown",
+        "+80 to maximum Energy Shield",
+        "0.2% of Spell Damage Leeched as Energy Shield for each Curse on Enemy",
+        "You can apply an additional Curse",
+        "Curse Skills have 11% increased Cast Speed"
+      ]
+    },
+    "boots": {
+      "name": "Pandemonium Slippers",
+      "typeLine": "Martyr Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/2d8905b1c2/BootsStrInt2.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+54 to Strength",
+        "+73 to Armour",
+        "38% increased Armour and Energy Shield",
+        "+28 to maximum Energy Shield",
+        "35% increased Movement Speed",
+        "15% increased Stun and Block Recovery",
+        "35% increased Energy Shield Recharge Rate"
+      ]
+    },
+    "belt": {
+      "name": "Chimeric Lash",
+      "typeLine": "Studded Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDYiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/7ae25523b2/Belt6.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+57 to maximum Mana",
+        "+48% to Fire Resistance",
+        "+48% to Cold Resistance",
+        "+44% to Lightning Resistance",
+        "32% increased Flask Life Recovery rate",
+        "+158 to Armour",
+        "+20 to maximum Energy Shield"
+      ],
+      "implicitMods": [
+        "20% increased Stun Duration on Enemies"
+      ]
+    },
+    "ring1": {
+      "name": "Foulborn Ventor's Gamble",
+      "typeLine": "Gold Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGllT2ZEZXN0aW55IiwidyI6MSwiaCI6MSwic2NhbGUiOjEsIm11dGF0ZWQiOnRydWV9XQ/753bfd17d1/DieOfDestiny.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "7% increased Rarity of Items found",
+        "+49% to Fire Resistance",
+        "+36% to Cold Resistance",
+        "+33% to Lightning Resistance",
+        "13% increased Mana Reservation Efficiency of Skills",
+        "+8 to maximum Energy Shield",
+        "+30 to maximum Mana"
+      ],
+      "implicitMods": [
+        "15% increased Rarity of Items found"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Dabbler's Bismuth Flask of the Eel",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvYmlzbXV0aCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/fbda460273/bismuth.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "31% reduced Duration",
+          "37% less Duration",
+          "25% increased effect",
+          "Immunity to Shock during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Transgressor's Silver Flask of the Goldfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "39% chance to Avoid being Ignited during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Scholar's Basalt Flask of Wreaking",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RvbmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/00261d09db/stone.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "17% reduced Charges per use",
+          "30% chance to Freeze, Shock and Ignite during Effect"
+        ],
+        "implicitMods": [
+          "Taunts nearby Enemies on use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Transgressor's Granite Flask of Stinging",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "31% increased Critical Strike Chance during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of the Orca",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9,
+        "explicitMods": [
+          "11% chance to gain a Flask Charge when you deal a Critical Strike",
+          "35% chance to Avoid being Chilled during Effect",
+          "33% chance to Avoid being Frozen during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

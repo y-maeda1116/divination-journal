@@ -5,5 +5,218 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:19Z"
+  "fetchedAt": "2026-08-17T00:44:56Z",
+  "items": {
+    "weapon": {
+      "name": "Obliteration",
+      "typeLine": "Demon's Horn",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9NYWxlZGljdCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ddc131782/Maledict.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "Adds 38 to 99 Physical Damage",
+        "27% increased Critical Strike Chance",
+        "Gain 14% of Physical Damage as Extra Chaos Damage",
+        "Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ],
+      "implicitMods": [
+        "35% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Obliteration",
+      "typeLine": "Demon's Horn",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9NYWxlZGljdCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ddc131782/Maledict.png",
+      "itemLevel": 68,
+      "explicitMods": [
+        "Adds 50 to 89 Physical Damage",
+        "31% increased Critical Strike Chance",
+        "Gain 14% of Physical Damage as Extra Chaos Damage",
+        "Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ],
+      "implicitMods": [
+        "33% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Blood Peak",
+      "typeLine": "Noble Tricorne",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleDYiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/545e1905b3/HelmetDex6.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+8 to Evasion Rating",
+        "+97 to maximum Life",
+        "+22% to Fire Resistance",
+        "+35% to Cold Resistance",
+        "+38% to Lightning Resistance",
+        "16% increased Evasion Rating",
+        "+13 to maximum Life"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Carcass Jack",
+      "typeLine": "Varnished Coat",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9DYXJjYXNzSmFjayIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/e496ea8e6e/CarcassJack.png",
+      "itemLevel": 69,
+      "explicitMods": [
+        "148% increased Evasion and Energy Shield",
+        "+70 to maximum Life",
+        "+9% to all Elemental Resistances",
+        "45% increased Area of Effect",
+        "43% increased Area Damage",
+        "Extra gore"
+      ]
+    },
+    "gloves": {
+      "name": "The Embalmer",
+      "typeLine": "Carnal Mitts",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQWxsZWxvcGF0aHkiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bcf128d770/Allelopathy.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 20 Vile Toxins",
+        "Adds 13 to 23 Chaos Damage",
+        "+51 to maximum Life",
+        "+19% to Chaos Resistance",
+        "22% increased Poison Duration"
+      ],
+      "implicitMods": [
+        "Curse Enemies with Despair on Hit"
+      ]
+    },
+    "boots": {
+      "name": "Atziri's Step",
+      "typeLine": "Slink Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BdHppcmlzU3RlcCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/ec85575514/AtzirisStep.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+22% chance to Suppress Spell Damage",
+        "180% increased Evasion Rating",
+        "+67 to maximum Life",
+        "30% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Glyph Bind",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "+90 to maximum Life",
+        "+37 to maximum Mana",
+        "+39% to Fire Resistance",
+        "15% increased Flask Charges gained",
+        "+31% to Cold Resistance"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Golem Band",
+      "typeLine": "Diamond Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGlhbW9uZFJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/d07e3dfbb6/DiamondRing.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+324 to Accuracy Rating",
+        "+45% to Lightning Resistance",
+        "Gain 11 Life per Enemy Hit with Spells",
+        "Gain 2 Mana per Enemy Hit with Spells",
+        "+51 to maximum Life"
+      ],
+      "implicitMods": [
+        "28% increased Global Critical Strike Chance"
+      ]
+    },
+    "amulet": {
+      "name": "Ungil's Harmony",
+      "typeLine": "Turquoise Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9VbmdpbHNIYXJtb255IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/dfdaf30e66/UngilsHarmony.png",
+      "itemLevel": 68,
+      "explicitMods": [
+        "341% increased Global Critical Strike Chance",
+        "+45 to maximum Life",
+        "+45 to maximum Mana",
+        "40% increased Stun and Block Recovery",
+        "Your Critical Strikes do not deal extra Damage"
+      ],
+      "implicitMods": [
+        "+28 to Dexterity and Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Coralito's Signature",
+        "typeLine": "Diamond Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvR29yZ29uc0ZsYXNrIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/8fa50a1974/GorgonsFlask.png",
+        "itemLevel": 46,
+        "explicitMods": [
+          "25% chance to Poison on Hit during Effect",
+          "Your Critical Strikes do not deal extra Damage during Effect",
+          "55% increased Duration of Poisons you inflict during Effect",
+          "Take 30 Chaos Damage per Second during Effect",
+          "Grants Perfect Agony during effect"
+        ]
+      },
+      {
+        "name": "Atziri's Promise",
+        "typeLine": "Amethyst Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQXR6aXJpc1Byb21pc2UiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8a5f4f13b4/AtzirisPromise.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "Gain 11% of Elemental Damage as Extra Chaos Damage during effect",
+          "2% of Chaos Damage Leeched as Life during Effect",
+          "Gain 15% of Physical Damage as Extra Chaos Damage during effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 63,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "25% reduced Charges per use",
+          "29% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Hallowed Hybrid Flask of Staunching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvaHlicmlkZmxhc2s0IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/541bb93a64/hybridflask4.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "30% reduced Amount Recovered",
+          "30% reduced Duration",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Bleeding for 4 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 4 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

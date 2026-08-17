@@ -5,5 +5,234 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:20Z"
+  "fetchedAt": "2026-08-17T01:04:49Z",
+  "items": {
+    "weapon": {
+      "name": "Victory Chant",
+      "typeLine": "Imbued Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kMyIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/6322bd53f5/Wand3.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+24% to Fire Damage over Time Multiplier",
+        "Adds 27 to 48 Cold Damage",
+        "9% increased Global Accuracy Rating",
+        "+1 to Level of all Fire Spell Skill Gems",
+        "+104 to Accuracy Rating",
+        "5% increased Light Radius"
+      ],
+      "implicitMods": [
+        "35% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Rise of the Phoenix",
+      "typeLine": "Mosaic Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1Jpc2VvZnRoZXBob2VuaXgiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/965404630a/Riseofthephoenix.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "275% increased Armour and Energy Shield",
+        "Regenerate 129 Life per second",
+        "+5% to maximum Fire Resistance",
+        "+21% to Fire Resistance",
+        "+25% to Fire Resistance while on Low Life",
+        "10% increased Movement Speed when on Low Life",
+        "100% chance to Avoid being Ignited while on Low Life"
+      ],
+      "implicitMods": [
+        "+8% to all Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "Victory Star",
+      "typeLine": "Sallet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckRleDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/0dc199afb2/HelmetStrDex2.png",
+      "itemLevel": 21,
+      "explicitMods": [
+        "+41 to maximum Life",
+        "Regenerate 9.4 Life per second",
+        "+12% to Fire Resistance",
+        "+13% to Cold Resistance"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Glyph Wrap",
+      "typeLine": "Spidersilk Robe",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5SW50MkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZHVwbGljYXRlZCI6dHJ1ZX1d/414e8bf737/BodyInt2C.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+8 to maximum Energy Shield",
+        "39% faster start of Energy Shield Recharge",
+        "+107 to maximum Life",
+        "+40 to maximum Mana",
+        "+10% to Lightning Resistance",
+        "12% increased Stun and Block Recovery"
+      ]
+    },
+    "gloves": {
+      "name": "Damnation Hand",
+      "typeLine": "Hydrascale Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/0bb5dd1e50/GlovesStrDex2.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "+57 to Armour",
+        "+11 to Evasion Rating",
+        "+151 to maximum Life",
+        "Regenerate 42.5 Life per second",
+        "+30% to Fire Resistance",
+        "+22% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Morbid Slippers",
+      "typeLine": "Ambush Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleEludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/0c80b843d0/BootsDexInt3.png",
+      "itemLevel": 69,
+      "explicitMods": [
+        "66% increased Evasion and Energy Shield",
+        "Regenerate 22 Life per second",
+        "+40% to Lightning Resistance",
+        "30% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Immortal Flesh",
+      "typeLine": "Leather Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSW1tb3J0YWxGbGVzaCIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/fceb1b8f8c/ImmortalFlesh.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+85 to maximum Life",
+        "Regenerate 295 Life per second",
+        "Regenerate 9 Mana per second",
+        "-21% to all Elemental Resistances",
+        "-44 Physical Damage taken from Attack Hits",
+        "40% increased Armour while not Ignited, Frozen or Shocked"
+      ],
+      "implicitMods": [
+        "+34 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Kraken Eye",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 30,
+      "explicitMods": [
+        "Adds 6 to 14 Cold Damage to Attacks",
+        "+65 to Accuracy Rating",
+        "+14 to maximum Energy Shield",
+        "+22 to maximum Mana",
+        "13% increased Rarity of Items found",
+        "+18% to Cold Resistance"
+      ],
+      "implicitMods": [
+        "+14% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Havoc Coil",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 35,
+      "explicitMods": [
+        "Adds 4 to 6 Physical Damage to Attacks",
+        "7% increased Fire Damage",
+        "+40 to maximum Mana",
+        "12% increased Rarity of Items found",
+        "Gain 3 Life per Enemy Killed"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Carnage Heart",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/451ac32a56/Amulet37.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+39 to all Attributes",
+        "+12% to all Elemental Resistances",
+        "1.91% of Physical Attack Damage Leeched as Life",
+        "50% increased total Recovery per second from Life Leech",
+        "32% increased Damage while Leeching",
+        "Extra gore"
+      ],
+      "implicitMods": [
+        "+15 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Analyst's Quartz Flask of the Curlew",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 76,
+        "explicitMods": [
+          "23% increased Duration",
+          "48% reduced Effect of Curses on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Bountiful Granite Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "+27 to Maximum Charges",
+          "44% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Brewer's Silver Flask of the Lynx",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "23% reduced Charges per use",
+          "10% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Simmering Eternal Life Flask of Interference",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/7be2c09015/lifeflask12.png",
+        "itemLevel": 75,
+        "explicitMods": [
+          "53% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Hinders nearby Enemies with 22% reduced Movement Speed if used while not on Full Life"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Apprentice's Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 26,
+        "explicitMods": [
+          "14% reduced Charges per use",
+          "48% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,207 @@
   "ascendancy": "",
   "level": 77,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:19Z"
+  "fetchedAt": "2026-08-17T00:44:54Z",
+  "items": {
+    "weapon": {
+      "name": "Obliteration",
+      "typeLine": "Omen Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9NYWxlZGljdCIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ddc131782/Maledict.png",
+      "itemLevel": 57,
+      "explicitMods": [
+        "Gain 30% of Physical Damage as Extra Chaos Damage",
+        "Enemies you Kill have a 20% chance to Explode, dealing a quarter of their maximum Life as Chaos Damage"
+      ],
+      "implicitMods": [
+        "29% increased Spell Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "329% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "18% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "helmet": {
+      "name": "Replica Alpha's Howl",
+      "typeLine": "Sinner Tricorne",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1dvbGZoZWFkIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/2acc10e593/Wolfhead.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+4 to Level of Socketed Herald Gems",
+        "90% increased Evasion Rating",
+        "+27% to Chaos Resistance",
+        "25% chance to Avoid being Poisoned",
+        "16% increased Mana Reservation Efficiency of Skills",
+        "You cannot be Hindered"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Dire Hide",
+      "typeLine": "Conquest Chainmail",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/2cea5723dd/BodyStrInt2B.png",
+      "itemLevel": 68,
+      "explicitMods": [
+        "+16 to Armour",
+        "+34 to maximum Energy Shield",
+        "+18 to maximum Life",
+        "Regenerate 22.1 Life per second",
+        "+21 to maximum Mana"
+      ]
+    },
+    "gloves": {
+      "name": "Loath Knuckle",
+      "typeLine": "Crusader Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RySW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/7adc65bac6/GlovesStrInt3.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+35 to Dexterity",
+        "+113 to maximum Life",
+        "+29% to Cold Resistance",
+        "+37% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Invasion Trail",
+      "typeLine": "Two-Toned Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Ud29Ub25lZEJvb3RzIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/93a61b5672/TwoTonedBoots.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "32% increased Evasion and Energy Shield",
+        "+23% to Fire Resistance",
+        "30% increased Movement Speed",
+        "13% increased Stun and Block Recovery",
+        "+15% to Cold and Lightning Resistances"
+      ],
+      "implicitMods": [
+        "+12% to Cold and Lightning Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Replica Prismweave",
+      "typeLine": "Rustic Sash",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUHJpc213ZWF2ZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/822582fe24/Prismweave.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "Adds 16 to 30 Fire Damage to Spells",
+        "Adds 11 to 26 Cold Damage to Spells",
+        "Adds 1 to 67 Lightning Damage to Spells",
+        "+14% to all Elemental Resistances",
+        "30% increased Elemental Damage during any Flask Effect"
+      ],
+      "implicitMods": [
+        "16% increased Global Physical Damage"
+      ]
+    },
+    "ring1": {
+      "name": "Brimstone Coil",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
+      "itemLevel": 42,
+      "explicitMods": [
+        "+22 to Dexterity",
+        "Adds 1 to 14 Lightning Damage to Attacks",
+        "+18 to Evasion Rating",
+        "+20 to maximum Energy Shield",
+        "+19% to Fire Resistance",
+        "+22% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+15% to Cold and Lightning Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Onslaught Grip",
+      "typeLine": "Coral Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzIiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6e12710920/Ring2.png",
+      "itemLevel": 69,
+      "explicitMods": [
+        "Adds 9 to 19 Fire Damage to Attacks",
+        "+110 to maximum Life",
+        "+11% to all Elemental Resistances",
+        "+37% to Fire Resistance",
+        "+23% to Cold Resistance"
+      ],
+      "implicitMods": [
+        "+27 to maximum Life"
+      ]
+    },
+    "amulet": {
+      "name": "Perquil's Toe",
+      "typeLine": "Gold Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9QZXJxdWlsc1RvZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7509c4517f/PerquilsToe.png",
+      "itemLevel": 54,
+      "explicitMods": [
+        "+48 to Dexterity",
+        "8% increased Movement Speed",
+        "Lightning Damage of Enemies Hitting you is Lucky",
+        "Nearby Allies' Damage with Hits is Lucky"
+      ],
+      "implicitMods": [
+        "15% increased Rarity of Items found"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 7
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

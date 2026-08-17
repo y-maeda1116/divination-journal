@@ -5,5 +5,236 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:18Z"
+  "fetchedAt": "2026-08-17T00:44:47Z",
+  "items": {
+    "weapon": {
+      "name": "Dreamfeather",
+      "typeLine": "Eternal Sword",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL0RyZWFtZmVhdGhlciIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/89a3a7588c/Dreamfeather.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "Adds 48 to 76 Physical Damage",
+        "21% increased Attack Speed",
+        "+188 to Evasion Rating",
+        "3% increased Movement Speed",
+        "+299 to Accuracy Rating",
+        "1% increased Attack Damage per 450 Evasion Rating"
+      ],
+      "implicitMods": [
+        "+475 to Accuracy Rating"
+      ]
+    },
+    "offhand": {
+      "name": "Beltimber Blade",
+      "typeLine": "Eternal Sword",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL1ZlcmRhbnRHdWFyZGlhblN3b3JkMiIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/3f09536952/VerdantGuardianSword2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "203% increased Physical Damage",
+        "17% increased Attack Speed",
+        "80% increased Evasion Rating while moving",
+        "Skills fire 2 additional Projectiles if you've used a Movement Skill Recently",
+        "Far Shot"
+      ],
+      "implicitMods": [
+        "+475 to Accuracy Rating"
+      ]
+    },
+    "helmet": {
+      "name": "Pandemonium Shelter",
+      "typeLine": "Sinner Tricorne",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleDkiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f348f6138b/HelmetDex9.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+19 to Evasion Rating",
+        "40% increased Evasion Rating",
+        "+110 to maximum Life",
+        "+29% to Fire Resistance",
+        "+26% to Lightning Resistance",
+        "16% increased Stun and Block Recovery",
+        "+13% to Fire and Chaos Resistances"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Lioneye's Vision",
+      "typeLine": "Crusader Plate",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9MaW9uZXllc0FybW91ciIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/b6e10a9216/LioneyesArmour.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 15 Pierce",
+        "+160 Dexterity Requirement",
+        "233% increased Armour",
+        "+62 to maximum Life",
+        "0.4% of Physical Attack Damage Leeched as Mana",
+        "Enemy Projectiles Pierce you"
+      ]
+    },
+    "gloves": {
+      "name": "Tanu Ahi",
+      "typeLine": "Wyrmscale Gauntlets",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR29yZWZpc3RHbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/4c11aafeb7/GorefistGloves.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "11% increased Attack Speed",
+        "148% increased Armour and Evasion",
+        "2.5% of Physical Attack Damage Leeched as Life",
+        "10% chance to gain Adrenaline for 2 Seconds when Leech is\nremoved by Filling Unreserved Life",
+        "10% chance to gain Onslaught for 4 Seconds when Leech is\nremoved by Filling Unreserved Life"
+      ]
+    },
+    "boots": {
+      "name": "Ralakesh's Impatience",
+      "typeLine": "Riveted Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9SYWxha2VzaHNJbXBhdGllbmNlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/54540f0f3d/RalakeshsImpatience.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+15% to Cold Resistance",
+        "+20% to Chaos Resistance",
+        "Count as having maximum number of Endurance Charges\nCount as having maximum number of Frenzy Charges\nCount as having maximum number of Power Charges"
+      ]
+    },
+    "belt": {
+      "name": "Perseverance",
+      "typeLine": "Vanguard Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUGVyc2VydmVyYW5jZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/1ff634248a/Perserverance.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "8% increased maximum Life",
+        "+31% to Cold Resistance",
+        "1% increased Attack Damage per 200 of the lowest of Armour and Evasion Rating",
+        "Melee Hits which Stun Fortify",
+        "You have Onslaught while Fortified"
+      ],
+      "implicitMods": [
+        "+305 to Armour and Evasion Rating"
+      ]
+    },
+    "ring1": {
+      "name": "Wrath Loop",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 72,
+      "explicitMods": [
+        "+1 to maximum Energy Shield",
+        "+14% to all Elemental Resistances",
+        "+45% to Cold Resistance",
+        "+35% to Lightning Resistance",
+        "+46 to maximum Life"
+      ],
+      "implicitMods": [
+        "+14% to Fire and Lightning Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Dragon Finger",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "+3 to maximum Energy Shield",
+        "+9% to all Elemental Resistances",
+        "+29% to Chaos Resistance",
+        "+17% to Fire and Chaos Resistances",
+        "+46 to maximum Life"
+      ],
+      "implicitMods": [
+        "+16% to Cold and Lightning Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Maelström Braid",
+      "typeLine": "Agate Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BZ2F0ZUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/710a5a8ec4/AgateAmulet.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "Adds 14 to 25 Fire Damage to Attacks",
+        "+76 to maximum Life",
+        "+47% to Fire Resistance",
+        "+35% to Cold Resistance",
+        "+23% to Lightning Resistance",
+        "0.4% of Fire Damage Leeched as Life",
+        "7% increased Area of Effect",
+        "10% increased Area Damage"
+      ],
+      "implicitMods": [
+        "+24 to Strength and Intelligence"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Freedom",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 76,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Hinder for 14 seconds if used while Hindered",
+          "Grants Immunity to Maim for 12 seconds if used while Maimed"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Endless Granite Flask of Stabilisation",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "29% increased Charge Recovery",
+          "75% increased Block and Stun Recovery during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Physician's Sulphur Flask of Turf Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ29sZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/74568fc9b9/gold.png",
+        "itemLevel": 35,
+        "explicitMods": [
+          "16% chance to gain a Flask Charge when you deal a Critical Strike",
+          "37% chance to Avoid being Shocked during Effect"
+        ],
+        "implicitMods": [
+          "Creates Consecrated Ground on Use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Jade Flask of the Goldfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "+18 to Maximum Charges",
+          "39% chance to Avoid being Ignited during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Scholar's Quicksilver Flask of the Skink",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "18% reduced Charges per use",
+          "43% less Duration",
+          "Immunity to Bleeding and Corrupted Blood during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

@@ -5,5 +5,246 @@
   "ascendancy": "",
   "level": 95,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:19Z"
+  "fetchedAt": "2026-08-17T00:44:51Z",
+  "items": {
+    "weapon": {
+      "name": "Grace of the Goddess",
+      "typeLine": "Prophecy Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9VYmVyTWF2ZW5XYW5kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/1e06b23a5b/UberMavenWand.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "326% increased Physical Damage",
+        "Gain 44% of Physical Damage as Extra Fire Damage",
+        "Gain 47% of Physical Damage as Extra Cold Damage",
+        "Gain 25% of Physical Damage as Extra Lightning Damage",
+        "+1 to maximum number of Sacred Wisps\n+1 to number of Sacred Wisps Summoned"
+      ],
+      "implicitMods": [
+        "Adds 2 to 58 Lightning Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "302% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "10% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "helmet": {
+      "name": "Rune Crown",
+      "typeLine": "Archdemon Crown",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01hc2tDcm93biIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/dbad72643e/MaskCrown.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+2 to Level of Socketed AoE Gems",
+        "Socketed Gems are Supported by Level 20 Burning Damage",
+        "Socketed Gems deal 30% more Elemental Damage",
+        "Regenerate 9.6 Life per second",
+        "33% increased Burning Damage",
+        "9% increased Area of Effect",
+        "Reflects 1 Physical Damage to Melee Attackers",
+        "70% increased Armour and Energy Shield"
+      ],
+      "implicitMods": [
+        "-2 to Level of Socketed Support Gems",
+        "+2 to Level of Socketed Skill Gems"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Entropy Wrap",
+      "typeLine": "Twilight Regalia",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyRGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/0374235011/BodyStrDexInt1C.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+101 to maximum Energy Shield",
+        "100% increased Energy Shield",
+        "+31 to maximum Life",
+        "Regenerate 23.3 Life per second",
+        "+30% to Lightning Resistance",
+        "+28 to Intelligence"
+      ],
+      "implicitMods": [
+        "10% of Physical Damage from Hits taken as Chaos Damage",
+        "While a Unique Enemy is in your Presence, +2% to all maximum Resistances"
+      ]
+    },
+    "gloves": {
+      "name": "Rift Grip",
+      "typeLine": "Legion Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RySW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/1af33d9f4d/GlovesStrInt2.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+6 to Armour",
+        "82% increased Armour and Energy Shield",
+        "+3 to maximum Energy Shield",
+        "+71 to maximum Life",
+        "+44% to Cold Resistance",
+        "+40% to Lightning Resistance",
+        "+34% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "Inflict Fire Exposure on Hit, applying -12% to Fire Resistance",
+        "Ignites you inflict spread to other Enemies within 1.3 metres"
+      ]
+    },
+    "boots": {
+      "name": "Beast Urge",
+      "typeLine": "Paladin Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/c253827d20/BootsStrInt3.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Regenerate 22.3 Life per second",
+        "+62 to maximum Mana",
+        "+41% to Cold Resistance",
+        "30% increased Movement Speed",
+        "56% chance to Avoid being Shocked",
+        "74% increased Armour and Energy Shield"
+      ],
+      "implicitMods": [
+        "15% chance to Avoid Elemental Ailments",
+        "33% chance to Avoid being Shocked"
+      ]
+    },
+    "belt": {
+      "name": "Bated Breath",
+      "typeLine": "Chain Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmF0ZWRCcmVhdGgiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/0a8cc4529f/BatedBreath.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "+16 to Intelligence",
+        "10% increased Damage",
+        "+29 to maximum Energy Shield",
+        "20% increased maximum Energy Shield",
+        "50% increased Energy Shield Recharge Rate"
+      ],
+      "implicitMods": [
+        "+18 to maximum Energy Shield"
+      ]
+    },
+    "ring1": {
+      "name": "Polaric Devastation",
+      "typeLine": "Opal Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQXNoQW5kRnJvc3QiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/70630a6e17/AshAndFrost.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "22% increased Global Critical Strike Chance",
+        "+37% to Fire Resistance",
+        "+22% to Cold Resistance",
+        "20% increased Duration of Ailments on Enemies",
+        "Left Ring slot: Cover Enemies in Ash for 5 seconds when you Ignite them",
+        "Right Ring slot: Cover Enemies in Frost for 5 seconds when you Freeze them"
+      ],
+      "implicitMods": [
+        "24% increased Elemental Damage"
+      ]
+    },
+    "ring2": {
+      "name": "Lost Unity",
+      "typeLine": "Formless Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQnJlYWNobG9yZFJpbmdVbmlxdWVfQWxsQ29tYmluZWQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8b39060f10/BreachlordRingUnique_AllCombined.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Grants Level 30 Herald of the Hive Skill",
+        "+17% to all Elemental Resistances",
+        "+32% to Chaos Resistance"
+      ],
+      "implicitMods": [
+        "7% increased Global Defences"
+      ]
+    },
+    "amulet": {
+      "name": "Ashes of the Stars",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NYXN0ZXJPZkdlbXMiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/f6497cbdfe/MasterOfGems.png",
+      "itemLevel": 87,
+      "explicitMods": [
+        "6% increased Experience Gain of Gems",
+        "+1 to Level of all Skill Gems",
+        "+25% to Quality of all Skill Gems"
+      ],
+      "implicitMods": [
+        "+16 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/4d59967889/BlockFlask.png",
+        "itemLevel": 80,
+        "explicitMods": [
+          "+12% Chance to Block Attack Damage during Effect",
+          "+4% Chance to Block Spell Damage during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 48,
+        "explicitMods": [
+          "14% chance to gain a Flask Charge when you deal a Critical Strike",
+          "7% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Examiner's Granite Flask of Siphoning",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "27% increased Duration",
+          "0.7% of Spell Damage Leeched as Energy Shield during Effect"
+        ]
+      },
+      {
+        "name": "Oriath's End",
+        "typeLine": "Bismuth Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVWJlclNpcnVzRmxhc2siLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/559e44ad89/UberSirusFlask.png",
+        "itemLevel": 87,
+        "explicitMods": [
+          "38% increased Charge Recovery",
+          "Enemies you Kill during Effect have a 24% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
+        ]
+      },
+      {
+        "name": "Cinderswallow Urn",
+        "typeLine": "Silver Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVmlhbG9mVW5saWZlIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/64bbacc4d4/VialofUnlife.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "+13 to Maximum Charges",
+          "Recharges 5 Charges when you Consume an Ignited corpse",
+          "You can apply an additional Curse during Effect",
+          "Enemies Ignited by you during Effect take 7% increased Damage",
+          "Recover 2% of Energy Shield when you Kill an Enemy during Effect"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

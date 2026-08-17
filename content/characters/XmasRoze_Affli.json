@@ -5,5 +5,239 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:19Z"
+  "fetchedAt": "2026-08-17T00:44:49Z",
+  "items": {
+    "weapon": {
+      "name": "Replica Dreamfeather",
+      "typeLine": "Eternal Sword",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL0RyZWFtZmVhdGhlciIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/89a3a7588c/Dreamfeather.png",
+      "itemLevel": 82,
+      "explicitMods": [
+        "Adds 46 to 98 Physical Damage",
+        "10% increased Attack Speed",
+        "+185 to Armour",
+        "3% reduced Movement Speed",
+        "+296 to Accuracy Rating",
+        "1% increased Attack Damage per 450 Armour"
+      ],
+      "implicitMods": [
+        "+475 to Accuracy Rating"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "332% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "20% increased Elemental Damage with Attack Skills"
+      ]
+    },
+    "helmet": {
+      "name": "Alpha's Howl",
+      "typeLine": "Sinner Tricorne",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1dvbGZoZWFkIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/2acc10e593/Wolfhead.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+2 to Level of Socketed Aura Gems",
+        "85% increased Evasion Rating",
+        "+29% to Cold Resistance",
+        "Cannot be Frozen",
+        "25% chance to Avoid being Chilled",
+        "16% increased Mana Reservation Efficiency of Skills"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Doryani's Prototype",
+      "typeLine": "Saint's Hauberk",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9TaG9ja0Nsb2FrIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/44e73cc73c/ShockCloak.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "195% increased Armour and Energy Shield",
+        "+60 to maximum Life",
+        "Deal no Non-Lightning Damage",
+        "Armour also applies to Lightning Damage taken from Hits",
+        "Lightning Resistance does not affect Lightning Damage taken",
+        "Nearby Enemies have Lightning Resistance equal to yours"
+      ]
+    },
+    "gloves": {
+      "name": "Shaper's Touch",
+      "typeLine": "Crusader Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvU2hhcGVyc0dsb3ZlcyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/633aead741/ShapersGloves.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "93% increased Armour and Energy Shield",
+        "+4 Accuracy Rating per 2 Intelligence",
+        "+1 Life per 4 Dexterity",
+        "+1 Mana per 4 Strength",
+        "1% increased Energy Shield per 10 Strength",
+        "2% increased Evasion Rating per 10 Intelligence",
+        "2% increased Melee Physical Damage per 10 Dexterity"
+      ]
+    },
+    "boots": {
+      "name": "March of the Legion",
+      "typeLine": "Legion Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BdXJhQm9vdHMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/736eee69a4/AuraBoots.png",
+      "itemLevel": 71,
+      "explicitMods": [
+        "+5 to Level of Socketed Aura Gems",
+        "Socketed Gems are Supported by Level 25 Divine Blessing",
+        "256% increased Armour and Energy Shield",
+        "+13% to all Elemental Resistances",
+        "30% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Immortal Flesh",
+      "typeLine": "Leather Belt",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSW1tb3J0YWxGbGVzaCIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/fceb1b8f8c/ImmortalFlesh.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+82 to maximum Life",
+        "Regenerate 349.2 Life per second",
+        "Regenerate 8.2 Mana per second",
+        "-25% to all Elemental Resistances",
+        "-42 Physical Damage taken from Attack Hits",
+        "40% increased Armour while not Ignited, Frozen or Shocked"
+      ],
+      "implicitMods": [
+        "+35 to maximum Life"
+      ]
+    },
+    "ring1": {
+      "name": "Blight Turn",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvU2FwcGhpcmVSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7df6d65dfd/SapphireRuby.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Adds 1 to 2 Cold Damage to Attacks",
+        "+101 to Accuracy Rating",
+        "+13 to maximum Energy Shield",
+        "+43% to Fire Resistance",
+        "+48% to Cold Resistance",
+        "Non-Channelling Skills have -7 to Total Mana Cost"
+      ],
+      "implicitMods": [
+        "+15% to Fire and Cold Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Victory Eye",
+      "typeLine": "Ruby Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/0e04df86a3/Ring7.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "Adds 12 to 25 Fire Damage to Attacks",
+        "+28 to maximum Energy Shield",
+        "19% increased Rarity of Items found",
+        "+39% to Fire Resistance",
+        "+19% to Fire and Chaos Resistances",
+        "Non-Channelling Skills have -6 to Total Mana Cost"
+      ],
+      "implicitMods": [
+        "+25% to Fire Resistance"
+      ]
+    },
+    "amulet": {
+      "name": "The Eternal Struggle",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Wb2lkY29yZUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/3ca1f8ecb5/VoidcoreAmulet.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+34 to Strength",
+        "+41 to Dexterity",
+        "+35 to Intelligence",
+        "15% increased Global Defences",
+        "Critical Strikes inflict Malignant Madness if The Eater of Worlds is dominant",
+        "Kill Enemies that have 15% or lower Life on Hit if The Searing Exarch is dominant"
+      ],
+      "implicitMods": [
+        "While a Unique Enemy is in your Presence, Damage Penetrates 6% Lightning Resistance",
+        "While a Unique Enemy is in your Presence, 29% increased Global Physical Damage"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Masochist's Basalt Flask of the Antelope",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3RvbmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/b9ccc40808/stone.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "Gain 2 Charges when you are Hit by an Enemy",
+          "46% increased Evasion Rating during Effect"
+        ],
+        "implicitMods": [
+          "Taunts nearby Enemies on use"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Ample Quicksilver Flask of the Beluga",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "+32 to Maximum Charges",
+          "48% chance to Avoid being Chilled during Effect",
+          "49% chance to Avoid being Frozen during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Ruby Flask of Craft",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "25% reduced Mana Cost of Skills during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Masochist's Jade Flask of the Eagle",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/f31735f3f1/evasionflask01.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "Gain 2 Charges when you are Hit by an Enemy",
+          "13% increased Attack Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Effusive Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 81,
+        "explicitMods": [
+          "44% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

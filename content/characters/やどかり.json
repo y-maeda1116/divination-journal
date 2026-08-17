@@ -5,5 +5,222 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-08-17T00:38:20Z"
+  "fetchedAt": "2026-08-17T01:05:54Z",
+  "items": {
+    "weapon": {
+      "name": "Honour Chant",
+      "typeLine": "Convoking Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9Db252b2tpbmdXYW5kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/fc10997b84/ConvokingWand.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "Adds 2 to 47 Lightning Damage to Spells",
+        "37% increased Critical Strike Chance",
+        "+1 to Level of all Minion Skill Gems",
+        "Minions have 16% increased Attack and Cast Speed",
+        "Trigger a Socketed Spell when you Use a Skill, with a 8 second Cooldown\nSpells Triggered this way have 150% more Cost"
+      ],
+      "implicitMods": [
+        "Minions deal 28% increased Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "367% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "12% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "Grants Level 23 Discipline Skill"
+      ]
+    },
+    "helmet": {
+      "name": "Blood Keep",
+      "typeLine": "Hubris Circlet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDExIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/4588b92597/HelmetInt11.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+107 to maximum Life",
+        "+31 to maximum Mana",
+        "+1 to Level of all Minion Skill Gems",
+        "+14% to Lightning Resistance",
+        "+15% to Cold and Lightning Resistances"
+      ]
+    },
+    "bodyArmour": {
+      "name": "The Covenant",
+      "typeLine": "Spidersilk Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9FbWJyYWNlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/d0110e7660/Embrace.png",
+      "itemLevel": 75,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 29 Added Chaos Damage",
+        "+23 to Intelligence",
+        "224% increased Energy Shield",
+        "10% increased maximum Life",
+        "Skills gain a Base Life Cost equal to 100% of Base Mana Cost"
+      ]
+    },
+    "gloves": {
+      "name": "Dread Knuckle",
+      "typeLine": "Murder Mitts",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/060b6ea395/GlovesDexInt3.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "+33 to Evasion Rating",
+        "+97 to maximum Life",
+        "16% increased Rarity of Items found",
+        "+35% to Fire Resistance",
+        "+23% to Lightning Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Doom League",
+      "typeLine": "Legion Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/742e5a15d7/BootsStrInt2.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+42 to Intelligence",
+        "+116 to maximum Life",
+        "25% increased Movement Speed",
+        "21% chance to Avoid being Chilled",
+        "100% chance to Avoid being Frozen",
+        "+16% to Fire and Cold Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Darkness Enthroned",
+      "typeLine": "Stygian Vise",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRGFya25lc3NFbnRocm9uZWQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/2e418e2c4d/DarknessEnthroned.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Has 1 Abyssal Socket",
+        "90% increased Effect of Socketed Abyss Jewels"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
+      ]
+    },
+    "ring1": {
+      "name": "Golem Grip",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "Adds 6 to 15 Physical Damage to Attacks",
+        "+113 to maximum Life",
+        "+11% to all Elemental Resistances",
+        "+24% to Cold Resistance"
+      ],
+      "implicitMods": [
+        "+16% to Fire and Lightning Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "The Hungry Loop",
+      "typeLine": "Unset Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGhlSHVuZ3J5TG9vcCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/2225980dc6/TheHungryLoop.png",
+      "itemLevel": 77,
+      "explicitMods": [
+        "Consumes Socketed Uncorrupted Support Gems when they reach Maximum Level\nCan Consume 4 Uncorrupted Support Gems\nHas not Consumed any Gems"
+      ],
+      "implicitMods": [
+        "Has 1 Socket"
+      ]
+    },
+    "amulet": {
+      "name": "Aul's Uprising",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BaG4gQXJ0aWZhY3QiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/5234506d57/Ahn%20Artifact.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+21 to Intelligence",
+        "18% increased maximum Energy Shield",
+        "+59 to maximum Life",
+        "Hits against Nearby Enemies have 50% increased Critical Strike Chance",
+        "Malevolence has no Reservation"
+      ],
+      "implicitMods": [
+        "+15 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Transgressor's Quicksilver Flask of the Carp",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "41% chance to Avoid being Ignited during Effect"
+        ]
+      },
+      {
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/4d59967889/BlockFlask.png",
+        "itemLevel": 86,
+        "explicitMods": [
+          "+12% Chance to Block Attack Damage during Effect",
+          "+4% Chance to Block Spell Damage during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Ebullient Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 68,
+        "explicitMods": [
+          "49% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Bountiful Amethyst Flask of Tooth Moss",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/0f93f9050a/Amethyst.png",
+        "itemLevel": 82,
+        "explicitMods": [
+          "+26 to Maximum Charges",
+          "41% chance to Avoid being Shocked during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Quenching",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Ignite for 16 seconds if used while Ignited\nRemoves all Burning when used"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

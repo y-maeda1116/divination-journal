@@ -13,6 +13,8 @@ import (
 	"os"
 	"sort"
 	"time"
+
+	"github.com/poe-diary/fetch-poe-data/api"
 )
 
 const debugUA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
@@ -84,5 +86,39 @@ func main() {
 		}
 		fmt.Printf("entry[%d]: name=%v league=%v level=%v experience=%v (type %T)\n",
 			i, e["name"], e["league"], e["level"], e["experience"], e["experience"])
+	}
+
+	dumpOAuth2Experience()
+}
+
+// dumpOAuth2Experience は OAuth2 /character が experience を返すか、また
+// 保存済み refresh token が現在有効かを確認する。
+func dumpOAuth2Experience() {
+	clientID := os.Getenv("POE_CLIENT_ID")
+	refreshToken := os.Getenv("POE_REFRESH_TOKEN")
+	if clientID == "" || refreshToken == "" {
+		fmt.Println("oauth2: POE_CLIENT_ID / POE_REFRESH_TOKEN not set")
+		return
+	}
+
+	token, err := api.RefreshAccessToken(clientID, refreshToken)
+	if err != nil {
+		fmt.Println("oauth2 refresh failed:", err)
+		return
+	}
+	fmt.Println("oauth2: access token obtained")
+
+	chars, err := api.NewClient(token.AccessToken).GetCharacters()
+	if err != nil {
+		fmt.Println("oauth2 get characters failed:", err)
+		return
+	}
+	fmt.Println("oauth2 entry count:", len(chars))
+	for i, c := range chars {
+		if i >= 5 {
+			break
+		}
+		fmt.Printf("oauth2[%d]: name=%s league=%s level=%d experience=%d\n",
+			i, c.Name, c.League, c.Level, c.Experience)
 	}
 }

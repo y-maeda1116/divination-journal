@@ -24,4 +24,6 @@ jobs:
         env:
           POE_ACCOUNT_NAME: ${{ secrets.POE_ACCOUNT_NAME }}
           POESESSID: ${{ secrets.POESESSID }}
+          POE_CLIENT_ID: ${{ secrets.POE_CLIENT_ID }}
+          POE_REFRESH_TOKEN: ${{ secrets.POE_REFRESH_TOKEN }}
         run: go run ./cmd/debugxp

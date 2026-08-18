@@ -38,12 +38,6 @@ export default function Dashboard({ selectedLeague, onTabChange }: DashboardProp
               <p className="mt-1 text-sm text-text-muted">
                 {char.ascendancy || char.class} — {char.league}
               </p>
-              <div className="mt-2 h-1.5 rounded-full bg-bg-primary">
-                <div
-                  className="h-full rounded-full bg-accent transition-all"
-                  style={{ width: `${Math.min((char.level / 100) * 100, 100)}%` }}
-                />
-              </div>
             </div>
           ))}
         </div>

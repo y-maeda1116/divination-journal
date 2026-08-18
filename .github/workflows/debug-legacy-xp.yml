@@ -1,0 +1,50 @@
+name: Debug legacy XP fields
+
+# 一時的な調査用 workflow。旧 character-window API の生レスポンスに
+# experience フィールドが存在するかを確認する。確認後にブランチごと削除する。
+# ※ secret(POESESSID)はログに出力しない。secrets は env 経由で渡す。
+
+on:
+  workflow_dispatch:
+
+jobs:
+  debug:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Inspect get-characters response
+        env:
+          POE_ACCOUNT_NAME: ${{ secrets.POE_ACCOUNT_NAME }}
+          POESESSID: ${{ secrets.POESESSID }}
+        run: |
+          set -euo pipefail
+          code=$(curl -s -o chars.json -w '%{http_code}' \
+            -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+            -H 'Accept: application/json, text/plain, */*' \
+            -H 'Accept-Language: en-US,en;q=0.9' \
+            -H "Cookie: POESESSID=${POESESSID}" \
+            "https://www.pathofexile.com/character-window/get-characters?accountName=${POE_ACCOUNT_NAME}")
+          echo "HTTP ${code}"
+          echo "--- keys of first entry ---"
+          jq 'if (type == "array" and length > 0) then .[0] | keys else . end' chars.json
+          echo "--- name / level / experience of first 3 entries ---"
+          jq 'if (type == "array") then .[0:3] | map({name, league, level, experience}) else . end' chars.json
+
+      - name: Inspect get-items character object
+        env:
+          POE_ACCOUNT_NAME: ${{ secrets.POE_ACCOUNT_NAME }}
+          POESESSID: ${{ secrets.POESESSID }}
+        run: |
+          set -euo pipefail
+          CHAR=$(jq -r '.[0].name' chars.json)
+          echo "character: ${CHAR}"
+          code=$(curl -s -o items.json -w '%{http_code}' \
+            -H 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36' \
+            -H 'Accept: application/json, text/plain, */*' \
+            -H 'Accept-Language: en-US,en;q=0.9' \
+            -H "Cookie: POESESSID=${POESESSID}" \
+            "https://www.pathofexile.com/character-window/get-items?characterName=${CHAR}&accountName=${POE_ACCOUNT_NAME}")
+          echo "HTTP ${code}"
+          echo "--- keys of .character ---"
+          jq '.character | keys' items.json
+          echo "--- .character experience-related fields ---"
+          jq '.character | {name, level, league, experience}' items.json

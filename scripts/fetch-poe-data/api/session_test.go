@@ -21,7 +21,7 @@ func TestSessionClientGetCharactersConvertsLegacy(t *testing.T) {
 			t.Errorf("expected POESESSID cookie, got %v", cookies)
 		}
 		w.Header().Set("Content-Type", "application/json")
-		w.Write([]byte(`[{"name":"MyChar","league":"Standard","class":"Witch","classId":3,"ascendancy":"Necromancer","level":90,"experience":123456}]`))
+		w.Write([]byte(`[{"name":"MyChar","league":"Standard","class":"Witch","classId":3,"ascendancy":"Necromancer","level":90,"experience":123456,"lastLoginTime":1755500000}]`))
 	}))
 	defer srv.Close()
 
@@ -39,6 +39,9 @@ func TestSessionClientGetCharactersConvertsLegacy(t *testing.T) {
 	}
 	if chars[0].Name != "MyChar" || chars[0].League != "Standard" || chars[0].Ascendancy != "Necromancer" {
 		t.Errorf("unexpected character: %+v", chars[0])
+	}
+	if chars[0].LastLogin != 1755500000 {
+		t.Errorf("expected lastLogin 1755500000, got %d", chars[0].LastLogin)
 	}
 }
 

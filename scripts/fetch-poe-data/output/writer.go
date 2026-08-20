@@ -46,3 +46,24 @@ func WriteLeague(dir string, league *models.League) error {
 	fmt.Printf("  Written: %s\n", path)
 	return nil
 }
+
+// WriteHistorySnapshot は 1 日分の履歴スナップショットを history/<date>.json へ
+// 書き込む。同日の再実行では同じパスを上書きする(1 日 1 ファイル・冪等)。
+func WriteHistorySnapshot(dir string, snap *models.HistorySnapshot) error {
+	if err := os.MkdirAll(filepath.Join(dir, "history"), 0o755); err != nil {
+		return fmt.Errorf("creating history dir: %w", err)
+	}
+
+	path := filepath.Join(dir, "history", snap.Date+".json")
+	data, err := json.MarshalIndent(snap, "", "  ")
+	if err != nil {
+		return fmt.Errorf("marshaling history snapshot %s: %w", snap.Date, err)
+	}
+
+	if err := os.WriteFile(path, data, 0o644); err != nil {
+		return fmt.Errorf("writing history file %s: %w", path, err)
+	}
+
+	fmt.Printf("  Written: %s\n", path)
+	return nil
+}

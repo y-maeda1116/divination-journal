@@ -3,15 +3,18 @@ package models
 import "time"
 
 type Character struct {
-	Name       string    `json:"name"`
-	League     string    `json:"league"`
-	Class      string    `json:"class"`
-	Ascendancy string    `json:"ascendancy"`
-	Level      int       `json:"level"`
-	Experience int64     `json:"experience"`
-	FetchedAt  string    `json:"fetchedAt"`
-	Items      *Items    `json:"items,omitempty"`
-	Passives   *Passives `json:"passives,omitempty"`
+	Name       string `json:"name"`
+	League     string `json:"league"`
+	Class      string `json:"class"`
+	Ascendancy string `json:"ascendancy"`
+	Level      int    `json:"level"`
+	Experience int64  `json:"experience"`
+	FetchedAt  string `json:"fetchedAt"`
+	// LastLogin は旧 API の lastLoginTime (unix 秒) を RFC3339 (UTC) へ変換したもの。
+	// OAuth2 経路や旧ファイルでは欠落するため omitempty とし、nil は「不明」を意味する。
+	LastLogin *string   `json:"lastLogin,omitempty"`
+	Items     *Items    `json:"items,omitempty"`
+	Passives  *Passives `json:"passives,omitempty"`
 }
 
 type Items struct {
@@ -57,6 +60,8 @@ type APICharacter struct {
 	Level      int    `json:"level"`
 	Experience int64  `json:"experience"`
 	Ascendancy string `json:"ascendancy,omitempty"`
+	// LastLogin は旧 character-window API のみ提供する unix 秒。0 は「不明」。
+	LastLogin int64 `json:"lastLogin,omitempty"`
 }
 
 // APICharacters は GET /character のラッパーオブジェクト。

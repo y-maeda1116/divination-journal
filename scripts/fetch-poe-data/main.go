@@ -104,6 +104,7 @@ func runFetch(args []string) {
 			Level:      ac.Level,
 			Experience: ac.Experience,
 			FetchedAt:  models.NowUTC(),
+			LastLogin:  formatLastLogin(ac.LastLogin),
 		}
 
 		// Fetch items (optional - may fail for some realms)
@@ -126,6 +127,13 @@ func runFetch(args []string) {
 		time.Sleep(itemsRequestInterval)
 
 		leagueCharMap[ac.League] = append(leagueCharMap[ac.League], ac.Name)
+	}
+
+	// 履歴スナップショット(1日1ファイル)。--league フィルタによらず全キャラの
+	// レベルを記録し、リーグをまたいだ推移も追えるようにする。
+	snapshot := buildHistorySnapshot(apiChars, time.Now())
+	if err := output.WriteHistorySnapshot(*outputDir, snapshot); err != nil {
+		log.Fatalf("Failed to write history snapshot: %v", err)
 	}
 
 	// Fetch leagues
@@ -300,4 +308,36 @@ func loadExistingLeague(dir, id string) *models.League {
 	}
 
 	return &league
+}
+
+// jst は履歴スナップショットの日付キーに使うタイムゾーン。日次 fetch の cron は
+// JST 05:17 (= UTC 前日 20:17) に走るため、日付は JST 暦日で切る(UTC のままだと
+// 履歴の日付が 1 日ずれる)。
+var jst = time.FixedZone("JST", 9*60*60)
+
+// buildHistorySnapshot は全キャラのレベルから 1 日分の履歴スナップショットを構築する。
+func buildHistorySnapshot(chars []models.APICharacter, now time.Time) *models.HistorySnapshot {
+	entries := make([]models.HistoryEntry, 0, len(chars))
+	for _, c := range chars {
+		entries = append(entries, models.HistoryEntry{
+			Name:   c.Name,
+			League: c.League,
+			Level:  c.Level,
+		})
+	}
+	return &models.HistorySnapshot{
+		Date:       now.In(jst).Format("2006-01-02"),
+		FetchedAt:  now.UTC().Format(time.RFC3339),
+		Characters: entries,
+	}
+}
+
+// formatLastLogin は旧 API の lastLoginTime (unix 秒) を RFC3339 (UTC) へ変換する。
+// 0 以下は「不明」を意味するため nil を返し、出力 JSON からフィールドを落とす。
+func formatLastLogin(unix int64) *string {
+	if unix <= 0 {
+		return nil
+	}
+	formatted := time.Unix(unix, 0).UTC().Format(time.RFC3339)
+	return &formatted
 }

@@ -1,4 +1,8 @@
+import { Suspense, lazy } from 'react'
 import { loadCharacterByName } from '../../utils/contentLoader'
+
+// recharts を含むため遅延読み込みにして main bundle を膨らませない
+const LevelChart = lazy(() => import('./LevelChart'))
 
 interface CharacterDetailProps {
   name: string
@@ -55,6 +59,13 @@ export default function CharacterDetail({ name, onBack }: CharacterDetailProps) 
         <p className="mt-2 text-xs text-text-muted">
           Last updated: {new Date(character.fetchedAt).toLocaleString()}
         </p>
+      </div>
+
+      <div className="mt-6 rounded-lg border border-border bg-bg-card p-6">
+        <h3 className="mb-3 text-lg font-semibold text-text-bright">Level History</h3>
+        <Suspense fallback={<p className="text-sm text-text-muted">Loading level history...</p>}>
+          <LevelChart name={character.name} />
+        </Suspense>
       </div>
 
       {character.passives && (

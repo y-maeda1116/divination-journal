@@ -1,6 +1,7 @@
 import type { Character } from '../types/character'
 import type { League } from '../types/league'
 import type { DiaryEntry, DiaryMeta } from '../types/diary'
+import type { HistorySnapshot } from '../types/history'
 
 // 注意: JSON の取り込みに query: '?url' を付けると URL 文字列が返ってしまい
 // 実データが埋め込まれない(全フィールドが undefined になる)。データとして
@@ -12,6 +13,12 @@ const characterModules = import.meta.glob<Character>('/content/characters/*.json
 
 const leagueModules = import.meta.glob<League>('/content/leagues/*.json', {
   eager: true,
+  import: 'default',
+})
+
+// 履歴は日々ファイルが増えるため main bundle に含めず、開いたときに
+// 動的 import する(glob を eager にしない = ローダー関数が得られる)。
+const historyModules = import.meta.glob<HistorySnapshot>('/content/history/*.json', {
   import: 'default',
 })
 
@@ -45,6 +52,20 @@ export function loadDiaryEntries(): DiaryEntry[] {
 
 export function loadDiaryByDate(date: string): DiaryEntry | undefined {
   return loadDiaryEntries().find((e) => e.date === date)
+}
+
+let historyCache: Promise<HistorySnapshot[]> | null = null
+
+// loadHistory は全履歴スナップショットを日付昇順で読み込む。履歴ファイルが
+// 無くても空配列で解決する。Promise 単位でキャッシュし、複数の詳細画面を
+// 開いても再読込しない。
+export function loadHistory(): Promise<HistorySnapshot[]> {
+  historyCache ??= Promise.all(
+    Object.entries(historyModules)
+      .sort(([a], [b]) => a.localeCompare(b))
+      .map(([, load]) => load()),
+  )
+  return historyCache
 }
 
 function parseDiaryEntry(path: string, raw: string): DiaryEntry {

@@ -6,6 +6,9 @@ export interface Character {
   level: number
   experience: number
   fetchedAt: string
+  // 旧 API の lastLoginTime を RFC3339 (UTC) に変換したもの。取得経路や
+  // 旧ファイルによっては欠落する(表示側は undefined を「不明」と扱う)。
+  lastLogin?: string
   items?: CharacterItems
   passives?: PassiveTree
 }

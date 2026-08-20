@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { loadCharacters } from '../../utils/contentLoader'
 import { groupCharactersByClass } from '../../utils/characterClasses'
+import { formatRelativeTime } from '../../utils/format'
 import type { Character } from '../../types/character'
 
 type ViewMode = 'grid' | 'class'
@@ -133,6 +134,11 @@ function CharacterCard({ character, onSelect }: CharacterCardProps) {
         {character.ascendancy || character.class}
       </p>
       <p className="text-xs text-text-muted">{character.league}</p>
+      {character.lastLogin && (
+        <p className="mt-1 text-xs text-text-muted">
+          Played {formatRelativeTime(character.lastLogin)}
+        </p>
+      )}
     </button>
   )
 }

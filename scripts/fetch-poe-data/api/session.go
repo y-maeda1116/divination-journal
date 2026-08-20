@@ -29,6 +29,7 @@ type legacyCharacters []struct {
 	Ascendancy string `json:"ascendancy"`
 	Level      int    `json:"level"`
 	Experience int64  `json:"experience"`
+	LastLogin  int64  `json:"lastLoginTime"`
 }
 
 // legacyItems は旧 character-window API (get-items) のレスポンス形状。
@@ -151,6 +152,7 @@ func (c *SessionClient) GetCharacters() ([]models.APICharacter, error) {
 			Level:      lc.Level,
 			Experience: lc.Experience,
 			Ascendancy: lc.Ascendancy,
+			LastLogin:  lc.LastLogin,
 		})
 	}
 

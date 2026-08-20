@@ -5,6 +5,7 @@ const TABS: { id: TabId; label: string }[] = [
   { id: 'characters', label: 'Characters' },
   { id: 'leagues', label: 'Leagues' },
   { id: 'diary', label: 'Diary' },
+  { id: 'stats', label: 'Stats' },
 ]
 
 interface HeaderProps {

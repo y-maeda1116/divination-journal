@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { Suspense, lazy, useState } from 'react'
 import Layout from './components/layout/Layout'
 import Dashboard from './components/dashboard/Dashboard'
 import CharacterList from './components/characters/CharacterList'
@@ -7,6 +7,9 @@ import LeagueHistory from './components/leagues/LeagueHistory'
 import DiaryList from './components/diary/DiaryList'
 import DiaryPost from './components/diary/DiaryPost'
 import type { TabId } from './types'
+
+// recharts を含むため遅延読み込みにして main bundle を膨らませない
+const StatsPage = lazy(() => import('./components/stats/StatsPage'))
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<TabId>('dashboard')
@@ -43,6 +46,13 @@ export default function App() {
 
       case 'leagues':
         return <LeagueHistory selectedLeague={selectedLeague} />
+
+      case 'stats':
+        return (
+          <Suspense fallback={<p className="text-sm text-text-muted">Loading stats...</p>}>
+            <StatsPage selectedLeague={selectedLeague} />
+          </Suspense>
+        )
 
       case 'diary':
         if (selectedDiaryDate) {

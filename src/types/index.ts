@@ -2,4 +2,4 @@ export type { Character, CharacterItems, Item, ItemRequirement, PassiveTree } fr
 export type { League, LeagueGoal } from './league'
 export type { DiaryEntry, DiaryMeta } from './diary'
 
-export type TabId = 'dashboard' | 'characters' | 'leagues' | 'diary'
+export type TabId = 'dashboard' | 'characters' | 'leagues' | 'diary' | 'stats'

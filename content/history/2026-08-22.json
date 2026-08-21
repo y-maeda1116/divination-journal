@@ -1,0 +1,316 @@
+{
+  "date": "2026-08-22",
+  "fetchedAt": "2026-08-21T20:46:51Z",
+  "characters": [
+    {
+      "name": "Aoooooo",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "asdfujasodfasfdasfdfdaw",
+      "league": "Ziz Rapture HCSSF Class Gauntlet",
+      "level": 2
+    },
+    {
+      "name": "CrystalRoze",
+      "league": "Standard",
+      "level": 89
+    },
+    {
+      "name": "Crytyon",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "FlorentinerRoze",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "Joséphin_Péladan",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "king_of_fighters",
+      "league": "Standard",
+      "level": 80
+    },
+    {
+      "name": "L_B_taityon",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "L_B_taityonII",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "necrodancerzelda",
+      "league": "Hardcore",
+      "level": 90
+    },
+    {
+      "name": "NORIKAverI",
+      "league": "Standard",
+      "level": 98
+    },
+    {
+      "name": "pal_system",
+      "league": "Phrecia 2.0",
+      "level": 90
+    },
+    {
+      "name": "QueenOfTheNgamahuII",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "R_taityon",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "RozEXamas",
+      "league": "Standard",
+      "level": 94
+    },
+    {
+      "name": "S_B_taityon",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "S_B_taityonIII",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "Stun_senpai",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "Taityon_AFK",
+      "league": "Standard",
+      "level": 78
+    },
+    {
+      "name": "taityon_cru",
+      "league": "Standard",
+      "level": 95
+    },
+    {
+      "name": "taityon_KB",
+      "league": "Standard",
+      "level": 89
+    },
+    {
+      "name": "Taityon_KOF",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "taityon_mk",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "taityon_psa",
+      "league": "Standard",
+      "level": 88
+    },
+    {
+      "name": "taityon_psrs",
+      "league": "Standard",
+      "level": 96
+    },
+    {
+      "name": "taityon_san",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "taityon_spark",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "WanderXmasRoze",
+      "league": "Standard",
+      "level": 88
+    },
+    {
+      "name": "XmasRizin",
+      "league": "Standard",
+      "level": 94
+    },
+    {
+      "name": "XmasRoze_AC",
+      "league": "Standard",
+      "level": 94
+    },
+    {
+      "name": "XmasRoze_ACVI",
+      "league": "Standard",
+      "level": 94
+    },
+    {
+      "name": "XmasRoze_AFF",
+      "league": "Standard",
+      "level": 96
+    },
+    {
+      "name": "XmasRoze_Affl",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "XmasRoze_Affli",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "XmasRoze_All",
+      "league": "Allflame",
+      "level": 95
+    },
+    {
+      "name": "XmasRoze_anc",
+      "league": "Ancestors",
+      "level": 77
+    },
+    {
+      "name": "XmasRoze_BFBB",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "XmasRoze_Doom",
+      "league": "Standard",
+      "level": 85
+    },
+    {
+      "name": "XmasRoze_ignite",
+      "league": "Standard",
+      "level": 77
+    },
+    {
+      "name": "XmasRoze_Mer_FS",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "XmasRoze_mira",
+      "league": "Standard",
+      "level": 88
+    },
+    {
+      "name": "XmasRoze_Necropol",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "XmasRoze_ph",
+      "league": "Allflame",
+      "level": 89
+    },
+    {
+      "name": "XmasRoze_PSp",
+      "league": "Standard",
+      "level": 89
+    },
+    {
+      "name": "XmasRoze_PunchMe",
+      "league": "Standard",
+      "level": 97
+    },
+    {
+      "name": "XmasRoze_Requiem",
+      "league": "Standard",
+      "level": 76
+    },
+    {
+      "name": "XmasRoze_ruby",
+      "league": "Standard",
+      "level": 86
+    },
+    {
+      "name": "XmasRoze_RVoB",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "XmasRoze_ScavBlast",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "XmasRoze_settle",
+      "league": "Standard",
+      "level": 89
+    },
+    {
+      "name": "XmasRoze_Settlers",
+      "league": "Standard",
+      "level": 93
+    },
+    {
+      "name": "XmasRoze_ShatterEdge",
+      "league": "Standard",
+      "level": 91
+    },
+    {
+      "name": "XmasRoze_sike",
+      "league": "Allflame",
+      "level": 93
+    },
+    {
+      "name": "XmasRoze_WinterVortex",
+      "league": "Standard",
+      "level": 95
+    },
+    {
+      "name": "XmasRoze_Zerker",
+      "league": "Standard",
+      "level": 48
+    },
+    {
+      "name": "XmasRozeQuartz",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "XmasRozeSkyforgeWarrior",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "Y_B_taityon",
+      "league": "Standard",
+      "level": 92
+    },
+    {
+      "name": "yamahika_da",
+      "league": "Standard",
+      "level": 90
+    },
+    {
+      "name": "ポックスを信じろ",
+      "league": "Standard",
+      "level": 88
+    },
+    {
+      "name": "モウガマンデキナイ",
+      "league": "Standard",
+      "level": 94
+    },
+    {
+      "name": "やどかり",
+      "league": "Standard",
+      "level": 88
+    }
+  ]
+}

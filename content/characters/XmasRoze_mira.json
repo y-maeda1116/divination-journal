@@ -5,6 +5,234 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-08-20T22:15:53Z",
-  "lastLogin": "2026-04-23T06:32:02Z"
+  "fetchedAt": "2026-08-21T20:44:57Z",
+  "lastLogin": "2026-04-23T06:32:02Z",
+  "items": {
+    "weapon": {
+      "name": "Mind Barb",
+      "typeLine": "Coiled Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kNSIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/a28035d7c4/Wand5.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Socketed Gems are Supported by Level 20 Increased Critical Strikes",
+        "Socketed Gems are Supported by Level 18 Cold Penetration",
+        "10% increased Spell Damage",
+        "56% increased Cold Damage",
+        "15% increased Attack Speed",
+        "26% increased Critical Strike Chance",
+        "+24 to maximum Mana",
+        "+95 to Accuracy Rating",
+        "Adds 28 to 53 Cold Damage to Spells"
+      ],
+      "implicitMods": [
+        "Adds 2 to 23 Lightning Damage to Spells and Attacks"
+      ]
+    },
+    "offhand": {
+      "name": "The Squire",
+      "typeLine": "Elegant Round Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0Nhc3Bpcm9zUmVzb25hbmNlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/94531d2461/CaspirosResonance.png",
+      "itemLevel": 2,
+      "explicitMods": [
+        "Has 3 Sockets",
+        "All Sockets are White",
+        "+7% to Quality of Socketed Support Gems",
+        "Socketed Support Gems can also Support Skills from your Main Hand",
+        "100% increased Armour and Evasion",
+        "+4% Chance to Block"
+      ],
+      "implicitMods": [
+        "120% increased Block Recovery"
+      ]
+    },
+    "helmet": {
+      "name": "Faithguard",
+      "typeLine": "Runic Helm",
+      "rarity": "",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1NwaXJpdEhlbG1ldFVuaXF1ZSIsInciOjIsImgiOjIsInNjYWxlIjoxLCJyZWxpYyI6MTF9XQ/5bc6158c82/SpiritHelmetUnique.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+29 to Intelligence",
+        "29% increased Ward",
+        "52% faster Restoration of Ward",
+        "17% increased Light Radius",
+        "Increases and Reductions to Maximum Energy Shield instead apply to Ward"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Empyrean Guardian",
+      "typeLine": "Conquest Lamellar",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyNEEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/7e1c29aacf/BodyStr4A.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+18 to Dexterity",
+        "+364 to Armour",
+        "+310 to Evasion Rating",
+        "94% increased Armour and Evasion",
+        "Regenerate 9.9 Life per second",
+        "Reflects 40 Physical Damage to Melee Attackers"
+      ]
+    },
+    "gloves": {
+      "name": "Apocalypse Touch",
+      "typeLine": "Runic Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvU3Bpcml0R2xvdmVzQmFzZVR5cGUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/c6f6ccf94f/SpiritGlovesBaseType.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+250 to Accuracy Rating",
+        "+68 to Ward",
+        "120% increased Ward",
+        "+41% to Lightning Resistance",
+        "17% increased Stun and Block Recovery"
+      ]
+    },
+    "boots": {
+      "name": "Dire Trail",
+      "typeLine": "Runic Sabatons",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9TcGlyaXRCb290c0Jhc2VUeXBlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/c6826fae52/SpiritBootsBaseType.png",
+      "itemLevel": 86,
+      "explicitMods": [
+        "+84 to Ward",
+        "67% increased Ward",
+        "+45% to Lightning Resistance",
+        "35% increased Movement Speed",
+        "+20% to Fire and Cold Resistances"
+      ]
+    },
+    "belt": {
+      "name": "Ynda's Stand",
+      "typeLine": "Studded Belt",
+      "rarity": "",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvS2FsZ3V1cmFuV2FyZEJlbHQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MSwicmVsaWMiOjEyfV0/405b64d709/KalguuranWardBelt.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Regenerate 27.2 Life per second",
+        "+36% to Fire Resistance",
+        "+33% to Cold Resistance",
+        "Gain Ward instead of 48% of Armour and Evasion Rating from Equipped Body Armour"
+      ],
+      "implicitMods": [
+        "29% increased Stun Duration on Enemies"
+      ]
+    },
+    "ring1": {
+      "name": "Foulborn Le Heup of All",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibXV0YXRlZCI6dHJ1ZX1d/a3014dad89/Leheupofall.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+18 to all Attributes",
+        "25% increased Rarity of Items found",
+        "+16% to all Elemental Resistances",
+        "27% increased Global Defences"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Foulborn Le Heup of All",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwibXV0YXRlZCI6dHJ1ZX1d/a3014dad89/Leheupofall.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+18 to all Attributes",
+        "23% increased Rarity of Items found",
+        "+12% to all Elemental Resistances",
+        "28% increased Global Defences"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "amulet": {
+      "name": "The Eternal Struggle",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Wb2lkY29yZUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/3ca1f8ecb5/VoidcoreAmulet.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+36 to Strength",
+        "+32 to Dexterity",
+        "+32 to Intelligence",
+        "15% increased Global Defences",
+        "Critical Strikes inflict Malignant Madness if The Eater of Worlds is dominant",
+        "Kill Enemies that have 15% or lower Life on Hit if The Searing Exarch is dominant"
+      ],
+      "implicitMods": [
+        "6% Chance to Block Attack Damage",
+        "+14% to Fire Damage over Time Multiplier"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Apprentice's Granite Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "16% reduced Charges per use",
+          "45% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 8,
+        "explicitMods": [
+          "11% chance to gain a Flask Charge when you deal a Critical Strike",
+          "49% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Scholar's Eternal Mana Flask of the Remedy",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 78,
+        "explicitMods": [
+          "18% reduced Charges per use",
+          "Grants Immunity to Poison for 10 seconds if used while Poisoned"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medic's Diamond Flask of Gore",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZGlhbW9uZCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/98bf48b8dd/diamond.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "11% chance to gain a Flask Charge when you deal a Critical Strike",
+          "0.5% of Attack Damage Leeched as Life during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Effusive Divine Life Flask of Alleviation",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "46% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 9 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 9 seconds if used while affected by Corrupted Blood"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
 }

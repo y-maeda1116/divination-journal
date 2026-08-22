@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Elementalist",
   "ascendancy": "",
-  "level": 95,
+  "level": 96,
   "experience": 0,
-  "fetchedAt": "2026-08-21T20:44:26Z",
-  "lastLogin": "2026-08-20T12:15:26Z",
+  "fetchedAt": "2026-08-22T20:42:46Z",
+  "lastLogin": "2026-08-22T15:26:02Z",
   "items": {
     "weapon": {
       "name": "Grace of the Goddess",
@@ -15,14 +15,14 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9VYmVyTWF2ZW5XYW5kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/1e06b23a5b/UberMavenWand.png",
       "itemLevel": 87,
       "explicitMods": [
-        "326% increased Physical Damage",
-        "Gain 44% of Physical Damage as Extra Fire Damage",
-        "Gain 47% of Physical Damage as Extra Cold Damage",
-        "Gain 25% of Physical Damage as Extra Lightning Damage",
+        "321% increased Physical Damage",
+        "Gain 28% of Physical Damage as Extra Fire Damage",
+        "Gain 49% of Physical Damage as Extra Cold Damage",
+        "Gain 47% of Physical Damage as Extra Lightning Damage",
         "+1 to maximum number of Sacred Wisps\n+1 to number of Sacred Wisps Summoned"
       ],
       "implicitMods": [
-        "Adds 2 to 58 Lightning Damage"
+        "38% increased Spell Damage"
       ]
     },
     "offhand": {

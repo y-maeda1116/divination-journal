@@ -47,6 +47,16 @@ jobs:
           # 資格情報はすべて環境変数から読まれる(argv に出さない)
           go run . $ARGS
 
+      - name: Sync with latest main before committing
+        # fetch の実行中(約6分)に main が進むと、チェックアウト時点の古い
+        # 履歴のまま push して non-fast-forward で拒否される。取得済みデータは
+        # ワークツリーに保持したまま、mixed reset で HEAD とインデックスを
+        # origin/main に載せ替える(データ変更は unstaged のまま残り、次ステップ
+        # の file_pattern add だけがコミットされる)。
+        run: |
+          git fetch origin main
+          git reset "$(git rev-parse origin/main)"
+
       - name: Commit updated data
         if: success()
         uses: stefanzweifel/git-auto-commit-action@4a55954c782fc1ea30b9056cd3e7a2b40ca8887d # v7

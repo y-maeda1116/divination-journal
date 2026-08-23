@@ -5,8 +5,8 @@
   "ascendancy": "",
   "level": 96,
   "experience": 0,
-  "fetchedAt": "2026-08-22T20:42:46Z",
-  "lastLogin": "2026-08-22T15:26:02Z",
+  "fetchedAt": "2026-08-23T03:54:58Z",
+  "lastLogin": "2026-08-23T00:26:24Z",
   "items": {
     "weapon": {
       "name": "Grace of the Goddess",
@@ -120,20 +120,20 @@
       ]
     },
     "belt": {
-      "name": "Bated Breath",
-      "typeLine": "Chain Belt",
+      "name": "Headhunter",
+      "typeLine": "Leather Belt",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmF0ZWRCcmVhdGgiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/0a8cc4529f/BatedBreath.png",
-      "itemLevel": 82,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvSGVhZGh1bnRlciIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/e9542ec6ee/Headhunter.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+16 to Intelligence",
-        "10% increased Damage",
-        "+29 to maximum Energy Shield",
-        "20% increased maximum Energy Shield",
-        "50% increased Energy Shield Recharge Rate"
+        "+55 to Strength",
+        "+64 to Dexterity",
+        "+50 to maximum Life",
+        "24% increased Damage with Hits against Rare monsters",
+        "When you Kill a Rare monster, you gain its Modifiers for 60 seconds"
       ],
       "implicitMods": [
-        "+18 to maximum Energy Shield"
+        "+40 to maximum Life"
       ]
     },
     "ring1": {

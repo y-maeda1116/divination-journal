@@ -5,8 +5,8 @@
   "ascendancy": "",
   "level": 96,
   "experience": 0,
-  "fetchedAt": "2026-08-28T04:25:23Z",
-  "lastLogin": "2026-08-27T12:48:40Z",
+  "fetchedAt": "2026-08-29T02:51:57Z",
+  "lastLogin": "2026-08-29T01:03:24Z",
   "items": {
     "weapon": {
       "name": "Grace of the Goddess",
@@ -15,14 +15,14 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9VYmVyTWF2ZW5XYW5kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/1e06b23a5b/UberMavenWand.png",
       "itemLevel": 87,
       "explicitMods": [
-        "321% increased Physical Damage",
-        "Gain 28% of Physical Damage as Extra Fire Damage",
+        "313% increased Physical Damage",
+        "Gain 34% of Physical Damage as Extra Fire Damage",
         "Gain 49% of Physical Damage as Extra Cold Damage",
-        "Gain 47% of Physical Damage as Extra Lightning Damage",
+        "Gain 46% of Physical Damage as Extra Lightning Damage",
         "+1 to maximum number of Sacred Wisps\n+1 to number of Sacred Wisps Summoned"
       ],
       "implicitMods": [
-        "38% increased Spell Damage"
+        "36% increased Spell Damage"
       ]
     },
     "offhand": {

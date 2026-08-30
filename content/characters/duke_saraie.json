@@ -1,12 +1,12 @@
 {
   "name": "duke_saraie",
   "league": "Allflame",
-  "class": "Witch",
+  "class": "Occultist",
   "ascendancy": "",
-  "level": 40,
+  "level": 51,
   "experience": 0,
-  "fetchedAt": "2026-08-29T22:40:10Z",
-  "lastLogin": "2026-08-29T14:31:45Z",
+  "fetchedAt": "2026-08-30T22:44:41Z",
+  "lastLogin": "2026-08-30T04:23:23Z",
   "items": {
     "weapon": {
       "name": "Reverberation Rod",
@@ -171,24 +171,24 @@
       },
       {
         "name": "",
-        "typeLine": "Giant Life Flask",
+        "typeLine": "Hallowed Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
-        "itemLevel": 26
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 42
       },
       {
         "name": "",
-        "typeLine": "Giant Life Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
-        "itemLevel": 31
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 42
       },
       {
         "name": "",
-        "typeLine": "Sacred Mana Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/52e82c502f/manaflask8.png",
-        "itemLevel": 37
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 42
       },
       {
         "name": "",

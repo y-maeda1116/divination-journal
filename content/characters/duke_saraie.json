@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Occultist",
   "ascendancy": "",
-  "level": 51,
+  "level": 63,
   "experience": 0,
-  "fetchedAt": "2026-08-30T22:44:41Z",
-  "lastLogin": "2026-08-30T04:23:23Z",
+  "fetchedAt": "2026-08-31T23:51:37Z",
+  "lastLogin": "2026-08-31T08:36:52Z",
   "items": {
     "weapon": {
       "name": "Reverberation Rod",
@@ -164,6 +164,13 @@
     "flasks": [
       {
         "name": "",
+        "typeLine": "Superior Divine Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/9313e55ff4/manaflask11.png",
+        "itemLevel": 60
+      },
+      {
+        "name": "",
         "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
@@ -171,31 +178,30 @@
       },
       {
         "name": "",
-        "typeLine": "Hallowed Mana Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
-        "itemLevel": 42
-      },
-      {
-        "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 42
-      },
-      {
-        "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 42
-      },
-      {
-        "name": "",
         "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
         "itemLevel": 74
+      },
+      {
+        "name": "",
+        "typeLine": "Superior Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 77
+      },
+      {
+        "name": "",
+        "typeLine": "Ebullient Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61,
+        "explicitMods": [
+          "49% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
       }
     ]
   },

@@ -3,172 +3,179 @@
   "league": "Allflame",
   "class": "Occultist",
   "ascendancy": "",
-  "level": 63,
+  "level": 74,
   "experience": 0,
-  "fetchedAt": "2026-08-31T23:51:37Z",
-  "lastLogin": "2026-08-31T08:36:52Z",
+  "fetchedAt": "2026-09-01T22:37:09Z",
+  "lastLogin": "2026-09-01T22:20:12Z",
   "items": {
     "weapon": {
-      "name": "Reverberation Rod",
-      "typeLine": "Spiraled Wand",
+      "name": "Tulfall",
+      "typeLine": "Opal Wand",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9SZXZlcmJlcmF0aW9uUm9kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/676a395a5f/ReverberationRod.png",
-      "itemLevel": 84,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9UdWxib3JuVXBncmFkZWQiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/575d6058a2/TulbornUpgraded.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+2 to Level of Socketed Gems",
-        "Socketed Gems are Supported by Level 10 Arcane Surge",
-        "Socketed Gems are Supported by Level 10 Spell Echo",
-        "Socketed Gems are Supported by Level 10 Controlled Destruction",
-        "+17 to Intelligence"
+        "13% increased Cast Speed",
+        "Gain a Power Charge on Killing a Frozen Enemy",
+        "Adds 50 to 70 Cold Damage to Spells per Power Charge",
+        "Lose all Power Charges on reaching Maximum Power Charges",
+        "Gain a Frenzy Charge on reaching Maximum Power Charges"
       ],
       "implicitMods": [
-        "Adds 2 to 11 Lightning Damage to Spells and Attacks"
+        "4% increased Attack Speed"
       ]
     },
     "offhand": {
-      "name": "Crest of Perandus",
-      "typeLine": "Pine Buckler",
+      "name": "Malachai's Loop",
+      "typeLine": "Harmonic Spirit Shield",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZERleFVuaXF1ZTUiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e85f672678/ShieldDexUnique5.png",
-      "itemLevel": 82,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL01hbGFjaGFpTG9vcCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/8c38fb6a4e/MalachaiLoop.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+70 to maximum Life",
-        "Regenerate 6.1 Life per second",
-        "+30% to Lightning Resistance",
-        "0.6% of Physical Attack Damage Leeched as Life",
-        "+5% Chance to Block"
+        "227% increased Energy Shield",
+        "+2 to Maximum Power Charges",
+        "20% chance to gain a Power Charge on Hit",
+        "15% increased Spell Damage per Power Charge",
+        "Lose all Power Charges on reaching Maximum Power Charges",
+        "Shocks you when you reach Maximum Power Charges"
       ],
       "implicitMods": [
-        "3% increased Movement Speed"
+        "10% increased Spell Damage"
       ]
     },
     "helmet": {
-      "name": "Foulborn Doedre's Scorn",
-      "typeLine": "Lunaris Circlet",
+      "name": "Willclash",
+      "typeLine": "Golden Mask",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0RvZWRyZXNTY29ybiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJtdXRhdGVkIjp0cnVlfV0/18d77481e8/DoedresScorn.png",
-      "itemLevel": 83,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01pbmRCbG9ja01hc2siLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/aeb4a78ada/MindBlockMask.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+26 to Intelligence",
-        "+112 to maximum Energy Shield",
-        "Curse Skills have 47% increased Skill Effect Duration",
-        "Adds 37 to 71 Chaos Damage for each Curse on the Enemy",
-        "Socketed Gems are Supported by Level 30 Impending Doom"
+        "384% increased Evasion and Energy Shield",
+        "+5% Chance to Block Spell Damage per Power Charge",
+        "4% increased Elemental Damage per Power charge",
+        "Gain a Power Charge every Second if you haven't lost Power Charges Recently",
+        "Lose all Power Charges when you Block"
       ]
     },
     "bodyArmour": {
-      "name": "Cloak of Flame",
-      "typeLine": "Scholar's Robe",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5SW50MUF1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/41c15c6511/BodyInt1Aunique.png",
-      "itemLevel": 83,
+      "name": "Corpse Cloak",
+      "typeLine": "Blood Raiment",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50MUMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/b6fe1404b7/BodyDexInt1C.png",
+      "itemLevel": 80,
       "explicitMods": [
-        "+60% to Fire Resistance",
-        "49% increased Ignite Duration on Enemies",
-        "Reflects 100 Fire Damage to Melee Attackers",
-        "40% of Physical Damage taken as Fire Damage"
+        "+24 to Dexterity",
+        "+28 to maximum Energy Shield",
+        "+212 to maximum Life",
+        "+32% to Fire Resistance",
+        "+30% to Lightning Resistance",
+        "6% Chance to Block Attack Damage"
+      ],
+      "implicitMods": [
+        "6% Chance to Block Spell Damage",
+        "+21% to Critical Strike Multiplier for Attack Damage"
       ]
     },
     "gloves": {
-      "name": "Vixen's Entrapment",
-      "typeLine": "Vestigial Embroidered Gloves",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvVml4ZW5zRW50cmFwbWVudCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/e2d77223f8/VixensEntrapment.png",
-      "itemLevel": 85,
+      "name": "Sol Claw",
+      "typeLine": "Arcanist Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlfV0/f12b1185ef/GlovesInt3.png",
+      "itemLevel": 71,
       "explicitMods": [
-        "Trigger Socketed Curse Spell when you Cast a Curse Spell, with a 0.25 second Cooldown",
-        "+78 to maximum Energy Shield",
-        "0.2% of Spell Damage Leeched as Energy Shield for each Curse on Enemy",
-        "You can apply an additional Curse",
-        "Curse Skills have 16% increased Cast Speed"
+        "65% increased Energy Shield",
+        "+78 to maximum Life",
+        "+41 to maximum Mana",
+        "+29% to Fire Resistance",
+        "+34% to Lightning Resistance",
+        "+35% to Cold Resistance"
       ],
       "implicitMods": [
-        "+2 to Level of Socketed Duration Gems"
+        "While a Unique Enemy is in your Presence, 17% increased Effect of your Marks",
+        "Minions deal 15% increased Damage"
       ]
     },
     "boots": {
-      "name": "Seven-League Step",
-      "typeLine": "Rawhide Boots",
+      "name": "Ralakesh's Impatience",
+      "typeLine": "Riveted Boots",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleFVuaXF1ZTMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/23e4614336/BootsDexUnique3.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9SYWxha2VzaHNJbXBhdGllbmNlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/54540f0f3d/RalakeshsImpatience.png",
+      "itemLevel": 76,
       "explicitMods": [
-        "50% increased Movement Speed"
+        "+21% to Cold Resistance",
+        "+25% to Chaos Resistance",
+        "19% increased Movement Speed",
+        "Corrupted Blood cannot be inflicted on you",
+        "Count as having maximum number of Power Charges"
       ]
     },
     "belt": {
-      "name": "Darkness Enthroned",
-      "typeLine": "Stygian Vise",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRGFya25lc3NFbnRocm9uZWQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/2e418e2c4d/DarknessEnthroned.png",
+      "name": "Damnation Bond",
+      "typeLine": "Heavy Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/a513a7e6b4/Belt5.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Has 1 Abyssal Socket",
-        "94% increased Effect of Socketed Abyss Jewels"
+        "+40 to Armour",
+        "+74 to maximum Life",
+        "+45% to Fire Resistance",
+        "+35% to Chaos Resistance",
+        "+16% to Cold and Lightning Resistances"
       ],
       "implicitMods": [
-        "Has 1 Abyssal Socket"
+        "+34 to Strength"
       ]
     },
     "ring1": {
-      "name": "Praxis",
-      "typeLine": "Paua Ring",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUHJheGlzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5098474fb7/Praxis.png",
-      "itemLevel": 85,
+      "name": "Viper Grasp",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 81,
       "explicitMods": [
-        "+30 to maximum Mana",
-        "Regenerate 5.4 Mana per second",
-        "-7 to Total Mana Cost of Skills",
-        "8% of Damage taken Recouped as Mana",
-        "24% increased Mana Cost Efficiency"
+        "+80 to maximum Life",
+        "+15% to all Elemental Resistances",
+        "+41% to Fire Resistance",
+        "+32% to Cold Resistance"
       ],
       "implicitMods": [
-        "Discipline has 22% increased Mana Reservation Efficiency"
+        "+14% to Fire and Lightning Resistances"
       ]
     },
     "ring2": {
-      "name": "Praxis",
-      "typeLine": "Paua Ring",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUHJheGlzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5098474fb7/Praxis.png",
-      "itemLevel": 48,
+      "name": "Empyrean Turn",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+60 to maximum Mana",
-        "Regenerate 5.4 Mana per second",
-        "-7 to Total Mana Cost of Skills",
-        "8% of Damage taken Recouped as Mana",
-        "25% increased Mana Cost Efficiency"
+        "+74 to maximum Life",
+        "+29% to Fire Resistance",
+        "+45% to Cold Resistance",
+        "+30% to Lightning Resistance"
       ],
       "implicitMods": [
-        "Purity of Elements has 25% increased Mana Reservation Efficiency"
+        "+15% to Fire and Lightning Resistances"
       ]
     },
     "amulet": {
-      "name": "Karui Ward",
-      "typeLine": "Jade Amulet",
+      "name": "Badge of the Brotherhood",
+      "typeLine": "Turquoise Amulet",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/069e4f76ea/Amulet4Unique.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9Bc3Nhc3NpblVuaXF1ZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/3616219d7d/AssassinUnique.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "+23 to Strength",
-        "+100 to Accuracy Rating",
-        "30% increased Projectile Speed",
-        "10% increased Movement Speed",
-        "30% increased Projectile Damage"
+        "Your Maximum Frenzy Charges is equal to your Maximum Power Charges",
+        "9% increased Cooldown Recovery Rate of Travel Skills per Frenzy Charge",
+        "10% increased Effect of Elusive on you per Power Charge",
+        "23% chance to lose a Frenzy Charge when you use a Travel Skill",
+        "24% chance to lose a Power Charge when you gain Elusive"
       ],
       "implicitMods": [
-        "+20 to Dexterity"
+        "+19 to Dexterity and Intelligence"
       ]
     },
     "flasks": [
-      {
-        "name": "",
-        "typeLine": "Superior Divine Mana Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/9313e55ff4/manaflask11.png",
-        "itemLevel": 60
-      },
       {
         "name": "",
         "typeLine": "Quicksilver Flask",
@@ -189,6 +196,18 @@
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
         "itemLevel": 77
+      },
+      {
+        "name": "",
+        "typeLine": "Enduring Eternal Mana Flask of Convection",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Effect is not removed when Unreserved Mana is Filled\nEffect does not Queue",
+          "Grants Immunity to Chill for 7 seconds if used while Chilled\nGrants Immunity to Freeze for 7 seconds if used while Frozen"
+        ]
       },
       {
         "name": "",

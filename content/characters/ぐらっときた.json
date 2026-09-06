@@ -1,0 +1,197 @@
+{
+  "name": "ぐらっときた",
+  "league": "Allflame",
+  "class": "Duelist",
+  "ascendancy": "",
+  "level": 35,
+  "experience": 0,
+  "fetchedAt": "2026-09-06T22:12:39Z",
+  "lastLogin": "2026-09-06T09:52:55Z",
+  "items": {
+    "weapon": {
+      "name": "The Poet's Pen",
+      "typeLine": "Somatic Wand",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9Qb2V0c1BlbiIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/f6f0645739/PoetsPen.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+1 to Level of Socketed Skill Gems per 25 Player Levels",
+        "Trigger a Socketed Spell when you Attack with this Weapon, with a 0.25 second Cooldown",
+        "Adds 3 to 5 Physical Damage to Attacks with this Weapon per 3 Player Levels",
+        "9% increased Attack Speed"
+      ],
+      "implicitMods": [
+        "15% increased Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "Lycosidae",
+      "typeLine": "Rawhide Tower Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0x5Y29zaWRhZSIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/ec38e32a56/Lycosidae.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "+159 to Armour",
+        "+40 to maximum Life",
+        "Your hits can't be Evaded",
+        "+3% Chance to Block",
+        "Adds 250 to 300 Cold Damage to Retaliation Skills"
+      ],
+      "implicitMods": [
+        "+13 to maximum Life"
+      ]
+    },
+    "helmet": {
+      "name": "Goldrim",
+      "typeLine": "Leather Cap",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleFVuaXF1ZTIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/7f4908ef2f/HelmetDexUnique2.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+50 to Evasion Rating",
+        "10% increased Rarity of Items found",
+        "+39% to all Elemental Resistances",
+        "Reflects 4 Physical Damage to Melee Attackers"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Tabula Rasa",
+      "typeLine": "Simple Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9UYWJ1bGFSYXNhIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/3bdbff0756/TabulaRasa.png",
+      "itemLevel": 80
+    },
+    "gloves": {
+      "name": "Doedre's Tenure",
+      "typeLine": "Velvet Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvRG9lZHJlc1RlbnVyZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/052a57aabd/DoedresTenure.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+36 to Intelligence",
+        "100% increased Spell Damage",
+        "22% reduced Cast Speed"
+      ]
+    },
+    "boots": {
+      "name": "Seven-League Step",
+      "typeLine": "Rawhide Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleFVuaXF1ZTMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/23e4614336/BootsDexUnique3.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "50% increased Movement Speed"
+      ]
+    },
+    "belt": {
+      "name": "Prismweave",
+      "typeLine": "Rustic Sash",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUHJpc213ZWF2ZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/822582fe24/Prismweave.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "Adds 15 to 30 Fire Damage to Attacks",
+        "Adds 11 to 28 Cold Damage to Attacks",
+        "Adds 1 to 66 Lightning Damage to Attacks",
+        "+12% to all Elemental Resistances",
+        "30% increased Elemental Damage with Attack Skills during any Flask Effect"
+      ],
+      "implicitMods": [
+        "14% increased Global Physical Damage"
+      ]
+    },
+    "ring1": {
+      "name": "Timeclasp",
+      "typeLine": "Moonstone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGltZWNsYXNwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b0c1b94ad1/Timeclasp.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "14% increased Attack Speed",
+        "11% increased Cast Speed",
+        "18% increased Skill Effect Duration",
+        "8% of Damage taken Recouped as Mana",
+        "11% of Damage taken Recouped as Life",
+        "Unaffected by Temporal Chains"
+      ],
+      "implicitMods": [
+        "7% increased Cast Speed"
+      ]
+    },
+    "ring2": {
+      "name": "Timeclasp",
+      "typeLine": "Moonstone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGltZWNsYXNwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b0c1b94ad1/Timeclasp.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "12% increased Attack Speed",
+        "15% increased Cast Speed",
+        "12% reduced Skill Effect Duration",
+        "7% of Damage taken Recouped as Mana",
+        "10% of Damage taken Recouped as Life",
+        "Unaffected by Temporal Chains"
+      ],
+      "implicitMods": [
+        "9% increased Cast Speed"
+      ]
+    },
+    "amulet": {
+      "name": "Astramentis",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+115 to all Attributes",
+        "-4 Physical Damage taken from Attack Hits"
+      ],
+      "implicitMods": [
+        "+19 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Giant Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
+        "itemLevel": 25
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask of the Crystal",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 72,
+        "explicitMods": [
+          "14% additional Elemental Resistances during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Superior Giant Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/61993fdd4b/manaflask6.png",
+        "itemLevel": 25
+      },
+      {
+        "name": "",
+        "typeLine": "Giant Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
+        "itemLevel": 25
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
+}

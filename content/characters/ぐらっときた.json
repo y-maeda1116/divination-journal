@@ -1,12 +1,12 @@
 {
   "name": "ぐらっときた",
   "league": "Allflame",
-  "class": "Duelist",
+  "class": "Gladiator",
   "ascendancy": "",
-  "level": 35,
+  "level": 36,
   "experience": 0,
-  "fetchedAt": "2026-09-07T22:55:35Z",
-  "lastLogin": "2026-09-06T09:52:55Z",
+  "fetchedAt": "2026-09-08T22:45:57Z",
+  "lastLogin": "2026-09-08T13:40:20Z",
   "items": {
     "weapon": {
       "name": "The Poet's Pen",
@@ -160,6 +160,13 @@
       },
       {
         "name": "",
+        "typeLine": "Colossal Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 35
+      },
+      {
+        "name": "",
         "typeLine": "Giant Life Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
@@ -180,13 +187,6 @@
         "typeLine": "Superior Giant Mana Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/61993fdd4b/manaflask6.png",
-        "itemLevel": 25
-      },
-      {
-        "name": "",
-        "typeLine": "Giant Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
         "itemLevel": 25
       }
     ]

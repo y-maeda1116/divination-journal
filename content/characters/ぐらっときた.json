@@ -3,42 +3,41 @@
   "league": "Allflame",
   "class": "Gladiator",
   "ascendancy": "",
-  "level": 36,
+  "level": 42,
   "experience": 0,
-  "fetchedAt": "2026-09-08T22:45:57Z",
-  "lastLogin": "2026-09-08T13:40:20Z",
+  "fetchedAt": "2026-09-09T22:38:38Z",
+  "lastLogin": "2026-09-09T13:21:27Z",
   "items": {
     "weapon": {
-      "name": "The Poet's Pen",
-      "typeLine": "Somatic Wand",
+      "name": "Mystic Refractor",
+      "typeLine": "Pagan Wand",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9Qb2V0c1BlbiIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/f6f0645739/PoetsPen.png",
-      "itemLevel": 80,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kb2ZCbGFzdGluZyIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/de9f534714/WandofBlasting.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+1 to Level of Socketed Skill Gems per 25 Player Levels",
-        "Trigger a Socketed Spell when you Attack with this Weapon, with a 0.25 second Cooldown",
-        "Adds 3 to 5 Physical Damage to Attacks with this Weapon per 3 Player Levels",
-        "9% increased Attack Speed"
+        "Skills fire 2 additional Projectiles",
+        "40% increased Projectile Speed",
+        "45% increased Projectile Damage",
+        "Projectiles cannot continue after colliding with targets"
       ],
       "implicitMods": [
-        "15% increased Critical Strike Chance"
+        "10% increased Cast Speed"
       ]
     },
     "offhand": {
-      "name": "Lycosidae",
-      "typeLine": "Rawhide Tower Shield",
+      "name": "Springleaf",
+      "typeLine": "Plank Kite Shield",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0x5Y29zaWRhZSIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/ec38e32a56/Lycosidae.png",
-      "itemLevel": 83,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/def84c6e93/ShieldStrIntUnique2.png",
+      "itemLevel": 71,
       "explicitMods": [
-        "+159 to Armour",
-        "+40 to maximum Life",
-        "Your hits can't be Evaded",
-        "+3% Chance to Block",
-        "Adds 250 to 300 Cold Damage to Retaliation Skills"
+        "81% increased Armour and Energy Shield",
+        "Regenerate 42.1 Life per second",
+        "80% reduced Freeze Duration on you",
+        "Regenerate 100 Life per Second while on Low Life"
       ],
       "implicitMods": [
-        "+13 to maximum Life"
+        "+9% to Quality of Socketed Gems"
       ]
     },
     "helmet": {
@@ -101,53 +100,36 @@
       ]
     },
     "ring1": {
-      "name": "Timeclasp",
-      "typeLine": "Moonstone Ring",
+      "name": "Lori's Lantern",
+      "typeLine": "Prismatic Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGltZWNsYXNwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b0c1b94ad1/Timeclasp.png",
-      "itemLevel": 83,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTG9yaXNMYW50ZXJuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7abe3ca54f/LorisLantern.png",
+      "itemLevel": 71,
       "explicitMods": [
-        "14% increased Attack Speed",
-        "11% increased Cast Speed",
-        "18% increased Skill Effect Duration",
-        "8% of Damage taken Recouped as Mana",
-        "11% of Damage taken Recouped as Life",
-        "Unaffected by Temporal Chains"
+        "+10% to all Elemental Resistances",
+        "8% increased Movement Speed when on Low Life",
+        "31% increased Light Radius",
+        "+22% to Chaos Resistance when on Low Life",
+        "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
       ],
       "implicitMods": [
-        "7% increased Cast Speed"
+        "+8% to all Elemental Resistances"
       ]
     },
     "ring2": {
-      "name": "Timeclasp",
+      "name": "Valyrium",
       "typeLine": "Moonstone Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVGltZWNsYXNwIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/b0c1b94ad1/Timeclasp.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmFseXJpdW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd9261042f/Valyrium.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "12% increased Attack Speed",
-        "15% increased Cast Speed",
-        "12% reduced Skill Effect Duration",
-        "7% of Damage taken Recouped as Mana",
-        "10% of Damage taken Recouped as Life",
-        "Unaffected by Temporal Chains"
+        "+36 to maximum Energy Shield",
+        "+39% to Fire Resistance",
+        "-40% to Cold Resistance",
+        "Stun Threshold is based on Energy Shield instead of Life"
       ],
       "implicitMods": [
-        "9% increased Cast Speed"
-      ]
-    },
-    "amulet": {
-      "name": "Astramentis",
-      "typeLine": "Onyx Amulet",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
-      "itemLevel": 80,
-      "explicitMods": [
-        "+115 to all Attributes",
-        "-4 Physical Damage taken from Attack Hits"
-      ],
-      "implicitMods": [
-        "+19 to all Attributes"
+        "10% increased Cast Speed"
       ]
     },
     "flasks": [

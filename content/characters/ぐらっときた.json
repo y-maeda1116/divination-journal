@@ -3,43 +3,11 @@
   "league": "Allflame",
   "class": "Gladiator",
   "ascendancy": "",
-  "level": 42,
+  "level": 60,
   "experience": 0,
-  "fetchedAt": "2026-09-09T22:38:38Z",
-  "lastLogin": "2026-09-09T13:21:27Z",
+  "fetchedAt": "2026-09-10T22:40:47Z",
+  "lastLogin": "2026-09-10T12:28:37Z",
   "items": {
-    "weapon": {
-      "name": "Mystic Refractor",
-      "typeLine": "Pagan Wand",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kb2ZCbGFzdGluZyIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/de9f534714/WandofBlasting.png",
-      "itemLevel": 83,
-      "explicitMods": [
-        "Skills fire 2 additional Projectiles",
-        "40% increased Projectile Speed",
-        "45% increased Projectile Damage",
-        "Projectiles cannot continue after colliding with targets"
-      ],
-      "implicitMods": [
-        "10% increased Cast Speed"
-      ]
-    },
-    "offhand": {
-      "name": "Springleaf",
-      "typeLine": "Plank Kite Shield",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/def84c6e93/ShieldStrIntUnique2.png",
-      "itemLevel": 71,
-      "explicitMods": [
-        "81% increased Armour and Energy Shield",
-        "Regenerate 42.1 Life per second",
-        "80% reduced Freeze Duration on you",
-        "Regenerate 100 Life per Second while on Low Life"
-      ],
-      "implicitMods": [
-        "+9% to Quality of Socketed Gems"
-      ]
-    },
     "helmet": {
       "name": "Goldrim",
       "typeLine": "Leather Cap",
@@ -54,22 +22,17 @@
       ]
     },
     "bodyArmour": {
-      "name": "Tabula Rasa",
-      "typeLine": "Simple Robe",
+      "name": "Briskwrap",
+      "typeLine": "Sun Leather",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9UYWJ1bGFSYXNhIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/3bdbff0756/TabulaRasa.png",
-      "itemLevel": 80
-    },
-    "gloves": {
-      "name": "Doedre's Tenure",
-      "typeLine": "Velvet Gloves",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvRG9lZHJlc1RlbnVyZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/052a57aabd/DoedresTenure.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Ccmlza3dyYXAiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/4a3c7d71e6/Briskwrap.png",
       "itemLevel": 85,
       "explicitMods": [
-        "+36 to Intelligence",
-        "100% increased Spell Damage",
-        "22% reduced Cast Speed"
+        "15% increased Dexterity",
+        "+138 to Evasion Rating",
+        "+38% to Cold Resistance",
+        "90% increased Mana Recovery from Flasks",
+        "1% increased Damage per 15 Dexterity"
       ]
     },
     "boots": {
@@ -83,53 +46,68 @@
       ]
     },
     "belt": {
-      "name": "Prismweave",
-      "typeLine": "Rustic Sash",
+      "name": "The Magnate",
+      "typeLine": "Studded Belt",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUHJpc213ZWF2ZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/822582fe24/Prismweave.png",
-      "itemLevel": 83,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQnVja2xlZEJlbHRVbmlxdWUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/10d87b7baf/BuckledBeltUnique.png",
+      "itemLevel": 80,
       "explicitMods": [
-        "Adds 15 to 30 Fire Damage to Attacks",
-        "Adds 11 to 28 Cold Damage to Attacks",
-        "Adds 1 to 66 Lightning Damage to Attacks",
-        "+12% to all Elemental Resistances",
-        "30% increased Elemental Damage with Attack Skills during any Flask Effect"
+        "+48 to Strength",
+        "+20% to all Elemental Resistances",
+        "50% increased Flask Charges gained",
+        "10% chance to deal Double Damage while you have at least 200 Strength",
+        "5% chance to deal Triple Damage while you have at least 400 Strength"
       ],
       "implicitMods": [
-        "14% increased Global Physical Damage"
+        "21% increased Stun Duration on Enemies"
       ]
     },
     "ring1": {
-      "name": "Lori's Lantern",
-      "typeLine": "Prismatic Ring",
+      "name": "Le Heup of All",
+      "typeLine": "Iron Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTG9yaXNMYW50ZXJuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7abe3ca54f/LorisLantern.png",
-      "itemLevel": 71,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6ea73cc7e4/Leheupofall.png",
+      "itemLevel": 80,
       "explicitMods": [
-        "+10% to all Elemental Resistances",
-        "8% increased Movement Speed when on Low Life",
-        "31% increased Light Radius",
-        "+22% to Chaos Resistance when on Low Life",
-        "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
+        "+30 to all Attributes",
+        "20% increased Damage",
+        "16% increased Rarity of Items found",
+        "+29% to all Elemental Resistances"
       ],
       "implicitMods": [
-        "+8% to all Elemental Resistances"
+        "6% increased Dexterity",
+        "4% increased Intelligence"
       ]
     },
     "ring2": {
-      "name": "Valyrium",
-      "typeLine": "Moonstone Ring",
+      "name": "Call of the Void",
+      "typeLine": "Sapphire Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmFseXJpdW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd9261042f/Valyrium.png",
-      "itemLevel": 84,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRnJvc3RHbGF6ZWRFeWVSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/e10b85c4f1/FrostGlazedEyeRing.png",
+      "itemLevel": 87,
       "explicitMods": [
-        "+36 to maximum Energy Shield",
-        "+39% to Fire Resistance",
-        "-40% to Cold Resistance",
-        "Stun Threshold is based on Energy Shield instead of Life"
+        "+29% to Cold Resistance",
+        "All Damage with Hits can Chill",
+        "All Damage Taken from Hits can Chill you",
+        "Enemies Chilled by your Hits can be Shattered as though Frozen",
+        "Enemies Chilled by your Hits lessen their Damage dealt by half of Chill Effect"
       ],
       "implicitMods": [
-        "10% increased Cast Speed"
+        "Grace has 20% increased Mana Reservation Efficiency"
+      ]
+    },
+    "amulet": {
+      "name": "Astramentis",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+115 to all Attributes",
+        "-4 Physical Damage taken from Attack Hits"
+      ],
+      "implicitMods": [
+        "+19 to all Attributes"
       ]
     },
     "flasks": [
@@ -142,17 +120,17 @@
       },
       {
         "name": "",
-        "typeLine": "Colossal Life Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
-        "itemLevel": 35
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 50
       },
       {
         "name": "",
-        "typeLine": "Giant Life Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/13cd1c8a08/lifeflask6.png",
-        "itemLevel": 25
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 47
       },
       {
         "name": "",
@@ -166,10 +144,10 @@
       },
       {
         "name": "",
-        "typeLine": "Superior Giant Mana Flask",
+        "typeLine": "Hallowed Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/61993fdd4b/manaflask6.png",
-        "itemLevel": 25
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 47
       }
     ]
   },

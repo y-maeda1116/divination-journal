@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Gladiator",
   "ascendancy": "",
-  "level": 60,
+  "level": 63,
   "experience": 0,
-  "fetchedAt": "2026-09-10T22:40:47Z",
-  "lastLogin": "2026-09-10T12:28:37Z",
+  "fetchedAt": "2026-09-11T22:40:33Z",
+  "lastLogin": "2026-09-11T09:25:42Z",
   "items": {
     "helmet": {
       "name": "Goldrim",
@@ -120,17 +120,22 @@
       },
       {
         "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 50
+        "typeLine": "Seething Divine Life Flask of Alleviation",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 11 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Hallowed Life Flask",
+        "typeLine": "Superior Divine Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 47
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/9313e55ff4/manaflask11.png",
+        "itemLevel": 60
       },
       {
         "name": "",
@@ -144,10 +149,10 @@
       },
       {
         "name": "",
-        "typeLine": "Hallowed Mana Flask",
+        "typeLine": "Divine Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
-        "itemLevel": 47
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 69
       }
     ]
   },

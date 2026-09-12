@@ -3,156 +3,235 @@
   "league": "Allflame",
   "class": "Gladiator",
   "ascendancy": "",
-  "level": 63,
+  "level": 72,
   "experience": 0,
-  "fetchedAt": "2026-09-11T22:40:33Z",
-  "lastLogin": "2026-09-11T09:25:42Z",
+  "fetchedAt": "2026-09-12T22:22:56Z",
+  "lastLogin": "2026-09-12T11:46:38Z",
   "items": {
-    "helmet": {
-      "name": "Goldrim",
-      "typeLine": "Leather Cap",
+    "weapon": {
+      "name": "Festering Resentment",
+      "typeLine": "Demon Dagger",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleFVuaXF1ZTIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/7f4908ef2f/HelmetDexUnique2.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL1ZpcnVsZW5jZSIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/2ac68fe77e/Virulence.png",
+      "itemLevel": 87,
       "explicitMods": [
-        "+50 to Evasion Rating",
-        "10% increased Rarity of Items found",
-        "+39% to all Elemental Resistances",
-        "Reflects 4 Physical Damage to Melee Attackers"
+        "Trigger a Socketed Spell when you Block, with a 0.25 second Cooldown",
+        "+33% Chance to Block Spell Damage while in Off Hand",
+        "149% increased Spell Damage",
+        "112% increased Damage with Poison",
+        "Triggered Spells Poison on Hit",
+        "All Damage with Triggered Spells can Poison"
+      ],
+      "implicitMods": [
+        "53% increased Global Critical Strike Chance"
+      ]
+    },
+    "offhand": {
+      "name": "Azadi Crest",
+      "typeLine": "Lacquered Buckler",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0F6YWRpQ3Jlc3QiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/df9c0253e1/AzadiCrest.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "+79 to maximum Life",
+        "+8% Chance to Block",
+        "7% chance to avoid Projectiles",
+        "Your Lucky or Unlucky effects use the best or\nworst from three rolls instead of two"
+      ],
+      "implicitMods": [
+        "5% increased maximum Energy Shield"
+      ]
+    },
+    "helmet": {
+      "name": "Maelström Dome",
+      "typeLine": "Gilded Sallet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckRleDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/d937ba31b5/HelmetStrDex4.png",
+      "itemLevel": 64,
+      "explicitMods": [
+        "+120 to maximum Life",
+        "14% increased Rarity of Items found",
+        "+39% to Cold Resistance",
+        "+35% to Lightning Resistance",
+        "+19% to Fire and Chaos Resistances",
+        "+1 to Level of Socketed AoE Gems",
+        "9% increased Area of Effect"
+      ],
+      "implicitMods": [
+        "6% of Physical Damage from Hits taken as Fire Damage",
+        "28% increased Spell Critical Strike Chance"
       ]
     },
     "bodyArmour": {
-      "name": "Briskwrap",
-      "typeLine": "Sun Leather",
+      "name": "The Brass Dome",
+      "typeLine": "Gladiator Plate",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Ccmlza3dyYXAiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/4a3c7d71e6/Briskwrap.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Eb21lT2ZCcmFzcyIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/41f06694f2/DomeOfBrass.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "15% increased Dexterity",
-        "+138 to Evasion Rating",
-        "+38% to Cold Resistance",
-        "90% increased Mana Recovery from Flasks",
-        "1% increased Damage per 15 Dexterity"
+        "383% increased Armour",
+        "+5% to all maximum Elemental Resistances",
+        "Strength provides no bonus to Maximum Life",
+        "Take no Extra Damage from Critical Strikes"
+      ]
+    },
+    "gloves": {
+      "name": "Gale Hold",
+      "typeLine": "Conjurer Gloves",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50NCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/484e9bd879/GlovesInt4.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "96% increased Energy Shield",
+        "+42% to Cold Resistance",
+        "+37% to Lightning Resistance",
+        "+34% to Chaos Resistance",
+        "12% increased Area of Effect",
+        "16% increased Area Damage"
       ]
     },
     "boots": {
-      "name": "Seven-League Step",
-      "typeLine": "Rawhide Boots",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleFVuaXF1ZTMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/23e4614336/BootsDexUnique3.png",
-      "itemLevel": 85,
+      "name": "Sol March",
+      "typeLine": "Crusader Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e75ade3184/BootsStrInt3.png",
+      "itemLevel": 86,
       "explicitMods": [
-        "50% increased Movement Speed"
+        "+37 to Strength",
+        "+73 to Armour",
+        "+28 to maximum Energy Shield",
+        "+79 to maximum Life",
+        "Regenerate 16.9 Life per second",
+        "19% increased Life Regeneration rate",
+        "35% increased Movement Speed"
       ]
     },
     "belt": {
-      "name": "The Magnate",
-      "typeLine": "Studded Belt",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQnVja2xlZEJlbHRVbmlxdWUiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/10d87b7baf/BuckledBeltUnique.png",
+      "name": "Miracle Trap",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
       "itemLevel": 80,
       "explicitMods": [
-        "+48 to Strength",
-        "+20% to all Elemental Resistances",
-        "50% increased Flask Charges gained",
-        "10% chance to deal Double Damage while you have at least 200 Strength",
-        "5% chance to deal Triple Damage while you have at least 400 Strength"
+        "+22 to maximum Energy Shield",
+        "+22 to maximum Mana",
+        "+39% to Fire Resistance",
+        "+41% to Cold Resistance",
+        "19% increased Flask Mana Recovery rate",
+        "+15% to Lightning and Chaos Resistances"
       ],
       "implicitMods": [
-        "21% increased Stun Duration on Enemies"
+        "Has 1 Abyssal Socket"
       ]
     },
     "ring1": {
-      "name": "Le Heup of All",
-      "typeLine": "Iron Ring",
+      "name": "Lori's Lantern",
+      "typeLine": "Prismatic Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTGVoZXVwb2ZhbGwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6ea73cc7e4/Leheupofall.png",
-      "itemLevel": 80,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTG9yaXNMYW50ZXJuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7abe3ca54f/LorisLantern.png",
+      "itemLevel": 71,
       "explicitMods": [
-        "+30 to all Attributes",
-        "20% increased Damage",
-        "16% increased Rarity of Items found",
-        "+29% to all Elemental Resistances"
+        "+10% to all Elemental Resistances",
+        "8% increased Movement Speed when on Low Life",
+        "31% increased Light Radius",
+        "+22% to Chaos Resistance when on Low Life",
+        "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
       ],
       "implicitMods": [
-        "6% increased Dexterity",
-        "4% increased Intelligence"
+        "+8% to all Elemental Resistances"
       ]
     },
     "ring2": {
-      "name": "Call of the Void",
-      "typeLine": "Sapphire Ring",
+      "name": "Valyrium",
+      "typeLine": "Moonstone Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRnJvc3RHbGF6ZWRFeWVSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/e10b85c4f1/FrostGlazedEyeRing.png",
-      "itemLevel": 87,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVmFseXJpdW0iLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/dd9261042f/Valyrium.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "+29% to Cold Resistance",
-        "All Damage with Hits can Chill",
-        "All Damage Taken from Hits can Chill you",
-        "Enemies Chilled by your Hits can be Shattered as though Frozen",
-        "Enemies Chilled by your Hits lessen their Damage dealt by half of Chill Effect"
+        "+36 to maximum Energy Shield",
+        "+39% to Fire Resistance",
+        "-40% to Cold Resistance",
+        "Stun Threshold is based on Energy Shield instead of Life"
       ],
       "implicitMods": [
-        "Grace has 20% increased Mana Reservation Efficiency"
+        "10% increased Cast Speed"
       ]
     },
     "amulet": {
-      "name": "Astramentis",
-      "typeLine": "Onyx Amulet",
+      "name": "The Anvil",
+      "typeLine": "Amber Amulet",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNiIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/95da0d04a4/Amulet36.png",
-      "itemLevel": 80,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbnZpbCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/8d05280077/Anvil.png",
+      "itemLevel": 51,
       "explicitMods": [
-        "+115 to all Attributes",
-        "-4 Physical Damage taken from Attack Hits"
+        "15% Chance to Block Attack Damage",
+        "10% reduced Attack Speed",
+        "10% reduced Cast Speed",
+        "+443 to Armour",
+        "42 Life gained when you Block",
+        "18 Mana gained when you Block",
+        "+3% to maximum Chance to Block Attack Damage",
+        "Reflects 240 to 300 Physical Damage to Attackers on Block"
       ],
       "implicitMods": [
-        "+19 to all Attributes"
+        "+23 to Strength"
       ]
     },
     "flasks": [
       {
         "name": "",
-        "typeLine": "Quicksilver Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 4
-      },
-      {
-        "name": "",
-        "typeLine": "Seething Divine Life Flask of Alleviation",
+        "typeLine": "Flagellant's Ruby Flask of Carnage",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 62,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/bb6c188269/ruby.png",
+        "itemLevel": 85,
         "explicitMods": [
-          "66% reduced Amount Recovered",
-          "Instant Recovery",
-          "Grants Immunity to Bleeding for 11 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 11 seconds if used while affected by Corrupted Blood"
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "0.6% of Attack Damage Leeched as Life during Effect"
         ]
       },
       {
         "name": "",
-        "typeLine": "Superior Divine Mana Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/9313e55ff4/manaflask11.png",
-        "itemLevel": 60
-      },
-      {
-        "name": "",
-        "typeLine": "Quicksilver Flask of the Crystal",
+        "typeLine": "Flagellant's Granite Flask of Tree Moss",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 72,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/f72bf74a94/granite.png",
+        "itemLevel": 83,
         "explicitMods": [
-          "14% additional Elemental Resistances during Effect"
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "33% chance to Avoid being Shocked during Effect"
         ]
       },
       {
         "name": "",
-        "typeLine": "Divine Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 69
+        "typeLine": "Flagellant's Sapphire Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2FwcGhpcmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/7762dad209/sapphire.png",
+        "itemLevel": 83,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy"
+        ]
+      },
+      {
+        "name": "Oriath's End",
+        "typeLine": "Bismuth Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvVWJlclNpcnVzRmxhc2siLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/559e44ad89/UberSirusFlask.png",
+        "itemLevel": 87,
+        "explicitMods": [
+          "22% increased Charge Recovery",
+          "Enemies you Kill during Effect have a 30% chance to Explode, dealing a tenth of their maximum Life as Damage of a Random Element"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Topaz Flask of the Bear",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvdG9wYXoiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/3c3cd5dd6b/topaz.png",
+        "itemLevel": 84,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "61% reduced Effect of Chill on you during Effect",
+          "61% reduced Freeze Duration on you during Effect"
+        ]
       }
     ]
   },

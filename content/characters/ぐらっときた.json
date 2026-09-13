@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Gladiator",
   "ascendancy": "",
-  "level": 72,
+  "level": 73,
   "experience": 0,
-  "fetchedAt": "2026-09-12T22:22:56Z",
-  "lastLogin": "2026-09-12T11:46:38Z",
+  "fetchedAt": "2026-09-13T22:29:31Z",
+  "lastLogin": "2026-09-13T02:11:03Z",
   "items": {
     "weapon": {
       "name": "Festering Resentment",
@@ -125,20 +125,19 @@
       ]
     },
     "ring1": {
-      "name": "Lori's Lantern",
-      "typeLine": "Prismatic Ring",
+      "name": "Ming's Heart",
+      "typeLine": "Amethyst Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTG9yaXNMYW50ZXJuIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/7abe3ca54f/LorisLantern.png",
-      "itemLevel": 71,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTWluZ3NIZWFydCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7395d98bba/MingsHeart.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+10% to all Elemental Resistances",
-        "8% increased Movement Speed when on Low Life",
-        "31% increased Light Radius",
-        "+22% to Chaos Resistance when on Low Life",
-        "Damage of Enemies Hitting you is Unlucky while you are on Low Life"
+        "25% reduced maximum Energy Shield",
+        "25% reduced maximum Life",
+        "+46% to Chaos Resistance",
+        "Gain 57% of Physical Damage as Extra Chaos Damage"
       ],
       "implicitMods": [
-        "+8% to all Elemental Resistances"
+        "+18% to Chaos Resistance"
       ]
     },
     "ring2": {

@@ -1,8 +1,15 @@
 import { useState } from 'react'
 import { loadCharacters } from '../../utils/contentLoader'
-import { groupCharactersByClass } from '../../utils/characterClasses'
+import {
+  BASE_CLASSES,
+  OTHER_BASE_CLASS,
+  filterByBaseClass,
+  groupCharactersByClass,
+  sortByLevel,
+} from '../../utils/characterClasses'
 import { formatRelativeTime } from '../../utils/format'
 import type { Character } from '../../types/character'
+import type { SortOrder } from '../../utils/characterClasses'
 
 type ViewMode = 'grid' | 'class'
 
@@ -13,36 +20,65 @@ interface CharacterListProps {
 
 export default function CharacterList({ selectedLeague, onSelect }: CharacterListProps) {
   const [viewMode, setViewMode] = useState<ViewMode>('grid')
-  const characters = loadCharacters().filter(
-    (c) => selectedLeague === 'all' || c.league === selectedLeague,
+  const [baseClassFilter, setBaseClassFilter] = useState('all')
+  const [sortOrder, setSortOrder] = useState<SortOrder>('asc')
+  const characters = filterByBaseClass(
+    loadCharacters().filter((c) => selectedLeague === 'all' || c.league === selectedLeague),
+    baseClassFilter,
   )
+  const sortedCharacters = sortByLevel(characters, sortOrder)
 
   return (
     <div>
-      <div className="mb-4 flex items-center justify-between border-b border-border pb-2">
+      <div className="mb-4 flex flex-wrap items-center justify-between gap-2 border-b border-border pb-2">
         <h2 className="text-lg font-semibold text-text-bright">Characters</h2>
-        <div className="flex gap-1">
-          <ViewModeButton
-            label="Grid"
-            active={viewMode === 'grid'}
-            onClick={() => setViewMode('grid')}
-          />
-          <ViewModeButton
-            label="By Class"
-            active={viewMode === 'class'}
-            onClick={() => setViewMode('class')}
-          />
+        <div className="flex flex-wrap items-center gap-2">
+          <select
+            value={baseClassFilter}
+            onChange={(event) => setBaseClassFilter(event.target.value)}
+            aria-label="Filter by base class"
+            className="rounded border border-border bg-bg-card px-2 py-1 text-xs text-text-primary"
+          >
+            <option value="all">All classes</option>
+            {BASE_CLASSES.map((baseClass) => (
+              <option key={baseClass} value={baseClass}>
+                {baseClass}
+              </option>
+            ))}
+            <option value={OTHER_BASE_CLASS}>{OTHER_BASE_CLASS}</option>
+          </select>
+          <div className="flex gap-1">
+            <ViewModeButton
+              label={sortOrder === 'asc' ? 'Lv ↑' : 'Lv ↓'}
+              active
+              onClick={() => setSortOrder(sortOrder === 'asc' ? 'desc' : 'asc')}
+            />
+            <ViewModeButton
+              label="Grid"
+              active={viewMode === 'grid'}
+              onClick={() => setViewMode('grid')}
+            />
+            <ViewModeButton
+              label="By Class"
+              active={viewMode === 'class'}
+              onClick={() => setViewMode('class')}
+            />
+          </div>
         </div>
       </div>
 
       {viewMode === 'grid' ? (
         <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-          {characters.map((char) => (
+          {sortedCharacters.map((char) => (
             <CharacterCard key={char.name} character={char} onSelect={onSelect} />
           ))}
         </div>
       ) : (
-        <ClassGroupedView characters={characters} onSelect={onSelect} />
+        <ClassGroupedView
+          characters={characters}
+          onSelect={onSelect}
+          sortOrder={sortOrder}
+        />
       )}
 
       {characters.length === 0 && (
@@ -76,11 +112,12 @@ function ViewModeButton({ label, active, onClick }: ViewModeButtonProps) {
 interface ClassGroupedViewProps {
   characters: Character[]
   onSelect: (name: string) => void
+  sortOrder: SortOrder
 }
 
 // 基礎クラス → アセンダンシーの2階層でグループ化し、各グループ内は
 // レベル降順に並べて表示する。
-function ClassGroupedView({ characters, onSelect }: ClassGroupedViewProps) {
+function ClassGroupedView({ characters, onSelect, sortOrder }: ClassGroupedViewProps) {
   const groups = groupCharactersByClass(characters)
 
   return (
@@ -100,7 +137,7 @@ function ClassGroupedView({ characters, onSelect }: ClassGroupedViewProps) {
                   </span>
                 </h4>
                 <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3">
-                  {ascendancy.characters.map((char) => (
+                  {sortByLevel(ascendancy.characters, sortOrder).map((char) => (
                     <CharacterCard key={char.name} character={char} onSelect={onSelect} />
                   ))}
                 </div>

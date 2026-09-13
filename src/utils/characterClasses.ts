@@ -35,8 +35,10 @@ const ASCENDANCY_BASE_CLASS: Record<string, string> = {
   Luminary: 'Scion',
 }
 
-// 基礎クラスの表示順
-const BASE_CLASSES = ['Witch', 'Marauder', 'Ranger', 'Duelist', 'Shadow', 'Templar', 'Scion']
+// 基礎クラスの表示順(絞り込みUIの選択肢としても使う)
+export const BASE_CLASSES = ['Witch', 'Marauder', 'Ranger', 'Duelist', 'Shadow', 'Templar', 'Scion']
+
+export type SortOrder = 'asc' | 'desc'
 
 export const OTHER_BASE_CLASS = 'Other'
 
@@ -62,6 +64,24 @@ export function effectiveAscendancy(character: Character): string {
 export function baseClassOf(character: Character): string {
   const name = effectiveAscendancy(character)
   return ASCENDANCY_BASE_CLASS[name] ?? (BASE_CLASSES.includes(name) ? name : OTHER_BASE_CLASS)
+}
+
+// 基礎クラスで絞り込む。'all' は全キャラをそのまま通す(リーグ絞り込みとの
+// AND になる想定)。それ以外は baseClassOf の結果と一致するキャラだけを残す。
+export function filterByBaseClass(characters: Character[], baseClass: string): Character[] {
+  if (baseClass === 'all') {
+    return characters
+  }
+  return characters.filter((character) => baseClassOf(character) === baseClass)
+}
+
+// レベル順に並べ替えた新しい配列を返す(元は変更しない)。同レベルは経験値で
+// 順序を揃える(昇順なら経験値も少ない順 = 育成途中のキャラが上に来る)。
+export function sortByLevel(characters: Character[], order: SortOrder): Character[] {
+  const sign = order === 'asc' ? 1 : -1
+  return [...characters].sort(
+    (a, b) => (a.level - b.level || a.experience - b.experience) * sign,
+  )
 }
 
 // キャラを基礎クラス → アセンダンシーの2階層にグループ化する。

@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { baseClassOf, groupCharactersByClass } from './characterClasses'
+import {
+  OTHER_BASE_CLASS,
+  baseClassOf,
+  filterByBaseClass,
+  groupCharactersByClass,
+  sortByLevel,
+} from './characterClasses'
 import type { Character } from '../types/character'
 
 function character(partial: Partial<Character>): Character {
@@ -104,5 +110,68 @@ describe('groupCharactersByClass', () => {
 
   it('空配列には空グループを返す', () => {
     expect(groupCharactersByClass([])).toEqual([])
+  })
+})
+
+describe('filterByBaseClass', () => {
+  const characters = [
+    character({ name: 'A', class: 'Necromancer' }), // Witch
+    character({ name: 'B', class: 'Occultist' }), // Witch
+    character({ name: 'C', class: 'Juggernaut' }), // Marauder
+    character({ name: 'D', class: 'Herald' }), // Other
+  ]
+
+  it("'all' は全キャラを返す", () => {
+    expect(filterByBaseClass(characters, 'all')).toHaveLength(4)
+  })
+
+  it('指定した基礎クラスのキャラだけを残す', () => {
+    expect(filterByBaseClass(characters, 'Witch').map((c) => c.name)).toEqual(['A', 'B'])
+  })
+
+  it('未昇順キャラ(class が基礎クラス名)も基礎クラスで拾う', () => {
+    const witch = character({ name: 'W', class: 'Witch' })
+    expect(filterByBaseClass([witch], 'Witch')).toHaveLength(1)
+  })
+
+  it('対応表に無い職は Other で絞れる', () => {
+    expect(filterByBaseClass(characters, OTHER_BASE_CLASS).map((c) => c.name)).toEqual(['D'])
+  })
+
+  it('該当するキャラが無い場合は空配列', () => {
+    expect(filterByBaseClass(characters, 'Ranger')).toEqual([])
+  })
+})
+
+describe('sortByLevel', () => {
+  const characters = [
+    character({ name: 'High', level: 95, experience: 3000 }),
+    character({ name: 'Low', level: 10, experience: 500 }),
+    character({ name: 'MidB', level: 50, experience: 2000 }),
+    character({ name: 'MidA', level: 50, experience: 1000 }),
+  ]
+
+  it("昇順: レベルが低い順、同レベルは経験値が少ない順", () => {
+    expect(sortByLevel(characters, 'asc').map((c) => c.name)).toEqual([
+      'Low',
+      'MidA',
+      'MidB',
+      'High',
+    ])
+  })
+
+  it("降順: レベルが高い順、同レベルは経験値が多い順", () => {
+    expect(sortByLevel(characters, 'desc').map((c) => c.name)).toEqual([
+      'High',
+      'MidB',
+      'MidA',
+      'Low',
+    ])
+  })
+
+  it('元の配列を変更しない', () => {
+    const original = [...characters]
+    sortByLevel(characters, 'asc')
+    expect(characters).toEqual(original)
   })
 })

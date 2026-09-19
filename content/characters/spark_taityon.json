@@ -1,0 +1,217 @@
+{
+  "name": "spark_taityon",
+  "league": "POEJP League Allflame (PL86300)",
+  "class": "Hierophant",
+  "ascendancy": "",
+  "level": 51,
+  "experience": 0,
+  "fetchedAt": "2026-09-19T22:21:09Z",
+  "lastLogin": "2026-09-19T14:58:59Z",
+  "items": {
+    "weapon": {
+      "name": "Oblivion Smasher",
+      "typeLine": "Quartz Sceptre",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyNCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/c986bafb78/scepter4.png",
+      "itemLevel": 15,
+      "explicitMods": [
+        "+13 to Intelligence",
+        "11% increased Spell Damage",
+        "Adds 1 to 3 Physical Damage",
+        "17% increased Mana Regeneration Rate",
+        "+1 to Level of all Lightning Spell Skill Gems",
+        "Grants 3 Life per Enemy Hit"
+      ],
+      "implicitMods": [
+        "20% increased Elemental Damage"
+      ]
+    },
+    "offhand": {
+      "name": "Tempest Span",
+      "typeLine": "Linden Kite Shield",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludDIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/996436dc6d/ShieldStrInt2.png",
+      "itemLevel": 16,
+      "explicitMods": [
+        "45% increased Chance to Block",
+        "4% Chance to Block Spell Damage",
+        "+52 to maximum Life",
+        "+3% to all Elemental Resistances",
+        "11% increased Stun and Block Recovery"
+      ],
+      "implicitMods": [
+        "+4% to all Elemental Resistances"
+      ]
+    },
+    "helmet": {
+      "name": "Soul Brow",
+      "typeLine": "Festival Mask",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bfdfda111a/HelmetDexInt4.png",
+      "itemLevel": 35,
+      "explicitMods": [
+        "+12 to Intelligence",
+        "18% increased Global Accuracy Rating",
+        "25% increased Evasion and Energy Shield",
+        "+25 to maximum Life",
+        "+17 to maximum Mana",
+        "13% increased Stun and Block Recovery",
+        "15% increased Light Radius"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Skull Pelt",
+      "typeLine": "Eelskin Tunic",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4MUIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/57409a1844/BodyDex1B.png",
+      "itemLevel": 45,
+      "explicitMods": [
+        "+27 to Dexterity",
+        "31% increased Evasion Rating",
+        "+84 to maximum Life",
+        "+7% to Lightning Resistance",
+        "12% increased Stun and Block Recovery"
+      ]
+    },
+    "gloves": {
+      "name": "Behemoth Mitts",
+      "typeLine": "Serpentscale Gauntlets",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/0bb5dd1e50/GlovesStrDex2.png",
+      "itemLevel": 50,
+      "explicitMods": [
+        "+24 to Strength",
+        "+8 to Armour",
+        "+48 to Evasion Rating",
+        "+24 to maximum Life",
+        "+29% to Fire Resistance"
+      ]
+    },
+    "boots": {
+      "name": "Wanderlust",
+      "typeLine": "Wool Shoes",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9XYW5kZXJsdXN0IiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/c83c1c3bdc/Wanderlust.png",
+      "itemLevel": 58,
+      "explicitMods": [
+        "+5 to Dexterity",
+        "+15 to maximum Energy Shield",
+        "26% increased Mana Regeneration Rate",
+        "20% increased Movement Speed",
+        "Cannot be Frozen"
+      ]
+    },
+    "belt": {
+      "name": "Replica Prismweave",
+      "typeLine": "Rustic Sash",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUHJpc213ZWF2ZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/822582fe24/Prismweave.png",
+      "itemLevel": 74,
+      "explicitMods": [
+        "Adds 15 to 30 Fire Damage to Spells",
+        "Adds 10 to 28 Cold Damage to Spells",
+        "Adds 1 to 60 Lightning Damage to Spells",
+        "+15% to all Elemental Resistances",
+        "30% increased Elemental Damage during any Flask Effect"
+      ],
+      "implicitMods": [
+        "18% increased Global Physical Damage"
+      ]
+    },
+    "ring1": {
+      "name": "Havoc Twirl",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
+      "itemLevel": 37,
+      "explicitMods": [
+        "+27 to Dexterity",
+        "11% increased Cold Damage",
+        "Adds 1 to 2 Cold Damage to Attacks",
+        "+24% to Fire Resistance"
+      ],
+      "implicitMods": [
+        "+13% to Fire and Lightning Resistances"
+      ]
+    },
+    "ring2": {
+      "name": "Berek's Grip",
+      "typeLine": "Two-Stone Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmVyZWtzR3JpcCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7abb06d839/BereksGrip.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "30% increased Cold Damage",
+        "Adds 1 to 56 Lightning Damage to Spells and Attacks",
+        "+40 to maximum Life",
+        "1% of Damage Leeched as Life against Shocked Enemies",
+        "1% of Damage Leeched as Energy Shield against Frozen Enemies"
+      ],
+      "implicitMods": [
+        "+13% to Cold and Lightning Resistances"
+      ]
+    },
+    "amulet": {
+      "name": "Carnage Heart",
+      "typeLine": "Onyx Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/451ac32a56/Amulet37.png",
+      "itemLevel": 42,
+      "explicitMods": [
+        "+26 to all Attributes",
+        "+18% to all Elemental Resistances",
+        "1.73% of Physical Attack Damage Leeched as Life",
+        "50% increased total Recovery per second from Life Leech",
+        "33% increased Damage while Leeching",
+        "Extra gore"
+      ],
+      "implicitMods": [
+        "+11 to all Attributes"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Hallowed Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 45
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask of the Rabbit",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 9,
+        "explicitMods": [
+          "39% reduced Effect of Chill on you during Effect",
+          "39% reduced Freeze Duration on you during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Hallowed Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 43
+      },
+      {
+        "name": "",
+        "typeLine": "Hallowed Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 43
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
+}

@@ -3,44 +3,43 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Hierophant",
   "ascendancy": "",
-  "level": 51,
+  "level": 74,
   "experience": 0,
-  "fetchedAt": "2026-09-19T22:21:09Z",
-  "lastLogin": "2026-09-19T14:58:59Z",
+  "fetchedAt": "2026-09-20T22:27:52Z",
+  "lastLogin": "2026-09-20T16:06:35Z",
   "items": {
     "weapon": {
-      "name": "Oblivion Smasher",
-      "typeLine": "Quartz Sceptre",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyNCIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/c986bafb78/scepter4.png",
-      "itemLevel": 15,
+      "name": "Singularity",
+      "typeLine": "Platinum Sceptre",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9HbG9vbWV5ZSIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/12d7027e18/Gloomeye.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+13 to Intelligence",
-        "11% increased Spell Damage",
-        "Adds 1 to 3 Physical Damage",
-        "17% increased Mana Regeneration Rate",
-        "+1 to Level of all Lightning Spell Skill Gems",
-        "Grants 3 Life per Enemy Hit"
+        "Adds 7 to 182 Lightning Damage to Spells",
+        "18% increased Cast Speed",
+        "Nearby Enemies are Hindered, with 25% reduced Movement Speed",
+        "100% increased Damage with Hits and Ailments against Hindered Enemies",
+        "24% increased Mana Cost Efficiency"
       ],
       "implicitMods": [
-        "20% increased Elemental Damage"
+        "30% increased Elemental Damage"
       ]
     },
     "offhand": {
-      "name": "Tempest Span",
-      "typeLine": "Linden Kite Shield",
+      "name": "Skull Bastion",
+      "typeLine": "Mosaic Kite Shield",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludDIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/996436dc6d/ShieldStrInt2.png",
-      "itemLevel": 16,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludDMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/23fbb47426/ShieldStrInt3.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "45% increased Chance to Block",
-        "4% Chance to Block Spell Damage",
-        "+52 to maximum Life",
-        "+3% to all Elemental Resistances",
-        "11% increased Stun and Block Recovery"
+        "+156 to maximum Life",
+        "+22% to Fire Resistance",
+        "+46% to Cold Resistance",
+        "33% chance to Avoid Elemental Ailments",
+        "+48 to maximum Mana"
       ],
       "implicitMods": [
-        "+4% to all Elemental Resistances"
+        "+8% to all Elemental Resistances"
       ]
     },
     "helmet": {
@@ -60,17 +59,18 @@
       ]
     },
     "bodyArmour": {
-      "name": "Skull Pelt",
-      "typeLine": "Eelskin Tunic",
+      "name": "Rift Shroud",
+      "typeLine": "Sharkskin Tunic",
       "rarity": "Rare",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4MUIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/57409a1844/BodyDex1B.png",
-      "itemLevel": 45,
+      "itemLevel": 85,
       "explicitMods": [
-        "+27 to Dexterity",
-        "31% increased Evasion Rating",
-        "+84 to maximum Life",
-        "+7% to Lightning Resistance",
-        "12% increased Stun and Block Recovery"
+        "+24 to Dexterity",
+        "+79 to Evasion Rating",
+        "16% increased Evasion Rating",
+        "+41 to maximum Life",
+        "+40% to Cold Resistance",
+        "27% increased Stun and Block Recovery"
       ]
     },
     "gloves": {
@@ -84,21 +84,21 @@
         "+8 to Armour",
         "+48 to Evasion Rating",
         "+24 to maximum Life",
-        "+29% to Fire Resistance"
+        "+29% to Fire Resistance",
+        "+25% to Lightning Resistance"
       ]
     },
     "boots": {
-      "name": "Wanderlust",
-      "typeLine": "Wool Shoes",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9XYW5kZXJsdXN0IiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/c83c1c3bdc/Wanderlust.png",
-      "itemLevel": 58,
+      "name": "Ghoul Slippers",
+      "typeLine": "Arcanist Slippers",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/036cf97e61/BootsInt3.png",
+      "itemLevel": 62,
       "explicitMods": [
-        "+5 to Dexterity",
-        "+15 to maximum Energy Shield",
-        "26% increased Mana Regeneration Rate",
-        "20% increased Movement Speed",
-        "Cannot be Frozen"
+        "28% increased Energy Shield Recharge Rate",
+        "+128 to maximum Life",
+        "+29% to Lightning Resistance",
+        "30% increased Movement Speed"
       ]
     },
     "belt": {
@@ -128,7 +128,8 @@
         "+27 to Dexterity",
         "11% increased Cold Damage",
         "Adds 1 to 2 Cold Damage to Attacks",
-        "+24% to Fire Resistance"
+        "+24% to Fire Resistance",
+        "+43 to maximum Mana"
       ],
       "implicitMods": [
         "+13% to Fire and Lightning Resistances"
@@ -152,30 +153,35 @@
       ]
     },
     "amulet": {
-      "name": "Carnage Heart",
-      "typeLine": "Onyx Amulet",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQzNyIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/451ac32a56/Amulet37.png",
-      "itemLevel": 42,
+      "name": "Behemoth Charm",
+      "typeLine": "Jade Amulet",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/ffc5888355/Amulet4.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+26 to all Attributes",
-        "+18% to all Elemental Resistances",
-        "1.73% of Physical Attack Damage Leeched as Life",
-        "50% increased total Recovery per second from Life Leech",
-        "33% increased Damage while Leeching",
-        "Extra gore"
+        "6% increased Spell Damage",
+        "+14% to Damage over Time Multiplier",
+        "+41% to Lightning Resistance",
+        "+1 to Minimum Endurance Charges",
+        "4% chance to gain an Endurance Charge on Kill",
+        "+51 to maximum Mana"
       ],
       "implicitMods": [
-        "+11 to all Attributes"
+        "+27 to Dexterity"
       ]
     },
     "flasks": [
       {
         "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 45
+        "typeLine": "Kieserite Divine Life Flask of Entropy",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60,
+        "explicitMods": [
+          "20% increased Charges per use",
+          "35% increased Amount Recovered",
+          "Grants Immunity to Chill for 13 seconds if used while Chilled\nGrants Immunity to Freeze for 13 seconds if used while Frozen"
+        ]
       },
       {
         "name": "",
@@ -197,17 +203,21 @@
       },
       {
         "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 43
+        "typeLine": "Plentiful Divine Life Flask of Warding",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 63,
+        "explicitMods": [
+          "+21 to Maximum Charges",
+          "Removes Curses on use"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Hallowed Mana Flask",
+        "typeLine": "Eternal Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
-        "itemLevel": 43
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
+        "itemLevel": 68
       }
     ]
   },

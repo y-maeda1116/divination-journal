@@ -3,10 +3,10 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Hierophant",
   "ascendancy": "",
-  "level": 74,
+  "level": 81,
   "experience": 0,
-  "fetchedAt": "2026-09-20T22:27:52Z",
-  "lastLogin": "2026-09-20T16:06:35Z",
+  "fetchedAt": "2026-09-21T23:18:04Z",
+  "lastLogin": "2026-09-21T14:43:24Z",
   "items": {
     "weapon": {
       "name": "Singularity",
@@ -173,51 +173,62 @@
     "flasks": [
       {
         "name": "",
-        "typeLine": "Kieserite Divine Life Flask of Entropy",
+        "typeLine": "Effusive Divine Life Flask of Warding",
         "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 60,
+        "itemLevel": 66,
         "explicitMods": [
-          "20% increased Charges per use",
-          "35% increased Amount Recovered",
-          "Grants Immunity to Chill for 13 seconds if used while Chilled\nGrants Immunity to Freeze for 13 seconds if used while Frozen"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Quicksilver Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 4
-      },
-      {
-        "name": "",
-        "typeLine": "Quicksilver Flask of the Rabbit",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 9,
-        "explicitMods": [
-          "39% reduced Effect of Chill on you during Effect",
-          "39% reduced Freeze Duration on you during Effect"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Plentiful Divine Life Flask of Warding",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 63,
-        "explicitMods": [
-          "+21 to Maximum Charges",
+          "46% reduced Amount Recovered",
+          "135% increased Recovery rate",
+          "50% of Recovery applied Instantly",
           "Removes Curses on use"
         ]
       },
       {
         "name": "",
-        "typeLine": "Eternal Mana Flask",
-        "rarity": "Normal",
+        "typeLine": "Provisioned Amethyst Flask of Wreaking",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQW1ldGh5c3QiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/0f93f9050a/Amethyst.png",
+        "itemLevel": 70,
+        "explicitMods": [
+          "48% increased Charge Recovery",
+          "25% reduced effect",
+          "28% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Viscous Eternal Mana Flask of Sealing",
+        "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTIiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/6146902646/manaflask12.png",
-        "itemLevel": 68
+        "itemLevel": 69,
+        "explicitMods": [
+          "57% increased Recovery rate",
+          "Grants Immunity to Bleeding for 7 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 7 seconds if used while affected by Corrupted Blood"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Constant Quicksilver Flask of the Hare",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "16% increased Charge Recovery",
+          "7% increased Movement Speed during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Examiner's Ruby Flask of the Sable",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcnVieSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/0d582b3f83/ruby.png",
+        "itemLevel": 64,
+        "explicitMods": [
+          "27% increased Duration",
+          "55% reduced Effect of Chill on you during Effect",
+          "52% reduced Freeze Duration on you during Effect"
+        ]
       }
     ]
   },

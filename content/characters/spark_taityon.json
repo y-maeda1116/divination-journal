@@ -3,10 +3,10 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Hierophant",
   "ascendancy": "",
-  "level": 81,
+  "level": 84,
   "experience": 0,
-  "fetchedAt": "2026-09-21T23:18:04Z",
-  "lastLogin": "2026-09-21T14:43:24Z",
+  "fetchedAt": "2026-09-22T22:58:22Z",
+  "lastLogin": "2026-09-22T02:32:50Z",
   "items": {
     "weapon": {
       "name": "Singularity",
@@ -43,19 +43,16 @@
       ]
     },
     "helmet": {
-      "name": "Soul Brow",
-      "typeLine": "Festival Mask",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bfdfda111a/HelmetDexInt4.png",
-      "itemLevel": 35,
+      "name": "Kitava's Thirst",
+      "typeLine": "Zealot Helmet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0tpdGF2YXNUaGlyc3QiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/585034f884/KitavasThirst.png",
+      "itemLevel": 72,
       "explicitMods": [
-        "+12 to Intelligence",
-        "18% increased Global Accuracy Rating",
-        "25% increased Evasion and Energy Shield",
-        "+25 to maximum Life",
-        "+17 to maximum Mana",
-        "13% increased Stun and Block Recovery",
-        "15% increased Light Radius"
+        "50% chance to Trigger Socketed Spells when you Spend at least 100 Mana on an\nUpfront Cost to Use or Trigger a Skill, with a 0.1 second Cooldown",
+        "15% reduced Cast Speed",
+        "76% increased Armour and Energy Shield",
+        "+48 to maximum Mana"
       ]
     },
     "bodyArmour": {
@@ -102,20 +99,17 @@
       ]
     },
     "belt": {
-      "name": "Replica Prismweave",
-      "typeLine": "Rustic Sash",
+      "name": "Darkness Enthroned",
+      "typeLine": "Stygian Vise",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvUHJpc213ZWF2ZSIsInciOjIsImgiOjEsInNjYWxlIjoxfV0/822582fe24/Prismweave.png",
-      "itemLevel": 74,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRGFya25lc3NFbnRocm9uZWQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/2e418e2c4d/DarknessEnthroned.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "Adds 15 to 30 Fire Damage to Spells",
-        "Adds 10 to 28 Cold Damage to Spells",
-        "Adds 1 to 60 Lightning Damage to Spells",
-        "+15% to all Elemental Resistances",
-        "30% increased Elemental Damage during any Flask Effect"
+        "Has 1 Abyssal Socket",
+        "96% increased Effect of Socketed Abyss Jewels"
       ],
       "implicitMods": [
-        "18% increased Global Physical Damage"
+        "Has 1 Abyssal Socket"
       ]
     },
     "ring1": {
@@ -136,20 +130,19 @@
       ]
     },
     "ring2": {
-      "name": "Berek's Grip",
-      "typeLine": "Two-Stone Ring",
+      "name": "Anathema",
+      "typeLine": "Moonstone Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQmVyZWtzR3JpcCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/7abb06d839/BereksGrip.png",
-      "itemLevel": 78,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlQ3Vyc2VSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/db99b5c4d2/UniqueCurseRing.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "30% increased Cold Damage",
-        "Adds 1 to 56 Lightning Damage to Spells and Attacks",
-        "+40 to maximum Life",
-        "1% of Damage Leeched as Life against Shocked Enemies",
-        "1% of Damage Leeched as Energy Shield against Frozen Enemies"
+        "+34 to Intelligence",
+        "10% increased Cast Speed",
+        "10% chance to gain a Power Charge when you Cast a Curse Spell",
+        "Your Curse Limit is equal to your maximum Power Charges"
       ],
       "implicitMods": [
-        "+13% to Cold and Lightning Resistances"
+        "10% increased Cast Speed"
       ]
     },
     "amulet": {

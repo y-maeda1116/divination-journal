@@ -5,41 +5,35 @@
   "ascendancy": "",
   "level": 84,
   "experience": 0,
-  "fetchedAt": "2026-09-22T22:58:22Z",
-  "lastLogin": "2026-09-22T02:32:50Z",
+  "fetchedAt": "2026-09-23T22:58:35Z",
+  "lastLogin": "2026-09-23T12:20:53Z",
   "items": {
     "weapon": {
-      "name": "Singularity",
-      "typeLine": "Platinum Sceptre",
+      "name": "Widowhail",
+      "typeLine": "Crude Bow",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9HbG9vbWV5ZSIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/12d7027e18/Gloomeye.png",
-      "itemLevel": 85,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL1dpZG93aGFpbEJvdyIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/1f31742277/WidowhailBow.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "Adds 7 to 182 Lightning Damage to Spells",
-        "18% increased Cast Speed",
-        "Nearby Enemies are Hindered, with 25% reduced Movement Speed",
-        "100% increased Damage with Hits and Ailments against Hindered Enemies",
-        "24% increased Mana Cost Efficiency"
-      ],
-      "implicitMods": [
-        "30% increased Elemental Damage"
+        "212% increased bonuses gained from Equipped Quiver"
       ]
     },
     "offhand": {
-      "name": "Skull Bastion",
-      "typeLine": "Mosaic Kite Shield",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludDMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/23fbb47426/ShieldStrInt3.png",
-      "itemLevel": 85,
+      "name": "Rearguard",
+      "typeLine": "Blunt Arrow Quiver",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUXVpdmVycy9SZWFyZ3VhcmQiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/9b285161a6/Rearguard.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+156 to maximum Life",
-        "+22% to Fire Resistance",
-        "+46% to Cold Resistance",
-        "33% chance to Avoid Elemental Ailments",
-        "+48 to maximum Mana"
+        "23% Chance to Block Attack Damage",
+        "15% Chance to Block Spell Damage",
+        "+426 to Armour",
+        "30% increased Projectile Speed",
+        "50% increased Stun and Block Recovery",
+        "15% increased Projectile Damage"
       ],
       "implicitMods": [
-        "+8% to all Elemental Resistances"
+        "Adds 8 to 14 Physical Damage to Attacks"
       ]
     },
     "helmet": {
@@ -146,21 +140,19 @@
       ]
     },
     "amulet": {
-      "name": "Behemoth Charm",
-      "typeLine": "Jade Amulet",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/ffc5888355/Amulet4.png",
+      "name": "Atziri's Foible",
+      "typeLine": "Paua Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9RdWlkIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/00c2b3a588/Quid.png",
       "itemLevel": 85,
       "explicitMods": [
-        "6% increased Spell Damage",
-        "+14% to Damage over Time Multiplier",
-        "+41% to Lightning Resistance",
-        "+1 to Minimum Endurance Charges",
-        "4% chance to gain an Endurance Charge on Kill",
-        "+51 to maximum Mana"
+        "+100 to maximum Mana",
+        "18% increased maximum Mana",
+        "98% increased Mana Regeneration Rate",
+        "Items and Gems have 25% reduced Attribute Requirements"
       ],
       "implicitMods": [
-        "+27 to Dexterity"
+        "30% increased Mana Regeneration Rate"
       ]
     },
     "flasks": [

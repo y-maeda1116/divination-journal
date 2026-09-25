@@ -3,10 +3,10 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Hierophant",
   "ascendancy": "",
-  "level": 84,
+  "level": 87,
   "experience": 0,
-  "fetchedAt": "2026-09-24T23:14:02Z",
-  "lastLogin": "2026-09-24T05:31:27Z",
+  "fetchedAt": "2026-09-25T23:19:41Z",
+  "lastLogin": "2026-09-25T23:12:59Z",
   "items": {
     "weapon": {
       "name": "Widowhail",
@@ -50,33 +50,36 @@
       ]
     },
     "bodyArmour": {
-      "name": "Rift Shroud",
-      "typeLine": "Sharkskin Tunic",
+      "name": "Havoc Veil",
+      "typeLine": "Carnal Armour",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4MUIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/57409a1844/BodyDex1B.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/99efce2041/BodyDexInt4C.png",
       "itemLevel": 85,
       "explicitMods": [
-        "+24 to Dexterity",
-        "+79 to Evasion Rating",
-        "16% increased Evasion Rating",
-        "+41 to maximum Life",
-        "+40% to Cold Resistance",
-        "27% increased Stun and Block Recovery"
+        "+55 to Intelligence",
+        "70% increased Evasion and Energy Shield",
+        "Regenerate 13.1 Life per second",
+        "+42 to maximum Mana",
+        "Reflects 45 Physical Damage to Melee Attackers",
+        "+24 to Strength and Dexterity"
+      ],
+      "implicitMods": [
+        "+23 to maximum Mana"
       ]
     },
     "gloves": {
-      "name": "Behemoth Mitts",
-      "typeLine": "Serpentscale Gauntlets",
+      "name": "Skull Mitts",
+      "typeLine": "Dragonscale Gauntlets",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/0bb5dd1e50/GlovesStrDex2.png",
-      "itemLevel": 50,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/01471b423e/GlovesStrDex3.png",
+      "itemLevel": 86,
       "explicitMods": [
-        "+24 to Strength",
-        "+8 to Armour",
-        "+48 to Evasion Rating",
-        "+24 to maximum Life",
-        "+29% to Fire Resistance",
-        "+25% to Lightning Resistance"
+        "34% increased Armour and Evasion",
+        "+93 to maximum Life",
+        "+45% to Fire Resistance",
+        "+48% to Cold Resistance",
+        "+44% to Lightning Resistance",
+        "14% increased Stun and Block Recovery"
       ]
     },
     "boots": {
@@ -86,10 +89,13 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/036cf97e61/BootsInt3.png",
       "itemLevel": 62,
       "explicitMods": [
+        "13% increased Energy Shield",
         "28% increased Energy Shield Recharge Rate",
         "+128 to maximum Life",
         "+29% to Lightning Resistance",
-        "30% increased Movement Speed"
+        "30% increased Movement Speed",
+        "7% increased Stun and Block Recovery",
+        "+17% to Fire and Cold Resistances"
       ]
     },
     "belt": {
@@ -107,20 +113,21 @@
       ]
     },
     "ring1": {
-      "name": "Havoc Twirl",
-      "typeLine": "Two-Stone Ring",
+      "name": "Victory Circle",
+      "typeLine": "Amethyst Ring",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpSdWJ5IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/8878077651/TopazRuby.png",
-      "itemLevel": 37,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+27 to Dexterity",
-        "11% increased Cold Damage",
-        "Adds 1 to 2 Cold Damage to Attacks",
-        "+24% to Fire Resistance",
-        "+43 to maximum Mana"
+        "+12 to maximum Energy Shield",
+        "+81 to maximum Life",
+        "22% increased Rarity of Items found",
+        "+38% to Fire Resistance",
+        "+40% to Cold Resistance",
+        "+42% to Lightning Resistance"
       ],
       "implicitMods": [
-        "+13% to Fire and Lightning Resistances"
+        "+17% to Chaos Resistance"
       ]
     },
     "ring2": {

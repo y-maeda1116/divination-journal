@@ -5,8 +5,8 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-10-02T23:48:01Z",
-  "lastLogin": "2026-10-02T12:59:02Z",
+  "fetchedAt": "2026-10-03T23:06:06Z",
+  "lastLogin": "2026-10-03T13:08:18Z",
   "items": {
     "weapon": {
       "name": "Widowhail",
@@ -50,21 +50,17 @@
       ]
     },
     "bodyArmour": {
-      "name": "Havoc Veil",
-      "typeLine": "Carnal Armour",
+      "name": "Fate Sanctuary",
+      "typeLine": "Torturer Garb",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/99efce2041/BodyDexInt4C.png",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50MkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/6744d2d486/BodyDexInt2C.png",
       "itemLevel": 85,
       "explicitMods": [
-        "+55 to Intelligence",
-        "70% increased Evasion and Energy Shield",
-        "Regenerate 13.1 Life per second",
-        "+42 to maximum Mana",
-        "Reflects 45 Physical Damage to Melee Attackers",
-        "+24 to Strength and Dexterity"
-      ],
-      "implicitMods": [
-        "+23 to maximum Mana"
+        "132% increased Evasion and Energy Shield",
+        "+24% to Lightning Resistance",
+        "16% increased Stun and Block Recovery",
+        "Reflects 14 Physical Damage to Melee Attackers",
+        "+19 to Strength and Dexterity"
       ]
     },
     "gloves": {

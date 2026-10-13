@@ -1,0 +1,158 @@
+{
+  "name": "poi_spa_tyon",
+  "league": "POEJP League Allflame (PL86300)",
+  "class": "Shadow",
+  "ascendancy": "",
+  "level": 13,
+  "experience": 0,
+  "fetchedAt": "2026-10-13T02:01:53Z",
+  "lastLogin": "2026-10-12T14:51:10Z",
+  "items": {
+    "offhand": {
+      "name": "",
+      "typeLine": "Steadfast Rawhide Tower Shield",
+      "rarity": "Magic",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0cjMiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/8d8c4e161f/ShieldStr3.png",
+      "itemLevel": 14,
+      "explicitMods": [
+        "45% increased Chance to Block"
+      ],
+      "implicitMods": [
+        "+16 to maximum Life"
+      ]
+    },
+    "helmet": {
+      "name": "Goldrim",
+      "typeLine": "Leather Cap",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleFVuaXF1ZTIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/7f4908ef2f/HelmetDexUnique2.png",
+      "itemLevel": 73,
+      "explicitMods": [
+        "+44 to Evasion Rating",
+        "10% increased Rarity of Items found",
+        "+31% to all Elemental Resistances",
+        "Reflects 4 Physical Damage to Melee Attackers"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Tabula Rasa",
+      "typeLine": "Simple Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9UYWJ1bGFSYXNhIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/3bdbff0756/TabulaRasa.png",
+      "itemLevel": 85
+    },
+    "boots": {
+      "name": "Agony Pace",
+      "typeLine": "Rawhide Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d9494fc647/BootsDex1.png",
+      "itemLevel": 5,
+      "explicitMods": [
+        "Regenerate 1.9 Life per second",
+        "+9% to Cold Resistance",
+        "10% increased Movement Speed",
+        "12% increased Stun and Block Recovery"
+      ]
+    },
+    "belt": {
+      "name": "",
+      "typeLine": "Rustic Sash",
+      "rarity": "Normal",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDEiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/6b67d971e8/Belt1.png",
+      "itemLevel": 5,
+      "implicitMods": [
+        "24% increased Global Physical Damage"
+      ]
+    },
+    "ring1": {
+      "name": "Blackheart",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzFVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/40666e2827/Ring1Unique.png",
+      "itemLevel": 70,
+      "explicitMods": [
+        "Adds 11 to 20 Chaos Damage to Attacks",
+        "Regenerate 10.7 Life per second",
+        "10% chance to Cause Monsters to Flee"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Blackheart",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzFVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/40666e2827/Ring1Unique.png",
+      "itemLevel": 76,
+      "explicitMods": [
+        "Adds 11 to 20 Chaos Damage to Attacks",
+        "Regenerate 11.7 Life per second",
+        "10% chance to Cause Monsters to Flee"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "amulet": {
+      "name": "Karui Ward",
+      "typeLine": "Jade Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/069e4f76ea/Amulet4Unique.png",
+      "itemLevel": 79,
+      "explicitMods": [
+        "+30 to Strength",
+        "+100 to Accuracy Rating",
+        "30% increased Projectile Speed",
+        "10% increased Movement Speed",
+        "30% increased Projectile Damage"
+      ],
+      "implicitMods": [
+        "+26 to Dexterity"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Small Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
+        "itemLevel": 1
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
+      },
+      {
+        "name": "",
+        "typeLine": "Large Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/35b22b6cc3/lifeflask3.png",
+        "itemLevel": 6
+      },
+      {
+        "name": "",
+        "typeLine": "Large Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/35b22b6cc3/lifeflask3.png",
+        "itemLevel": 11
+      },
+      {
+        "name": "",
+        "typeLine": "Large Mana Flask of Convection",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/36c890e698/manaflask3.png",
+        "itemLevel": 10,
+        "explicitMods": [
+          "Grants Immunity to Chill for 6 seconds if used while Chilled\nGrants Immunity to Freeze for 6 seconds if used while Frozen"
+        ]
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
+}

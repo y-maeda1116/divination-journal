@@ -3,10 +3,10 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Shadow",
   "ascendancy": "",
-  "level": 13,
+  "level": 16,
   "experience": 0,
-  "fetchedAt": "2026-10-13T02:01:53Z",
-  "lastLogin": "2026-10-12T14:51:10Z",
+  "fetchedAt": "2026-10-13T23:44:41Z",
+  "lastLogin": "2026-10-13T13:51:20Z",
   "items": {
     "offhand": {
       "name": "",
@@ -114,13 +114,6 @@
     "flasks": [
       {
         "name": "",
-        "typeLine": "Small Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
-        "itemLevel": 1
-      },
-      {
-        "name": "",
         "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
@@ -135,20 +128,24 @@
       },
       {
         "name": "",
+        "typeLine": "Greater Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/54e8624da7/manaflask4.png",
+        "itemLevel": 17
+      },
+      {
+        "name": "",
+        "typeLine": "Greater Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/2601beea57/lifeflask4.png",
+        "itemLevel": 16
+      },
+      {
+        "name": "",
         "typeLine": "Large Life Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/35b22b6cc3/lifeflask3.png",
         "itemLevel": 11
-      },
-      {
-        "name": "",
-        "typeLine": "Large Mana Flask of Convection",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/36c890e698/manaflask3.png",
-        "itemLevel": 10,
-        "explicitMods": [
-          "Grants Immunity to Chill for 6 seconds if used while Chilled\nGrants Immunity to Freeze for 6 seconds if used while Frozen"
-        ]
       }
     ]
   },

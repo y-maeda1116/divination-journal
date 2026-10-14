@@ -3,22 +3,26 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Shadow",
   "ascendancy": "",
-  "level": 16,
+  "level": 34,
   "experience": 0,
-  "fetchedAt": "2026-10-13T23:44:41Z",
-  "lastLogin": "2026-10-13T13:51:20Z",
+  "fetchedAt": "2026-10-14T23:15:30Z",
+  "lastLogin": "2026-10-14T22:24:14Z",
   "items": {
     "offhand": {
-      "name": "",
-      "typeLine": "Steadfast Rawhide Tower Shield",
-      "rarity": "Magic",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0cjMiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/8d8c4e161f/ShieldStr3.png",
-      "itemLevel": 14,
+      "name": "The Deep One's Hide",
+      "typeLine": "Studded Round Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0NoaXRpbmh1bGwiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/90921c2a19/Chitinhull.png",
+      "itemLevel": 82,
       "explicitMods": [
-        "45% increased Chance to Block"
+        "Adds 4 to 8 Physical Damage to Attacks",
+        "Adds 12 to 15 Cold Damage to Attacks",
+        "97% increased Armour and Evasion",
+        "+34% to Fire Resistance",
+        "Curse Enemies with Vulnerability on Block"
       ],
       "implicitMods": [
-        "+16 to maximum Life"
+        "60% increased Block Recovery"
       ]
     },
     "helmet": {
@@ -41,27 +45,49 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9UYWJ1bGFSYXNhIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/3bdbff0756/TabulaRasa.png",
       "itemLevel": 85
     },
-    "boots": {
-      "name": "Agony Pace",
-      "typeLine": "Rawhide Boots",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/d9494fc647/BootsDex1.png",
-      "itemLevel": 5,
+    "gloves": {
+      "name": "Asenath's Gentle Touch",
+      "typeLine": "Silk Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQXNlbmF0aHNHZW50bGVUb3VjaCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/ea6e822bbe/AsenathsGentleTouch.png",
+      "itemLevel": 82,
       "explicitMods": [
-        "Regenerate 1.9 Life per second",
-        "+9% to Cold Resistance",
-        "10% increased Movement Speed",
-        "12% increased Stun and Block Recovery"
+        "+29 to Intelligence",
+        "+65 to maximum Life",
+        "+76 to maximum Mana",
+        "Curse Enemies with Temporal Chains on Hit",
+        "Non-Aura Curses you inflict are not removed from Dying Enemies",
+        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+      ]
+    },
+    "boots": {
+      "name": "Sundance",
+      "typeLine": "Clasped Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9TdW5kYW5jZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/b3a611197c/Sundance.png",
+      "itemLevel": 78,
+      "explicitMods": [
+        "10% increased Attack Speed",
+        "89% increased Evasion Rating",
+        "20% increased Rarity of Items found",
+        "+33% to Fire Resistance",
+        "20% increased Movement Speed"
       ]
     },
     "belt": {
-      "name": "",
-      "typeLine": "Rustic Sash",
-      "rarity": "Normal",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDEiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/6b67d971e8/Belt1.png",
-      "itemLevel": 5,
+      "name": "Morbid Strap",
+      "typeLine": "Chain Belt",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDIiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/3a6ece4e40/Belt2.png",
+      "itemLevel": 18,
+      "explicitMods": [
+        "+47 to maximum Life",
+        "Regenerate 4.5 Life per second",
+        "+10% to Cold Resistance",
+        "+9% to Lightning Resistance"
+      ],
       "implicitMods": [
-        "24% increased Global Physical Damage"
+        "+18 to maximum Energy Shield"
       ]
     },
     "ring1": {
@@ -121,31 +147,34 @@
       },
       {
         "name": "",
-        "typeLine": "Large Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/35b22b6cc3/lifeflask3.png",
-        "itemLevel": 6
+        "typeLine": "Prepared Colossal Life Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 35,
+        "explicitMods": [
+          "108% more Recovery if used while on Low Life"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Greater Mana Flask",
+        "typeLine": "Colossal Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/54e8624da7/manaflask4.png",
-        "itemLevel": 17
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/da16d2d8c3/manaflask7.png",
+        "itemLevel": 35
       },
       {
         "name": "",
-        "typeLine": "Greater Life Flask",
+        "typeLine": "Colossal Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/2601beea57/lifeflask4.png",
-        "itemLevel": 16
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 38
       },
       {
         "name": "",
-        "typeLine": "Large Life Flask",
+        "typeLine": "Colossal Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/35b22b6cc3/lifeflask3.png",
-        "itemLevel": 11
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
+        "itemLevel": 31
       }
     ]
   },

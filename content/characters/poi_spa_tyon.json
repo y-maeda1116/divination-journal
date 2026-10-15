@@ -1,12 +1,12 @@
 {
   "name": "poi_spa_tyon",
   "league": "POEJP League Allflame (PL86300)",
-  "class": "Shadow",
+  "class": "Assassin",
   "ascendancy": "",
-  "level": 34,
+  "level": 39,
   "experience": 0,
-  "fetchedAt": "2026-10-14T23:15:30Z",
-  "lastLogin": "2026-10-14T22:24:14Z",
+  "fetchedAt": "2026-10-15T23:05:23Z",
+  "lastLogin": "2026-10-15T22:35:32Z",
   "items": {
     "offhand": {
       "name": "The Deep One's Hide",

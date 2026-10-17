@@ -3,10 +3,10 @@
   "league": "POEJP League Allflame (PL86300)",
   "class": "Assassin",
   "ascendancy": "",
-  "level": 39,
+  "level": 42,
   "experience": 0,
-  "fetchedAt": "2026-10-16T22:52:47Z",
-  "lastLogin": "2026-10-16T13:11:54Z",
+  "fetchedAt": "2026-10-17T22:20:05Z",
+  "lastLogin": "2026-10-17T19:05:49Z",
   "items": {
     "offhand": {
       "name": "The Deep One's Hide",
@@ -140,6 +140,28 @@
     "flasks": [
       {
         "name": "",
+        "typeLine": "Seething Hallowed Mana Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 43,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Full-bodied Hallowed Life Flask",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 43,
+        "explicitMods": [
+          "58% increased Amount Recovered",
+          "33% reduced Recovery rate"
+        ]
+      },
+      {
+        "name": "",
         "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
@@ -147,34 +169,17 @@
       },
       {
         "name": "",
-        "typeLine": "Prepared Colossal Life Flask",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
-        "itemLevel": 35,
-        "explicitMods": [
-          "108% more Recovery if used while on Low Life"
-        ]
+        "typeLine": "Sacred Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/1c24a51fc4/lifeflask8.png",
+        "itemLevel": 41
       },
       {
         "name": "",
-        "typeLine": "Colossal Mana Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/da16d2d8c3/manaflask7.png",
-        "itemLevel": 35
-      },
-      {
-        "name": "",
-        "typeLine": "Colossal Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
-        "itemLevel": 38
-      },
-      {
-        "name": "",
-        "typeLine": "Colossal Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrNyIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a3a05678ea/lifeflask7.png",
-        "itemLevel": 31
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 42
       }
     ]
   },

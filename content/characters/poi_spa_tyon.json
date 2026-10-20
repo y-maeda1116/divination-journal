@@ -3,39 +3,27 @@
   "league": "Allflame",
   "class": "Assassin",
   "ascendancy": "",
-  "level": 65,
+  "level": 67,
   "experience": 0,
-  "fetchedAt": "2026-10-19T23:43:34Z",
-  "lastLogin": "2026-10-19T14:22:21Z",
+  "fetchedAt": "2026-10-20T23:11:56Z",
+  "lastLogin": "2026-10-20T22:46:22Z",
   "items": {
     "offhand": {
-      "name": "The Deep One's Hide",
-      "typeLine": "Studded Round Shield",
+      "name": "Apep's Slumber",
+      "typeLine": "Vaal Spirit Shield",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0NoaXRpbmh1bGwiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/90921c2a19/Chitinhull.png",
-      "itemLevel": 82,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL0FwZXBzU2x1bWJlciIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/334298da3d/ApepsSlumber.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "Adds 4 to 8 Physical Damage to Attacks",
-        "Adds 12 to 15 Cold Damage to Attacks",
-        "97% increased Armour and Evasion",
-        "+34% to Fire Resistance",
-        "Curse Enemies with Vulnerability on Block"
+        "Adds 51 to 80 Chaos Damage",
+        "+87 to maximum Energy Shield",
+        "+25% chance to be Poisoned",
+        "+3% to all maximum Resistances while Poisoned",
+        "Regenerate 80 Energy Shield per Second per Poison on you, up to 400 per second",
+        "Poisons on you expire 50% slower"
       ],
       "implicitMods": [
-        "60% increased Block Recovery"
-      ]
-    },
-    "helmet": {
-      "name": "Goldrim",
-      "typeLine": "Leather Cap",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleFVuaXF1ZTIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/7f4908ef2f/HelmetDexUnique2.png",
-      "itemLevel": 73,
-      "explicitMods": [
-        "+44 to Evasion Rating",
-        "10% increased Rarity of Items found",
-        "+31% to all Elemental Resistances",
-        "Reflects 4 Physical Damage to Melee Attackers"
+        "10% increased Spell Damage"
       ]
     },
     "bodyArmour": {
@@ -67,33 +55,22 @@
       ]
     },
     "boots": {
-      "name": "Sundance",
-      "typeLine": "Clasped Boots",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9TdW5kYW5jZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/b3a611197c/Sundance.png",
-      "itemLevel": 78,
-      "explicitMods": [
-        "10% increased Attack Speed",
-        "89% increased Evasion Rating",
-        "20% increased Rarity of Items found",
-        "+33% to Fire Resistance",
-        "20% increased Movement Speed"
-      ]
-    },
-    "belt": {
-      "name": "Loath Bind",
-      "typeLine": "Chain Belt",
+      "name": "Storm Tread",
+      "typeLine": "Stealth Boots",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDIiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/3a6ece4e40/Belt2.png",
-      "itemLevel": 78,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0RleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZX1d/823fa7ffcb/BootsDex3.png",
+      "itemLevel": 76,
       "explicitMods": [
-        "+99 to maximum Life",
-        "+36% to Fire Resistance",
-        "+31% to Cold Resistance",
-        "+13% to Lightning Resistance"
+        "+12% chance to Suppress Spell Damage",
+        "+126 to maximum Life",
+        "Regenerate 38.7 Life per second",
+        "+28% to Cold Resistance",
+        "20% increased Movement Speed",
+        "8% chance to gain Onslaught for 4 seconds on Kill"
       ],
       "implicitMods": [
-        "+9 to maximum Energy Shield"
+        "5% increased Cooldown Recovery Rate",
+        "4% increased Action Speed"
       ]
     },
     "ring1": {

@@ -3,11 +3,30 @@
   "league": "Allflame",
   "class": "Assassin",
   "ascendancy": "",
-  "level": 67,
+  "level": 69,
   "experience": 0,
-  "fetchedAt": "2026-10-20T23:11:56Z",
-  "lastLogin": "2026-10-20T22:46:22Z",
+  "fetchedAt": "2026-10-21T23:20:36Z",
+  "lastLogin": "2026-10-21T22:38:12Z",
   "items": {
+    "weapon": {
+      "name": "Behemoth Fang",
+      "typeLine": "Slaughter Knife",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9EYWdnZXJzL0RhZ2dlcjMiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/fbc18a1b4f/Dagger3.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Adds 11 to 175 Lightning Damage to Spells",
+        "25% increased Cast Speed",
+        "96% increased Spell Critical Strike Chance",
+        "+26% to Global Critical Strike Multiplier",
+        "+1 to Level of all Lightning Spell Skill Gems",
+        "52% increased Lightning Damage",
+        "20% chance to Shock"
+      ],
+      "implicitMods": [
+        "41% increased Global Critical Strike Chance"
+      ]
+    },
     "offhand": {
       "name": "Apep's Slumber",
       "typeLine": "Vaal Spirit Shield",
@@ -26,17 +45,32 @@
         "10% increased Spell Damage"
       ]
     },
-    "bodyArmour": {
-      "name": "Hypnotic Wrap",
-      "typeLine": "Holy Chainmail",
+    "helmet": {
+      "name": "Grim Cowl",
+      "typeLine": "Pig-Faced Bascinet",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50M0MiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/900b4f2c03/BodyStrInt3C.png",
-      "itemLevel": 60,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0ckRleDkiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f0313fc805/HelmetStrDex9.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+21 to Intelligence",
-        "+46 to Armour",
-        "+156 to maximum Life",
-        "Regenerate 3.8 Life per second"
+        "+38 to Armour",
+        "+48 to Evasion Rating",
+        "+96 to maximum Life",
+        "+36% to Fire Resistance",
+        "+22% to Cold Resistance",
+        "+39% to Lightning Resistance"
+      ]
+    },
+    "bodyArmour": {
+      "name": "Chimeric Hide",
+      "typeLine": "Battle Lamellar",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyNEEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/7e1c29aacf/BodyStr4A.png",
+      "itemLevel": 66,
+      "explicitMods": [
+        "+16 to Dexterity",
+        "+74 to maximum Life",
+        "+31% to Fire Resistance",
+        "+25% to Lightning Resistance"
       ]
     },
     "gloves": {
@@ -71,6 +105,23 @@
       "implicitMods": [
         "5% increased Cooldown Recovery Rate",
         "4% increased Action Speed"
+      ]
+    },
+    "belt": {
+      "name": "Cataclysm Bond",
+      "typeLine": "Stygian Vise",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQWJ5c3NCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjF9XQ/973fb5fe7a/AbyssBelt.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+24 to maximum Energy Shield",
+        "+28% to Fire Resistance",
+        "+15% to Cold Resistance",
+        "+36% to Lightning Resistance",
+        "+51 to maximum Life"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
       ]
     },
     "ring1": {

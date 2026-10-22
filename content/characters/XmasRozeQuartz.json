@@ -5,6 +5,10 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-10-21T23:24:12Z",
-  "lastLogin": "2024-11-25T00:15:41Z"
+  "fetchedAt": "2026-10-22T23:27:13Z",
+  "lastLogin": "2024-11-25T00:15:41Z",
+  "items": {},
+  "passives": {
+    "hashes": null
+  }
 }

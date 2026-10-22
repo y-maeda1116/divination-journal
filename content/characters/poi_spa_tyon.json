@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Assassin",
   "ascendancy": "",
-  "level": 69,
+  "level": 72,
   "experience": 0,
-  "fetchedAt": "2026-10-21T23:20:36Z",
-  "lastLogin": "2026-10-21T22:38:12Z",
+  "fetchedAt": "2026-10-22T23:23:38Z",
+  "lastLogin": "2026-10-22T22:28:28Z",
   "items": {
     "weapon": {
       "name": "Behemoth Fang",
@@ -181,52 +181,60 @@
     "flasks": [
       {
         "name": "",
-        "typeLine": "Seething Hallowed Mana Flask",
+        "typeLine": "Transgressor's Silver Flask of the Skink",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
-        "itemLevel": 43,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2lsdmVyIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/a2143b575d/silver.png",
+        "itemLevel": 73,
+        "explicitMods": [
+          "Gain 1 Charge when you are Hit by an Enemy",
+          "43% less Duration",
+          "Immunity to Bleeding and Corrupted Blood during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Wide Sapphire Flask of the Lizard",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2FwcGhpcmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/1545bc9f68/sapphire.png",
+        "itemLevel": 74,
+        "explicitMods": [
+          "+18 to Maximum Charges",
+          "48% less Duration",
+          "Immunity to Bleeding and Corrupted Blood during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Seething Divine Life Flask of Sealing",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 68,
         "explicitMods": [
           "66% reduced Amount Recovered",
-          "Instant Recovery"
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 8 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 8 seconds if used while affected by Corrupted Blood"
         ]
       },
       {
         "name": "",
-        "typeLine": "Quicksilver Flask",
-        "rarity": "Normal",
+        "typeLine": "Masochist's Quicksilver Flask of Foisting",
+        "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 4
-      },
-      {
-        "name": "",
-        "typeLine": "Endless Divine Life Flask of Obstruction",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 62,
-        "explicitMods": [
-          "26% increased Charge Recovery",
-          "Hinders nearby Enemies with 28% reduced Movement Speed if used while not on Full Life"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Plentiful Divine Life Flask of Warding",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 63,
-        "explicitMods": [
-          "+21 to Maximum Charges",
-          "Removes Curses on use"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Bountiful Divine Life Flask",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
         "itemLevel": 64,
         "explicitMods": [
-          "+27 to Maximum Charges"
+          "Gain 2 Charges when you are Hit by an Enemy",
+          "22% chance to Freeze, Shock and Ignite during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Continuous Jade Flask of the Goldfish",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/8ead4435df/evasionflask01.png",
+        "itemLevel": 69,
+        "explicitMods": [
+          "24% increased Charge Recovery",
+          "39% chance to Avoid being Ignited during Effect"
         ]
       }
     ]

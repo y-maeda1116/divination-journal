@@ -3,10 +3,10 @@
   "league": "Allflame",
   "class": "Assassin",
   "ascendancy": "",
-  "level": 72,
+  "level": 79,
   "experience": 0,
-  "fetchedAt": "2026-10-24T22:29:53Z",
-  "lastLogin": "2026-10-24T22:28:55Z",
+  "fetchedAt": "2026-10-25T22:34:32Z",
+  "lastLogin": "2026-10-25T10:06:19Z",
   "items": {
     "weapon": {
       "name": "Behemoth Fang",
@@ -162,23 +162,33 @@
       ]
     },
     "amulet": {
-      "name": "Fury Valve",
-      "typeLine": "Turquoise Amulet",
+      "name": "Whispers of Infinity",
+      "typeLine": "Seaglass Amulet",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NZXRhbW9ycGhvc2lzQW11bGV0IiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/f8bdb14091/MetamorphosisAmulet.png",
-      "itemLevel": 78,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9XaGlzcGVyc29mSW5maW5pdHkiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4fc9361433/WhispersofInfinity.png",
+      "itemLevel": 87,
       "explicitMods": [
-        "22% increased Evasion Rating",
-        "+19% to all Elemental Resistances",
-        "Skills fire 2 additional Projectiles",
-        "30% increased Projectile Speed",
-        "Modifiers to number of Projectiles instead apply\nto the number of targets Projectiles Split towards"
+        "7 to 25 Added Attack Chaos Damage per 100 Maximum Mana",
+        "+90 to maximum Energy Shield",
+        "42% reduced maximum Mana",
+        "Skills Cost Energy Shield instead of Mana or Life"
       ],
       "implicitMods": [
-        "+24 to Dexterity and Intelligence"
+        "15% faster start of Energy Shield Recharge"
       ]
     },
     "flasks": [
+      {
+        "name": "",
+        "typeLine": "Medic's Bismuth Flask of the Petrel",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvYmlzbXV0aCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/fbda460273/bismuth.png",
+        "itemLevel": 24,
+        "explicitMods": [
+          "15% chance to gain a Flask Charge when you deal a Critical Strike",
+          "41% reduced Effect of Curses on you during Effect"
+        ]
+      },
       {
         "name": "",
         "typeLine": "Transgressor's Silver Flask of the Skink",
@@ -188,18 +198,6 @@
         "explicitMods": [
           "Gain 1 Charge when you are Hit by an Enemy",
           "43% less Duration",
-          "Immunity to Bleeding and Corrupted Blood during Effect"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Wide Sapphire Flask of the Lizard",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc2FwcGhpcmUiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/1545bc9f68/sapphire.png",
-        "itemLevel": 74,
-        "explicitMods": [
-          "+18 to Maximum Charges",
-          "48% less Duration",
           "Immunity to Bleeding and Corrupted Blood during Effect"
         ]
       },

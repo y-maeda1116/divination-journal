@@ -202,7 +202,10 @@ func postTokenRequest(form url.Values) (*TokenResponse, error) {
 	}
 	defer resp.Body.Close()
 
-	body, _ := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
+	body, err := io.ReadAll(io.LimitReader(resp.Body, 1<<20))
+	if err != nil {
+		return nil, fmt.Errorf("%w: reading token response body: %v", ErrOAuth, err)
+	}
 	if resp.StatusCode != http.StatusOK {
 		return nil, fmt.Errorf("%w (status %d): %s", ErrOAuth, resp.StatusCode, string(body))
 	}

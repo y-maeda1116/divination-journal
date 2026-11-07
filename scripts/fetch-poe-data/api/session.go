@@ -132,7 +132,10 @@ func (c *SessionClient) GetCharacters() ([]models.APICharacter, error) {
 	}
 	defer resp.Body.Close()
 
-	body, _ := io.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("reading response body: %w", err)
+	}
 	if err := classifyAPIError(resp, body); err != nil {
 		return nil, err
 	}
@@ -169,7 +172,10 @@ func (c *SessionClient) GetCharacterItems(characterName string) (*models.APIChar
 	}
 	defer resp.Body.Close()
 
-	body, _ := io.ReadAll(resp.Body)
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		return nil, fmt.Errorf("reading response body: %w", err)
+	}
 	if err := classifyAPIError(resp, body); err != nil {
 		return nil, err
 	}

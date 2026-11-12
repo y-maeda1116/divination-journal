@@ -176,3 +176,30 @@ func TestGetCharactersAuthError(t *testing.T) {
 		t.Errorf("expected ErrAuthentication, got %v", err)
 	}
 }
+
+// TestClientGetCharactersBodyReadError はレスポンスボディの読み込み失敗が
+// 握りつぶされずエラーとして返ることを検証する(session client と同じ手法)。
+func TestClientGetCharactersBodyReadError(t *testing.T) {
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		hj, ok := w.(http.Hijacker)
+		if !ok {
+			t.Fatal("server does not support hijacking")
+		}
+		conn, _, err := hj.Hijack()
+		if err != nil {
+			t.Fatal(err)
+		}
+		defer conn.Close()
+		conn.Write([]byte("HTTP/1.1 200 OK\r\nContent-Length: 1000\r\n\r\n{\"partial"))
+	}))
+	defer srv.Close()
+
+	orig := baseURL
+	baseURL = srv.URL
+	defer func() { baseURL = orig }()
+
+	client := NewClient("test-token")
+	if _, err := client.GetCharacters(); err == nil || !strings.Contains(err.Error(), "reading response body") {
+		t.Errorf("expected reading response body error, got: %v", err)
+	}
+}

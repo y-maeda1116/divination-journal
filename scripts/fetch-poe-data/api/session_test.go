@@ -138,3 +138,31 @@ func TestSessionClientAuthError(t *testing.T) {
 		t.Fatal("expected an error, got nil")
 	}
 }
+
+// TestSessionClientGetCharactersBodyReadError はレスポンスボディの読み込み失敗が
+// 握りつぶされずエラーとして返ることを検証する。Content-Length を実際の送信 bytes
+// より大きく宣言して接続を切ることで io.ReadAll を unexpected EOF で失敗させる。
+func TestSessionClientGetCharactersBodyReadError(t *testing.T) {
+	srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
+		hj, ok := w.(http.Hijacker)
+		if !ok {
+			t.Fatal("server does not support hijacking")
+		}
+		conn, _, err := hj.Hijack()
+		if err != nil {
+			t.Fatal(err)
+		}
+		defer conn.Close()
+		conn.Write([]byte("HTTP/1.1 200 OK\r\nContent-Length: 1000\r\n\r\n{\"partial"))
+	}))
+	defer srv.Close()
+
+	orig := webBaseURL
+	webBaseURL = srv.URL
+	defer func() { webBaseURL = orig }()
+
+	client := NewSessionClient("MyAccount", "sid-123")
+	if _, err := client.GetCharacters(); err == nil || !strings.Contains(err.Error(), "reading response body") {
+		t.Errorf("expected reading response body error, got: %v", err)
+	}
+}

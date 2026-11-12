@@ -9,6 +9,7 @@ import {
 } from 'recharts'
 import { loadCharacters, loadLeagues } from '../../utils/contentLoader'
 import { classDistribution, leagueSummary, levelHistogram } from '../../utils/stats'
+import ActivityHeatmap from './ActivityHeatmap'
 import type { LeagueView } from '../../utils/leagues'
 
 interface StatsPageProps {
@@ -33,6 +34,11 @@ export default function StatsPage({ selectedLeague }: StatsPageProps) {
 
   return (
     <div className="space-y-6">
+      <section className="rounded-lg border border-border bg-bg-card p-6">
+        <h2 className="mb-4 text-lg font-semibold text-text-bright">Play Activity</h2>
+        <ActivityHeatmap />
+      </section>
+
       <section className="rounded-lg border border-border bg-bg-card p-6">
         <h2 className="mb-4 text-lg font-semibold text-text-bright">Class Distribution</h2>
         {classes.length > 0 ? (

@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:10:08Z",
+  "fetchedAt": "2026-11-14T00:58:30Z",
   "lastLogin": "2025-04-19T06:01:17Z",
   "items": {
     "weapon": {
@@ -40,7 +40,7 @@
         "12% increased Elemental Damage with Attack Skills"
       ],
       "implicitMods": [
-        "Grants Level 23 Discipline Skill"
+        "Grants Level 23 [Discipline::23|Discipline]"
       ]
     },
     "helmet": {
@@ -64,7 +64,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9FbWJyYWNlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/d0110e7660/Embrace.png",
       "itemLevel": 75,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 29 Added Chaos Damage",
+        "Socketed Gems are Supported by Level 29 [SupportAddedChaosDamage::29|Added Chaos Damage Support]",
         "+23 to Intelligence",
         "224% increased Energy Shield",
         "10% increased maximum Life",
@@ -80,7 +80,7 @@
       "explicitMods": [
         "+33 to Evasion Rating",
         "+97 to maximum Life",
-        "16% increased Rarity of Items found",
+        "+16% to [PlayerItemRarity|Item Rarity]",
         "+35% to Fire Resistance",
         "+23% to Lightning Resistance"
       ]
@@ -153,7 +153,7 @@
         "+21 to Intelligence",
         "18% increased maximum Energy Shield",
         "+59 to maximum Life",
-        "Hits against Nearby Enemies have 50% increased Critical Strike Chance",
+        "Hits against Enemies within 6 metres have 50% increased Critical Strike Chance",
         "Malevolence has no Reservation"
       ],
       "implicitMods": [

@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:49Z",
+  "fetchedAt": "2026-11-14T00:56:11Z",
   "lastLogin": "2024-02-23T00:11:24Z",
   "items": {
     "weapon": {
@@ -68,7 +68,7 @@
         "Deal no Non-Lightning Damage",
         "Armour also applies to Lightning Damage taken from Hits",
         "Lightning Resistance does not affect Lightning Damage taken",
-        "Nearby Enemies have Lightning Resistance equal to yours"
+        "Enemies within 6 metres have Lightning Resistance equal to yours"
       ]
     },
     "gloves": {
@@ -94,8 +94,8 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BdXJhQm9vdHMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/736eee69a4/AuraBoots.png",
       "itemLevel": 71,
       "explicitMods": [
+        "Socketed Gems are Supported by Level 25 [SupportDivineBlessing::25|Divine Blessing Support]",
         "+5 to Level of Socketed Aura Gems",
-        "Socketed Gems are Supported by Level 25 Divine Blessing",
         "256% increased Armour and Energy Shield",
         "+13% to all Elemental Resistances",
         "30% increased Movement Speed"
@@ -146,7 +146,7 @@
       "explicitMods": [
         "Adds 12 to 25 Fire Damage to Attacks",
         "+28 to maximum Energy Shield",
-        "19% increased Rarity of Items found",
+        "+19% to [PlayerItemRarity|Item Rarity]",
         "+39% to Fire Resistance",
         "+19% to Fire and Chaos Resistances",
         "Non-Channelling Skills have -6 to Total Mana Cost"
@@ -186,7 +186,7 @@
           "46% increased Evasion Rating during Effect"
         ],
         "implicitMods": [
-          "Taunts nearby Enemies on use"
+          "Taunts Enemies within 3 metres on use"
         ]
       },
       {

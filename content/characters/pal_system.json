@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:51Z",
+  "fetchedAt": "2026-11-14T00:54:08Z",
   "lastLogin": "2026-02-10T13:18:04Z",
   "items": {
     "weapon": {
@@ -64,12 +64,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/c408d68e2b/BodyStrInt2B.png",
       "itemLevel": 61,
       "explicitMods": [
+        "+44 to Armour",
+        "+26 to maximum Life",
         "+79 to maximum Life",
         "Regenerate 22.1 Life per second",
         "+34% to Cold Resistance",
-        "+27% to Lightning Resistance",
-        "+44 to Armour",
-        "+26 to maximum Life"
+        "+27% to Lightning Resistance"
       ]
     },
     "gloves": {
@@ -125,7 +125,7 @@
       "itemLevel": 84,
       "explicitMods": [
         "Adds 9 to 13 Cold Damage to Attacks",
-        "11% increased Rarity of Items found",
+        "+11% to [PlayerItemRarity|Item Rarity]",
         "+6% to Cold Resistance",
         "+43% to Lightning Resistance",
         "+34% to Chaos Resistance",

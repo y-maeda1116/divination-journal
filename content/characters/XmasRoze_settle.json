@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:06Z",
+  "fetchedAt": "2026-11-14T00:57:28Z",
   "lastLogin": "2024-10-09T08:13:00Z",
   "items": {
     "weapon": {
@@ -92,7 +92,7 @@
         "+81% to Chaos Resistance"
       ],
       "implicitMods": [
-        "9% increased Rarity of Items found"
+        "+9% to [PlayerItemRarity|Item Rarity]"
       ]
     },
     "flasks": [

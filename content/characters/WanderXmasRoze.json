@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:18Z",
+  "fetchedAt": "2026-11-14T00:55:35Z",
   "lastLogin": "2026-02-21T01:30:42Z",
   "items": {
     "weapon": {
@@ -83,8 +83,8 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50NCIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/484e9bd879/GlovesInt4.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 16 Faster Attacks",
-        "Socketed Gems are supported by Level 16 Faster Projectiles",
+        "Socketed Gems are Supported by Level 16 [SupportFasterAttacks::16|Faster Attacks Support]",
+        "Socketed Gems are Supported by Level 16 [SupportFasterProjectiles::16|Faster Projectiles Support]",
         "Socketed Attacks have +50% to Critical Strike Multiplier",
         "7% increased Attack Speed",
         "+37% to Fire Resistance",

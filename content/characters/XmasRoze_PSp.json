@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:36Z",
+  "fetchedAt": "2026-11-14T00:56:58Z",
   "lastLogin": "2026-02-21T12:51:10Z",
   "items": {
     "weapon": {
@@ -52,12 +52,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldEludDgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/a101e25e20/HelmetInt8.png",
       "itemLevel": 88,
       "explicitMods": [
+        "+22 to maximum Energy Shield",
+        "+33 to maximum Life",
         "+56 to maximum Energy Shield",
         "87% increased Energy Shield",
         "+33% to Cold Resistance",
-        "+19% to Fire and Lightning Resistances",
-        "+22 to maximum Energy Shield",
-        "+33 to maximum Life"
+        "+19% to Fire and Lightning Resistances"
       ]
     },
     "bodyArmour": {
@@ -91,7 +91,7 @@
         "+80 to maximum Mana",
         "Curse Enemies with Temporal Chains on Hit",
         "Non-Aura Curses you inflict are not removed from Dying Enemies",
-        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+        "Enemies near corpses affected by your Curses are [Blind|Blinded]\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
       ]
     },
     "boots": {
@@ -137,7 +137,7 @@
       "itemLevel": 72,
       "explicitMods": [
         "+12 to all Attributes",
-        "14% increased Rarity of Items found",
+        "+14% to [PlayerItemRarity|Item Rarity]",
         "+17% to all Elemental Resistances",
         "29% increased Global Defences"
       ],

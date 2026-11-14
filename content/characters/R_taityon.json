@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:06Z",
+  "fetchedAt": "2026-11-14T00:54:23Z",
   "lastLogin": "2023-04-07T09:34:59Z",
   "items": {
     "weapon": {
@@ -15,7 +15,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL0V0ZXJuYWxTbGVlcDIiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/8d706ed435/EternalSleep2.png",
       "itemLevel": 82,
       "explicitMods": [
-        "Grants Level 25 Envy Skill",
+        "Grants Level 25 [Envy::25|Envy]",
         "Minions deal 67% increased Damage",
         "Minions have +29% to Chaos Resistance",
         "Minions have 60% chance to Poison Enemies on Hit",

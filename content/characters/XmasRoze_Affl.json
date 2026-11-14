@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:44Z",
+  "fetchedAt": "2026-11-14T00:56:06Z",
   "lastLogin": "2024-03-20T06:16:50Z",
   "items": {
     "weapon": {
@@ -66,6 +66,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9MaW9uZXllc0FybW91ciIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/b6e10a9216/LioneyesArmour.png",
       "itemLevel": 85,
       "explicitMods": [
+        "Socketed Gems are Supported by Level 15 [SupportPierce::15|Pierce Support]",
         "Socketed Gems are Supported by Level 15 Pierce",
         "+160 Dexterity Requirement",
         "233% increased Armour",
@@ -85,7 +86,7 @@
         "148% increased Armour and Evasion",
         "2.5% of Physical Attack Damage Leeched as Life",
         "10% chance to gain Adrenaline for 2 Seconds when Leech is\nremoved by Filling Unreserved Life",
-        "10% chance to gain Onslaught for 4 Seconds when Leech is\nremoved by Filling Unreserved Life"
+        "10% chance to gain [Onslaught] for 4 Seconds when Leech is\nremoved by Filling Unreserved Life"
       ]
     },
     "boots": {
@@ -111,7 +112,7 @@
         "+31% to Cold Resistance",
         "1% increased Attack Damage per 200 of the lowest of Armour and Evasion Rating",
         "Melee Hits which Stun Fortify",
-        "You have Onslaught while Fortified"
+        "You have [Onslaught] while Fortified"
       ],
       "implicitMods": [
         "+305 to Armour and Evasion Rating"

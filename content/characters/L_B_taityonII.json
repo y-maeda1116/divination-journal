@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:36Z",
+  "fetchedAt": "2026-11-14T00:53:53Z",
   "lastLogin": "2024-10-14T01:44:09Z",
   "items": {
     "weapon": {
@@ -85,8 +85,8 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9BdXJhQm9vdHMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/736eee69a4/AuraBoots.png",
       "itemLevel": 74,
       "explicitMods": [
+        "Socketed Gems are Supported by Level 25 [SupportDivineBlessing::25|Divine Blessing Support]",
         "+5 to Level of Socketed Aura Gems",
-        "Socketed Gems are Supported by Level 25 Divine Blessing",
         "261% increased Armour and Energy Shield",
         "+15% to all Elemental Resistances",
         "27% increased Movement Speed"

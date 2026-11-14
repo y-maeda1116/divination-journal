@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:22Z",
+  "fetchedAt": "2026-11-14T00:57:44Z",
   "lastLogin": "2026-09-13T02:02:10Z",
   "items": {
     "weapon": {
@@ -52,7 +52,7 @@
         "+2 to Level of Socketed Gems",
         "Adds 1 to 30 Lightning Damage to Spells and Attacks",
         "118% increased Armour and Energy Shield",
-        "16% increased Rarity of Items found",
+        "+16% to [PlayerItemRarity|Item Rarity]",
         "41% increased Mana Cost Efficiency"
       ],
       "implicitMods": [
@@ -111,7 +111,7 @@
         "+12 to maximum Life"
       ],
       "implicitMods": [
-        "Ignites you inflict deal Damage 5% faster",
+        "Ignites you inflict deal Damage 5% [DamageFaster|Faster]",
         "+1% to maximum Fire Resistance"
       ]
     },

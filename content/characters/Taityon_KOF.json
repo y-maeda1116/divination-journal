@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:48Z",
+  "fetchedAt": "2026-11-14T00:55:05Z",
   "lastLogin": "2026-02-18T13:25:03Z",
   "items": {
     "weapon": {
@@ -69,7 +69,7 @@
         "Deal no Non-Lightning Damage",
         "Armour also applies to Lightning Damage taken from Hits",
         "Lightning Resistance does not affect Lightning Damage taken",
-        "Nearby Enemies have Lightning Resistance equal to yours"
+        "Enemies within 6 metres have Lightning Resistance equal to yours"
       ]
     },
     "gloves": {
@@ -173,7 +173,7 @@
         "Adds 8 to 14 Physical Damage to Attacks",
         "12% increased Fire Damage",
         "+97 to maximum Life",
-        "23% increased Rarity of Items found",
+        "+23% to [PlayerItemRarity|Item Rarity]",
         "Gain 2 Life per Enemy Hit with Attacks"
       ],
       "implicitMods": [

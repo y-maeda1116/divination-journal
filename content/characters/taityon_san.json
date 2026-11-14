@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:08Z",
+  "fetchedAt": "2026-11-14T00:55:25Z",
   "lastLogin": "2023-02-19T08:41:45Z",
   "items": {
     "weapon": {
@@ -34,7 +34,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01hd09mTWlzY2hpZWYiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/1e970a0f36/MawOfMischief.png",
       "itemLevel": 80,
       "explicitMods": [
-        "Grants Level 20 Death Wish Skill",
+        "Grants Level 20 [DeathWish::20|Death Wish]",
         "+50 to maximum Life",
         "29% reduced Mana Cost of Minion Skills",
         "Minions are Aggressive"
@@ -104,7 +104,7 @@
         "+20% to Lightning Resistance",
         "+24% to Chaos Resistance",
         "13% increased Flask Life Recovery rate",
-        "Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+        "Regenerate 150 Energy Shield per second while a Rare or Unique Enemy is within 6 metres"
       ],
       "implicitMods": [
         "Has 1 Abyssal Socket"
@@ -120,8 +120,8 @@
         "Adds 20 to 46 Fire Damage to Spells and Attacks",
         "25% increased Lightning Damage",
         "+39 to maximum Mana",
-        "When you Kill a Shocked Enemy, inflict an equivalent Shock on each nearby Enemy",
-        "When you Kill an Ignited Enemy, inflict an equivalent Ignite on each nearby Enemy"
+        "When you Kill a Shocked Enemy, inflict an equivalent Shock on each Enemy within 2 metres",
+        "When you Kill an Ignited Enemy, inflict an equivalent Ignite on each Enemy within 2 metres"
       ],
       "implicitMods": [
         "+12% to Fire and Lightning Resistances"
@@ -153,7 +153,7 @@
       "explicitMods": [
         "+26% to Damage over Time Multiplier",
         "20% increased maximum Energy Shield",
-        "12% increased Rarity of Items found",
+        "+12% to [PlayerItemRarity|Item Rarity]",
         "+19% to Cold Resistance",
         "+44 to maximum Life",
         "Regenerate 4 Mana per second"

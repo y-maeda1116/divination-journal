@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:30Z",
+  "fetchedAt": "2026-11-14T00:56:52Z",
   "lastLogin": "2026-08-22T09:33:47Z",
   "items": {
     "weapon": {
@@ -15,12 +15,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9TdGF2ZXMvVG9wRG93blN0YXZlSWNvbiIsInciOjIsImgiOjQsInNjYWxlIjoxfV0/f62cfea775/TopDownStaveIcon.png",
       "itemLevel": 70,
       "explicitMods": [
-        "Trigger Level 25 Summon Phantasm Skill when you Consume a corpse",
+        "Trigger Level 25 [TriggeredSummonGhostOnKill::25|Summon Phantasm] Skill when you Consume a corpse",
         "125% increased Spell Damage",
         "27% increased Cast Speed",
         "86% increased Mana Regeneration Rate",
         "Minions deal 97 to 156 additional Physical Damage",
-        "If you Consumed a corpse Recently, you and nearby Allies Regenerate 5% of Life per second"
+        "If you Consumed a corpse Recently, you and Allies within 5 metres Regenerate 5% of Life per second"
       ],
       "implicitMods": [
         "+25% Chance to Block Attack Damage"

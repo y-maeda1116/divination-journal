@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:29Z",
+  "fetchedAt": "2026-11-14T00:55:51Z",
   "lastLogin": "2023-11-25T04:16:41Z",
   "items": {
     "weapon": {
@@ -15,12 +15,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Cb3dzL0JvdzIiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/97d13fc53e/Bow2.png",
       "itemLevel": 85,
       "explicitMods": [
+        "+24% to Damage over Time Multiplier",
         "+1 to Level of Socketed Gems",
         "+2 to Level of Socketed Bow Gems",
         "Can have up to 3 Crafted Modifiers",
         "11% increased Damage over Time",
-        "+19% to Fire Damage over Time Multiplier",
-        "+24% to Damage over Time Multiplier"
+        "+19% to Fire Damage over Time Multiplier"
       ]
     },
     "offhand": {
@@ -52,7 +52,7 @@
         "+39% to Cold Resistance",
         "25% chance to inflict Cold Exposure on Hit",
         "25% chance to inflict Fire Exposure on Hit",
-        "Nearby Enemies have 50% increased Fire and Cold Resistances"
+        "Enemies within 3 metres have 50% increased Fire and Cold Resistances"
       ]
     },
     "bodyArmour": {
@@ -80,7 +80,7 @@
         "+30 to Strength",
         "Adds 3 to 8 Cold Damage to Attacks",
         "+72 to maximum Life",
-        "17% increased Rarity of Items found",
+        "+17% to [PlayerItemRarity|Item Rarity]",
         "+34% to Lightning Resistance"
       ],
       "implicitMods": [
@@ -113,7 +113,7 @@
         "+27% to Fire Resistance",
         "+40% to Cold Resistance",
         "1% of Attack Damage Leeched as Life against Chilled Enemies",
-        "Ignites you inflict with Attacks deal Damage 42% faster",
+        "Ignites you inflict with Attacks deal Damage 42% [DamageFaster|Faster]",
         "Deal no Physical Damage"
       ],
       "implicitMods": [

@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:42Z",
+  "fetchedAt": "2026-11-14T00:54:59Z",
   "lastLogin": "2026-02-18T13:39:34Z",
   "items": {
     "weapon": {
@@ -71,7 +71,7 @@
         "91% increased Evasion and Energy Shield",
         "+158 to maximum Life",
         "+62 to maximum Mana",
-        "Regenerate 120 Energy Shield per second while a Rare or Unique Enemy is Nearby"
+        "Regenerate 120 Energy Shield per second while a Rare or Unique Enemy is within 6 metres"
       ]
     },
     "gloves": {
@@ -132,7 +132,7 @@
         "+66 to Dexterity",
         "+113 to Evasion Rating",
         "+30 to maximum Energy Shield",
-        "22% increased Rarity of Items found",
+        "+22% to [PlayerItemRarity|Item Rarity]",
         "+41% to Cold Resistance",
         "+40% to Lightning Resistance"
       ],

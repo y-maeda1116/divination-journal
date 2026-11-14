@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:11Z",
+  "fetchedAt": "2026-11-14T00:57:33Z",
   "lastLogin": "2025-04-27T07:41:09Z",
   "items": {
     "weapon": {
@@ -132,7 +132,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
       "itemLevel": 85,
       "explicitMods": [
-        "19% increased Rarity of Items found",
+        "+19% to [PlayerItemRarity|Item Rarity]",
         "+12% to all Elemental Resistances"
       ],
       "implicitMods": [
@@ -147,7 +147,7 @@
       "itemLevel": 85,
       "explicitMods": [
         "+17 to maximum Mana",
-        "12% increased Rarity of Items found",
+        "+12% to [PlayerItemRarity|Item Rarity]",
         "+40% to Fire Resistance",
         "+7% to Lightning Resistance",
         "+16% to Lightning and Chaos Resistances",

@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:34Z",
+  "fetchedAt": "2026-11-14T00:55:56Z",
   "lastLogin": "2023-12-07T13:38:45Z",
   "items": {
     "weapon": {
@@ -49,7 +49,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0cjgiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/8bd91531d0/HelmetStr8.png",
       "itemLevel": 84,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 16 Burning Damage",
+        "Socketed Gems are Supported by Level 16 [SupportBurningDamage::16|Burning Damage Support]",
         "45% increased Armour",
         "+80 to maximum Life",
         "+21% to Cold Resistance",
@@ -80,7 +80,7 @@
       "explicitMods": [
         "207% increased Armour and Evasion",
         "30% increased Movement Speed",
-        "Nearby Enemies are Scorched",
+        "Enemies within 3 metres are Scorched",
         "35% increased Effect of Scorch",
         "39% chance when you Kill a Scorched Enemy to Burn Each surrounding\nEnemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"
       ]
@@ -96,7 +96,7 @@
         "You take 30% reduced Extra Damage from Critical Strikes",
         "+39 to maximum Life",
         "+15% to all Elemental Resistances",
-        "Nearby Enemies are Intimidated"
+        "Enemies within 2.5 metres are Intimidated"
       ],
       "implicitMods": [
         "+27 to Strength"
@@ -109,7 +109,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9NYWxhY2hhaSdzIEJyaWxsaWFuY2VBbXVsZXQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/a1548914e0/Malachai%27s%20BrillianceAmulet.png",
       "itemLevel": 85,
       "explicitMods": [
-        "+3 to Level of all Fire Trap Gems",
+        "+3 to Level of all [Metadata/Items/Gems/SkillGemFireTrap\u003cgemlevel=0\u003e|Fire Trap] Gems",
         "+13% to all Elemental Resistances",
         "11% increased Reservation Efficiency of Skills",
         "Items and Gems have 14% reduced Attribute Requirements"

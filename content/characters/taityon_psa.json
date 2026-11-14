@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:58Z",
+  "fetchedAt": "2026-11-14T00:55:15Z",
   "lastLogin": "2025-09-28T00:38:28Z",
   "items": {
     "weapon": {
@@ -125,7 +125,7 @@
       "itemLevel": 84,
       "explicitMods": [
         "Adds 10 to 15 Fire Damage to Attacks",
-        "28% increased Rarity of Items found",
+        "+28% to [PlayerItemRarity|Item Rarity]",
         "+16% to all Elemental Resistances",
         "+46% to Fire Resistance",
         "+34% to Cold Resistance",

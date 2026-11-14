@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 95,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:27Z",
+  "fetchedAt": "2026-11-14T00:57:49Z",
   "lastLogin": "2025-06-06T23:30:48Z",
   "items": {
     "weapon": {
@@ -15,12 +15,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kMyIsInciOjEsImgiOjMsInNjYWxlIjoxLCJmcmFjdHVyZWQiOnRydWV9XQ/d194e5f672/Wand3.png",
       "itemLevel": 86,
       "explicitMods": [
+        "+36% to Global Critical Strike Multiplier",
         "90% increased Spell Damage",
         "15% increased Attack Speed",
         "+136 to maximum Mana",
         "+766 to Accuracy Rating",
-        "Attacks with this Weapon Penetrate 11% Elemental Resistances",
-        "+36% to Global Critical Strike Multiplier"
+        "Attacks with this Weapon Penetrate 11% Elemental Resistances"
       ],
       "implicitMods": [
         "35% increased Spell Damage"
@@ -70,7 +70,7 @@
         "Deal no Non-Lightning Damage",
         "Armour also applies to Lightning Damage taken from Hits",
         "Lightning Resistance does not affect Lightning Damage taken",
-        "Nearby Enemies have Lightning Resistance equal to yours"
+        "Enemies within 6 metres have Lightning Resistance equal to yours"
       ],
       "implicitMods": [
         "+2 to Level of Socketed Projectile Gems",
@@ -84,13 +84,13 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzRGV4SW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxLCJzZWFyaW5nIjp0cnVlLCJ0YW5nbGVkIjp0cnVlLCJmcmFjdHVyZWQiOnRydWV9XQ/51656c2a95/GlovesDexInt2.png",
       "itemLevel": 86,
       "explicitMods": [
+        "+73 to maximum Mana",
         "+59 to Dexterity",
         "+118 to maximum Life",
         "+47% to Cold Resistance",
         "+34% to Chaos Resistance",
         "+1 to Level of Socketed Projectile Gems",
-        "Projectiles Pierce an additional Target",
-        "+73 to maximum Mana"
+        "Projectiles Pierce an additional Target"
       ],
       "implicitMods": [
         "Projectiles Pierce an additional Target",
@@ -142,7 +142,7 @@
       "itemLevel": 84,
       "explicitMods": [
         "-20 to Intelligence",
-        "67% increased Rarity of Items found",
+        "+67% to [PlayerItemRarity|Item Rarity]",
         "+70% to Fire Resistance",
         "-80% to Lightning Resistance"
       ],
@@ -159,7 +159,7 @@
       "explicitMods": [
         "-10 to maximum Energy Shield",
         "+123 to maximum Mana",
-        "50% increased Rarity of Items found",
+        "+50% to [PlayerItemRarity|Item Rarity]",
         "-86% to Lightning Resistance"
       ],
       "implicitMods": [

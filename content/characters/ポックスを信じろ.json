@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:58Z",
+  "fetchedAt": "2026-11-14T00:58:20Z",
   "lastLogin": "2024-12-01T12:30:51Z",
   "items": {
     "weapon": {
@@ -130,7 +130,7 @@
         "+65 to Accuracy Rating",
         "+14 to maximum Energy Shield",
         "+22 to maximum Mana",
-        "13% increased Rarity of Items found",
+        "+13% to [PlayerItemRarity|Item Rarity]",
         "+18% to Cold Resistance"
       ],
       "implicitMods": [
@@ -147,7 +147,7 @@
         "Adds 4 to 6 Physical Damage to Attacks",
         "7% increased Fire Damage",
         "+40 to maximum Mana",
-        "12% increased Rarity of Items found",
+        "+12% to [PlayerItemRarity|Item Rarity]",
         "Gain 3 Life per Enemy Killed"
       ],
       "implicitMods": [
@@ -216,7 +216,7 @@
           "53% reduced Amount Recovered",
           "135% increased Recovery rate",
           "50% of Recovery applied Instantly",
-          "Hinders nearby Enemies with 22% reduced Movement Speed if used while not on Full Life"
+          "Hinders Enemies within 3 metres with 22% reduced Movement Speed if used while not on Full Life"
         ]
       },
       {

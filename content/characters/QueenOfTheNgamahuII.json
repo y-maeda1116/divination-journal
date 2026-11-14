@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:01Z",
+  "fetchedAt": "2026-11-14T00:54:18Z",
   "lastLogin": "2022-03-25T12:22:30Z",
   "items": {
     "weapon": {
@@ -15,7 +15,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kQXhlcy9TY3JlYW1pbmdlYWdsZSIsInciOjIsImgiOjMsInNjYWxlIjoxfV0/1fd02e9312/Screamingeagle.png",
       "itemLevel": 33,
       "explicitMods": [
-        "Socketed Gems are supported by Level 2 Chance to Flee",
+        "Socketed Gems are Supported by Level 2 [SupportChanceToFlee::2|Chance to Flee Support]",
         "Adds 10 to 25 Physical Damage",
         "+10 to maximum Life",
         "Gain 7 Life per Enemy Killed",

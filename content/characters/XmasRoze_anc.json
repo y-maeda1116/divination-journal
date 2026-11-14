@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 77,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:00Z",
+  "fetchedAt": "2026-11-14T00:56:22Z",
   "lastLogin": "2026-07-15T21:57:34Z",
   "items": {
     "weapon": {
@@ -158,10 +158,10 @@
         "+48 to Dexterity",
         "8% increased Movement Speed",
         "Lightning Damage of Enemies Hitting you is Lucky",
-        "Nearby Allies' Damage with Hits is Lucky"
+        "Damage with Hits of Allies within 5 metres is Lucky"
       ],
       "implicitMods": [
-        "15% increased Rarity of Items found"
+        "+15% to [PlayerItemRarity|Item Rarity]"
       ]
     },
     "flasks": [

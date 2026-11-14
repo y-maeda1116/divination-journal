@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 96,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:54Z",
+  "fetchedAt": "2026-11-14T00:56:16Z",
   "lastLogin": "2026-09-13T11:47:04Z",
   "items": {
     "weapon": {
@@ -47,8 +47,8 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL01hc2tDcm93biIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/dbad72643e/MaskCrown.png",
       "itemLevel": 83,
       "explicitMods": [
+        "Socketed Gems are Supported by Level 20 [SupportBurningDamage::20|Burning Damage Support]",
         "+2 to Level of Socketed AoE Gems",
-        "Socketed Gems are Supported by Level 20 Burning Damage",
         "Socketed Gems deal 30% more Elemental Damage",
         "Regenerate 9.6 Life per second",
         "33% increased Burning Damage",
@@ -161,7 +161,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQnJlYWNobG9yZFJpbmdVbmlxdWVfQWxsQ29tYmluZWQiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8b39060f10/BreachlordRingUnique_AllCombined.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Grants Level 30 Herald of the Hive Skill",
+        "Grants Level 30 [HeraldOfTheBreach::30|Herald of the Hive]",
         "+17% to all Elemental Resistances",
         "+32% to Chaos Resistance"
       ],

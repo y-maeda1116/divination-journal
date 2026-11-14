@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:13Z",
+  "fetchedAt": "2026-11-14T00:55:30Z",
   "lastLogin": "2026-03-06T08:15:04Z",
   "items": {
     "weapon": {
@@ -32,11 +32,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9TY2VwdGVycy9zY2VwdGVyOSIsInciOjIsImgiOjMsInNjYWxlIjoxLCJmcmFjdHVyZWQiOnRydWV9XQ/af8d42d81a/scepter9.png",
       "itemLevel": 84,
       "explicitMods": [
+        "Adds 34 to 68 Cold Damage",
         "+14% to Fire Damage over Time Multiplier",
         "27% increased Cast Speed",
         "+1 to Level of all Lightning Spell Skill Gems",
-        "Adds 9 to 106 Lightning Damage to Spells",
-        "Adds 34 to 68 Cold Damage"
+        "Adds 9 to 106 Lightning Damage to Spells"
       ],
       "implicitMods": [
         "Damage Penetrates 6% Elemental Resistances"
@@ -51,7 +51,7 @@
       "explicitMods": [
         "+1 to Level of Socketed Gems",
         "Socketed Gems have 25% increased Reservation Efficiency",
-        "Trigger Level 15 Feast of Flesh every 5 seconds",
+        "Trigger Level 15 [FeastOfFlesh::15|Feast of Flesh] every 5 seconds",
         "207% increased Energy Shield",
         "10% chance for Energy Shield Recharge to start when you use a Skill",
         "+19% to Fire and Chaos Resistances",
@@ -79,11 +79,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0cjMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/b610ebe96e/BootsStr3.png",
       "itemLevel": 78,
       "explicitMods": [
+        "30% increased Movement Speed",
         "+40% to Fire Resistance",
         "+17% to Cold Resistance",
         "+45% to Lightning Resistance",
-        "+67 to maximum Life",
-        "30% increased Movement Speed"
+        "+67 to maximum Life"
       ]
     },
     "belt": {
@@ -129,7 +129,7 @@
       "explicitMods": [
         "+129 to Evasion Rating",
         "18% increased Mana Regeneration Rate",
-        "25% increased Rarity of Items found",
+        "+25% to [PlayerItemRarity|Item Rarity]",
         "+46% to Cold Resistance",
         "+22% to Chaos Resistance",
         "+49 to maximum Life"

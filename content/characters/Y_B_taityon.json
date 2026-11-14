@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:42Z",
+  "fetchedAt": "2026-11-14T00:58:04Z",
   "lastLogin": "2022-07-29T11:10:32Z",
   "items": {
     "weapon": {
@@ -87,7 +87,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Ud29Ub25lZEJvb3RzM0IiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/e3271c5de1/TwoTonedBoots3B.png",
       "itemLevel": 71,
       "explicitMods": [
-        "8% increased Rarity of Items found",
+        "+8% to [PlayerItemRarity|Item Rarity]",
         "+15% to Fire Resistance",
         "30% increased Movement Speed",
         "+51 to maximum Life"

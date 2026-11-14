@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 96,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:07:03Z",
+  "fetchedAt": "2026-11-14T00:55:20Z",
   "lastLogin": "2023-03-07T13:06:04Z",
   "items": {
     "weapon": {
@@ -15,7 +15,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL0V0ZXJuYWxTbGVlcDIiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MX1d/8d706ed435/EternalSleep2.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Grants Level 25 Envy Skill",
+        "Grants Level 25 [Envy::25|Envy]",
         "Minions deal 70% increased Damage",
         "Minions have +29% to Chaos Resistance",
         "Minions have 60% chance to Poison Enemies on Hit",
@@ -65,7 +65,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9FbWJyYWNlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/d0110e7660/Embrace.png",
       "itemLevel": 84,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 29 Added Chaos Damage",
+        "Socketed Gems are Supported by Level 29 [SupportAddedChaosDamage::29|Added Chaos Damage Support]",
         "+25 to Intelligence",
         "245% increased Energy Shield",
         "10% increased maximum Life",
@@ -100,7 +100,7 @@
         "+63 to maximum Life"
       ],
       "implicitMods": [
-        "Poisons you inflict deal Damage 5% faster"
+        "[Poison|Poisons] you inflict deal Damage 5% [DamageFaster|Faster]"
       ]
     },
     "belt": {

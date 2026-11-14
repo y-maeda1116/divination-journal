@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 86,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:51Z",
+  "fetchedAt": "2026-11-14T00:57:13Z",
   "lastLogin": "2026-05-19T13:33:15Z",
   "items": {
     "weapon": {
@@ -52,7 +52,7 @@
         "+2 to Level of Socketed Gems",
         "Adds 1 to 30 Lightning Damage to Spells and Attacks",
         "150% increased Armour and Energy Shield",
-        "10% increased Rarity of Items found",
+        "+10% to [PlayerItemRarity|Item Rarity]",
         "16% reduced Mana Cost of Skills"
       ],
       "implicitMods": [
@@ -103,12 +103,12 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwic2VhcmluZyI6dHJ1ZSwidGFuZ2xlZCI6dHJ1ZSwiZnJhY3R1cmVkIjp0cnVlfV0/64e8e3026f/BootsInt3.png",
       "itemLevel": 85,
       "explicitMods": [
+        "30% increased Movement Speed",
         "+23 to Intelligence",
         "+60 to maximum Life",
         "+37 to maximum Mana",
         "+27% to Chaos Resistance",
-        "+15% to Fire and Chaos Resistances",
-        "30% increased Movement Speed"
+        "+15% to Fire and Chaos Resistances"
       ],
       "implicitMods": [
         "7% increased Life Regeneration rate",
@@ -122,11 +122,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvU291bGNvcmRCZWx0IiwidyI6MiwiaCI6MSwic2NhbGUiOjEsImZyYWN0dXJlZCI6dHJ1ZX1d/fdc2181bd7/SoulcordBelt.png",
       "itemLevel": 83,
       "explicitMods": [
+        "+24 to maximum Energy Shield",
         "+11% to Lightning Resistance",
         "+35% to Chaos Resistance",
         "16% increased Stun Duration on Enemies",
-        "+54 to maximum Life",
-        "+24 to maximum Energy Shield"
+        "+54 to maximum Life"
       ],
       "implicitMods": [
         "Can be Anointed"
@@ -139,7 +139,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUml0dWFsUGhhbnRhc21SaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/cba7f7e493/RitualPhantasmRing.png",
       "itemLevel": 83,
       "explicitMods": [
-        "Grants level 20 Penance Mark",
+        "Grants Level 20 [PenanceMark::20|Penance Mark]",
         "8% increased Cast Speed",
         "+39 to maximum Life",
         "+16% to Chaos Resistance"

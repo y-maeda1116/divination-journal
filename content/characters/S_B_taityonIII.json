@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:22Z",
+  "fetchedAt": "2026-11-14T00:54:39Z",
   "lastLogin": "2024-07-07T04:53:03Z",
   "items": {
     "weapon": {
@@ -85,11 +85,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckRleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/468b3a13cf/BootsStrDex3.png",
       "itemLevel": 80,
       "explicitMods": [
+        "+25% to Chaos Resistance",
         "+88 to maximum Life",
         "+12% to Cold Resistance",
         "30% increased Movement Speed",
-        "+23% to Lightning Resistance",
-        "+25% to Chaos Resistance"
+        "+23% to Lightning Resistance"
       ]
     },
     "belt": {
@@ -117,11 +117,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/4681a19b2c/Ring7.png",
       "itemLevel": 75,
       "explicitMods": [
+        "+49 to Intelligence",
         "+45 to Dexterity",
         "+46 to maximum Life",
         "+17 to maximum Mana",
-        "+12% to Fire and Chaos Resistances",
-        "+49 to Intelligence"
+        "+12% to Fire and Chaos Resistances"
       ],
       "implicitMods": [
         "+25% to Fire Resistance"

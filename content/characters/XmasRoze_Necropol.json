@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:25Z",
+  "fetchedAt": "2026-11-14T00:56:47Z",
   "lastLogin": "2024-06-15T06:43:12Z",
   "items": {
     "weapon": {
@@ -97,7 +97,7 @@
         "+23% to Cold Resistance",
         "+12% to Chaos Resistance",
         "30% increased Movement Speed",
-        "14% chance to gain Onslaught for 4 seconds on Kill",
+        "14% chance to gain [Onslaught] for 4 seconds on Kill",
         "+67 to maximum Life"
       ]
     },
@@ -125,10 +125,10 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGlhbW9uZFJpbmdVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/8edaf6655a/DiamondRingUnique.png",
       "itemLevel": 63,
       "explicitMods": [
-        "Trigger Level 10 Consecrate when you deal a Critical Strike",
+        "Trigger Level 10 [TriggeredConsecrate::10|Consecrate] when you deal a Critical Strike",
         "35% increased Global Critical Strike Chance",
         "10% increased Light Radius",
-        "50% increased Rarity of Items Dropped by Enemies killed with a Critical Strike",
+        "+50% to [PlayerItemRarity|Rarity] of Items Dropped by Enemies killed with a Critical Strike",
         "50% increased Damage while on Consecrated Ground",
         "+5% Chance to Block Attack Damage while on Consecrated Ground"
       ],

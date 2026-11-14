@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:47Z",
+  "fetchedAt": "2026-11-14T00:58:10Z",
   "lastLogin": "2024-07-20T06:48:44Z",
   "items": {
     "weapon": {
@@ -52,7 +52,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL1RoZUd1bGwiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/ca1678efd9/TheGull.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Trigger Level 1 Create Lesser Shrine when you Kill an Enemy",
+        "Trigger Level 1 [TriggeredSummonLesserShrine::1|Create Lesser Shrine] when you Kill an Enemy",
         "141% increased Evasion and Energy Shield",
         "+31 to maximum Energy Shield",
         "+61 to maximum Life",

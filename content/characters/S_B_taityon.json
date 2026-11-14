@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:17Z",
+  "fetchedAt": "2026-11-14T00:54:34Z",
   "lastLogin": "2024-07-14T19:45:40Z",
   "items": {
     "weapon": {
@@ -130,7 +130,7 @@
       "explicitMods": [
         "+17 to all Attributes",
         "26% increased Damage",
-        "24% increased Rarity of Items found",
+        "+24% to [PlayerItemRarity|Item Rarity]",
         "+27% to all Elemental Resistances"
       ],
       "implicitMods": [

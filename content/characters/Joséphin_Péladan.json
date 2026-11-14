@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:25Z",
+  "fetchedAt": "2026-11-14T00:53:42Z",
   "lastLogin": "2022-07-26T12:04:53Z",
   "items": {
     "weapon": {
@@ -77,7 +77,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvV3lybXNpZ25HbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/fe7ef54102/WyrmsignGloves.png",
       "itemLevel": 66,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 5 Concentrated Effect",
+        "Socketed Gems are Supported by Level 5 [SupportConcentratedEffect::5|Concentrated Effect Support]",
         "140% increased Armour and Evasion",
         "+67 to maximum Life",
         "4% reduced Mana Cost per Endurance Charge",

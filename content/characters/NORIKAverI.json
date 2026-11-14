@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 98,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:46Z",
+  "fetchedAt": "2026-11-14T00:54:03Z",
   "lastLogin": "2023-05-25T11:53:10Z",
   "items": {
     "weapon": {
@@ -49,7 +49,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldFN0cjciLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/2844841911/HelmetStr7.png",
       "itemLevel": 83,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 20 Burning Damage",
+        "Socketed Gems are Supported by Level 20 [SupportBurningDamage::20|Burning Damage Support]",
         "Socketed Gems deal 30% more Elemental Damage",
         "10% increased Global Accuracy Rating",
         "12% increased Armour",
@@ -102,7 +102,7 @@
       "explicitMods": [
         "201% increased Armour and Evasion",
         "30% increased Movement Speed",
-        "Nearby Enemies are Scorched",
+        "Enemies within 3 metres are Scorched",
         "48% increased Effect of Scorch",
         "36% chance when you Kill a Scorched Enemy to Burn Each surrounding\nEnemy for 4 seconds, dealing 8% of the Killed Enemy's Life as Fire Damage per second"
       ]

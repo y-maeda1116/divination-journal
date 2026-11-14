@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:15Z",
+  "fetchedAt": "2026-11-14T00:56:37Z",
   "lastLogin": "2025-09-28T02:34:04Z",
   "items": {
     "weapon": {
@@ -160,7 +160,7 @@
         "itemLevel": 74,
         "explicitMods": [
           "131% increased Charges per use",
-          "Shocks nearby Enemies during Effect, causing 10% increased Damage taken",
+          "Shocks Enemies within 3 metres during Effect, causing 10% increased Damage taken",
           "You are Shocked during Effect, causing 50% increased Damage taken",
           "50% of Physical Damage Converted to Lightning during Effect",
           "20% of Lightning Damage Leeched as Life during Effect"

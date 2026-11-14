@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 92,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:27Z",
+  "fetchedAt": "2026-11-14T00:54:44Z",
   "lastLogin": "2026-10-13T13:37:03Z",
   "items": {
     "weapon": {
@@ -117,7 +117,7 @@
       "explicitMods": [
         "+12 to maximum Energy Shield",
         "+81 to maximum Life",
-        "22% increased Rarity of Items found",
+        "+22% to [PlayerItemRarity|Item Rarity]",
         "+38% to Fire Resistance",
         "+40% to Cold Resistance",
         "+42% to Lightning Resistance"

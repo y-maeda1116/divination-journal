@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:05Z",
+  "fetchedAt": "2026-11-14T00:56:27Z",
   "lastLogin": "2021-04-16T12:59:21Z",
   "items": {
     "weapon": {
@@ -78,7 +78,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvQWxsZWxvcGF0aHkiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/bcf128d770/Allelopathy.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 20 Vile Toxins",
+        "Socketed Gems are Supported by Level 20 [SupportVileToxins::20|Vile Toxins Support]",
         "Adds 13 to 23 Chaos Damage",
         "+51 to maximum Life",
         "+19% to Chaos Resistance",

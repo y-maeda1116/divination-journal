@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 88,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:20Z",
+  "fetchedAt": "2026-11-14T00:56:42Z",
   "lastLogin": "2026-04-23T06:32:02Z",
   "items": {
     "weapon": {
@@ -15,8 +15,8 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kNSIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/a28035d7c4/Wand5.png",
       "itemLevel": 84,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 20 Increased Critical Strikes",
-        "Socketed Gems are Supported by Level 18 Cold Penetration",
+        "Socketed Gems are Supported by Level 20 [SupportIncreasedCriticalStrikes::20|Increased Critical Strikes Support]",
+        "Socketed Gems are Supported by Level 18 [SupportColdPenetration::18|Cold Penetration Support]",
         "10% increased Spell Damage",
         "56% increased Cold Damage",
         "15% increased Attack Speed",
@@ -128,7 +128,7 @@
       "itemLevel": 83,
       "explicitMods": [
         "+18 to all Attributes",
-        "25% increased Rarity of Items found",
+        "+25% to [PlayerItemRarity|Item Rarity]",
         "+16% to all Elemental Resistances",
         "27% increased Global Defences"
       ],
@@ -144,7 +144,7 @@
       "itemLevel": 83,
       "explicitMods": [
         "+18 to all Attributes",
-        "23% increased Rarity of Items found",
+        "+23% to [PlayerItemRarity|Item Rarity]",
         "+12% to all Elemental Resistances",
         "28% increased Global Defences"
       ],

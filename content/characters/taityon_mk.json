@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 93,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:53Z",
+  "fetchedAt": "2026-11-14T00:55:10Z",
   "lastLogin": "2026-03-06T08:55:49Z",
   "items": {
     "weapon": {
@@ -15,7 +15,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kU3dvcmRzL1R3b0hhbmRTd29yZDMiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/28f44a7a0c/TwoHandSword3.png",
       "itemLevel": 85,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 10 Endurance Charge on Melee Stun",
+        "Socketed Gems are Supported by Level 10 [SupportEnduranceChargeOnMeleeStun::10|Endurance Charge on Melee Stun Support]",
         "Socketed Skills deal 20% more Attack Damage",
         "Socketed Movement Skills Cost no Mana",
         "45% increased Physical Damage",
@@ -140,7 +140,7 @@
         "Non-Channelling Skills have -7 to Total Mana Cost"
       ],
       "implicitMods": [
-        "Grants Level 10 Hatred Skill",
+        "Grants Level 10 [Hatred::10|Hatred]",
         "7% increased Strength"
       ]
     },

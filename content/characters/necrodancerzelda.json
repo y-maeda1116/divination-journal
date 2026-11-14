@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:41Z",
+  "fetchedAt": "2026-11-14T00:53:58Z",
   "lastLogin": "2020-11-07T04:24:18Z",
   "items": {
     "weapon": {
@@ -54,7 +54,7 @@
         "+32 to Armour",
         "+20 to maximum Energy Shield",
         "+67 to maximum Mana",
-        "12% increased Rarity of Items found",
+        "+12% to [PlayerItemRarity|Item Rarity]",
         "+12% to Lightning and Chaos Resistances"
       ]
     },
@@ -79,7 +79,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvV3lybXNpZ25HbG92ZXMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/fe7ef54102/WyrmsignGloves.png",
       "itemLevel": 82,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 5 Concentrated Effect",
+        "Socketed Gems are Supported by Level 5 [SupportConcentratedEffect::5|Concentrated Effect Support]",
         "134% increased Armour and Evasion",
         "+67 to maximum Life",
         "4% reduced Mana Cost per Endurance Charge",

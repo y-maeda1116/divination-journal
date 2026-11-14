@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:32Z",
+  "fetchedAt": "2026-11-14T00:54:49Z",
   "lastLogin": "2022-07-25T11:49:46Z",
   "items": {
     "weapon": {
@@ -15,7 +15,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9Ud29IYW5kV2VhcG9ucy9Ud29IYW5kTWFjZXMvVGlkZWJyZWFrZXIiLCJ3IjoyLCJoIjo0LCJzY2FsZSI6MX1d/25b69a132f/Tidebreaker.png",
       "itemLevel": 75,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 20 Endurance Charge on Melee Stun",
+        "Socketed Gems are Supported by Level 20 [SupportEnduranceChargeOnMeleeStun::20|Endurance Charge on Melee Stun Support]",
         "+40 to Intelligence",
         "Adds 62 to 309 Physical Damage",
         "10% increased Physical Damage per Endurance Charge",

@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 85,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:08:10Z",
+  "fetchedAt": "2026-11-14T00:56:32Z",
   "lastLogin": "2026-01-24T07:51:26Z",
   "items": {
     "bodyArmour": {
@@ -46,13 +46,13 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0ckludDIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MSwiZnJhY3R1cmVkIjp0cnVlfV0/2d8905b1c2/BootsStrInt2.png",
       "itemLevel": 86,
       "explicitMods": [
+        "35% increased Energy Shield Recharge Rate",
         "+54 to Strength",
         "+73 to Armour",
         "38% increased Armour and Energy Shield",
         "+28 to maximum Energy Shield",
         "35% increased Movement Speed",
-        "15% increased Stun and Block Recovery",
-        "35% increased Energy Shield Recharge Rate"
+        "15% increased Stun and Block Recovery"
       ]
     },
     "belt": {
@@ -81,7 +81,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvRGllT2ZEZXN0aW55IiwidyI6MSwiaCI6MSwic2NhbGUiOjEsIm11dGF0ZWQiOnRydWV9XQ/753bfd17d1/DieOfDestiny.png",
       "itemLevel": 83,
       "explicitMods": [
-        "7% increased Rarity of Items found",
+        "+7% to [PlayerItemRarity|Item Rarity]",
         "+49% to Fire Resistance",
         "+36% to Cold Resistance",
         "+33% to Lightning Resistance",
@@ -90,7 +90,7 @@
         "+30 to maximum Mana"
       ],
       "implicitMods": [
-        "15% increased Rarity of Items found"
+        "+15% to [PlayerItemRarity|Item Rarity]"
       ]
     },
     "flasks": [
@@ -129,7 +129,7 @@
           "30% chance to Freeze, Shock and Ignite during Effect"
         ],
         "implicitMods": [
-          "Taunts nearby Enemies on use"
+          "Taunts Enemies within 3 metres on use"
         ]
       },
       {

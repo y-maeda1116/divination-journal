@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 94,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:06:12Z",
+  "fetchedAt": "2026-11-14T00:54:29Z",
   "lastLogin": "2025-08-13T01:31:03Z",
   "items": {
     "offhand": {
@@ -70,7 +70,7 @@
         "+70 to maximum Life"
       ],
       "implicitMods": [
-        "15% increased Damage over Time"
+        "+15% to Damage over Time Multiplier"
       ]
     },
     "boots": {
@@ -80,7 +80,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c1N0cjQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/82bedfd1e0/BootsStr4.png",
       "itemLevel": 82,
       "explicitMods": [
-        "9% increased Rarity of Items found",
+        "+9% to [PlayerItemRarity|Item Rarity]",
         "+28% to Fire Resistance",
         "+36% to Cold Resistance",
         "+27% to Lightning Resistance",

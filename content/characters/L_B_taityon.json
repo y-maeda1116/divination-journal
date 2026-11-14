@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:30Z",
+  "fetchedAt": "2026-11-14T00:53:48Z",
   "lastLogin": "2025-06-11T03:47:53Z",
   "items": {
     "weapon": {
@@ -55,7 +55,7 @@
         "+54 to Intelligence",
         "+61 to maximum Energy Shield",
         "110% increased Energy Shield",
-        "18% increased Rarity of Items found",
+        "+18% to [PlayerItemRarity|Item Rarity]",
         "9% increased Stun and Block Recovery"
       ]
     },
@@ -86,11 +86,11 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxLCJmcmFjdHVyZWQiOnRydWV9XQ/decfb5c717/GlovesInt3.png",
       "itemLevel": 86,
       "explicitMods": [
+        "74% increased Energy Shield",
         "+33 to maximum Energy Shield",
         "+5 to maximum Life",
         "+44% to Cold Resistance",
-        "+32% to Fire Resistance",
-        "74% increased Energy Shield"
+        "+32% to Fire Resistance"
       ]
     },
     "boots": {

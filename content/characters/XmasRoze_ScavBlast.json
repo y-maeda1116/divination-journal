@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:09:01Z",
+  "fetchedAt": "2026-11-14T00:57:23Z",
   "lastLogin": "2025-04-06T06:07:39Z",
   "items": {
     "weapon": {
@@ -78,7 +78,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvdGh1bmRlcmNsYXciLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/c566a6b7aa/thunderclaw.png",
       "itemLevel": 83,
       "explicitMods": [
-        "Socketed Gems are Supported by Level 30 Added Lightning Damage",
+        "Socketed Gems are Supported by Level 30 [SupportAddedLightningDamage::30|Added Lightning Damage Support]",
         "10% increased Attack Speed",
         "184% increased Evasion and Energy Shield",
         "100% increased Effect of Lightning Ailments"

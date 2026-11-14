@@ -5,7 +5,7 @@
   "ascendancy": "",
   "level": 91,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:10Z",
+  "fetchedAt": "2026-11-14T00:53:27Z",
   "lastLogin": "2024-07-26T16:27:17Z",
   "items": {
     "weapon": {
@@ -86,7 +86,7 @@
         "+76 to maximum Mana",
         "Curse Enemies with Temporal Chains on Hit",
         "Non-Aura Curses you inflict are not removed from Dying Enemies",
-        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+        "Enemies near corpses affected by your Curses are [Blind|Blinded]\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
       ]
     },
     "boots": {
@@ -169,7 +169,7 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9TeW50aGVzaXNBY2N1cmFjeUFtdWxldCIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/6062fd361e/SynthesisAccuracyAmulet.png",
       "itemLevel": 73,
       "explicitMods": [
-        "Grants Level 22 Precision Skill",
+        "Grants Level 30 [Precision::30|Precision]",
         "+30 to Dexterity",
         "Adds 15 to 27 Physical Damage to Attacks",
         "Adds 13 to 28 Cold Damage to Attacks",
@@ -241,7 +241,7 @@
           "48% increased Armour during Effect"
         ],
         "implicitMods": [
-          "Taunts nearby Enemies on use"
+          "Taunts Enemies within 3 metres on use"
         ]
       }
     ]

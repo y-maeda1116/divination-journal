@@ -5,8 +5,8 @@
   "ascendancy": "",
   "level": 79,
   "experience": 0,
-  "fetchedAt": "2026-11-13T01:05:56Z",
-  "lastLogin": "2026-10-25T10:06:19Z",
+  "fetchedAt": "2026-11-14T00:54:13Z",
+  "lastLogin": "2026-11-13T10:57:21Z",
   "items": {
     "weapon": {
       "name": "Behemoth Fang",
@@ -85,7 +85,7 @@
         "+76 to maximum Mana",
         "Curse Enemies with Temporal Chains on Hit",
         "Non-Aura Curses you inflict are not removed from Dying Enemies",
-        "Enemies near corpses affected by your Curses are Blinded\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
+        "Enemies near corpses affected by your Curses are [Blind|Blinded]\nEnemies Killed near corpses affected by your Curses explode, dealing\n3% of their Life as Physical Damage"
       ]
     },
     "boots": {
@@ -100,7 +100,7 @@
         "Regenerate 38.7 Life per second",
         "+28% to Cold Resistance",
         "20% increased Movement Speed",
-        "8% chance to gain Onslaught for 4 seconds on Kill"
+        "8% chance to gain [Onslaught] for 4 seconds on Kill"
       ],
       "implicitMods": [
         "5% increased Cooldown Recovery Rate",

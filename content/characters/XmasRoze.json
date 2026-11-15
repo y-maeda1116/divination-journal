@@ -1,12 +1,12 @@
 {
   "name": "XmasRoze",
   "league": "Covens",
-  "class": "Witch",
+  "class": "Necromancer",
   "ascendancy": "",
-  "level": 20,
+  "level": 56,
   "experience": 0,
-  "fetchedAt": "2026-11-14T00:55:46Z",
-  "lastLogin": "2026-11-14T00:32:13Z",
+  "fetchedAt": "2026-11-14T23:57:38Z",
+  "lastLogin": "2026-11-14T23:55:04Z",
   "items": {
     "weapon": {
       "name": "Carrion Call",
@@ -46,139 +46,142 @@
       ]
     },
     "helmet": {
-      "name": "",
-      "typeLine": "Shadowy Scare Mask of Thick Skin",
-      "rarity": "Magic",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/f1a4b7abd8/HelmetDexInt1.png",
-      "itemLevel": 9,
+      "name": "Victory Glance",
+      "typeLine": "Leather Hood",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/636c0ab999/HelmetDex3.png",
+      "itemLevel": 29,
       "explicitMods": [
-        "21% increased Evasion and Energy Shield",
-        "12% increased Stun and Block Recovery"
+        "9% increased Global Accuracy Rating",
+        "+16 to maximum Life",
+        "+1 to Level of all Minion Skill Gems",
+        "+13% to Cold Resistance",
+        "14% increased Light Radius"
       ]
     },
     "bodyArmour": {
-      "name": "Rift Jack",
-      "typeLine": "Plate Vest",
+      "name": "Phoenix Sanctuary",
+      "typeLine": "Arena Plate",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyMUEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/027d388361/BodyStr1A.png",
-      "itemLevel": 12,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyMkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/429eee131d/BodyStr2C.png",
+      "itemLevel": 45,
       "explicitMods": [
-        "+13 to Strength",
-        "+27 to Armour",
-        "+24 to maximum Life",
-        "Regenerate 6.8 Life per second",
-        "Reflects 3 Physical Damage to Melee Attackers"
+        "+85 to Armour",
+        "+22 to maximum Life",
+        "Regenerate 23.7 Life per second",
+        "+13% to Lightning Resistance",
+        "18% increased Stun and Block Recovery"
       ]
     },
     "gloves": {
-      "name": "Beast Hold",
-      "typeLine": "Velvet Gloves",
+      "name": "Foe Caress",
+      "typeLine": "Silk Gloves",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MiIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/cb34a7c551/GlovesInt2.png",
-      "itemLevel": 16,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/abe163b992/GlovesInt3.png",
+      "itemLevel": 29,
       "explicitMods": [
-        "+14 to Intelligence",
-        "Adds 3 to 7 Fire Damage to Attacks",
-        "7% increased Energy Shield",
-        "+17 to maximum Mana",
-        "+12% to Fire Resistance",
-        "+16% to Cold Resistance",
-        "7% increased Stun and Block Recovery"
+        "+18 to Intelligence",
+        "Adds 2 to 5 Physical Damage to Attacks",
+        "30% increased Energy Shield",
+        "+19 to maximum Life"
       ]
     },
     "boots": {
-      "name": "Empyrean Urge",
-      "typeLine": "Wool Shoes",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDEiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/68affe41bc/BootsInt1.png",
-      "itemLevel": 16,
+      "name": "Bones of Ullr",
+      "typeLine": "Silk Slippers",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9ib290dW5pcXVlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/1dfabe3358/bootunique.png",
+      "itemLevel": 29,
       "explicitMods": [
-        "8% increased Energy Shield",
-        "+29 to maximum Life",
-        "Regenerate 7 Life per second",
-        "+16% to Cold Resistance",
-        "+8% to Lightning Resistance",
-        "15% increased Movement Speed",
-        "6% increased Stun and Block Recovery"
+        "45% increased Energy Shield",
+        "+20 to maximum Life",
+        "+20 to maximum Mana",
+        "+1 to Level of all Raise Zombie Gems",
+        "+1 to Level of all Raise Spectre Gems",
+        "15% increased Movement Speed"
       ]
     },
     "belt": {
-      "name": "Blight Clasp",
-      "typeLine": "Leather Belt",
+      "name": "Brimstone Thread",
+      "typeLine": "Studded Belt",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDMiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/93af17affd/Belt3.png",
-      "itemLevel": 14,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDYiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/7ae25523b2/Belt6.png",
+      "itemLevel": 47,
       "explicitMods": [
-        "+17 to Strength",
-        "+3 to Armour",
-        "+14% to Lightning Resistance",
-        "6% increased Flask Charges gained"
+        "6% reduced Enemy Stun Threshold",
+        "+21 to maximum Energy Shield",
+        "+75 to maximum Life",
+        "+22% to Lightning Resistance"
       ],
       "implicitMods": [
-        "+31 to maximum Life"
+        "21% increased Stun Duration on Enemies"
       ]
     },
     "ring1": {
-      "name": "Armageddon Knot",
-      "typeLine": "Iron Ring",
+      "name": "Sorrow Circle",
+      "typeLine": "Two-Stone Ring",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzEiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/bf29c9d45e/Ring1.png",
-      "itemLevel": 11,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
+      "itemLevel": 49,
       "explicitMods": [
-        "+39 to maximum Life",
-        "+11% to Fire Resistance",
-        "+8% to Cold Resistance",
-        "Gain 6 Mana per Enemy Killed"
+        "+15 to Intelligence",
+        "14% increased Global Accuracy Rating",
+        "+82 to maximum Life",
+        "+10% to [PlayerItemRarity|Item Rarity]",
+        "16% increased Light Radius"
       ],
       "implicitMods": [
-        "Adds 1 to 4 Physical Damage to Attacks"
+        "+16% to Cold and Lightning Resistances"
       ]
     },
     "ring2": {
-      "name": "Agony Gyre",
-      "typeLine": "Sapphire Ring",
+      "name": "Golem Finger",
+      "typeLine": "Two-Stone Ring",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzYiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/74a5d719fd/Ring6.png",
-      "itemLevel": 14,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
+      "itemLevel": 54,
       "explicitMods": [
-        "+15 to Intelligence",
-        "+8 to maximum Energy Shield",
-        "+23 to maximum Mana",
-        "Gain 9 Life per Enemy Killed"
+        "14% increased Lightning Damage",
+        "+111 to maximum Life",
+        "+15% to [PlayerItemRarity|Item Rarity]",
+        "+11% to all Elemental Resistances",
+        "+32% to Fire Resistance"
       ],
       "implicitMods": [
-        "+22% to Cold Resistance"
+        "+12% to Cold and Lightning Resistances"
       ]
     },
     "amulet": {
-      "name": "Stone of Lazhwar",
-      "typeLine": "Lapis Amulet",
+      "name": "Karui Ward",
+      "typeLine": "Jade Amulet",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ1VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/c7c2e9bfcf/Amulet5Unique.png",
-      "itemLevel": 15,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/069e4f76ea/Amulet4Unique.png",
+      "itemLevel": 18,
       "explicitMods": [
-        "13% Chance to Block Spell Damage",
-        "16% increased Cast Speed",
-        "+42 to maximum Mana"
+        "+29 to Strength",
+        "+100 to Accuracy Rating",
+        "30% increased Projectile Speed",
+        "10% increased Movement Speed",
+        "30% increased Projectile Damage"
       ],
       "implicitMods": [
-        "+23 to Intelligence"
+        "+25 to Dexterity"
       ]
     },
     "flasks": [
       {
         "name": "",
-        "typeLine": "Greater Mana Flask",
+        "typeLine": "Hallowed Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/54e8624da7/manaflask4.png",
-        "itemLevel": 12
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 42
       },
       {
         "name": "",
-        "typeLine": "Medium Life Flask",
+        "typeLine": "Hallowed Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/c06020a713/lifeflask2.png",
-        "itemLevel": 5
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 44
       },
       {
         "name": "",
@@ -189,12 +192,14 @@
       },
       {
         "name": "",
-        "typeLine": "Medium Life Flask of the Novice",
+        "typeLine": "Impairing Hallowed Life Flask of Warding",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/c06020a713/lifeflask2.png",
-        "itemLevel": 15,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
+        "itemLevel": 46,
         "explicitMods": [
-          "Grants 109% of Life Recovery to Minions"
+          "35% increased Life Recovered",
+          "Removes 10% of Life Recovered from Mana when used",
+          "Removes Curses on use"
         ]
       },
       {

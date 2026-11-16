@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 56,
+  "level": 70,
   "experience": 0,
-  "fetchedAt": "2026-11-14T23:57:38Z",
-  "lastLogin": "2026-11-14T23:55:04Z",
+  "fetchedAt": "2026-11-16T00:00:24Z",
+  "lastLogin": "2026-11-15T11:52:55Z",
   "items": {
     "weapon": {
       "name": "Carrion Call",
@@ -171,20 +171,6 @@
     "flasks": [
       {
         "name": "",
-        "typeLine": "Hallowed Mana Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
-        "itemLevel": 42
-      },
-      {
-        "name": "",
-        "typeLine": "Hallowed Life Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 44
-      },
-      {
-        "name": "",
         "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
@@ -192,15 +178,24 @@
       },
       {
         "name": "",
-        "typeLine": "Impairing Hallowed Life Flask of Warding",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 46,
-        "explicitMods": [
-          "35% increased Life Recovered",
-          "Removes 10% of Life Recovered from Mana when used",
-          "Removes Curses on use"
-        ]
+        "typeLine": "Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 60
+      },
+      {
+        "name": "",
+        "typeLine": "Sanctified Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTAiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/437e6be59d/manaflask10.png",
+        "itemLevel": 55
+      },
+      {
+        "name": "",
+        "typeLine": "Divine Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 68
       },
       {
         "name": "",

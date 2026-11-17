@@ -27,10 +27,19 @@ function isPathSegmentValid(value: string): boolean {
 export function parseHash(hash: string): RouteState {
   // 先頭の '#' を取り、クエリ部とパス部を分離する
   const [path, queryString] = hash.replace(/^#/, '').split('?')
+  // decodeURIComponent は '%GG' 等の不正エンコードで URIError を投げる。
+  // parseHash は App の useState 初期化子で呼ばれるため、クラッシュせず
+  // 不正セグメントとして空文字に落とす (isPathSegmentValid で弾かれる)
   const segments = path
     .split('/')
     .filter(Boolean)
-    .map((segment) => decodeURIComponent(segment))
+    .map((segment) => {
+      try {
+        return decodeURIComponent(segment)
+      } catch {
+        return ''
+      }
+    })
 
   const [rawTab, id] = segments
   const tab = isTabId(rawTab) ? rawTab : 'dashboard'

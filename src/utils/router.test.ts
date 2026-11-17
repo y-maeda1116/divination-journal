@@ -58,6 +58,15 @@ describe('parseHash', () => {
     expect(parseHash('#/characters/../../etc')).toEqual({ tab: 'characters', league: 'all' })
   })
 
+  it('不正なパーセントエンコードでも例外を投げずフォールバックする', () => {
+    // decodeURIComponent は '%GG' 等で URIError を投げるが、parseHash は
+    // App の useState 初期化子で呼ばれるため、クラッシュせず無効扱いに落とす
+    expect(() => parseHash('#/characters/%GG')).not.toThrow()
+    expect(parseHash('#/characters/%GG')).toEqual({ tab: 'characters', league: 'all' })
+    expect(parseHash('#/characters/%')).toEqual({ tab: 'characters', league: 'all' })
+    expect(parseHash('#/%AF')).toEqual({ tab: 'dashboard', league: 'all' })
+  })
+
   it('余分なパスセグメントは無視する', () => {
     expect(parseHash('#/diary/2026-04-01/extra')).toEqual({
       tab: 'diary',

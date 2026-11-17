@@ -3,28 +3,25 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 70,
+  "level": 80,
   "experience": 0,
-  "fetchedAt": "2026-11-16T00:00:24Z",
-  "lastLogin": "2026-11-15T11:52:55Z",
+  "fetchedAt": "2026-11-17T02:58:18Z",
+  "lastLogin": "2026-11-16T22:35:25Z",
   "items": {
     "weapon": {
-      "name": "Carrion Call",
-      "typeLine": "Calling Wand",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9Db252b2tpbmdXYW5kIiwidyI6MSwiaCI6Mywic2NhbGUiOjF9XQ/fc10997b84/ConvokingWand.png",
-      "itemLevel": 23,
+      "name": "Foulborn United in Dream",
+      "typeLine": "Cutlass",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL0V0ZXJuYWxTbGVlcDIiLCJ3IjoxLCJoIjozLCJzY2FsZSI6MSwibXV0YXRlZCI6dHJ1ZX1d/1ef923f173/EternalSleep2.png",
+      "itemLevel": 71,
       "explicitMods": [
-        "14% increased Spell Damage",
-        "Adds 1 to 3 Cold Damage",
-        "45% increased Spell Critical Strike Chance",
-        "+26 to maximum Mana",
-        "24% increased Mana Regeneration Rate",
-        "Minions deal 24% increased Damage",
-        "20% chance to Freeze"
+        "Grants Level 25 [Envy::25|Envy]",
+        "Minions have 60% chance to Poison Enemies on Hit",
+        "Minions Recover 10% of Life on Killing a Poisoned Enemy",
+        "Minions have 25% chance to gain Unholy Might for 4 seconds on Kill"
       ],
       "implicitMods": [
-        "Minions deal 16% increased Damage"
+        "40% increased Global Accuracy Rating"
       ]
     },
     "offhand": {
@@ -46,75 +43,81 @@
       ]
     },
     "helmet": {
-      "name": "Victory Glance",
-      "typeLine": "Leather Hood",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleDMiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/636c0ab999/HelmetDex3.png",
-      "itemLevel": 29,
+      "name": "Ancient Skull",
+      "typeLine": "Bone Helmet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRWZmZWN0cy9IYXRzL0NodWh1dGx1c1NrdWxsIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/65537c5ac3/ChuhutlusSkull.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "9% increased Global Accuracy Rating",
-        "+16 to maximum Life",
-        "+1 to Level of all Minion Skill Gems",
-        "+13% to Cold Resistance",
-        "14% increased Light Radius"
+        "162% increased Armour and Energy Shield",
+        "Minions have 33% reduced maximum Life",
+        "Minions have 24% increased Movement Speed",
+        "Minions have 50% increased Critical Strike Chance per Maximum Power Charge you have",
+        "Minions can hear the whispers for 5 seconds after they deal a Critical Strike"
+      ],
+      "implicitMods": [
+        "Minions deal 29% increased Damage"
       ]
     },
     "bodyArmour": {
-      "name": "Phoenix Sanctuary",
-      "typeLine": "Arena Plate",
+      "name": "Cataclysm Mantle",
+      "typeLine": "Carnal Armour",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RyMkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/429eee131d/BodyStr2C.png",
-      "itemLevel": 45,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/99efce2041/BodyDexInt4C.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+85 to Armour",
-        "+22 to maximum Life",
-        "Regenerate 23.7 Life per second",
-        "+13% to Lightning Resistance",
-        "18% increased Stun and Block Recovery"
+        "18% reduced Attribute Requirements",
+        "17% increased Evasion and Energy Shield",
+        "+30 to maximum Life",
+        "+33 to maximum Mana",
+        "+15% to Cold Resistance",
+        "+25% to Lightning Resistance"
+      ],
+      "implicitMods": [
+        "+25 to maximum Mana"
       ]
     },
     "gloves": {
-      "name": "Foe Caress",
-      "typeLine": "Silk Gloves",
+      "name": "Doom Claw",
+      "typeLine": "Wyrmscale Gauntlets",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/abe163b992/GlovesInt3.png",
-      "itemLevel": 29,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/01471b423e/GlovesStrDex3.png",
+      "itemLevel": 57,
       "explicitMods": [
-        "+18 to Intelligence",
-        "Adds 2 to 5 Physical Damage to Attacks",
-        "30% increased Energy Shield",
-        "+19 to maximum Life"
+        "Adds 3 to 5 Physical Damage to Attacks",
+        "+128 to maximum Life",
+        "+28% to Fire Resistance",
+        "+6% to Chaos Resistance",
+        "0.29% of Physical Attack Damage Leeched as Mana"
       ]
     },
     "boots": {
-      "name": "Bones of Ullr",
-      "typeLine": "Silk Slippers",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9ib290dW5pcXVlIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/1dfabe3358/bootunique.png",
-      "itemLevel": 29,
+      "name": "Corruption Sole",
+      "typeLine": "Conjurer Boots",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5589419509/BootsInt4.png",
+      "itemLevel": 57,
       "explicitMods": [
-        "45% increased Energy Shield",
-        "+20 to maximum Life",
-        "+20 to maximum Mana",
-        "+1 to Level of all Raise Zombie Gems",
-        "+1 to Level of all Raise Spectre Gems",
-        "15% increased Movement Speed"
+        "+9 to maximum Energy Shield",
+        "+37 to maximum Life",
+        "Regenerate 1.4 Life per second",
+        "+9% to Lightning Resistance",
+        "30% increased Movement Speed",
+        "+15% to Fire and Lightning Resistances"
       ]
     },
     "belt": {
-      "name": "Brimstone Thread",
-      "typeLine": "Studded Belt",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvQmVsdDYiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/7ae25523b2/Belt6.png",
-      "itemLevel": 47,
+      "name": "Darkness Enthroned",
+      "typeLine": "Stygian Vise",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRGFya25lc3NFbnRocm9uZWQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/2e418e2c4d/DarknessEnthroned.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "6% reduced Enemy Stun Threshold",
-        "+21 to maximum Energy Shield",
-        "+75 to maximum Life",
-        "+22% to Lightning Resistance"
+        "Has 1 Abyssal Socket",
+        "69% increased Effect of Socketed Abyss Jewels"
       ],
       "implicitMods": [
-        "21% increased Stun Duration on Enemies"
+        "Has 1 Abyssal Socket"
       ]
     },
     "ring1": {
@@ -152,57 +155,76 @@
       ]
     },
     "amulet": {
-      "name": "Karui Ward",
-      "typeLine": "Jade Amulet",
+      "name": "The Jinxed Juju",
+      "typeLine": "Citrine Amulet",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/069e4f76ea/Amulet4Unique.png",
-      "itemLevel": 18,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9KdWp1c1NvdWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6d30276e6f/JujusSoul.png",
+      "itemLevel": 84,
       "explicitMods": [
-        "+29 to Strength",
-        "+100 to Accuracy Rating",
-        "30% increased Projectile Speed",
-        "10% increased Movement Speed",
-        "30% increased Projectile Damage"
+        "+39 to Intelligence",
+        "+23% to Chaos Resistance",
+        "12% increased effect of Non-Curse Auras from your Skills",
+        "10% of Damage from Hits is taken from your Raised Spectres' Life before you"
       ],
       "implicitMods": [
-        "+25 to Dexterity"
+        "+18 to Strength and Dexterity"
       ]
     },
     "flasks": [
       {
         "name": "",
-        "typeLine": "Quicksilver Flask",
-        "rarity": "Normal",
+        "typeLine": "Wide Quicksilver Flask of the Deer",
+        "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 4
+        "itemLevel": 4,
+        "explicitMods": [
+          "+17 to Maximum Charges",
+          "49% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Divine Life Flask",
-        "rarity": "Normal",
+        "typeLine": "Seething Divine Life Flask",
+        "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 60
+        "itemLevel": 60,
+        "explicitMods": [
+          "66% reduced Amount Recovered",
+          "Instant Recovery"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Sanctified Mana Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMTAiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/437e6be59d/manaflask10.png",
-        "itemLevel": 55
+        "typeLine": "Granite Flask of the Antelope",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
+        "itemLevel": 42,
+        "explicitMods": [
+          "47% increased Evasion Rating during Effect"
+        ]
       },
       {
         "name": "",
-        "typeLine": "Divine Life Flask",
-        "rarity": "Normal",
+        "typeLine": "Scholar's Quartz Flask of the Abalone",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
+        "itemLevel": 65,
+        "explicitMods": [
+          "18% reduced Charges per use",
+          "42% increased Armour during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Nitrate Divine Life Flask",
+        "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 68
-      },
-      {
-        "name": "",
-        "typeLine": "Quicksilver Flask",
-        "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 9
+        "itemLevel": 68,
+        "explicitMods": [
+          "21% increased Charges per use",
+          "25% increased Amount Recovered"
+        ]
       }
     ]
   },

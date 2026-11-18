@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 80,
+  "level": 84,
   "experience": 0,
-  "fetchedAt": "2026-11-17T02:58:18Z",
-  "lastLogin": "2026-11-16T22:35:25Z",
+  "fetchedAt": "2026-11-18T02:28:21Z",
+  "lastLogin": "2026-11-17T22:45:14Z",
   "items": {
     "weapon": {
       "name": "Foulborn United in Dream",
@@ -185,13 +185,14 @@
       },
       {
         "name": "",
-        "typeLine": "Seething Divine Life Flask",
+        "typeLine": "Seething Divine Life Flask of Sealing",
         "rarity": "Magic",
         "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
         "itemLevel": 60,
         "explicitMods": [
           "66% reduced Amount Recovered",
-          "Instant Recovery"
+          "Instant Recovery",
+          "Grants Immunity to Bleeding for 6 seconds if used while Bleeding\nGrants Immunity to Corrupted Blood for 6 seconds if used while affected by Corrupted Blood"
         ]
       },
       {

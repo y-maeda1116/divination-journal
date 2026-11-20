@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 84,
+  "level": 85,
   "experience": 0,
-  "fetchedAt": "2026-11-19T01:54:59Z",
-  "lastLogin": "2026-11-18T13:02:57Z",
+  "fetchedAt": "2026-11-20T01:48:53Z",
+  "lastLogin": "2026-11-19T07:28:28Z",
   "items": {
     "weapon": {
       "name": "Foulborn United in Dream",
@@ -25,21 +25,18 @@
       ]
     },
     "offhand": {
-      "name": "Viper Ward",
-      "typeLine": "Rotted Round Shield",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckRleDEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/a6a71ad77b/ShieldStrDex1.png",
-      "itemLevel": 11,
+      "name": "Aegis Aurora",
+      "typeLine": "Champion Kite Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+17 to Strength",
-        "+10 to Dexterity",
-        "+50 to Accuracy Rating",
-        "+7 to Armour",
-        "+9 to Evasion Rating",
-        "+17 to maximum Life"
-      ],
-      "implicitMods": [
-        "60% increased Block Recovery"
+        "371% increased Armour and Energy Shield",
+        "+10% to all Elemental Resistances",
+        "+5% to maximum Cold Resistance",
+        "+6% Chance to Block",
+        "Recover Energy Shield equal to 2% of Armour when you Block",
+        "13% increased Elemental Damage with Attack Skills"
       ]
     },
     "helmet": {
@@ -60,21 +57,17 @@
       ]
     },
     "bodyArmour": {
-      "name": "Cataclysm Mantle",
-      "typeLine": "Carnal Armour",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5RGV4SW50NEMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/99efce2041/BodyDexInt4C.png",
+      "name": "The Covenant",
+      "typeLine": "Spidersilk Robe",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9FbWJyYWNlIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/d0110e7660/Embrace.png",
       "itemLevel": 85,
       "explicitMods": [
-        "18% reduced Attribute Requirements",
-        "17% increased Evasion and Energy Shield",
-        "+30 to maximum Life",
-        "+33 to maximum Mana",
-        "+15% to Cold Resistance",
-        "+25% to Lightning Resistance"
-      ],
-      "implicitMods": [
-        "+25 to maximum Mana"
+        "Socketed Gems are Supported by Level 29 [SupportAddedChaosDamage::29|Added Chaos Damage Support]",
+        "+23 to Intelligence",
+        "230% increased Energy Shield",
+        "10% increased maximum Life",
+        "Skills gain a Base Life Cost equal to 100% of Base Mana Cost"
       ]
     },
     "gloves": {
@@ -217,14 +210,14 @@
         ]
       },
       {
-        "name": "",
-        "typeLine": "Nitrate Divine Life Flask",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
-        "itemLevel": 68,
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/3bc27f19d5/BlockFlask.png",
+        "itemLevel": 85,
         "explicitMods": [
-          "21% increased Charges per use",
-          "25% increased Amount Recovered"
+          "+10% Chance to Block Attack Damage during Effect",
+          "+4% Chance to Block Spell Damage during Effect"
         ]
       }
     ]

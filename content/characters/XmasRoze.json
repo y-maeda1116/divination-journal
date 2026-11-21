@@ -5,8 +5,8 @@
   "ascendancy": "",
   "level": 85,
   "experience": 0,
-  "fetchedAt": "2026-11-20T01:48:53Z",
-  "lastLogin": "2026-11-19T07:28:28Z",
+  "fetchedAt": "2026-11-21T01:33:43Z",
+  "lastLogin": "2026-11-21T00:50:15Z",
   "items": {
     "weapon": {
       "name": "Foulborn United in Dream",
@@ -107,7 +107,7 @@
       "itemLevel": 85,
       "explicitMods": [
         "Has 1 Abyssal Socket",
-        "69% increased Effect of Socketed Abyss Jewels"
+        "74% increased Effect of Socketed Abyss Jewels"
       ],
       "implicitMods": [
         "Has 1 Abyssal Socket"
@@ -160,7 +160,7 @@
         "10% of Damage from Hits is taken from your Raised Spectres' Life before you"
       ],
       "implicitMods": [
-        "+18 to Strength and Dexterity"
+        "+23 to Strength and Dexterity"
       ]
     },
     "flasks": [

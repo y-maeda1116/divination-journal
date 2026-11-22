@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 85,
+  "level": 89,
   "experience": 0,
-  "fetchedAt": "2026-11-21T01:33:43Z",
-  "lastLogin": "2026-11-21T00:50:15Z",
+  "fetchedAt": "2026-11-22T00:22:49Z",
+  "lastLogin": "2026-11-22T00:18:20Z",
   "items": {
     "weapon": {
       "name": "Foulborn United in Dream",
@@ -31,29 +31,34 @@
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1NoaWVsZFN0ckludFVuaXF1ZTd1bmlxdWUiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ae1ec0f5d1/ShieldStrIntUnique7unique.png",
       "itemLevel": 85,
       "explicitMods": [
-        "371% increased Armour and Energy Shield",
+        "329% increased Armour and Energy Shield",
         "+10% to all Elemental Resistances",
         "+5% to maximum Cold Resistance",
         "+6% Chance to Block",
         "Recover Energy Shield equal to 2% of Armour when you Block",
-        "13% increased Elemental Damage with Attack Skills"
+        "11% increased Elemental Damage with Attack Skills"
+      ],
+      "implicitMods": [
+        "+6% to Quality of Socketed Gems"
       ]
     },
     "helmet": {
-      "name": "Ancient Skull",
-      "typeLine": "Bone Helmet",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvRWZmZWN0cy9IYXRzL0NodWh1dGx1c1NrdWxsIiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/65537c5ac3/ChuhutlusSkull.png",
-      "itemLevel": 85,
+      "name": "Hypnotic Corona",
+      "typeLine": "Deicide Mask",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleEludDExIiwidyI6MiwiaCI6Miwic2NhbGUiOjEsInNlYXJpbmciOnRydWUsInRhbmdsZWQiOnRydWV9XQ/94f75d7c46/HelmetDexInt11.png",
+      "itemLevel": 79,
       "explicitMods": [
-        "162% increased Armour and Energy Shield",
-        "Minions have 33% reduced maximum Life",
-        "Minions have 24% increased Movement Speed",
-        "Minions have 50% increased Critical Strike Chance per Maximum Power Charge you have",
-        "Minions can hear the whispers for 5 seconds after they deal a Critical Strike"
+        "Regenerate 70.4 Life per second",
+        "+66 to maximum Mana",
+        "+2 to Level of all Minion Skill Gems",
+        "27% increased Stun and Block Recovery",
+        "Reflects 9 Physical Damage to Melee Attackers",
+        "+15% to Lightning and Chaos Resistances"
       ],
       "implicitMods": [
-        "Minions deal 29% increased Damage"
+        "Damage Penetrates 5% Lightning Resistance",
+        "+1% to maximum Lightning Resistance"
       ]
     },
     "bodyArmour": {
@@ -71,32 +76,36 @@
       ]
     },
     "gloves": {
-      "name": "Doom Claw",
-      "typeLine": "Wyrmscale Gauntlets",
+      "name": "Demon Talons",
+      "typeLine": "Sage Gloves",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzU3RyRGV4MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/01471b423e/GlovesStrDex3.png",
-      "itemLevel": 57,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvR2xvdmVzSW50MyIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/abe163b992/GlovesInt3.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "Adds 3 to 5 Physical Damage to Attacks",
-        "+128 to maximum Life",
-        "+28% to Fire Resistance",
-        "+6% to Chaos Resistance",
-        "0.29% of Physical Attack Damage Leeched as Mana"
+        "+40 to Intelligence",
+        "Adds 4 to 9 Physical Damage to Attacks",
+        "15% increased Attack Speed",
+        "+39 to maximum Energy Shield",
+        "+25% to Chaos Resistance",
+        "Minions convert 100% of Fire Damage to Chaos Damage"
       ]
     },
     "boots": {
-      "name": "Corruption Sole",
-      "typeLine": "Conjurer Boots",
-      "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9Cb290c0ludDQiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/5589419509/BootsInt4.png",
-      "itemLevel": 57,
+      "name": "Inextricable Fate",
+      "typeLine": "Fugitive Boots",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9WaW5lZ3Jhc3BCb290c1VuaXF1ZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/4f56e4bdb0/VinegraspBootsUnique.png",
+      "itemLevel": 85,
       "explicitMods": [
-        "+9 to maximum Energy Shield",
-        "+37 to maximum Life",
-        "Regenerate 1.4 Life per second",
-        "+9% to Lightning Resistance",
+        "+100 to maximum Life",
         "30% increased Movement Speed",
-        "+15% to Fire and Lightning Resistances"
+        "You gain 3 Grasping Vines when you take a Critical Strike",
+        "Stationary Enemies within 6 metres gain a Grasping Vine every 0.5 seconds",
+        "All Damage inflicts Poison against Enemies affected by at least 3 Grasping Vines",
+        "You take 37% reduced Extra Damage from Critical Strikes by Poisoned Enemies"
+      ],
+      "implicitMods": [
+        "+23% to Chaos Resistance"
       ]
     },
     "belt": {
@@ -114,37 +123,39 @@
       ]
     },
     "ring1": {
-      "name": "Sorrow Circle",
-      "typeLine": "Two-Stone Ring",
+      "name": "Brimstone Twirl",
+      "typeLine": "Bone Ring",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
-      "itemLevel": 49,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQm9uZVJpbmciLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/4ed569fff9/BoneRing.png",
+      "itemLevel": 70,
       "explicitMods": [
-        "+15 to Intelligence",
-        "14% increased Global Accuracy Rating",
-        "+82 to maximum Life",
-        "+10% to [PlayerItemRarity|Item Rarity]",
-        "16% increased Light Radius"
+        "+53 to maximum Mana",
+        "+7% to all Elemental Resistances",
+        "+22% to Fire Resistance",
+        "Minions deal 12% increased Damage",
+        "Minions have +25% to all Elemental Resistances",
+        "+51 to maximum Life"
       ],
       "implicitMods": [
-        "+16% to Cold and Lightning Resistances"
+        "Minions have +15% to all Elemental Resistances"
       ]
     },
     "ring2": {
-      "name": "Golem Finger",
-      "typeLine": "Two-Stone Ring",
+      "name": "Grim Turn",
+      "typeLine": "Amethyst Ring",
       "rarity": "Rare",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVG9wYXpTYXBwaGlyZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/0c211c12b4/TopazSapphire.png",
-      "itemLevel": 54,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvQW1ldGh5c3RSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/804d781735/AmethystRing.png",
+      "itemLevel": 61,
       "explicitMods": [
-        "14% increased Lightning Damage",
-        "+111 to maximum Life",
-        "+15% to [PlayerItemRarity|Item Rarity]",
-        "+11% to all Elemental Resistances",
-        "+32% to Fire Resistance"
+        "Adds 5 to 11 Physical Damage to Attacks",
+        "+92 to maximum Life",
+        "Regenerate 33.3 Life per second",
+        "+56 to maximum Mana",
+        "+21% to Lightning Resistance",
+        "+11% to Lightning and Chaos Resistances"
       ],
       "implicitMods": [
-        "+12% to Cold and Lightning Resistances"
+        "+15% to Chaos Resistance"
       ]
     },
     "amulet": {
@@ -152,15 +163,15 @@
       "typeLine": "Citrine Amulet",
       "rarity": "Unique",
       "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9KdWp1c1NvdWwiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/6d30276e6f/JujusSoul.png",
-      "itemLevel": 84,
+      "itemLevel": 85,
       "explicitMods": [
-        "+39 to Intelligence",
-        "+23% to Chaos Resistance",
-        "12% increased effect of Non-Curse Auras from your Skills",
+        "+34 to Intelligence",
+        "+29% to Chaos Resistance",
+        "13% increased effect of Non-Curse Auras from your Skills",
         "10% of Damage from Hits is taken from your Raised Spectres' Life before you"
       ],
       "implicitMods": [
-        "+23 to Strength and Dexterity"
+        "+21 to Strength and Dexterity"
       ]
     },
     "flasks": [

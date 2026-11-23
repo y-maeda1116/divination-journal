@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 89,
+  "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-22T00:22:49Z",
-  "lastLogin": "2026-11-22T00:18:20Z",
+  "fetchedAt": "2026-11-23T00:55:46Z",
+  "lastLogin": "2026-11-23T00:13:31Z",
   "items": {
     "weapon": {
       "name": "Foulborn United in Dream",
@@ -155,7 +155,7 @@
         "+11% to Lightning and Chaos Resistances"
       ],
       "implicitMods": [
-        "+15% to Chaos Resistance"
+        "+19% to Chaos Resistance"
       ]
     },
     "amulet": {
@@ -177,14 +177,37 @@
     "flasks": [
       {
         "name": "",
-        "typeLine": "Wide Quicksilver Flask of the Deer",
+        "typeLine": "Flagellant's Quartz Flask of the Fox",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
-        "itemLevel": 4,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/2900491949/phaseflask01.png",
+        "itemLevel": 81,
         "explicitMods": [
-          "+17 to Maximum Charges",
-          "49% less Duration",
-          "Immunity to Freeze and Chill during Effect"
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "50% reduced Effect of Chill on you during Effect",
+          "48% reduced Freeze Duration on you during Effect"
+        ]
+      },
+      {
+        "name": "Rumi's Concoction",
+        "typeLine": "Granite Flask",
+        "rarity": "Unique",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MSwiZmkiOnRydWV9XQ/4d59967889/BlockFlask.png",
+        "itemLevel": 79,
+        "explicitMods": [
+          "+11% Chance to Block Attack Damage during Effect",
+          "+4% Chance to Block Spell Damage during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Flagellant's Jade Flask of the Bear",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZXZhc2lvbmZsYXNrMDEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjEsImZpIjp0cnVlfV0/f31735f3f1/evasionflask01.png",
+        "itemLevel": 85,
+        "explicitMods": [
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "65% reduced Effect of Chill on you during Effect",
+          "61% reduced Freeze Duration on you during Effect"
         ]
       },
       {
@@ -201,34 +224,13 @@
       },
       {
         "name": "",
-        "typeLine": "Granite Flask of the Antelope",
+        "typeLine": "Flagellant's Quicksilver Flask of the Heron",
         "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvZ3Jhbml0ZSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/101bce8899/granite.png",
-        "itemLevel": 42,
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxLCJmaSI6dHJ1ZX1d/3f8edd74f2/sprint.png",
+        "itemLevel": 84,
         "explicitMods": [
-          "47% increased Evasion Rating during Effect"
-        ]
-      },
-      {
-        "name": "",
-        "typeLine": "Scholar's Quartz Flask of the Abalone",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvcGhhc2VmbGFzazAxIiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/6266d738e1/phaseflask01.png",
-        "itemLevel": 65,
-        "explicitMods": [
-          "18% reduced Charges per use",
-          "42% increased Armour during Effect"
-        ]
-      },
-      {
-        "name": "Rumi's Concoction",
-        "typeLine": "Granite Flask",
-        "rarity": "Unique",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvQmxvY2tGbGFzayIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/3bc27f19d5/BlockFlask.png",
-        "itemLevel": 85,
-        "explicitMods": [
-          "+10% Chance to Block Attack Damage during Effect",
-          "+4% Chance to Block Spell Damage during Effect"
+          "Gain 3 Charges when you are Hit by an Enemy",
+          "61% reduced Effect of Shock on you during Effect"
         ]
       }
     ]

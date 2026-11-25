@@ -5,25 +5,9 @@
   "ascendancy": "",
   "level": 78,
   "experience": 0,
-  "fetchedAt": "2026-11-24T04:52:20Z",
-  "lastLogin": "2026-10-18T12:18:39Z",
+  "fetchedAt": "2026-11-25T03:37:45Z",
+  "lastLogin": "2026-11-24T22:07:00Z",
   "items": {
-    "weapon": {
-      "name": "Varunastra",
-      "typeLine": "Vaal Blade",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9PbmVIYW5kU3dvcmRzL1ZhcnVuYXN0cmEiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/ce779b1e41/Varunastra.png",
-      "itemLevel": 83,
-      "explicitMods": [
-        "93% increased Physical Damage",
-        "Adds 44 to 82 Physical Damage",
-        "Grants 3 Mana per Enemy Hit",
-        "Counts as all One Handed Melee Weapon Types"
-      ],
-      "implicitMods": [
-        "+460 to Accuracy Rating"
-      ]
-    },
     "offhand": {
       "name": "Azadi Crest",
       "typeLine": "Lacquered Buckler",

@@ -1,11 +1,11 @@
 {
   "name": "pal_system",
-  "league": "Phrecia 2.0",
-  "class": "Paladin",
+  "league": "Standard",
+  "class": "Champion",
   "ascendancy": "",
   "level": 90,
   "experience": 0,
-  "fetchedAt": "2026-11-24T04:48:13Z",
+  "fetchedAt": "2026-11-25T03:33:31Z",
   "lastLogin": "2026-02-10T13:18:04Z",
   "items": {
     "weapon": {

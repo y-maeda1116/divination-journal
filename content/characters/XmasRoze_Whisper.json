@@ -1,0 +1,113 @@
+{
+  "name": "XmasRoze_Whisper",
+  "league": "Covens",
+  "class": "Witch",
+  "ascendancy": "",
+  "level": 4,
+  "experience": 0,
+  "fetchedAt": "2026-11-25T03:37:14Z",
+  "lastLogin": "2026-11-24T22:16:38Z",
+  "items": {
+    "weapon": {
+      "name": "Woe Bite",
+      "typeLine": "Driftwood Wand",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvV2VhcG9ucy9PbmVIYW5kV2VhcG9ucy9XYW5kcy9XYW5kMSIsInciOjEsImgiOjMsInNjYWxlIjoxfV0/899dabeaf1/Wand1.png",
+      "itemLevel": 3,
+      "explicitMods": [
+        "15% increased Spell Damage",
+        "Adds 1 to 3 Fire Damage",
+        "7% increased Cast Speed",
+        "14% increased Critical Strike Chance",
+        "+31 to maximum Mana",
+        "19% increased Mana Regeneration Rate"
+      ],
+      "implicitMods": [
+        "10% increased Spell Damage"
+      ]
+    },
+    "helmet": {
+      "name": "Goldrim",
+      "typeLine": "Leather Cap",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9IZWxtZXRzL0hlbG1ldERleFVuaXF1ZTIiLCJ3IjoyLCJoIjoyLCJzY2FsZSI6MX1d/7f4908ef2f/HelmetDexUnique2.png",
+      "itemLevel": 81,
+      "explicitMods": [
+        "+33 to Evasion Rating",
+        "+10% to [PlayerItemRarity|Item Rarity]",
+        "+37% to all Elemental Resistances",
+        "Reflects 4 Physical Damage to Melee Attackers"
+      ]
+    },
+    "boots": {
+      "name": "Wanderlust",
+      "typeLine": "Wool Shoes",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb290cy9XYW5kZXJsdXN0IiwidyI6MiwiaCI6Miwic2NhbGUiOjF9XQ/c83c1c3bdc/Wanderlust.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "+5 to Dexterity",
+        "+11 to maximum Energy Shield",
+        "40% increased Mana Regeneration Rate",
+        "20% increased Movement Speed",
+        "Cannot be Frozen"
+      ]
+    },
+    "ring1": {
+      "name": "Blackheart",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzFVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/40666e2827/Ring1Unique.png",
+      "itemLevel": 84,
+      "explicitMods": [
+        "Adds 15 to 21 Chaos Damage to Attacks",
+        "Regenerate 10.7 Life per second",
+        "10% chance to Cause Monsters to Flee"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "ring2": {
+      "name": "Blackheart",
+      "typeLine": "Iron Ring",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUmluZzFVbmlxdWUiLCJ3IjoxLCJoIjoxLCJzY2FsZSI6MX1d/40666e2827/Ring1Unique.png",
+      "itemLevel": 83,
+      "explicitMods": [
+        "Adds 10 to 24 Chaos Damage to Attacks",
+        "Regenerate 12.5 Life per second",
+        "10% chance to Cause Monsters to Flee"
+      ],
+      "implicitMods": [
+        "Adds 1 to 4 Physical Damage to Attacks"
+      ]
+    },
+    "flasks": [
+      {
+        "name": "",
+        "typeLine": "Small Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
+        "itemLevel": 1
+      },
+      {
+        "name": "",
+        "typeLine": "Small Life Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
+        "itemLevel": 1
+      },
+      {
+        "name": "",
+        "typeLine": "Small Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/b764885739/manaflask1.png",
+        "itemLevel": 1
+      }
+    ]
+  },
+  "passives": {
+    "hashes": null
+  }
+}

@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Witch",
   "ascendancy": "",
-  "level": 4,
+  "level": 18,
   "experience": 0,
-  "fetchedAt": "2026-11-25T03:37:14Z",
-  "lastLogin": "2026-11-24T22:16:38Z",
+  "fetchedAt": "2026-11-26T02:55:30Z",
+  "lastLogin": "2026-11-25T22:19:08Z",
   "items": {
     "weapon": {
       "name": "Woe Bite",
@@ -26,6 +26,23 @@
         "10% increased Spell Damage"
       ]
     },
+    "offhand": {
+      "name": "Wheel of the Stormsail",
+      "typeLine": "Rotted Round Shield",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9TaGllbGRzL1doZWVsb2Z0aGVzdG9ybXNhaWwiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/9ff4153db8/Wheelofthestormsail.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+35 to Armour",
+        "+21 to Evasion Rating",
+        "+30% to [PlayerItemRarity|Item Rarity]",
+        "+58% to Lightning Resistance",
+        "100% increased Duration of Curses on you"
+      ],
+      "implicitMods": [
+        "60% increased Block Recovery"
+      ]
+    },
     "helmet": {
       "name": "Goldrim",
       "typeLine": "Leather Cap",
@@ -37,6 +54,18 @@
         "+10% to [PlayerItemRarity|Item Rarity]",
         "+37% to all Elemental Resistances",
         "Reflects 4 Physical Damage to Melee Attackers"
+      ]
+    },
+    "gloves": {
+      "name": "Doedre's Tenure",
+      "typeLine": "Velvet Gloves",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9HbG92ZXMvRG9lZHJlc1RlbnVyZSIsInciOjIsImgiOjIsInNjYWxlIjoxfV0/052a57aabd/DoedresTenure.png",
+      "itemLevel": 80,
+      "explicitMods": [
+        "+32 to Intelligence",
+        "100% increased Spell Damage",
+        "23% reduced Cast Speed"
       ]
     },
     "boots": {
@@ -51,6 +80,20 @@
         "40% increased Mana Regeneration Rate",
         "20% increased Movement Speed",
         "Cannot be Frozen"
+      ]
+    },
+    "belt": {
+      "name": "Darkness Enthroned",
+      "typeLine": "Stygian Vise",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQmVsdHMvRGFya25lc3NFbnRocm9uZWQiLCJ3IjoyLCJoIjoxLCJzY2FsZSI6MX1d/2e418e2c4d/DarknessEnthroned.png",
+      "itemLevel": 85,
+      "explicitMods": [
+        "Has 1 Abyssal Socket",
+        "69% increased Effect of Socketed Abyss Jewels"
+      ],
+      "implicitMods": [
+        "Has 1 Abyssal Socket"
       ]
     },
     "ring1": {
@@ -83,27 +126,66 @@
         "Adds 1 to 4 Physical Damage to Attacks"
       ]
     },
+    "amulet": {
+      "name": "Karui Ward",
+      "typeLine": "Jade Amulet",
+      "rarity": "Unique",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQW11bGV0cy9BbXVsZXQ0VW5pcXVlIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/069e4f76ea/Amulet4Unique.png",
+      "itemLevel": 18,
+      "explicitMods": [
+        "+29 to Strength",
+        "+100 to Accuracy Rating",
+        "30% increased Projectile Speed",
+        "10% increased Movement Speed",
+        "30% increased Projectile Damage"
+      ],
+      "implicitMods": [
+        "+25 to Dexterity"
+      ]
+    },
     "flasks": [
       {
         "name": "",
-        "typeLine": "Small Life Flask",
+        "typeLine": "Greater Mana Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
-        "itemLevel": 1
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrNCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/54e8624da7/manaflask4.png",
+        "itemLevel": 12
       },
       {
         "name": "",
-        "typeLine": "Small Life Flask",
+        "typeLine": "Medium Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/a7ca6503d9/lifeflask1.png",
-        "itemLevel": 1
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/c06020a713/lifeflask2.png",
+        "itemLevel": 5
       },
       {
         "name": "",
-        "typeLine": "Small Mana Flask",
+        "typeLine": "Wide Quicksilver Flask of the Deer",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4,
+        "explicitMods": [
+          "+17 to Maximum Charges",
+          "49% less Duration",
+          "Immunity to Freeze and Chill during Effect"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Medium Life Flask of the Novice",
+        "rarity": "Magic",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMiIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/c06020a713/lifeflask2.png",
+        "itemLevel": 15,
+        "explicitMods": [
+          "Grants 109% of Life Recovery to Minions"
+        ]
+      },
+      {
+        "name": "",
+        "typeLine": "Quicksilver Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrMSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/b764885739/manaflask1.png",
-        "itemLevel": 1
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3Mvc3ByaW50IiwidyI6MSwiaCI6Miwic2NhbGUiOjEsImxldmVsIjoxfV0/aa66be180b/sprint.png",
+        "itemLevel": 4
       }
     ]
   },

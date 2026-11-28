@@ -3,10 +3,10 @@
   "league": "Covens",
   "class": "Necromancer",
   "ascendancy": "",
-  "level": 52,
+  "level": 69,
   "experience": 0,
-  "fetchedAt": "2026-11-27T02:55:25Z",
-  "lastLogin": "2026-11-26T12:51:02Z",
+  "fetchedAt": "2026-11-28T02:45:08Z",
+  "lastLogin": "2026-11-28T02:34:34Z",
   "items": {
     "weapon": {
       "name": "Twyzel",
@@ -58,17 +58,18 @@
       ]
     },
     "bodyArmour": {
-      "name": "Ashrend",
-      "typeLine": "Buckskin Tunic",
-      "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Bc2hyZW5kIiwidyI6MiwiaCI6Mywic2NhbGUiOjF9XQ/9755e9fe99/Ashrend.png",
-      "itemLevel": 85,
+      "name": "Golem Shroud",
+      "typeLine": "Chain Hauberk",
+      "rarity": "Rare",
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvQXJtb3Vycy9Cb2R5QXJtb3Vycy9Cb2R5U3RySW50MkMiLCJ3IjoyLCJoIjozLCJzY2FsZSI6MX1d/5a1804c81b/BodyStrInt2C.png",
+      "itemLevel": 74,
       "explicitMods": [
-        "93% increased Evasion Rating",
-        "+43% to Fire Resistance",
-        "Cannot be Ignited",
-        "125% increased Physical Damage with Ranged Weapons",
-        "-54 Physical Damage taken from Attack Hits"
+        "18% reduced Attribute Requirements",
+        "+102 to maximum Life",
+        "+64 to maximum Mana",
+        "+40% to Cold Resistance",
+        "Reflects 28 Physical Damage to Melee Attackers",
+        "+26% to Fire Resistance"
       ]
     },
     "gloves": {
@@ -115,37 +116,38 @@
       ]
     },
     "ring1": {
-      "name": "Praxis",
-      "typeLine": "Paua Ring",
+      "name": "Foulborn Anathema",
+      "typeLine": "Moonstone Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUHJheGlzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5098474fb7/Praxis.png",
-      "itemLevel": 79,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvVW5pcXVlQ3Vyc2VSaW5nIiwidyI6MSwiaCI6MSwic2NhbGUiOjEsIm11dGF0ZWQiOnRydWV9XQ/7b5111d3ce/UniqueCurseRing.png",
+      "itemLevel": 83,
       "explicitMods": [
-        "+54 to maximum Mana",
-        "Regenerate 3.1 Mana per second",
-        "-5 to Total Mana Cost of Skills",
-        "8% of Damage taken Recouped as Mana",
-        "20% increased Mana Cost Efficiency"
+        "+38 to Intelligence",
+        "10% increased Cast Speed",
+        "Your Curse Limit is equal to your maximum Power Charges",
+        "Curse Skills have 23% reduced Skill Effect Duration"
       ],
       "implicitMods": [
-        "+23 to maximum Mana"
+        "7% increased Cast Speed"
       ]
     },
     "ring2": {
-      "name": "Praxis",
-      "typeLine": "Paua Ring",
+      "name": "Shavronne's Revelation",
+      "typeLine": "Moonstone Ring",
       "rarity": "Unique",
-      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvUHJheGlzIiwidyI6MSwiaCI6MSwic2NhbGUiOjF9XQ/5098474fb7/Praxis.png",
-      "itemLevel": 84,
+      "icon": "https://web.poecdn.com/gen/image/WzI1LDE0LHsiZiI6IjJESXRlbXMvUmluZ3MvTW9vbnN0b25lUmluZ1VuaXF1ZSIsInciOjEsImgiOjEsInNjYWxlIjoxfV0/d8c1823da5/MoonstoneRingUnique.png",
+      "itemLevel": 80,
       "explicitMods": [
-        "+49 to maximum Mana",
-        "Regenerate 4.1 Mana per second",
-        "-4 to Total Mana Cost of Skills",
-        "8% of Damage taken Recouped as Mana",
-        "30% increased Mana Cost Efficiency"
+        "+69 to Intelligence",
+        "Right ring slot: You cannot Regenerate Mana",
+        "Right ring slot: Regenerate 6% of Energy Shield per second",
+        "Right ring slot: +250 to maximum Mana",
+        "Left ring slot: You cannot Recharge or Regenerate Energy Shield",
+        "Left ring slot: Regenerate 40 Mana per Second",
+        "Left ring slot: +250 to maximum Energy Shield"
       ],
       "implicitMods": [
-        "+23 to maximum Mana"
+        "Pride has 21% increased Mana Reservation Efficiency"
       ]
     },
     "amulet": {
@@ -186,30 +188,24 @@
       },
       {
         "name": "",
-        "typeLine": "Hallowed Life Flask",
+        "typeLine": "Divine Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/67262f06f5/lifeflask9.png",
-        "itemLevel": 42
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 61
       },
       {
         "name": "",
-        "typeLine": "Sacred Life Flask",
+        "typeLine": "Divine Life Flask",
         "rarity": "Normal",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrOCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/1c24a51fc4/lifeflask8.png",
-        "itemLevel": 40
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbGlmZWZsYXNrMTEiLCJ3IjoxLCJoIjoyLCJzY2FsZSI6MSwibGV2ZWwiOjF9XQ/54ba3c70ae/lifeflask11.png",
+        "itemLevel": 62
       },
       {
         "name": "",
-        "typeLine": "Ebullient Sacred Mana Flask of Interference",
-        "rarity": "Magic",
-        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOCIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/52e82c502f/manaflask8.png",
-        "itemLevel": 41,
-        "explicitMods": [
-          "50% reduced Amount Recovered",
-          "135% increased Recovery rate",
-          "50% of Recovery applied Instantly",
-          "Hinders Enemies within 3 metres with 20% reduced Movement Speed if used while not on Full Mana"
-        ]
+        "typeLine": "Superior Hallowed Mana Flask",
+        "rarity": "Normal",
+        "icon": "https://web.poecdn.com/gen/image/WzksMTQseyJmIjoiMkRJdGVtcy9GbGFza3MvbWFuYWZsYXNrOSIsInciOjEsImgiOjIsInNjYWxlIjoxLCJsZXZlbCI6MX1d/8ef0a39c9d/manaflask9.png",
+        "itemLevel": 50
       }
     ]
   },
